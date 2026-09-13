@@ -10416,5 +10416,5145 @@
                 "casings_parallel"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": -6,
+            "y": 2,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 24,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 32,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 28,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "extrabotany:blockphotonium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 27,
+            "elements": [
+                "extrabotany:blockphotonium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 28,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 28,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 21,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 23,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 28,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 22,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 32,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 28,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 27,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 22,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 27,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 28,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 23,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 29,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 27,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 23,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 29,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 27,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 32,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 28,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 27,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 23,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 27,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 32,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 29,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 27,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 26,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 23,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 27,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 20,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 28,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 27,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 23,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 28,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 23,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 28,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 27,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 23,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 27,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 22,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 28,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 22,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 26,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 27,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 26,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 24,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 27,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 23,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 27,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 28,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 22,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 27,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 27,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 15,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 22,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 27,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 24,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 27,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 28,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 32,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 30,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 27,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 28,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 23,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 22,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 32,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 25,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 27,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 32,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 27,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 32,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 26,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 32,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 27,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 31,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "extrabotany:blockphotonium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 26,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 19,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 32,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 23,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 23,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 32,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 32,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 24,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 32,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 26,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 32,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 23,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 28,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 32,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 19,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 31,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 32,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 26,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 31,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 31,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 30,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 20,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 32,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 32,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 24,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 26,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 32,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 31,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 21,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 20,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 21,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 26,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 26,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 32,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 26,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 32,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 25,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 21,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 27,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 26,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 27,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 32,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 24,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 26,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 15,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 20,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 26,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 22,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 15,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 22,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 26,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 31,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 31,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 15,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 31,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 22,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 25,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 32,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 21,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 30,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 25,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 30,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 29,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 22,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 31,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 19,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 26,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 32,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 21,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 22,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 30,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 31,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 26,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 22,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 25,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 31,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 26,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 20,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 21,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 20,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 31,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 21,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 31,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 22,
+            "elements": [
+                "extrabotany:blockphotonium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 21,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 20,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 32,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 14,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 25,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 21,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 31,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 31,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 30,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 31,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 31,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 17,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "extrabotany:blockphotonium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 15,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 29,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 20,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "extrabotany:blockphotonium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 22,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 29,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 21,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 21,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 25,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 19,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 22,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 21,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "extrabotany:blockphotonium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 16,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 22,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 21,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 15,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 21,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 22,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 23,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 22,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 21,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 27,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 22,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 28,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 21,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 22,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 25,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 27,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 24,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 22,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "extrabotany:blockphotonium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 22,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 22,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 27,
+            "elements": [
+                "extrabotany:blockphotonium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 23,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 23,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 22,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 28,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 30,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 28,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 29,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 22,
+            "elements": [
+                "extrabotany:blockphotonium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 24,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 30,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 22,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 23,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 14,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "taiga:fractum_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 22,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 31,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 27,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 22,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 29,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "prefab:block_half_glass_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:blockuranium@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 21,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 23,
+            "elements": [
+                "gct_ores:rainboquartz_slab@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 27,
+            "elements": [
+                "astralsorcery:blockmarble@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 22,
+            "elements": [
+                "thermalfoundation:fluid_petrotheum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 27,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "chisel:blockuranium@3"
+            ]
+        }]
+    }]
+}
 

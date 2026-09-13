@@ -37,6 +37,13 @@ import mods.jaopca.JAOPCA;
 
 import native.thelm.jaopca.materials.MaterialHandler;
 import native.thelm.jaopca.materials.Material;
+import native.vazkii.botania.api.BotaniaAPI;
+
+var allSpecialFlowers as IIngredient = <botania:specialflower> as IIngredient;
+var allSpecialFlowerSet as [string] = BotaniaAPI.getAllSubTiles();
+for flowerName in allSpecialFlowerSet {
+    allSpecialFlowers = allSpecialFlowers | <botania:specialflower>.withTag({type : flowerName});
+}
 
 val m as string = "m";
 val u as string = "u";
@@ -818,7 +825,7 @@ Enricher.addRecipe(<additions:dtpa>, <liquid:lactic_acid> * 1000, <liquid:diethy
 Enricher.addRecipe(<additions:dtpa>, <liquid:water> * 1000, <liquid:diethylenetriaminepentaacetic_acid_solution> * 1000, 2.0d, 6.0d, 0.0d);
 Enricher.addRecipe(<additions:alpha_hydroxyisobutyric_acid>, <liquid:water> * 1000, <liquid:alpha_hydroxyisobutyric_acid_solution> * 666);
 Enricher.addRecipe(<additions:calcium_acetate>, <liquid:water> * 1000, <liquid:calcium_acetate_solution> * 666);
-Enricher.addRecipe(<botania:specialflower>, <liquid:diluted_plant_essence> * 100, <liquid:concentrated_plant_essence_precursor> * 100);
+Enricher.addRecipe(allSpecialFlowers, <liquid:diluted_plant_essence> * 100, <liquid:concentrated_plant_essence_precursor> * 100);
 
 Infuser.addRecipe(<botania:manaresource:5>, <liquid:concentrated_plant_essence> * 250, <gct_mobs:botanical_soul>, 2.0d, 8.0d);
 
