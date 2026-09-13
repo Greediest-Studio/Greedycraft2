@@ -18,6 +18,7 @@ import mods.thermalexpansion.Crucible;
 import mods.thermalexpansion.Refinery;
 import mods.thermalexpansion.Centrifuge;
 import mods.thermalexpansion.Factorizer;
+import mods.thermalexpansion.Extruder;
 
 Transposer.addFillRecipe(<thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:0>, <liquid:resin> * 200, 20);
 

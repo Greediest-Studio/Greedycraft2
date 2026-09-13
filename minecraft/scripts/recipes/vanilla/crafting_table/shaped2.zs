@@ -1623,6 +1623,11 @@ RecipeUtil.addShaped("time_adjuster", <gctcore:time_adjuster>, [
     [null, <contenttweaker:dim_item>, null],
     [null, null, null]
 ]);
+RecipeUtil.addShaped("aurora_block_inf_cell", <extendedae:infinity_cell>.withTag({r: {Req: 0 as long, Cnt: 1 as long, Damage: 0 as short, Count: 1, id: "twilightforest:aurora_block", Craft: 0 as byte}, t: "i"}), [
+    [<ore:ingotAurorianite>, <additions:aurora_heart>, <ore:ingotAurorianite>],
+    [<ore:ingotAurorianSteel>, <appliedenergistics2:material:39>, <ore:ingotAurorianSteel>],
+    [<ore:ingotAurorianite>, <additions:aurora_heart>, <ore:ingotAurorianite>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
