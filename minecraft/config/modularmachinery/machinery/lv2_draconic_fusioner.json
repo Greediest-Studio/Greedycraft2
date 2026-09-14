@@ -1702,18 +1702,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "additions:basic_fusion_core@0",
-                "additions:wyvern_fusion_core@0",
-                "additions:draconic_fusion_core@0",
-                "additions:chaotic_fusion_core@0",
-                "gct_ores:ordered_fusion_core@0"
-            ]
-        },
-        {
             "x": 1,
             "y": -4,
             "z": -3,
@@ -2672,5 +2660,3443 @@
             "elements": [
                 "minecraft:end_bricks@0"
             ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "additions:basic_fusion_core@0",
+                "additions:wyvern_fusion_core@0",
+                "additions:draconic_fusion_core@0",
+                "additions:chaotic_fusion_core@0",
+                "gct_ores:ordered_fusion_core@0"
+            ]
         }
-    ]}
+    ],
+    "modules": [
+        {
+            "id": "head",
+            "parts": [
+                {
+                    "x": -4,
+                    "y": 4,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -3,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 4,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -3,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 4,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 4,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 4,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 4,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 4,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -3,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 4,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -3,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -2,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -2,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -1,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -1,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 0,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 1,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 1,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 2,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 2,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 3,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 3,
+                    "z": 2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 4,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -3,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 4,
+                    "z": 1,
+                    "elements": [
+                        "gct_ores:chaotic_draconium_block@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -3,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 4,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -3,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 4,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 4,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -3,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 4,
+                    "z": 1,
+                    "elements": [
+                        "gct_ores:chaotic_draconium_block@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -3,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 4,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -3,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -2,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -2,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -1,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -1,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 1,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 1,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 2,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 2,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 3,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 3,
+                    "z": 1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 4,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 4,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 4,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 4,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 4,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 4,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 4,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 4,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -2,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -2,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -1,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -1,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "casings_all"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "casings_all"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 1,
+                    "z": 0,
+                    "elements": [
+                        "casings_all"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 1,
+                    "z": 0,
+                    "elements": [
+                        "casings_all"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 2,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 2,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 3,
+                    "z": 0,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 4,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 4,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 4,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 4,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 4,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 4,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 4,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 4,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -2,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -2,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -1,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -1,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 0,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 0,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 1,
+                    "z": -1,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 1,
+                    "z": -1,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 2,
+                    "z": -1,
+                    "elements": [
+                        "casings_advanced"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 2,
+                    "z": -1,
+                    "elements": [
+                        "casings_advanced"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 3,
+                    "z": -1,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 4,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 4,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 4,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 4,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 4,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 4,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 4,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 4,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -2,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -2,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": -1,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": -1,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 0,
+                    "z": -2,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 0,
+                    "z": -2,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 1,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 1,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 2,
+                    "z": -2,
+                    "elements": [
+                        "casings_parallel"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 2,
+                    "z": -2,
+                    "elements": [
+                        "casings_parallel"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 3,
+                    "z": -2,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 3,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -2,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 3,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -2,
+                    "z": -3,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 3,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 3,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -2,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 3,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 3,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -2,
+                    "z": -3,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 3,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -2,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -1,
+                    "z": -3,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -1,
+                    "z": -3,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 0,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 1,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 2,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 2,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 3,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -2,
+                    "z": -4,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 3,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -2,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 3,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 3,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -2,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 3,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 3,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -2,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 3,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -2,
+                    "z": -4,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -1,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -1,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 0,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 1,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 2,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 2,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 2,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -2,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 2,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -2,
+                    "z": -5,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 2,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 2,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -2,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 2,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 2,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -2,
+                    "z": -5,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 2,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -2,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -1,
+                    "z": -5,
+                    "elements": [
+                        "darkutils:wither_block@2"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -1,
+                    "z": -5,
+                    "elements": [
+                        "darkutils:wither_block@2"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 0,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 1,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 2,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -2,
+                    "z": -6,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 2,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -2,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 2,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -2,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 2,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -2,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 2,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -2,
+                    "z": -6,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -1,
+                    "z": -6,
+                    "elements": [
+                        "erebus:giant_flower@9"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -1,
+                    "z": -6,
+                    "elements": [
+                        "erebus:giant_flower@9"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 1,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 1,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 1,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -3,
+                    "z": -7,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 1,
+                    "z": -7,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": -7,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": -7,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 1,
+                    "z": -7,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": -7,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 1,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -3,
+                    "z": -7,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -2,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -2,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -1,
+                    "z": -7,
+                    "elements": [
+                        "darkutils:wither_block@2"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -1,
+                    "z": -7,
+                    "elements": [
+                        "darkutils:wither_block@2"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 1,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -3,
+                    "z": -8,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 1,
+                    "z": -8,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": -8,
+                    "elements": [
+                        "gct_ores:order_crystal_block@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": -8,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 1,
+                    "z": -8,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": -8,
+                    "elements": [
+                        "gct_ores:order_crystal_block@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 1,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -3,
+                    "z": -8,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -2,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -2,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -1,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -1,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": -9,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": -9,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": -9,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": -9,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": -9,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": -9,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -2,
+                    "z": -9,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -2,
+                    "z": -9,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -1,
+                    "z": -9,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -1,
+                    "z": -9,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": -10,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": -10,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": -10,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": -10,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": -10,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": -10,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -2,
+                    "z": -10,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -2,
+                    "z": -10,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -1,
+                    "z": -10,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -1,
+                    "z": -10,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 0,
+                    "z": -1,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -1,
+                    "z": -2,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 1,
+                    "z": -3,
+                    "elements": [
+                        "darkutils:wither_block@2"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -3,
+                    "z": -4,
+                    "elements": [
+                        "gct_ores:order_crystal_block@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": -5,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -3,
+                    "z": -6,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 0,
+                    "z": -1,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -1,
+                    "z": -2,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 1,
+                    "z": -3,
+                    "elements": [
+                        "darkutils:wither_block@2"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -3,
+                    "z": -4,
+                    "elements": [
+                        "gct_ores:order_crystal_block@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": -5,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -3,
+                    "z": -6,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -5,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -5,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -4,
+                    "z": -3,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -5,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -4,
+                    "z": -3,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -4,
+                    "z": -3,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -5,
+                    "z": -3,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -4,
+                    "z": -3,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -4,
+                    "z": -3,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -5,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -5,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -4,
+                    "z": -4,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -5,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -4,
+                    "z": -4,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -5,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -4,
+                    "z": -4,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -5,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -4,
+                    "z": -4,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -5,
+                    "z": -4,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -4,
+                    "z": -4,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -4,
+                    "z": -4,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -5,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -5,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": -4,
+                    "z": -5,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -5,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -4,
+                    "z": -5,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -5,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -4,
+                    "z": -5,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -5,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -4,
+                    "z": -5,
+                    "elements": [
+                        "chisel:netherrack@10"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -5,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -4,
+                    "z": -5,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -5,
+                    "z": -5,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -4,
+                    "z": -5,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": -4,
+                    "z": -5,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -5,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -5,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -4,
+                    "z": -6,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -5,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -4,
+                    "z": -6,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -5,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -4,
+                    "z": -6,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -5,
+                    "z": -6,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -4,
+                    "z": -6,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -4,
+                    "z": -6,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -4,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -4,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -4,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -4,
+                    "z": -7,
+                    "elements": [
+                        "chisel:netherrack@10"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -4,
+                    "z": -7,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -4,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -4,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -4,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -4,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -4,
+                    "z": -8,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -4,
+                    "z": -9,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -4,
+                    "z": -9,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -4,
+                    "z": -9,
+                    "elements": [
+                        "chisel:tyrian@12"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": -4,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": -5,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -3,
+                    "z": -6,
+                    "elements": [
+                        "moretcon:blockrotiron@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": -3,
+                    "z": -6,
+                    "elements": [
+                        "gct_ores:order_crystal_block@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": -3,
+                    "z": -6,
+                    "elements": [
+                        "gct_ores:order_crystal_block@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 1,
+                    "z": -2,
+                    "elements": [
+                        "gct_ores:chaos_shard_block@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 1,
+                    "z": -1,
+                    "elements": [
+                        "gct_ores:stormy_shard_block@0"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 2,
+                    "z": -3,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 2,
+                    "z": -7,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 2,
+                    "z": -8,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": -2,
+                    "elements": [
+                        "gct_ores:chaos_shard_block@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 1,
+                    "z": -1,
+                    "elements": [
+                        "gct_ores:stormy_shard_block@0"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 2,
+                    "z": -3,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 2,
+                    "z": -7,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 2,
+                    "z": -8,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 5,
+                    "z": 2,
+                    "elements": [
+                        "gct_ores:chaotic_draconium_block@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 5,
+                    "z": 3,
+                    "elements": [
+                        "gct_ores:chaotic_draconium_block@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 6,
+                    "z": 4,
+                    "elements": [
+                        "gct_ores:chaotic_draconium_block@0"
+                    ]
+                },
+                {
+                    "x": -4,
+                    "y": 6,
+                    "z": 2,
+                    "elements": [
+                        "draconicevolution:draconic_block@0"
+                    ]
+                },
+                {
+                    "x": -3,
+                    "y": 7,
+                    "z": 3,
+                    "elements": [
+                        "draconicevolution:draconic_block@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 7,
+                    "z": 4,
+                    "elements": [
+                        "draconicevolution:draconic_block@0"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 5,
+                    "z": 2,
+                    "elements": [
+                        "gct_ores:chaotic_draconium_block@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 5,
+                    "z": 3,
+                    "elements": [
+                        "gct_ores:chaotic_draconium_block@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 6,
+                    "z": 4,
+                    "elements": [
+                        "gct_ores:chaotic_draconium_block@0"
+                    ]
+                },
+                {
+                    "x": 4,
+                    "y": 6,
+                    "z": 2,
+                    "elements": [
+                        "draconicevolution:draconic_block@0"
+                    ]
+                },
+                {
+                    "x": 3,
+                    "y": 7,
+                    "z": 3,
+                    "elements": [
+                        "draconicevolution:draconic_block@0"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 7,
+                    "z": 4,
+                    "elements": [
+                        "draconicevolution:draconic_block@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 5,
+                    "z": 0,
+                    "elements": [
+                        "draconicevolution:draconic_block@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 6,
+                    "z": 1,
+                    "elements": [
+                        "minecraft:glass@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 7,
+                    "z": 2,
+                    "elements": [
+                        "draconicevolution:draconic_block@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 8,
+                    "z": 3,
+                    "elements": [
+                        "draconicevolution:draconic_block@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": -1,
+                    "z": 3,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": -1,
+                    "z": 3,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 1,
+                    "z": 3,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 1,
+                    "z": 3,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 3,
+                    "z": 3,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 3,
+                    "z": 3,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "z": 3,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": -2,
+                    "z": 4,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": -2,
+                    "z": 4,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 0,
+                    "z": 4,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 2,
+                    "z": 4,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 2,
+                    "z": 4,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 4,
+                    "z": 4,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 4,
+                    "z": 4,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "z": 4,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": -1,
+                    "z": 5,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": -1,
+                    "z": 5,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 1,
+                    "z": 5,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 1,
+                    "z": 5,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 3,
+                    "z": 5,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 3,
+                    "z": 5,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "z": 5,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": -2,
+                    "z": 6,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": -2,
+                    "z": 6,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 0,
+                    "z": 6,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 0,
+                    "z": 6,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 2,
+                    "z": 6,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 2,
+                    "z": 6,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 4,
+                    "z": 6,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 4,
+                    "z": 6,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "z": 6,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": -1,
+                    "z": 7,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": -1,
+                    "z": 7,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 1,
+                    "z": 7,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 1,
+                    "z": 7,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": -5,
+                    "y": 3,
+                    "z": 7,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 5,
+                    "y": 3,
+                    "z": 7,
+                    "elements": [
+                        "erebus:giant_flower@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "z": 7,
+                    "elements": [
+                        "iceandfire:dragonscale_gray@0",
+                        "iceandfire:dragonscale_sapphire@0",
+                        "iceandfire:dragonscale_black@0"
+                    ]
+                },
+                {
+                    "x": -2,
+                    "y": 0,
+                    "z": -5,
+                    "elements": [
+                        "erebus:giant_flower@9"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": -1,
+                    "z": -7,
+                    "elements": [
+                        "erebus:giant_flower@9"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 0,
+                    "z": -8,
+                    "elements": [
+                        "erebus:giant_flower@9"
+                    ]
+                },
+                {
+                    "x": -1,
+                    "y": 1,
+                    "z": -9,
+                    "elements": [
+                        "erebus:giant_flower@9"
+                    ]
+                },
+                {
+                    "x": 2,
+                    "y": 0,
+                    "z": -5,
+                    "elements": [
+                        "erebus:giant_flower@9"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": -1,
+                    "z": -7,
+                    "elements": [
+                        "erebus:giant_flower@9"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 0,
+                    "z": -8,
+                    "elements": [
+                        "erebus:giant_flower@9"
+                    ]
+                },
+                {
+                    "x": 1,
+                    "y": 1,
+                    "z": -9,
+                    "elements": [
+                        "erebus:giant_flower@9"
+                    ]
+                }
+            ]
+        }
+    ]
+}

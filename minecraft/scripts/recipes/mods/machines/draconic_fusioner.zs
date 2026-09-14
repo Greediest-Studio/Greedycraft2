@@ -75,6 +75,11 @@ function addFusionRecipe(output as IItemStack, input as IIngredient[], ept as lo
         if (event.controller.getFusionLevel() < level) {
             event.setFailed("注入核心等级不足！");
         }
+        if (level > 4) {
+            if (event.controller.hasModule("head")) {
+                event.setFailed("缺少龙首模块！");
+            }
+        }
     });
     recipe.addEnergyPerTickInput(ept);
     for inputItem in input {
@@ -103,7 +108,8 @@ MMEvents.onControllerGUIRender("draconic_fusioner", function(event as Controller
     var info as string[] = [
         "§e///龙之研究聚合台控制面板///",
         "§a机器名称：§eLV2 - 龙之研究聚合台",
-        "§a聚合核心等级：§e" ~ level as string
+        "§a聚合核心等级：§e" ~ level as string,
+        "§a附属模块：§e" ~ (event.controller.hasModule("head") ? "龙首模块" : "无")
     ];
     event.extraInfo = info;
 });
