@@ -128,7 +128,7 @@
   {
     "identifier": "reality",
     "enabled": true,
-    "entityBlacklist": [],
+    "entityBlacklist": ["thaumicaugmentation:eldritch_golem", "thaumicaugmentation:eldritch_warden"],
     "alwaysOnEntity": [],
     "tier": 1
   },
