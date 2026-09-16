@@ -596,6 +596,7 @@ IngotFormer.addRecipe(<liquid:cadmium_telluride> * 666, <additions:cadmium_tellu
 IngotFormer.addRecipe(<liquid:cadmium_polonide> * 666, <additions:cadmium_polonide>);
 IngotFormer.addRecipe(<liquid:cadmium_chalcogenide> * 144, <additions:cadmium_chalcogenide_ingot>);
 IngotFormer.addRecipe(<liquid:boundless_alloy> * 144, <additions:boundless_alloy_ingot>);
+IngotFormer.addRecipe(<liquid:liquidpenguinite> * 144, <moretcon:ingotpenguinite>);
 
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 
