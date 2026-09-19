@@ -1628,6 +1628,11 @@ RecipeUtil.addShaped("aurora_block_inf_cell", <extendedae:infinity_cell>.withTag
     [<ore:ingotAurorianSteel>, <appliedenergistics2:material:39>, <ore:ingotAurorianSteel>],
     [<ore:ingotAurorianite>, <additions:aurora_heart>, <ore:ingotAurorianite>]
 ]);
+RecipeUtil.addShaped("order_crystal_block", <gct_ores:order_crystal_block>, [
+    [<ore:gemOrderCrystal>, <ore:gemOrderCrystal>, <ore:gemOrderCrystal>],
+    [<ore:gemOrderCrystal>, <ore:gemOrderCrystal>, <ore:gemOrderCrystal>],
+    [<ore:gemOrderCrystal>, <ore:gemOrderCrystal>, <ore:gemOrderCrystal>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

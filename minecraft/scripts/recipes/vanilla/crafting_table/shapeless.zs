@@ -537,3 +537,6 @@ RecipeUtil.addShapeless("pattern_mirror_turning_1", <modularmachinery:blockmepat
 RecipeUtil.addShapeless("pattern_mirror_turning_2", <whimcraft:blockshareinfhandler>,
     [<modularmachinery:blockmepatternmirrorimage>]
 );
+RecipeUtil.addShapeless("order_crystal", <gct_ores:order_crystal> * 9,
+    [<ore:blockOrderCrystal>]
+);
