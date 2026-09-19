@@ -1633,7 +1633,48 @@ RecipeUtil.addShaped("order_crystal_block", <gct_ores:order_crystal_block>, [
     [<ore:gemOrderCrystal>, <ore:gemOrderCrystal>, <ore:gemOrderCrystal>],
     [<ore:gemOrderCrystal>, <ore:gemOrderCrystal>, <ore:gemOrderCrystal>]
 ]);
-/*
+RecipeUtil.addShaped("polarisite_brick", <gct_mobs:polarisite_brick> * 4, [
+    [<gct_mobs:polarisite>, <gct_mobs:polarisite>, null],
+    [<gct_mobs:polarisite>, <gct_mobs:polarisite>, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("polarisite_slab", <gct_mobs:polarisite_slab> * 6, [
+    [null, null, null],
+    [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("polarisite_stair", <gct_mobs:polarisite_stair> * 6, [
+    [<gct_mobs:polarisite_brick>, null, null],
+    [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, null],
+    [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>]
+]);
+RecipeUtil.addShaped("polarisite_wall", <gct_mobs:polarisite_wall> * 6, [
+    [null, null, null],
+    [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>],
+    [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>]
+]);
+
+RecipeUtil.addShaped("polarisite_dark_brick", <gct_mobs:polarisite_dark_brick> * 4, [
+    [<gct_mobs:polarisite_dark>, <gct_mobs:polarisite_dark>, null],
+    [<gct_mobs:polarisite_dark>, <gct_mobs:polarisite_dark>, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("polarisite_dark_slab", <gct_mobs:polarisite_dark_slab> * 6, [
+    [null, null, null],
+    [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("polarisite_dark_stair", <gct_mobs:polarisite_dark_stair> * 6, [
+    [<gct_mobs:polarisite_dark_brick>, null, null],
+    [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, null],
+    [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>]
+]);
+RecipeUtil.addShaped("polarisite_dark_wall", <gct_mobs:polarisite_dark_wall> * 6, [
+    [null, null, null],
+    [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>],
+    [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>]
+]);
+    /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
     [null, null, null],
