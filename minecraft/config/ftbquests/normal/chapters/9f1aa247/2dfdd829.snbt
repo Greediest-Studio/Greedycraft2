@@ -15,7 +15,8 @@
 		items: [{
 			id: "crazyae:quantum_energy_cell",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "3c49d1df",

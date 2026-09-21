@@ -15,7 +15,8 @@
 		items: [{
 			id: "crazyae:perfect_energy_cell",
 			tag: {}
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "15e78db0",
