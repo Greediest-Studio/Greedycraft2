@@ -253,3 +253,17 @@ RecipeBuilder.newBuilder("grind_eco_basic_alloy", "elysia_grinder", 100)
     .addFluidOutput(<liquid:eco_basic_alloy> * 216)
     .setMaxThreads(1)
     .build();
+
+RecipeBuilder.newBuilder("steamium", "elysia_grinder", 100)
+    .addFluidInputs([
+        <liquid:steel> * 288,
+        <liquid:tanatonium> * 216,
+        <liquid:liquid_air> * 72
+    ])
+    .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
+    .addEnergyPerTickInput(2000)
+    .addFluidOutput(
+        <liquid:steamium> * 144
+    )
+    .setMaxThreads(1)
+    .build();
