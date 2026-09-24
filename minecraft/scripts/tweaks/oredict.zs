@@ -96,6 +96,9 @@ import scripts.util.oredict as OredictUtil;
 <ore:runeMuspelheim>.remove(<botaniverse:morerune:1>);
 <ore:runeAlfheim>.remove(<botaniverse:morerune:2>);
 <ore:runeAsgard>.remove(<botaniverse:morerune:3>);
+<ore:coal>.remove(<abyssalcraft:charcoal>);
+<ore:charcoal>.remove(<minecraft:coal:1>);
+<ore:itemCharcoal>.remove(<minecraft:coal:1>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
