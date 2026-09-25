@@ -119,8 +119,19 @@ MMEvents.onMachinePreTick("arcane_melter", function(event as MachineTickEvent) {
             val outputBus = outputTile as TitleMEAspectOutputBus;
             val parallel = isNull(ctrl.customData.baseParallel) ? 1 as int : ctrl.customData.baseParallel as int;
             var pendingAspects as AspectList = AspectList();
+            var outputEssentia as AspectList = AspectList();
             var processedCount = 0 as int;
             var inputIndex = 0 as int;
+
+            for aspect in outputBus.essentia.getAspects() {
+                if (!isNull(aspect)) {
+                    outputEssentia.add(aspect, outputBus.essentia.getAmount(aspect));
+                }
+            }
+            if (outputEssentia.size() != outputBus.essentia.size()) {
+                outputBus.setAspects(outputEssentia);
+                outputBus.sync();
+            }
 
             ctrl.customData = ctrl.customData.update({parallel: parallel});
             while (inputIndex < ctrl.customData.inputPos.length && processedCount < parallel) {
@@ -130,7 +141,9 @@ MMEvents.onMachinePreTick("arcane_melter", function(event as MachineTickEvent) {
                         val consumeAmount = item.amount <= parallel - processedCount ? item.amount : parallel - processedCount;
                         val itemAspects = AspectList(item.native);
                         for aspect in itemAspects.getAspects() {
-                            pendingAspects.add(aspect, itemAspects.getAmount(aspect) * consumeAmount);
+                            if (!isNull(aspect)) {
+                                pendingAspects.add(aspect, itemAspects.getAmount(aspect) * consumeAmount);
+                            }
                         }
                         input.setStackInSlot(slot, consumeAmount == item.amount ? null : item.withAmount(item.amount - consumeAmount));
                         processedCount += consumeAmount;
@@ -140,7 +153,6 @@ MMEvents.onMachinePreTick("arcane_melter", function(event as MachineTickEvent) {
             }
 
             if (processedCount > 0) {
-                val outputEssentia = outputBus.essentia.copy();
                 outputEssentia.add(pendingAspects);
                 var needEnergy = 0 as long;
                 for aspect in outputEssentia.getAspects() {
