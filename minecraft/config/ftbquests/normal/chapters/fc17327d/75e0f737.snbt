@@ -1,0 +1,41 @@
+{
+	title: "§b找不到岩浆？",
+	x: -15.0d,
+	y: 2.5d,
+	description: "合成燃料控制器，它可以让冶炼炉使用固体燃料",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5940a15"
+	],
+	tasks: [{
+		uid: "d88137ca",
+		type: "item",
+		items: [{
+			item: "smelteryio:machine"
+		}]
+	}],
+	rewards: [{
+		uid: "6d4d2f0a",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 128
+	},
+	{
+		uid: "917dbddb",
+		type: "item",
+		item: "smelteryio:powdered_fuel",
+		count: 8
+	},
+	{
+		uid: "2c295d34",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a97b8cb0",
+		type: "xp",
+		xp: 400
+	}]
+}

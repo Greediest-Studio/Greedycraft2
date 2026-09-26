@@ -31,7 +31,8 @@ MachineModifier.setMaxParallelism("elysia_electrolyzer", 65536);
 MMEvents.onControllerGUIRender("elysia_electrolyzer", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§e///大型电解单元控制面板///",
-        "§a机器名称：§eELYSIA单元 - 大型电解单元"
+        "§a机器名称：§eELYSIA单元 - 大型电解单元",
+        "§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无")
     ];
     event.extraInfo = info;
 });

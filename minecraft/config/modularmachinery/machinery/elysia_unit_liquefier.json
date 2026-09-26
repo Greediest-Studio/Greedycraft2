@@ -9268,5 +9268,5545 @@
                 "thermalfoundation:glass_alloy@7"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": -10,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "minecraft:sticky_piston@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "minecraft:sticky_piston@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "minecraft:sticky_piston@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "netherex:rime_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -8,
+            "z": -5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": 7,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "minecraft:sticky_piston@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "minecraft:sticky_piston@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "netherex:rime_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -5,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -4,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": -5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "minecraft:sticky_piston@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "minecraft:sticky_piston@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": 7,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "minecraft:sticky_piston@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "minecraft:sticky_piston@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "netherex:rime_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "minecraft:sticky_piston@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "minecraft:sticky_piston@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -8,
+            "z": 7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "minecraft:sticky_piston@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -8,
+            "z": -4,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "minecraft:sticky_piston@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -8,
+            "z": -5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "netherex:rime_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "netherex:rime_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": -8,
+            "elements": [
+                "minecraft:sticky_piston@3"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": -4,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": -5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -5,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -8,
+            "z": 7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "minecraft:sticky_piston@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "minecraft:sticky_piston@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -4,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": -8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": -8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "minecraft:sticky_piston@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": 5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": -8,
+            "elements": [
+                "minecraft:sticky_piston@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -8,
+            "z": -5,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": -8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": -8,
+            "elements": [
+                "minecraft:sticky_piston@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "minecraft:sticky_piston@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": 5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "minecraft:sticky_piston@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "minecraft:sticky_piston@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "minecraft:sticky_piston@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": -4,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "minecraft:sticky_piston@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 10,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -8,
+            "z": 10,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "netherex:rime_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "netherex:rime_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "additions:freezite_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": -8,
+            "elements": [
+                "minecraft:sticky_piston@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "minecraft:sticky_piston@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": -6,
+            "elements": [
+                "minecraft:sticky_piston@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "netherex:rime_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -8,
+            "z": -5,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -7,
+            "elements": [
+                "nuclearcraft:fluid_liquid_helium@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": -7,
+            "elements": [
+                "additions:snowingium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -8,
+            "z": -4,
+            "elements": [
+                "additions:cryonium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "additions:canopium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -6,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "chisel:blockplatinum@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        }]
+    }]
+}
 

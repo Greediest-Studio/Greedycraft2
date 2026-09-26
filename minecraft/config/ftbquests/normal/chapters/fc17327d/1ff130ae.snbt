@@ -1,0 +1,41 @@
+{
+	title: "§b冶炼炉自动化",
+	x: -21.0d,
+	y: 2.5d,
+	description: "合成冶炼厂输入口，可以直接把物品发送到该方块中",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5940a15"
+	],
+	tasks: [{
+		uid: "3303dda2",
+		type: "item",
+		items: [{
+			item: "smelteryio:machine 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "42f69802",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "dbcaceb6",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "4c5d4078",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 8
+	},
+	{
+		uid: "502d47a8",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 128
+	}]
+}

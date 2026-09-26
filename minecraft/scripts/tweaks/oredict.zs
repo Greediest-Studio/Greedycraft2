@@ -1178,7 +1178,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <modularmachinery:radiation_cleaner_factory_controller>,
         <modularmachinery:ion_exchange_column_factory_controller>,
         <modularmachinery:great_laser_alloyer_factory_controller>,
-        <modularmachinery:nuclear_bomb_reactor_factory_controller>
+        <modularmachinery:nuclear_bomb_reactor_factory_controller>,
+        <modularmachinery:midgard_mana_converter_factory_controller>
     ],
     <ore:controllerLevel6> : [
         <modularmachinery:element_118_mixer_factory_controller>,

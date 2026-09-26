@@ -11369,5 +11369,1641 @@
                 "thermalfoundation:glass@5"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": 10,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:ingot_block@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blockinvar@4"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:ingot_block@8"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:lapis@7"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "chisel:lapis@7"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blockinvar@4"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "chisel:blockelectrum@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "chisel:blockinvar@4"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "chisel:blockelectrum@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "chisel:lapis@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block@8"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block@8"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:lapis@7"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "chisel:blockplatinum@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "chisel:blockelectrum@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "chisel:blockelectrum@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "chisel:blockplatinum@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "chisel:blockelectrum@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "chisel:blockelectrum@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "chisel:blockinvar@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "chisel:blockinvar@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:machine_diaphragm@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electrolyzer_anode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "chisel:blockplatinum@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "chisel:blockplatinum@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate_stairs@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "minecraft:lapis_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blockinvar@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "quark:iron_plate_stairs@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "quark:iron_plate@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:electrolyzer_cathode_terminal"
+            ]
+        }]
+    }]
+}
 
