@@ -987,7 +987,6 @@ var disabledItems as IIngredient[] = [
     <randomportals:upside_down_end_portal_frame>,
     <thermalexpansion:device:9>,
     <tiths:ore_witherium>,
-    <botania:baublebox>,
     <variegated:defiled_ground>,
     <extrabees:honey_comb:26>,
     <erebus:wand_of_animation>,
