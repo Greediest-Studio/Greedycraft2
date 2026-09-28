@@ -4107,11 +4107,9 @@ dubhe_lightTrait.onArmorTick = function(trait, armor, world, player) {
 };
 dubhe_lightTrait.onArmorRemove = function(trait, armor, player, index) {
     if (!isNull(player)) {
-        if (TicTool.getArmorSlotTraits(player, "helmet") has "dubhe_light_armor") {
-            var armorAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armor", -0.2f, 2, "b6e4f2a3-8c9d-4b71-9c42-1e7f5a3d8b90");
-            if (player.getAttribute("generic.armor").hasModifier(armorAttribute)) {
-                player.getAttribute("generic.armor").removeModifier(armorAttribute);
-            }
+        var armorAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armor", -0.2f, 2, "b6e4f2a3-8c9d-4b71-9c42-1e7f5a3d8b90");
+        if (player.getAttribute("generic.armor").hasModifier(armorAttribute)) {
+            player.getAttribute("generic.armor").removeModifier("b6e4f2a3-8c9d-4b71-9c42-1e7f5a3d8b90");
         }
     }
 };
@@ -4317,7 +4315,7 @@ erebus_walkerTrait.onArmorTick = function(trait, armor, world, player) {
             }
         } else {
             if (player.getAttribute("generic.movementSpeed").hasModifier(speedAttribute)) {
-                player.getAttribute("generic.movementSpeed").removeModifier(speedAttribute);
+                player.getAttribute("generic.movementSpeed").removeModifier("d4f5e6b7-9c8d-4a71-8c42-2e7f5a3d8c91");
             }
         }
     }
