@@ -56,7 +56,7 @@ MMEvents.onControllerGUIRender("arcane_melter", function(event as ControllerGUIR
 MMEvents.onStructureUpdate("arcane_melter", function(event as MachineStructureUpdateEvent) {
     val ctrl = event.controller;
     if (!ctrl.world.isRemote()) {
-        var baseparallel = 16 as int;
+        var baseparallel = 1 as int;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:0>) * 4;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:5>) * 8;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:1>) * 16;
@@ -67,6 +67,7 @@ MMEvents.onStructureUpdate("arcane_melter", function(event as MachineStructureUp
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:8>) * 512;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:4>) * 1024;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:9>) * 2048;
+        baseparallel *= 8;
 
         var inputPosList = ctrl.getBlockPosInPattern(<modularmachinery:blockinputbus:*>) as IBlockPos[];
         if (ctrl.getBlocksInPattern(<modularmachinery:blockmeiteminputbus>) != 0) {
