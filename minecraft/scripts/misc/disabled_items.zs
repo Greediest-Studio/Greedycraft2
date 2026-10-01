@@ -1068,7 +1068,17 @@ var disabledItems as IIngredient[] = [
     <ae2_utilix:overflow_destruction_card>,
     <tiths:block_punji_cloud>,
     <betterbuilderswandsfix:break_core>,
-    <mmce_complement:batch_hatch>
+    <mmce_complement:batch_hatch>,
+    <cells:import_essentia_interface>,
+    <cells:export_essentia_interface>,
+    <cells:io_essentia_interface>,
+    <cells:essentia_part>,
+    <cells:essentia_part:1>,
+    <cells:essentia_part:2>,
+    <cells:import_combined_interface>,
+    <cells:export_combined_interface>,
+    <cells:part:4>,
+    <cells:part:5>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
