@@ -1,13 +1,9 @@
 {
 	title: "§b一节更比六节强",
 	icon: {
-		id: "gctcore:mmce_builder_tool",
+		id: "mmce_advanced_builder_tool:advanced_builder_tool",
 		tag: {
-			gct_mmce_dynamic_length: 1,
-			gct_mmce_craft_missing: 1b,
-			gct_mmce_disassemble_mode: 1b,
-			gct_mmce_use_ae_items: 1b,
-			gct_mmce_use_ae_fluids: 1b
+			mmce_abt_dynamic_length: 1
 		}
 	},
 	tags: [
@@ -23,13 +19,9 @@
 		uid: "1a4406af",
 		type: "item",
 		items: [{
-			id: "gctcore:mmce_builder_tool",
+			id: "mmce_advanced_builder_tool:advanced_builder_tool",
 			tag: {
-				gct_mmce_dynamic_length: 1,
-				gct_mmce_craft_missing: 1b,
-				gct_mmce_disassemble_mode: 1b,
-				gct_mmce_use_ae_items: 1b,
-				gct_mmce_use_ae_fluids: 1b
+				mmce_abt_dynamic_length: 1
 			}
 		}],
 		ignore_nbt: 1b,

@@ -26,6 +26,7 @@ recipes.remove(<enderutilities:handybag:1>);
 recipes.remove(<mekanismmultiblockmachine:largewindgenerator>);
 recipes.remove(<mekanismmultiblockmachine:largegasgenerator>);
 recipes.remove(<functionalstoragelegacy:netherite_upgrade>);
+recipes.remove(<mmce_advanced_builder_tool:advanced_builder_tool>);
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("botania:quartztypedark_0");
@@ -1493,7 +1494,7 @@ RecipeUtil.addShaped("original_steel_frame", <additions:original_steel_frame>, [
     [null, <ore:gearOriginalSteel>, null],
     [<ore:ingotOriginalSteel>, null, <ore:ingotOriginalSteel>]
 ]);
-RecipeUtil.addShaped("mmce_builder_tool", <gctcore:mmce_builder_tool>, [
+RecipeUtil.addShaped("mmce_builder_tool", <mmce_advanced_builder_tool:advanced_builder_tool>, [
     [<ore:gemQuartz>, <ore:ingotModularium>, <ore:gemQuartz>],
     [<additions:basic_assembler>, <ore:circuitBasic>, <modularmachineryaddons:advancedmachinedisassembler>],
     [<ore:gemQuartz>, <ore:ingotModularium>, <ore:gemQuartz>]
