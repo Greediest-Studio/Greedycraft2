@@ -13577,5 +13577,6761 @@
                 "tconstruct:slime_congealed@0"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": -1,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 15,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "astralsorcery:blockflarelight@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 15,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 15,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 16,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 14,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 15,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 16,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 13,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 13,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 15,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 16,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 13,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 16,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 16,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 16,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 16,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 16,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 13,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 17,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 16,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 16,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 16,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 14,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 14,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 14,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 19,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 5,
+            "z": 19,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 15,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 13,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 14,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 13,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 15,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 15,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 15,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 13,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 17,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 13,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 15,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 17,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 15,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 16,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 6,
+            "z": 17,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 14,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 15,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 16,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 13,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 13,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 15,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 19,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 15,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 19,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 16,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 19,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 19,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 14,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "astralsorcery:blockflarelight@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 15,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 15,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 15,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 15,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 15,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockflarelight@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 6,
+            "z": 17,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 17,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockflarelight@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 14,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 15,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 15,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 15,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 14,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 19,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 16,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 14,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 17,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 16,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 18,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 16,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "z": 18,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "betterendforge:umbralith_stairs@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 19,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 16,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 19,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "z": 16,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 17,
+            "elements": [
+                "betterendforge:umbralith_stairs@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 19,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "additions:infernium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 13,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 19,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "betterendforge:umbralith_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "netherex:basalt_wall@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 7,
+            "z": 13,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "lycanitesmobs:ashenstonetile@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "theaurorian:aurorianglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "betterendforge:umbralith_stairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy_endergy@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "betternether:quartz_glass@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 8,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "tcomplement:scorched_block@10"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "aether_legacy:quicksoil_glass@0"
+            ]
+        }]
+    }]
+}
 

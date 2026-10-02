@@ -26,7 +26,6 @@ recipes.remove(<enderutilities:handybag:1>);
 recipes.remove(<mekanismmultiblockmachine:largewindgenerator>);
 recipes.remove(<mekanismmultiblockmachine:largegasgenerator>);
 recipes.remove(<functionalstoragelegacy:netherite_upgrade>);
-recipes.remove(<mmce_advanced_builder_tool:advanced_builder_tool>);
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("botania:quartztypedark_0");
@@ -1629,11 +1628,6 @@ RecipeUtil.addShaped("aurora_block_inf_cell", <extendedae:infinity_cell>.withTag
     [<ore:ingotAurorianSteel>, <appliedenergistics2:material:39>, <ore:ingotAurorianSteel>],
     [<ore:ingotAurorianite>, <additions:aurora_heart>, <ore:ingotAurorianite>]
 ]);
-RecipeUtil.addShaped("order_crystal_block", <gct_ores:order_crystal_block>, [
-    [<ore:gemOrderCrystal>, <ore:gemOrderCrystal>, <ore:gemOrderCrystal>],
-    [<ore:gemOrderCrystal>, <ore:gemOrderCrystal>, <ore:gemOrderCrystal>],
-    [<ore:gemOrderCrystal>, <ore:gemOrderCrystal>, <ore:gemOrderCrystal>]
-]);
 RecipeUtil.addShaped("polarisite_brick", <gct_mobs:polarisite_brick> * 4, [
     [<gct_mobs:polarisite>, <gct_mobs:polarisite>, null],
     [<gct_mobs:polarisite>, <gct_mobs:polarisite>, null],
@@ -1654,7 +1648,6 @@ RecipeUtil.addShaped("polarisite_wall", <gct_mobs:polarisite_wall> * 6, [
     [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>],
     [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>]
 ]);
-
 RecipeUtil.addShaped("polarisite_dark_brick", <gct_mobs:polarisite_dark_brick> * 4, [
     [<gct_mobs:polarisite_dark>, <gct_mobs:polarisite_dark>, null],
     [<gct_mobs:polarisite_dark>, <gct_mobs:polarisite_dark>, null],
@@ -1675,7 +1668,12 @@ RecipeUtil.addShaped("polarisite_dark_wall", <gct_mobs:polarisite_dark_wall> * 6
     [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>],
     [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>]
 ]);
-    /*
+RecipeUtil.addShaped("redstone_control_hatch", <mmce_complement:redstone_control_hatch>, [
+    [<ore:ingotModularium>, <minecraft:repeater>, <ore:ingotModularium>],
+    [<ore:dustRedstone>, <minecraft:lever>, <ore:dustRedstone>],
+    [<ore:ingotModularium>, <minecraft:comparator>, <ore:ingotModularium>]
+]);
+/*
 RecipeUtil.addShaped("", , [
     [null, null, null],
     [null, null, null],

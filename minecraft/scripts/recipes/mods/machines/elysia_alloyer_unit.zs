@@ -47,7 +47,8 @@ MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_expand>, "expand_upg");
 MMEvents.onControllerGUIRender("elysia_alloyer", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§e///大型合金单元控制面板///",
-        "§a机器名称：§eELYSIA单元 - 大型合金单元"
+        "§a机器名称：§eELYSIA单元 - 大型合金单元",
+        "§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无")
     ];
     event.extraInfo = info;
 });

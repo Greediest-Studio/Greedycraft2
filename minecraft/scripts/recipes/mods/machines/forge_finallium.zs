@@ -90,6 +90,83 @@ RecipeBuilder.newBuilder("finallium_forge", "final_forge", 9600, 1)
         ]
     ).setChance(0.75f)
     .addCatalystInput(
+        <additions:hexacite_ingot>, ["§e加工时间减少到75%", "§e能量消耗减少到75%", "§e材料产出增加到108%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.75f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.75f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.08f, 1, false).build(),
+        ]
+    ).setChance(0.25f)
+    .addCatalystInput(
+        <additions:spironium_ingot>, ["§e加工时间减少到85%", "§e能量消耗减少到85%", "§e材料产出增加到107%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.85f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.85f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.07f, 1, false).build(),
+        ]
+    ).setChance(0.50f)
+    .addCatalystInput(
+        <additions:original_steel_ingot>, ["§e加工时间减少到70%", "§e能量消耗减少到70%", "§e材料产出增加到107%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.70f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.70f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.07f, 1, false).build(),
+        ]
+    ).setChance(0.25f)
+    .addCatalystInput(
+        <moretcon:ingotvalasium>, ["§e加工时间减少到75%", "§e能量消耗减少到70%", "§e材料产出增加到107%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.75f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.70f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.07f, 1, false).build(),
+        ]
+    ).setChance(0.50f)
+    .addCatalystInput(
+        <additions:godlikeum_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到90%", "§e材料产出增加到105%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build(),
+        ]
+    ).setChance(0.50f)
+    .addCatalystInput(
+        <additions:nonenium_ingot>, ["§e加工时间减少到75%", "§e能量消耗减少到75%", "§e材料产出增加到107%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.75f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.75f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.07f, 1, false).build(),
+        ]
+    ).setChance(0.50f)
+    .addCatalystInput(
+        <gct_aby:shoggoth_complex_crystal>, ["§e加工时间减少到90%", "§e能量消耗减少到90%", "§e材料产出增加到105%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build(),
+        ]
+    ).setChance(0.50f)
+    .addCatalystInput(
+        <additions:yeet>, ["§e加工时间减少到88%", "§e能量消耗减少到88%", "§e材料产出增加到103%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.88f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.88f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.03f, 1, false).build(),
+        ]
+    ).setChance(0.25f)
+    .addCatalystInput(
+        <gct_aby:shoggy_slime_purified>, ["§e加工时间减少到70%", "§e能量消耗减少到75%", "§e材料产出增加到108%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.70f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.75f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.08f, 1, false).build(),
+        ]
+    ).setChance(0.25f)
+    .addCatalystInput(
+        <additions:dentrothyst_rainbow>, ["§e加工时间减少到85%", "§e能量消耗减少到85%", "§e材料产出增加到105%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.85f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.85f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build(),
+        ]
+    ).setChance(0.25f)
+    .addCatalystInput(
+        <mekanism:antimatterpellet>, ["§e加工时间减少到60%", "§e能量消耗减少到60%", "§e材料产出增加到110%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.60f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.60f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.10f, 1, false).build(),
+        ]
+    ).setChance(0.25f)
+    .addCatalystInput(
         <projectex:matter:4>, ["§e加工时间减少到80%", "§e能量消耗减少到80%", "§e材料产出增加到103%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.8f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.8f, 1, false).build(),
@@ -140,4 +217,9 @@ RecipeBuilder.newBuilder("finallium_forge", "final_forge", 9600, 1)
         ]
     ).setChance(1.0f)
     .addItemOutput(<gct_ores:finallium_ingot> * 8)
+    .addRecipeTooltip("§b关于催化剂的介绍：")
+    .addRecipeTooltip("§c催化剂§e为机器运行配方时的§a可选§e输入，")
+    .addRecipeTooltip("§e可以降低能耗、提升效率、增加产量，")
+    .addRecipeTooltip("§e对于八钢熔炉，催化剂的所有计算方式均为§c叠乘§e，")
+    .addRecipeTooltip("§e从第§a15§e个显示的材料开始，之后均为催化剂。")
     .build();

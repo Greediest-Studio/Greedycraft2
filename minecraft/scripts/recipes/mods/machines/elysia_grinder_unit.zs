@@ -33,7 +33,8 @@ MachineModifier.setMaxParallelism("elysia_grinder", 65536);
 MMEvents.onControllerGUIRender("elysia_grinder", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§e///大型搅拌单元控制面板///",
-        "§a机器名称：§eELYSIA单元 - 大型搅拌单元"
+        "§a机器名称：§eELYSIA单元 - 大型搅拌单元",
+        "§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无")
     ];
     event.extraInfo = info;
 });

@@ -154,6 +154,90 @@ RecipeBuilder.newBuilder("aeonsteel_forge", "aeonsteel_forge", 3000, 1)
         ]
     ).setChance(0.75f)
     .addCatalystInput(
+        <additions:clock_alloy_ingot>, ["§e加工时间减少到70%", "§e能量消耗减少到70%", "§e材料产出增加到108%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.70f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.70f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.08f, 1, false).build()
+        ]
+    ).setChance(0.25f)
+    .addCatalystInput(
+        <gct_mobs:apocalypsium_ingot>, ["§e加工时间减少到70%", "§e能量消耗减少到70%", "§e材料产出增加到108%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.70f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.70f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.08f, 1, false).build()
+        ]
+    ).setChance(0.50f)
+    .addCatalystInput(
+        <extendedcrafting:material:48>, ["§e加工时间减少到80%", "§e能量消耗减少到80%", "§e材料产出增加到106%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.80f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.80f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.06f, 1, false).build()
+        ]
+    ).setChance(0.75f)
+    .addCatalystInput(
+        <journey:spawnerbar>, ["§e加工时间减少到90%", "§e能量消耗减少到90%", "§e材料产出增加到105%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build()
+        ]
+    ).setChance(0.75f)
+    .addCatalystInput(
+        <endreborn:item_ingot_endorium>, ["§e加工时间减少到80%", "§e能量消耗减少到80%", "§e材料产出增加到106%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.80f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.80f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.06f, 1, false).build()
+        ]
+    ).setChance(0.50f)
+    .addCatalystInput(
+        <additions:aetherite_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到90%", "§e材料产出增加到105%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build()
+        ]
+    ).setChance(0.75f)
+    .addCatalystInput(
+        <redstonerepository:material:1>, ["§e加工时间减少到95%", "§e能量消耗减少到95%", "§e材料产出增加到102%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.95f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.95f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.02f, 1, false).build()
+        ]
+    ).setChance(0.75f)
+    .addCatalystInput(
+        <mysticalagriculture:crafting:37>, ["§e加工时间减少到90%", "§e能量消耗减少到90%", "§e材料产出增加到105%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build()
+        ]
+    ).setChance(0.50f)
+    .addCatalystInput(
+        <additions:bravery_certificate>, ["§e加工时间减少到85%", "§e能量消耗减少到85%", "§e材料产出增加到106%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.85f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.85f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.06f, 1, false).build()
+        ]
+    ).setChance(0.25f)
+    .addCatalystInput(
+        <additions:gem_of_sing>, ["§e加工时间减少到90%", "§e能量消耗减少到90%", "§e材料产出增加到106%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.90f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.06f, 1, false).build()
+        ]
+    ).setChance(0.25f)
+    .addCatalystInput(
+        <projectex:matter>, ["§e加工时间减少到60%", "§e能量消耗减少到60%", "§e材料产出增加到105%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.60f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.60f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build()
+        ]
+    ).setChance(0.75f)
+    .addCatalystInput(
+        <bloodmagic:blood_shard:1>, ["§e加工时间减少到95%", "§e能量消耗减少到95%", "§e材料产出增加到103%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.95f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.95f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.03f, 1, false).build()
+        ]
+    ).setChance(0.75f)
+    .addCatalystInput(
         <additions:brightine>, ["§e加工时间减少到70%", "§e能量消耗减少到65%", "§e材料产出增加到107%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.70f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.65f, 1, false).build(),
@@ -177,4 +261,9 @@ RecipeBuilder.newBuilder("aeonsteel_forge", "aeonsteel_forge", 3000, 1)
         ]
     ).setChance(1.0f)
     .addItemOutput(<additions:aeonsteel_ingot> * 8)
+    .addRecipeTooltip("§b关于催化剂的介绍：")
+    .addRecipeTooltip("§c催化剂§e为机器运行配方时的§a可选§e输入，")
+    .addRecipeTooltip("§e可以降低能耗、提升效率、增加产量，")
+    .addRecipeTooltip("§e对于八钢熔炉，催化剂的所有计算方式均为§c叠乘§e，")
+    .addRecipeTooltip("§e从第§a10§e个显示的材料开始，之后均为催化剂。")
     .build();

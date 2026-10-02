@@ -4697,5 +4697,1577 @@
                 "chisel:blocksteel@0"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": 4,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "plustic:osgloglasblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "plustic:osgloglasblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "plustic:osgloglasblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "plustic:osgloglasblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "jaopca:block.chromium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "gct_ores:everite_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@0"
+            ]
+        }]
+    }]
+}
 

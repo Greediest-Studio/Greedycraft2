@@ -38,6 +38,8 @@
         "modularmachinery:blockmegasinputbus",
         "modularmachinery:blockmepatternprovider",
         "mmce_complement:me_pattern_provider_ii",
+        "mmce_complement:me_data_pattern_provider",
+        "mmce_complement:me_data_pattern_provider_ii",
         "modularmachinery:blockwillproviderinput",
         "modularmachinery:blockwillprovideroutput",
         "modularmachinery:blockimpetusproviderinput",
@@ -94,7 +96,9 @@
         "mmce_complement:redstone_signal_input_hatch",
         "mmce_complement:redstone_signal_output_hatch",
         "mmce_complement:me_channel_input_hatch",
-        "mmce_complement:redstone_control_hatch"
+        "mmce_complement:redstone_control_hatch",
+        "mmce_complement:configurable_biome_provider",
+        "mmce_complement:configurable_dimension_provider"
     ],
     "casings_advanced": [
         "modularmachinery:blockcasing@0",

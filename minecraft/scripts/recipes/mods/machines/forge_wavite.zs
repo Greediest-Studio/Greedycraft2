@@ -114,4 +114,9 @@ RecipeBuilder.newBuilder("wavite_forge", "wave_forge", 10800, 1)
         ]
     ).setChance(1.0f)
     .addItemOutput(<gct_mobs:wavite_ingot> * 8)
+    .addRecipeTooltip("§b关于催化剂的介绍：")
+    .addRecipeTooltip("§c催化剂§e为机器运行配方时的§a可选§e输入，")
+    .addRecipeTooltip("§e可以降低能耗、提升效率、增加产量，")
+    .addRecipeTooltip("§e对于八钢熔炉，催化剂的所有计算方式均为§c叠乘§e，")
+    .addRecipeTooltip("§e从第§a16§e个显示的材料开始，之后均为催化剂。")
     .build();

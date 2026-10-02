@@ -398,3 +398,23 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <da:frost_locator>, [
 	[null, null, null, <ore:ingotApathy>, null, null, null], 
 	[null, null, null, <ore:ingotApathy>, null, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:configurable_dimension_provider>, [
+	[<ore:compressed2xModularium>, <ore:compressed1xModularium>, <ore:ingotChloroplast>, <ore:ingotChloroplast>, <ore:ingotChloroplast>, <ore:compressed1xModularium>, <ore:compressed2xModularium>], 
+	[<ore:compressed1xModularium>, <ore:ingotChloroplast>, <ore:ingotChloroplast>, <ore:ingotChloroplast>, <ore:ingotChloroplast>, <ore:ingotChloroplast>, <ore:compressed1xModularium>], 
+	[<ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotChloroplast>, <ore:ingotChloroplast>, <ore:ingotChloroplast>, <ore:ingotChloroplast>, <ore:ingotChloroplast>], 
+	[<ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotChloroplast>, <modularmachineryaddons:blockdimensionproviderinput>, <ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotChloroplast>], 
+	[<ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotOceanium>], 
+	[<ore:compressed1xModularium>, <ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotOceanium>, <ore:ingotOceanium>, <ore:compressed1xModularium>], 
+	[<ore:compressed2xModularium>, <ore:compressed1xModularium>, <ore:ingotOceanium>, <ore:ingotChloroplast>, <ore:ingotOceanium>, <ore:compressed1xModularium>, <ore:compressed2xModularium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:configurable_biome_provider>, [
+	[<ore:compressed2xModularium>, <ore:compressed1xModularium>, <ore:ingotCrimsonite>, <ore:ingotCrimsonite>, <ore:ingotEarth>, <ore:compressed1xModularium>, <ore:compressed2xModularium>], 
+	[<ore:compressed1xModularium>, <ore:ingotCrimsonite>, <ore:ingotCrimsonite>, <ore:ingotEarth>, <ore:ingotEarth>, <ore:ingotEarth>, <ore:compressed1xModularium>], 
+	[<ore:ingotCrimsonite>, <ore:ingotCrimsonite>, <ore:ingotCrimsonite>, <ore:ingotCrimsonite>, <ore:ingotEarth>, <ore:ingotEarth>, <ore:ingotEarth>], 
+	[<ore:ingotCompressite>, <ore:ingotCrimsonite>, <ore:ingotCompressite>, <modularmachineryaddons:blockbiomeproviderinput>, <ore:ingotEarth>, <ore:ingotTwilightCrystal>, <ore:ingotEarth>], 
+	[<ore:ingotCompressite>, <ore:ingotCompressite>, <ore:ingotCompressite>, <ore:ingotTwilightCrystal>, <ore:ingotTwilightCrystal>, <ore:ingotTwilightCrystal>, <ore:ingotTwilightCrystal>], 
+	[<ore:compressed1xModularium>, <ore:ingotCompressite>, <ore:ingotCompressite>, <ore:ingotCompressite>, <ore:ingotTwilightCrystal>, <ore:ingotTwilightCrystal>, <ore:compressed1xModularium>], 
+	[<ore:compressed2xModularium>, <ore:compressed1xModularium>, <ore:ingotCompressite>, <ore:ingotTwilightCrystal>, <ore:ingotTwilightCrystal>, <ore:compressed1xModularium>, <ore:compressed2xModularium>]
+]);
