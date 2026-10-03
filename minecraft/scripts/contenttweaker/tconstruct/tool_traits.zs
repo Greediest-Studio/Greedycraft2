@@ -5477,37 +5477,37 @@ hexable_basementTrait.calcDamage = function(trait, tool, attacker, target, origi
             if (!isNull(tool.tag.hexableTurn)) {
                 var turn as int = tool.tag.hexableTurn as int;
                 var pass as bool = false;
-                if (turn.nextBase(1) == 0) {
+                if (turn == 0) {
                     var aqua as int = tool.tag.hexableBasement.aqua as int;
                     if (aqua >= 10 && Math.random() < 0.5f) {
                         pass = true;
                         tool.mutable().updateTag({hexableBasement : {aqua : aqua - 10 as int}});
                     }
-                } else if (turn.nextBase(1) == 1) {
+                } else if (turn == 1) {
                     var ignis as int = tool.tag.hexableBasement.ignis as int;
                     if (ignis >= 10 && Math.random() < 0.5f) {
                         pass = true;
                         tool.mutable().updateTag({hexableBasement : {ignis : ignis - 10 as int}});
                     }
-                } else if (turn.nextBase(1) == 2) {
+                } else if (turn == 2) {
                     var terra as int = tool.tag.hexableBasement.terra as int;
                     if (terra >= 10 && Math.random() < 0.5f) {
                         pass = true;
                         tool.mutable().updateTag({hexableBasement : {terra : terra - 10 as int}});
                     }
-                } else if (turn.nextBase(1) == 3) {
+                } else if (turn == 3) {
                     var aer as int = tool.tag.hexableBasement.aer as int;
                     if (aer >= 10 && Math.random() < 0.5f) {
                         pass = true;
                         tool.mutable().updateTag({hexableBasement : {aer : aer - 10 as int}});
                     }
-                } else if (turn.nextBase(1) == 4) {
+                } else if (turn == 4) {
                     var ordo as int = tool.tag.hexableBasement.ordo as int;
                     if (ordo >= 10 && Math.random() < 0.5f) {
                         pass = true;
                         tool.mutable().updateTag({hexableBasement : {ordo : ordo - 10 as int}});
                     }
-                } else if (turn.nextBase(1) == 5) {
+                } else if (turn == 5) {
                     var perditio as int = tool.tag.hexableBasement.perditio as int;
                     if (perditio >= 10 && Math.random() < 0.5f) {
                         pass = true;
