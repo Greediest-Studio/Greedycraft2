@@ -14,8 +14,8 @@ import mods.randomtweaker.jei.IJeiRecipe;
 
 var complex_ritualJEI as IJeiPanel = JEI.createJei("complex_ritual", "融合仪式");
 complex_ritualJEI.setModid("gct_aby");
-complex_ritualJEI.setIcon(<gct_aby:abyss_wand>);
-complex_ritualJEI.addRecipeCatalyst(<gct_aby:abyss_wand>);
+complex_ritualJEI.setIcon(<gct_additions:abyss_wand>);
+complex_ritualJEI.addRecipeCatalyst(<gct_additions:abyss_wand>);
 complex_ritualJEI.setBackground(IJeiUtils.createBackground(0, 0, 128, 128, "randomtweaker:textures/gui/complex_ritual.png"));
 complex_ritualJEI.addSlot(IJeiUtils.createItemSlot("input1", 3, 85, true, false));
 complex_ritualJEI.addSlot(IJeiUtils.createItemSlot("input2", 56, 85, true, false));
@@ -33,20 +33,20 @@ function createComplexRitualJEI(output as IItemStack, input1 as IItemStack, inpu
     recipe.build();
 }
 
-createComplexRitualJEI(<gct_aby:muddy_flesh>,
+createComplexRitualJEI(<gct_additions:muddy_flesh>,
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "babymobs:babyzombie"}}),
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "babymobs:babyzombie"}}),
     null);
 
-createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_aby:mixture_shoggoth"}}),
+createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_additions:mixture_shoggoth"}}),
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "ageofabyssalcraft:lessershoggothhelpful"}}),
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "ageofabyssalcraft:lessershoggothhelpful"}}),
-    <gct_aby:shoggy_slime>);
+    <gct_additions:shoggy_slime>);
 
-createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_aby:bloody_shoggoth"}}),
-    <minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_aby:mixture_shoggoth"}}),
+createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_additions:bloody_shoggoth"}}),
+    <minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_additions:mixture_shoggoth"}}),
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:dreadspawn"}}),
-    <gct_aby:shoggy_slime_purified>);
+    <gct_additions:shoggy_slime_purified>);
 
 createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "erebus:erebus.ant_shell"}}),
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "erebus:erebus.zombie_ant_soldier"}}),

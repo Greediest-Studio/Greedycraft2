@@ -13,7 +13,7 @@
 		uid: "8464ae62",
 		type: "item",
 		items: [{
-			item: "gct_ores:stormy_core"
+			item: "gct_additions:stormy_core"
 		}]
 	}],
 	rewards: [{
@@ -25,12 +25,12 @@
 	{
 		uid: "0ff82daf",
 		type: "item",
-		item: "gct_ores:stormy_core"
+		item: "gct_additions:stormy_core"
 	},
 	{
 		uid: "df265b03",
 		type: "item",
-		item: "gct_ores:stormy_shard",
+		item: "gct_additions:stormy_shard",
 		count: 10
 	},
 	{

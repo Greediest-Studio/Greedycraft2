@@ -284,7 +284,7 @@
             },
             "biome": {
                 "restriction": "whitelist",
-                "value": "gct_mobs:mana_forest"
+                "value": "gct_additions:mana_forest"
             }
         },
         "manadiamond": {
@@ -308,7 +308,7 @@
             },
             "biome": {
                 "restriction": "whitelist",
-                "value": "gct_mobs:mana_forest"
+                "value": "gct_additions:mana_forest"
             }
         },
         "manalapis": {
@@ -332,7 +332,7 @@
             },
             "biome": {
                 "restriction": "whitelist",
-                "value": "gct_mobs:mana_forest"
+                "value": "gct_additions:mana_forest"
             }
         },
         "manaquartz": {
@@ -356,7 +356,7 @@
             },
             "biome": {
                 "restriction": "whitelist",
-                "value": "gct_mobs:mana_forest"
+                "value": "gct_additions:mana_forest"
             }
         },
         "chillinium": {
@@ -539,7 +539,7 @@
                     "name": "tiths:ore_hothium",
                     "weight": 100
                 }],
-                "material": "gct_mobs:meteor",
+                "material": "gct_additions:meteor",
                 "cluster-size": 2
             },
             "max-height": 255,
@@ -559,7 +559,7 @@
                     "name": "tiths:ore_halleium",
                     "weight": 100
                 }],
-                "material": "gct_mobs:meteor",
+                "material": "gct_additions:meteor",
                 "cluster-size": 2
             },
             "max-height": 255,
@@ -579,7 +579,7 @@
                     "name": "tiths:ore_polarium",
                     "weight": 100
                 }],
-                "material": "gct_mobs:meteor",
+                "material": "gct_additions:meteor",
                 "cluster-size": 2
             },
             "max-height": 255,
@@ -599,7 +599,7 @@
                     "name": "tiths:ore_altairium",
                     "weight": 100
                 }],
-                "material": "gct_mobs:meteor",
+                "material": "gct_additions:meteor",
                 "cluster-size": 2
             },
             "max-height": 255,
@@ -619,7 +619,7 @@
                     "name": "tiths:ore_tonium",
                     "weight": 100
                 }],
-                "material": "gct_mobs:meteor",
+                "material": "gct_additions:meteor",
                 "cluster-size": 2
             },
             "max-height": 255,
@@ -639,7 +639,7 @@
                     "name": "tiths:ore_stellarium",
                     "weight": 100
                 }],
-                "material": "gct_mobs:meteor",
+                "material": "gct_additions:meteor",
                 "cluster-size": 1
             },
             "max-height": 255,
@@ -928,10 +928,10 @@
             "distribution":"uniform",
             "generator":{
                 "block":[{
-                    "name":"gct_aby:saniteore",
+                    "name":"gct_additions:saniteore",
                     "weight":100
                 }],
-                "material":"gct_aby:densedarkstone",
+                "material":"gct_additions:densedarkstone",
                 "cluster-size":2
             },
             "max-height":128,
@@ -1351,10 +1351,10 @@
                     "name": "additions:losessium_ore",
                     "weight": 10
                 },{
-                    "name": "gct_mobs:corruptrock",
+                    "name": "gct_additions:corruptrock",
                     "weight": 90
                 }],
-                "material": "gct_mobs:bloodyrock",
+                "material": "gct_additions:bloodyrock",
                 "cluster-size": 25
             },
             "min-height": 0,
@@ -1411,10 +1411,10 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "gct_mobs:botanical_stone",
+                    "name": "gct_additions:botanical_stone",
                     "weight": 100
                 }],
-                "material": "gct_mobs:alf_stone",
+                "material": "gct_additions:alf_stone",
                 "cluster-size": 1
             },
             "min-height": 0,
@@ -1437,7 +1437,7 @@
                     "name": "additions:arimite_ore",
                     "weight": 10
                 }],
-                "material": "gct_mobs:crystalsandstone",
+                "material": "gct_additions:crystalsandstone",
                 "cluster-size": 6
             },
             "min-height": 1,
@@ -1457,7 +1457,7 @@
                     "name": "additions:star_metal_ore",
                     "weight": 100
                 }],
-                "material": "gct_mobs:polarisite",
+                "material": "gct_additions:polarisite",
                 "cluster-size": 16
             },
             "min-height": 0,
@@ -1477,7 +1477,7 @@
                     "name": "additions:astralmetal_ore",
                     "weight": 100
                 }],
-                "material": "gct_mobs:polarisite",
+                "material": "gct_additions:polarisite",
                 "cluster-size": 2
             },
             "min-height": 0,
@@ -1497,7 +1497,7 @@
                     "name": "additions:lunarine_ore",
                     "weight": 100
                 }],
-                "material": "gct_mobs:polarisite",
+                "material": "gct_additions:polarisite",
                 "cluster-size": 1
             },
             "min-height": 0,
@@ -1517,7 +1517,7 @@
                     "name": "additions:nasalum_ore",
                     "weight": 100
                 }],
-                "material": "gct_mobs:polarisite",
+                "material": "gct_additions:polarisite",
                 "cluster-size": 1
             },
             "min-height": 0,
@@ -1534,10 +1534,10 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "gct_ores:order_crystal_ore",
+                    "name": "gct_additions:order_crystal_ore",
                     "weight": 100
                 }],
-                "material": "gct_ores:order_stone",
+                "material": "gct_additions:order_stone",
                 "cluster-size": 1
             },
             "min-height": 0,
@@ -1554,19 +1554,19 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "gct_aby:nyralathotepium_ore_complex",
+                    "name": "gct_additions:nyralathotepium_ore_complex",
                     "weight": 25
                 },{
-                    "name": "gct_aby:azathothium_ore_complex",
+                    "name": "gct_additions:azathothium_ore_complex",
                     "weight": 25
                 },{
-                    "name": "gct_aby:yogsothothium_ore_complex",
+                    "name": "gct_additions:yogsothothium_ore_complex",
                     "weight": 25
                 },{
-                    "name": "gct_aby:shubniggurathium_ore_complex",
+                    "name": "gct_additions:shubniggurathium_ore_complex",
                     "weight": 25
                 }],
-                "material": "gct_aby:warprack",
+                "material": "gct_additions:warprack",
                 "cluster-size": 1
             },
             "min-height": 0,
@@ -1663,7 +1663,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "gct_mobs:resonate_debris",
+                    "name": "gct_additions:resonate_debris",
                     "weight": 100
                 }],
                 "material": "minecraft:end_stone",
@@ -1768,7 +1768,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "gct_mobs:gravity_debris",
+                    "name": "gct_additions:gravity_debris",
                     "weight": 100
                 }],
                 "material": "aether_legacy:holystone",
@@ -2287,7 +2287,7 @@
                     "name": "additions:blood_infused_iron_ore",
                     "weight": 100
                 }],
-                "material": "gct_mobs:bloodyrock",
+                "material": "gct_additions:bloodyrock",
                 "cluster-size": 4
             },
             "cluster-count": 8,
@@ -2308,7 +2308,7 @@
                     "name": "additions:blood_infused_diamond_ore",
                     "weight": 100
                 }],
-                "material": "gct_mobs:bloodyrock",
+                "material": "gct_additions:bloodyrock",
                 "cluster-size": 4
             },
             "cluster-count": 3,

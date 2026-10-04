@@ -20,18 +20,18 @@ val oeEnchantId = <enchantment:oeintegration:oreexcavation>.id as int;
 //                            //
 ////////////////////////////////
 
-recipes.remove(<gct_ores:chaos_shard_block>);
-recipes.addShaped(<gct_ores:chaos_shard_block> * 1, [[<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>], [<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>],[<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>]]);
+recipes.remove(<gct_additions:chaos_shard_block>);
+recipes.addShaped(<gct_additions:chaos_shard_block> * 1, [[<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>], [<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>],[<draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>, <draconicevolution:chaos_shard:0>]]);
 recipes.remove(<draconicevolution:chaos_shard:0>);
-recipes.addShaped(<draconicevolution:chaos_shard:0> * 9, [[<gct_ores:chaos_shard_block>, null, null], [null, null, null],[null, null, null]]);
-recipes.remove(<gct_ores:stormy_shard_block>);
-recipes.addShaped(<gct_ores:stormy_shard_block> * 1, [[<gct_ores:stormy_shard>, <gct_ores:stormy_shard>, <gct_ores:stormy_shard>], [<gct_ores:stormy_shard>, <gct_ores:stormy_shard>, <gct_ores:stormy_shard>],[<gct_ores:stormy_shard>, <gct_ores:stormy_shard>, <gct_ores:stormy_shard>]]);
-recipes.remove(<gct_ores:stormy_shard>);
-recipes.addShaped(<gct_ores:stormy_shard> * 9, [[<gct_ores:stormy_shard_block>, null, null], [null, null, null],[null, null, null]]);
+recipes.addShaped(<draconicevolution:chaos_shard:0> * 9, [[<gct_additions:chaos_shard_block>, null, null], [null, null, null],[null, null, null]]);
+recipes.remove(<gct_additions:stormy_shard_block>);
+recipes.addShaped(<gct_additions:stormy_shard_block> * 1, [[<gct_additions:stormy_shard>, <gct_additions:stormy_shard>, <gct_additions:stormy_shard>], [<gct_additions:stormy_shard>, <gct_additions:stormy_shard>, <gct_additions:stormy_shard>],[<gct_additions:stormy_shard>, <gct_additions:stormy_shard>, <gct_additions:stormy_shard>]]);
+recipes.remove(<gct_additions:stormy_shard>);
+recipes.addShaped(<gct_additions:stormy_shard> * 9, [[<gct_additions:stormy_shard_block>, null, null], [null, null, null],[null, null, null]]);
 
-recipes.addShapeless(<botania:dreamwood:1> * 4, [<gct_mobs:dreamwood_log>]);
-recipes.addShapeless(<gct_mobs:reversed_dreamwood_plank> * 4, [<gct_mobs:reversed_dreamwood_log>]);
-recipes.addShapeless(<botania:manaresource:5> * 32, [<gct_mobs:gaia_heart>]);
+recipes.addShapeless(<botania:dreamwood:1> * 4, [<gct_additions:dreamwood_log>]);
+recipes.addShapeless(<gct_additions:reversed_dreamwood_plank> * 4, [<gct_additions:reversed_dreamwood_log>]);
+recipes.addShapeless(<botania:manaresource:5> * 32, [<gct_additions:gaia_heart>]);
 
 recipes.addShapeless(<additions:godlikeum_essence>, [<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>]);
 recipes.addShapeless(<additions:extremium_essence> * 4, [<ore:essenceGodlikeum>]);
@@ -504,14 +504,14 @@ RecipeUtil.addShapeless("godlikeum_ingot_essence", <additions:godlikeum_ingot>,
 RecipeUtil.addShapeless("nonenium_ingot_essence", <additions:nonenium_ingot>, 
     [<ore:ingotBaseEssence>, <ore:essenceNonenium>, <ore:essenceNonenium>, <ore:essenceNonenium>, <ore:essenceNonenium>]
 );
-RecipeUtil.addShapeless("pe_block", <gct_aby:solid_pot_energy>, 
+RecipeUtil.addShapeless("pe_block", <gct_additions:solid_pot_energy>, 
     [<additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>]
 );
-RecipeUtil.addShapeless("sanite_block", <gct_mobs:sanite_block>, 
-    [<gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>]
+RecipeUtil.addShapeless("sanite_block", <gct_additions:sanite_block>, 
+    [<gct_additions:sanite_ingot>, <gct_additions:sanite_ingot>, <gct_additions:sanite_ingot>, <gct_additions:sanite_ingot>, <gct_additions:sanite_ingot>, <gct_additions:sanite_ingot>, <gct_additions:sanite_ingot>, <gct_additions:sanite_ingot>, <gct_additions:sanite_ingot>]
 );
-RecipeUtil.addShapeless("shoggoth_tancale_soup", <gct_aby:shoggoth_tancale_soup>, 
-    [<minecraft:bowl>, <gct_aby:shoggothtancale>, <gct_aby:shoggothtancale>, <gct_aby:shoggothtancale>]
+RecipeUtil.addShapeless("shoggoth_tancale_soup", <gct_additions:shoggoth_tancale_soup>, 
+    [<minecraft:bowl>, <gct_additions:shoggothtancale>, <gct_additions:shoggothtancale>, <gct_additions:shoggothtancale>]
 );
 RecipeUtil.addShapeless("quicksilver", <thaumcraft:quicksilver>, 
     [<ore:ingotMercury>]
@@ -542,4 +542,28 @@ RecipeUtil.addShapeless("mmce_dimensional_binder", <mmce_complement:mechanical_b
 ]);
 RecipeUtil.addShapeless("mmce_dimensional_binder_reverse", <additions:modular_dimensional_magnifier>, [
     [<mmce_complement:mechanical_binding_tool>]
+]);
+RecipeUtil.addShapeless("noxexeum_dust", <gct_additions:noxexeum_dust> * 2, 
+    [<gct_additions:bninz_dust>, <minecraft:soul_sand>, <thermalfoundation:material:768>, <minecraft:redstone>]
+);
+RecipeUtil.addShapeless("lumixeium_dust", <gct_additions:lumixeium_dust> * 2, 
+    [<gct_additions:bligtz_dust>, <minecraft:sand>, <minecraft:glowstone_dust>, <minecraft:redstone>]
+);
+RecipeUtil.addShapeless("naturaeum_dust", <gct_additions:naturaeum_dust> * 2, 
+    [<gct_additions:bnatuz_dust>, <minecraft:redstone>, <minecraft:clay_ball>, <minecraft:dirt>]
+);
+RecipeUtil.addShapeless("tonitruium_dust", <gct_additions:tonitruium_dust> * 2, 
+    [<gct_additions:bthdz_dust>, <minecraft:flint>, <appliedenergistics2:material:3>, <minecraft:redstone>]
+);
+RecipeUtil.addShapeless("bninz_dust", <gct_additions:bninz_dust> * 2, [
+    [<gct_additions:bninz_rod>]
+]);
+RecipeUtil.addShapeless("bligtz_dust", <gct_additions:bligtz_dust> * 2, [
+    [<gct_additions:bligtz_rod>]
+]);
+RecipeUtil.addShapeless("bnatuz_dust", <gct_additions:bnatuz_dust> * 2, [
+    [<gct_additions:bnatuz_rod>]
+]);
+RecipeUtil.addShapeless("bthdz_dust", <gct_additions:bthdz_dust> * 2, [
+    [<gct_additions:bthdz_rod>]
 ]);

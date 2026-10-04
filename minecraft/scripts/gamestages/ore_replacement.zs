@@ -60,14 +60,14 @@ GameStagesUtil.stageHardmode.addOreReplacement(<additions:thyminite_ore:*>, <bio
 GameStagesUtil.stageHardmode.addOreReplacement(<additions:lavarite_ore:*>, <taiga:basalt_block>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<additions:bnightium_ore:*>, <abyssalcraft:stone>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<additions:guaninite_ore:*>, <abyssalcraft:abyssalsand>, false);
-GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:reditrite_cobblestone:*>, <minecraft:cobblestone>, false);
-GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:reditrite_block:*>, <minecraft:stone>, false);
+GameStagesUtil.stageHardmode.addOreReplacement(<gct_additions:reditrite_cobblestone:*>, <minecraft:cobblestone>, false);
+GameStagesUtil.stageHardmode.addOreReplacement(<gct_additions:reditrite_block:*>, <minecraft:stone>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<additions:snowingium_ore:*>, <minecraft:snow>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<additions:oceanium_ore:*>, <quark:elder_prismarine>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<additions:adeninite_ore:*>, <abyssalcraft:stone:3>, false);
-GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:witherium_ore_overworld:*>, <minecraft:stone>, false);
-GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:witherium_ore_nether:*>, <minecraft:netherrack>, false);
-GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:witherium_ore_end:*>, <minecraft:end_stone>, false);
+GameStagesUtil.stageHardmode.addOreReplacement(<gct_additions:witherium_ore_overworld:*>, <minecraft:stone>, false);
+GameStagesUtil.stageHardmode.addOreReplacement(<gct_additions:witherium_ore_nether:*>, <minecraft:netherrack>, false);
+GameStagesUtil.stageHardmode.addOreReplacement(<gct_additions:witherium_ore_end:*>, <minecraft:end_stone>, false);
 
 GameStagesUtil.stageNether.addOreReplacement(<minecraft:anvil:*>, <additions:unknown_block>, false);
 GameStagesUtil.stageNether.addOreReplacement(<minecraft:beacon:*>, <additions:unknown_block>, false);
@@ -106,7 +106,7 @@ GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:hellstoneore>, <mine
 GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:shadiumore>, <minecraft:stone>, false);
 GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:luniumore>, <minecraft:stone>, false);
 
-GameStagesUtil.stageChaoticDominator.addOreReplacement(<gct_mobs:gravity_debris>, <aether_legacy:holystone>, false);
+GameStagesUtil.stageChaoticDominator.addOreReplacement(<gct_additions:gravity_debris>, <aether_legacy:holystone>, false);
 GameStagesUtil.stageChaoticDominator.addOreReplacement(<betterendforge:thallasium_ore>, <minecraft:end_stone>, false);
 
 GameStagesUtil.stageChaotic.addOreReplacement(<additions:harcadium_ore>, <minecraft:stone>, false);
@@ -158,8 +158,8 @@ GameStagesUtil.stageCosmic.addOreReplacement(<additions:dimesium_ore>, <abyssalc
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:yoggleseum_ore>, <abyssalcraft:stone:6>, false);
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:cloudite_ore>, <aether_legacy:holystone>, false);
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:molybdenum_ore>, <aether_legacy:holystone>, false);
-GameStagesUtil.stageCosmic.addOreReplacement(<additions:dawnium_ore>, <gct_ores:reditrite_block>, false);
-GameStagesUtil.stageCosmic.addOreReplacement(<additions:losessium_ore>, <gct_mobs:bloodyrock>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:dawnium_ore>, <gct_additions:reditrite_block>, false);
+GameStagesUtil.stageCosmic.addOreReplacement(<additions:losessium_ore>, <gct_additions:bloodyrock>, false);
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:oneo_ore>, <minecraft:bedrock>, false);
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:ttwo_ore>, <minecraft:bedrock>, false);
 
@@ -177,4 +177,4 @@ GameStagesUtil.stageFinal.addOreReplacement(<moretcon:oregravitoniumdense>, <min
 GameStagesUtil.stageFinal.addOreReplacement(<endexpansion:key_block>, <minecraft:purpur_block>, false);
 GameStagesUtil.stageFinal.addOreReplacement(<endexpansion:ash_key_block>, <endexpansion:ash_brick>, false);
 
-GameStagesUtil.stageWakeUp.addOreReplacement(<additions:shadowberry_leaves>, <gct_mobs:reversed_dreamwood_leaves>, false);
+GameStagesUtil.stageWakeUp.addOreReplacement(<additions:shadowberry_leaves>, <gct_additions:reversed_dreamwood_leaves>, false);

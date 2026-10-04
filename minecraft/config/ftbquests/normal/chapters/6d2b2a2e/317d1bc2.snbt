@@ -23,13 +23,13 @@
 	rewards: [{
 		uid: "f25ee2da",
 		type: "item",
-		item: "gct_ores:order_crystal",
+		item: "gct_additions:order_crystal",
 		count: 32
 	},
 	{
 		uid: "d956cd9c",
 		type: "item",
-		item: "gct_ores:ordered_metal_ingot",
+		item: "gct_additions:ordered_metal_ingot",
 		count: 8,
 		random_bonus: 8
 	},

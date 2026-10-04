@@ -1024,7 +1024,7 @@ worldendTrait.color = Color.fromHex("ffffff").getIntColor();
 worldendTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.worldendTrait.name");
 worldendTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.worldendTrait.desc");
 worldendTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    target.addPotionEffect(<potion:gct_mobs:anti_anyposion>.makePotionEffect(20, 0, false, false));
+    target.addPotionEffect(<potion:gct_additions:anti_anyposion>.makePotionEffect(20, 0, false, false));
     return newDamage;
 };
 worldendTrait.register();
@@ -1427,11 +1427,11 @@ moronismTrait.onHit = function(trait, tool, attacker, target, damage, isCritical
     if (attacker instanceof IPlayer) {
         val player as IPlayer = attacker;
         if (Math.random() < 0.2) {
-            target.addPotionEffect(<potion:gct_aby:abyssplague>.makePotionEffect(40, 0, false, false));
+            target.addPotionEffect(<potion:gct_additions:abyssplague>.makePotionEffect(40, 0, false, false));
             target.addPotionEffect(<potion:potioncore:spin>.makePotionEffect(80, 0, false, false));
         }
         if (Math.random() < 0.05) {
-            player.addPotionEffect(<potion:gct_aby:abyssplague>.makePotionEffect(40, 0, false, false));
+            player.addPotionEffect(<potion:gct_additions:abyssplague>.makePotionEffect(40, 0, false, false));
         }
     }
 };
@@ -1529,8 +1529,8 @@ naturalrefinerTrait.color = Color.fromHex("ffffff").getIntColor();
 naturalrefinerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.naturalrefinerTrait.name");
 naturalrefinerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.naturalrefinerTrait.desc");
 naturalrefinerTrait.onBlockHarvestDrops = function(trait, tool, event) {
-    if (!event.silkTouch && event.block.definition.id == "gct_mobs:botanical_stone") {
-        event.drops = [<item:gct_mobs:botanical_soul>.weight(1.0f)];
+    if (!event.silkTouch && event.block.definition.id == "gct_additions:botanical_stone") {
+        event.drops = [<item:gct_additions:botanical_soul>.weight(1.0f)];
     }
 };
 naturalrefinerTrait.register();
@@ -1743,7 +1743,7 @@ trapTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trai
 trapTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit)  {
         val entity as IEntityLivingBase = target;
         if(Math.random() < 0.02){
-        entity.addPotionEffect(<potion:gct_aby:stop>.makePotionEffect(100, 0, false, false));
+        entity.addPotionEffect(<potion:gct_additions:stop>.makePotionEffect(100, 0, false, false));
         }
 };
 trapTrait.register();
@@ -1930,7 +1930,7 @@ blue_screenTrait.localizedDescription = game.localize("greedycraft.tconstruct.to
 blue_screenTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
     if (attacker instanceof IPlayer) {
         if (Math.random() < 0.3f) {
-            target.addPotionEffect(<potion:gct_mobs:blue_screen>.makePotionEffect(100, 0, false, false));
+            target.addPotionEffect(<potion:gct_additions:blue_screen>.makePotionEffect(100, 0, false, false));
         }
     }
 };
@@ -5542,7 +5542,7 @@ hexaelementalTrait.afterHit = function(trait, tool, attacker, target, damageDeal
             target.setFire(10);
         } else if (turn == 2) {
             server.commandManager.executeCommandSilent(player, "particle smoke " + x as string + " " + y as string + " " + z as string + " 0.5 0.5 0.5 0 10 force");
-            target.addPotionEffect(<potion:gct_aby:stop>.makePotionEffect(60, 0, false, false));
+            target.addPotionEffect(<potion:gct_additions:stop>.makePotionEffect(60, 0, false, false));
         } else if (turn == 3) {
             server.commandManager.executeCommandSilent(player, "particle cloud " + x as string + " " + y as string + " " + z as string + " 0.5 0.5 0.5 0 10 force");
             target.motionY += 0.5d;

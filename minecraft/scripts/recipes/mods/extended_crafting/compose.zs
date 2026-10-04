@@ -11,7 +11,7 @@ import mods.ctintegration.util.RecipePattern;
 import mods.extendedcrafting.TableCrafting;
 import mods.extendedcrafting.CombinationCrafting;
 
-CombinationCrafting.addRecipe(<additions:twilit_block> * 1, 2000000000, 8388608, <gct_ores:balanced_matrix_ingot>, [
+CombinationCrafting.addRecipe(<additions:twilit_block> * 1, 2000000000, 8388608, <gct_additions:balanced_matrix_ingot>, [
     <ore:ingotFierymetal>,
     <ore:ingotFierymetal>,
     <ore:ingotFierymetal>,
@@ -176,14 +176,14 @@ CombinationCrafting.addRecipe(<additions:dragonbone_spirit>, 640000000, 2560000,
 
 CombinationCrafting.addRecipe(<additions:abyss_catalyst>, 136000000, 1048576, <additions:dubhe_crystal>, [
     <ore:ingotNefrathite>,
-    <gct_aby:warped_soul>,
-    <gct_aby:warped_soul>,
-    <gct_aby:warped_soul>,
-    <gct_aby:warped_soul>,
-    <gct_aby:warped_soul>,
-    <gct_aby:warped_soul>,
-    <gct_aby:warped_soul>,
-    <gct_aby:warped_soul>
+    <gct_additions:warped_soul>,
+    <gct_additions:warped_soul>,
+    <gct_additions:warped_soul>,
+    <gct_additions:warped_soul>,
+    <gct_additions:warped_soul>,
+    <gct_additions:warped_soul>,
+    <gct_additions:warped_soul>,
+    <gct_additions:warped_soul>
 ]);
 
 CombinationCrafting.addRecipe(<additions:eco_enhanced_alloy_ingot>, 5000000, 200000, <additions:blue_alloy_ingot>, [

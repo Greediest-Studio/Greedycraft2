@@ -2,7 +2,7 @@
   "recipe": {
     "type": "forge:ore_shaped",
     "result": {
-      "item": "gct_mobs:apocalypse_ruin"
+      "item": "gct_additions:apocalypse_ruin"
     },
     "key": {
       "0": {
@@ -22,7 +22,7 @@
         "ore_name": "gemTwilightRefined",
         "stack_list": [
           {
-            "item": "gct_mobs:apocalypsium_ingot",
+            "item": "gct_additions:apocalypsium_ingot",
             "damage": "any"
           }
         ],

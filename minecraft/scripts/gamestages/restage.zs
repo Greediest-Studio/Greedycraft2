@@ -97,8 +97,8 @@ GameStagesUtil.restageItems("wielder_of_infinity", [
 ]);
 
 GameStagesUtil.restageItems("warped", [
-    <gct_aby:key_of_warped>,
-    <gct_aby:key_of_warped_active>
+    <gct_additions:key_of_warped>,
+    <gct_additions:key_of_warped_active>
 ]);
 
 GameStagesUtil.restageItem("awakened", <draconicevolution:chaos_shard>);

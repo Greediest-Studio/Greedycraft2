@@ -61,8 +61,8 @@ recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:purpli
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:overseer"}}) * 1, [[null, <thermalfoundation:material:24>, null], [<journey:luniumingot>, <minecraft:egg>, <journey:luniumingot>],[null, <thermalfoundation:material:24>, null]]);
 recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "journey:overseerelder"}}) * 1, [[null, <minecraft:ender_eye>, null], [<journey:storoningot>, <minecraft:egg>, <journey:storoningot>],[null, <minecraft:ender_eye>, null]]);
 recipes.addShaped(<modularmachinery:builder_1_factory_controller> * 1, [[<thermalfoundation:material:324>, <thermalfoundation:material:354>, <thermalfoundation:material:324>], [<thermalfoundation:material:354>, <modularmachinery:blockcontroller>, <thermalfoundation:material:354>],[<thermalfoundation:material:324>, <thermalfoundation:material:354>, <thermalfoundation:material:324>]]);
-recipes.addShaped(<gct_ores:blue_print_empty> * 1, [[<nuclearcraft:dust:8>, <nuclearcraft:dust:8>, <nuclearcraft:dust:8>], [<nuclearcraft:dust:8>, <minecraft:paper>, <nuclearcraft:dust:8>],[<nuclearcraft:dust:8>, <nuclearcraft:dust:8>, <nuclearcraft:dust:8>]]);
-recipes.addShaped(<gct_ores:blue_print_forge> * 1, [[<gct_ores:blue_print_empty>, <gct_ores:blue_print_empty>, <gct_ores:blue_print_empty>], [<gct_ores:blue_print_empty>, <additions:modularium_block>, <gct_ores:blue_print_empty>],[<gct_ores:blue_print_empty>, <gct_ores:blue_print_empty>, <gct_ores:blue_print_empty>]]);
+recipes.addShaped(<gct_additions:blue_print_empty> * 1, [[<nuclearcraft:dust:8>, <nuclearcraft:dust:8>, <nuclearcraft:dust:8>], [<nuclearcraft:dust:8>, <minecraft:paper>, <nuclearcraft:dust:8>],[<nuclearcraft:dust:8>, <nuclearcraft:dust:8>, <nuclearcraft:dust:8>]]);
+recipes.addShaped(<gct_additions:blue_print_forge> * 1, [[<gct_additions:blue_print_empty>, <gct_additions:blue_print_empty>, <gct_additions:blue_print_empty>], [<gct_additions:blue_print_empty>, <additions:modularium_block>, <gct_additions:blue_print_empty>],[<gct_additions:blue_print_empty>, <gct_additions:blue_print_empty>, <gct_additions:blue_print_empty>]]);
 recipes.addShaped(<divinerpg:snow_globe> * 1, [[<divinerpg:fury_fire>, <botania:rune:7>, <divinerpg:fury_fire>], [<additions:royal_gel>, <botania:rune:7>, <additions:royal_gel>],[<divinerpg:bluefire_stone>, <divinerpg:hellstone_ingot>, <divinerpg:bluefire_stone>]]);
 recipes.addShaped(<divinerpg:arcana_portal_frame> * 1, [[<divinerpg:corrupted_shards>, <divinerpg:bluefire_stone>, <divinerpg:molten_shards>], [<divinerpg:divine_shards>, <divinerpg:ice_shards>, <divinerpg:jungle_shards>],[<abyssalcraft:stone:1>, <divinerpg:terran_shards>, <abyssalcraft:stone:1>]]);
 recipes.addShaped(<additions:awakened_eye> * 1, [[<additions:iciricium_ingot>, <botania:manaresource:14>, <additions:iciricium_ingot>], [<abyssalcraft:cingot>, <abyssalcraft:eoa>, <abyssalcraft:cingot>],[<tconstruct:ingots:3>, <botania:manaresource:14>, <tconstruct:ingots:3>]]);
@@ -78,8 +78,8 @@ recipes.addShaped(<gugu-utils:starlightinputhatch:1> * 1, [[<modularmachinery:it
 recipes.addShaped(<gugu-utils:starlightinputhatch:2> * 1, [[<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>],[<ore:ingotAstralMetal>, <gugu-utils:starlightinputhatch:1>, <ore:ingotAstralMetal>], [<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<additions:storm_kicker>, [[<ore:rodStone>, <ore:coal>, <ore:rodStone>],[<ore:coal>, <ore:rodStone>, <ore:coal>], [<ore:rodStone>, <ore:coal>, <ore:rodStone>]]);
 recipes.addShaped(<additions:dragon_kicker>, [[<ore:rodStone>, <ore:alloyBasic>, <ore:rodStone>],[<ore:alloyBasic>, <ore:rodStone>, <ore:alloyBasic>], [<ore:rodStone>, <ore:alloyBasic>, <ore:rodStone>]]);
-recipes.addShaped(<gct_ores:shalloite_block_chiseled>, [[null, <gct_ores:shalloite_slab>, null],[null, <gct_ores:shalloite_slab>, null], [null, null, null]]);
-recipes.addShaped(<gct_ores:shalloite_slab> * 6, [[null, null, null],[<gct_ores:shalloite_block>, <gct_ores:shalloite_block>, <gct_ores:shalloite_block>], [null, null, null]]);
+recipes.addShaped(<gct_additions:shalloite_block_chiseled>, [[null, <gct_additions:shalloite_slab>, null],[null, <gct_additions:shalloite_slab>, null], [null, null, null]]);
+recipes.addShaped(<gct_additions:shalloite_slab> * 6, [[null, null, null],[<gct_additions:shalloite_block>, <gct_additions:shalloite_block>, <gct_additions:shalloite_block>], [null, null, null]]);
 recipes.addShaped(<draconicevolution:chaos_shard>, [[<draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:1>],[<draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:1>], [<draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:1>, <draconicevolution:chaos_shard:1>]]);
 
 recipes.addShaped(<gugu-utils:aspecthatch:1> * 1, [[<modularmachinery:itemmodularium>, <thaumcraft:tube>, <modularmachinery:itemmodularium>], [<thaumcraft:tube>, <modularmachinery:blockcasing:0>, <thaumcraft:tube>],[<thaumcraft:ingot:0>, <thaumcraft:ingot:0>, <thaumcraft:ingot:0>]]);
@@ -91,7 +91,7 @@ recipes.addShaped(<divinerpg:horde_horn> * 1, [[null, <additions:durasteel_ingot
 recipes.addShaped(<divinerpg:call_of_the_watcher> * 1, [[<divinerpg:ender_stone>, <enderio:item_alloy_endergy_ingot:2>, <divinerpg:ender_stone>], [<enderio:item_alloy_endergy_ingot:2>, <divinerpg:watching_eye>, <enderio:item_alloy_endergy_ingot:2>],[<divinerpg:ender_stone>, <enderio:item_alloy_endergy_ingot:2>, <divinerpg:ender_stone>]]);
 recipes.addShaped(<theaurorian:aurorianportalframebricks>, [[<ore:ingotIciricium>, <ore:ingotManyullyn>, <ore:ingotIciricium>],[<ore:ingotManyullyn>, <twilightforest:aurora_block>, <ore:ingotManyullyn>], [<ore:ingotIciricium>, <ore:ingotManyullyn>, <ore:ingotIciricium>]]);
 recipes.addShaped(<divinerpg:twilight_clock> * 1, [[<divinerpg:the_watcher_statue>, <divinerpg:parasecta_statue>, <divinerpg:dramix_statue>], [<divinerpg:ayeraco_statue_blue>, <divinerpg:mysterious_clock>, <divinerpg:ayeraco_statue_purple>],[<divinerpg:ayeraco_statue_red>, <divinerpg:ayeraco_statue_yellow>, <divinerpg:ayeraco_statue_green>]]);
-recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:builder_1"}) * 1, [[<thermalfoundation:material:320>, <gct_ores:blue_print_forge>, <thermalfoundation:material:320>], [<gct_ores:blue_print_forge>, <jaopca:plate.experience>, <gct_ores:blue_print_forge>],[<thermalfoundation:material:320>, <gct_ores:blue_print_forge>, <thermalfoundation:material:320>]]);
+recipes.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:builder_1"}) * 1, [[<thermalfoundation:material:320>, <gct_additions:blue_print_forge>, <thermalfoundation:material:320>], [<gct_additions:blue_print_forge>, <jaopca:plate.experience>, <gct_additions:blue_print_forge>],[<thermalfoundation:material:320>, <gct_additions:blue_print_forge>, <thermalfoundation:material:320>]]);
 recipes.addShaped(<modularmachinery:blockcasing:0> * 4, [[null, <modularmachinery:itemmodularium>, null], [<modularmachinery:itemmodularium>, <divinerpg:fire_crystal>, <modularmachinery:itemmodularium>],[null, <modularmachinery:itemmodularium>, null]]);
 recipes.addShaped(<modularmachinery:blockinputbus:0> * 1, [[<divinerpg:fire_crystal>, <modularmachinery:itemmodularium>, <divinerpg:fire_crystal>], [<modularmachinery:itemmodularium>, <divinerpg:fire_crystal>, <modularmachinery:itemmodularium>],[null, <modularmachinery:itemmodularium>, null]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:0> * 1, [[null, <modularmachinery:itemmodularium>, null], [<modularmachinery:itemmodularium>, <divinerpg:fire_crystal>, <modularmachinery:itemmodularium>],[<divinerpg:fire_crystal>, <modularmachinery:itemmodularium>, <divinerpg:fire_crystal>]]);
@@ -102,20 +102,20 @@ recipes.addShaped(<divinerpg:demon_furnace> * 1, [[<divinerpg:fire_crystal>, <di
 recipes.addShaped(<modularmachinery:vethea_enchanter_factory_controller> * 1, [[<modularmachinery:itemmodularium>, <divinerpg:dream_stone>, <modularmachinery:itemmodularium>], [<divinerpg:dream_stone>, <divinerpg:teaker_lump>, <divinerpg:dream_stone>],[<modularmachinery:itemmodularium>, <divinerpg:dream_stone>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<hooked:hook:3> * 1, [[<additions:vethea_ingot_mk3>, <divinerpg:fire_crystal>, <additions:vethea_ingot_mk3>], [null, <divinerpg:dirty_pearls>, <divinerpg:fire_crystal>],[<divinerpg:dirty_pearls>, null, <additions:vethea_ingot_mk3>]]);
 recipes.addShaped(<hooked:hook:4> * 1, [[<additions:vethea_ingot_mk9>, <divinerpg:firelight>, <additions:vethea_ingot_mk9>], [null, <hooked:hook:3>, <divinerpg:firelight>],[<divinerpg:arksiane_lump>, null, <additions:vethea_ingot_mk9>]]);
-recipes.addShaped(<journey:eucaportalframe> * 1, [[<aether_legacy:holystone>, <jaopca:nugget.cryonium>, <aether_legacy:holystone>], [<gct_ores:lavarite_nugget>, <journey:eucaportalgem>, <gct_ores:snowingium_nugget>],[<aether_legacy:holystone>, <gct_ores:aetherium_nugget>, <aether_legacy:holystone>]]);
-recipes.addShaped(<additions:thunder_eye> * 1, [[<aether_legacy:aercloud:0>, <additions:aeonsteel_ingot>, <aether_legacy:aercloud:0>], [<gct_ores:witherium_dust>, <minecraft:nether_star>, <gct_ores:witherium_dust>],[<aether_legacy:aercloud:0>, <additions:aeonsteel_ingot>, <aether_legacy:aercloud:0>]]);
+recipes.addShaped(<journey:eucaportalframe> * 1, [[<aether_legacy:holystone>, <jaopca:nugget.cryonium>, <aether_legacy:holystone>], [<gct_additions:lavarite_nugget>, <journey:eucaportalgem>, <gct_additions:snowingium_nugget>],[<aether_legacy:holystone>, <gct_additions:aetherium_nugget>, <aether_legacy:holystone>]]);
+recipes.addShaped(<additions:thunder_eye> * 1, [[<aether_legacy:aercloud:0>, <additions:aeonsteel_ingot>, <aether_legacy:aercloud:0>], [<gct_additions:witherium_dust>, <minecraft:nether_star>, <gct_additions:witherium_dust>],[<aether_legacy:aercloud:0>, <additions:aeonsteel_ingot>, <aether_legacy:aercloud:0>]]);
 recipes.addShaped(<additions:weather_breathe> * 1, [[null, <additions:chillinium_ingot>, <draconicevolution:draconium_dust>], [<additions:aeonsteel_ingot>, <draconicevolution:draconium_dust>, <additions:chillinium_ingot>],[<additions:chillinium_ingot>, <additions:aeonsteel_ingot>, null]]);
-recipes.addShaped(<additions:blood_tears> * 1, [[null, <gct_ores:witherium_dust>, null], [<minecraft:ghast_tear>, <journey:balmy_teardrop>, <minecraft:ghast_tear>],[<additions:aeonsteel_ingot>, <tconevo:metal:25>, <additions:aeonsteel_ingot>]]);
+recipes.addShaped(<additions:blood_tears> * 1, [[null, <gct_additions:witherium_dust>, null], [<minecraft:ghast_tear>, <journey:balmy_teardrop>, <minecraft:ghast_tear>],[<additions:aeonsteel_ingot>, <tconevo:metal:25>, <additions:aeonsteel_ingot>]]);
 recipes.addShaped(<additions:beast_hand> * 1, [[<additions:aeonsteel_ingot>, null, <additions:aeonsteel_ingot>], [<twilightforest:alpha_fur>, <draconicevolution:draconium_dust>, <twilightforest:alpha_fur>],[null, <twilightforest:alpha_fur>, null]]);
 recipes.addShaped(<additions:canopy_totem> * 1, [[null, <draconicevolution:wyvern_core>, null], [<taiga:yrdeen_ingot>, <minecraft:totem_of_undying>, <taiga:yrdeen_ingot>],[null, <minecraft:nether_star>, null]]);
 recipes.addShaped(<additions:end_totem> * 1, [[null, <draconicevolution:wyvern_core>, null], [<taiga:nihilite_ingot>, <minecraft:totem_of_undying>, <taiga:nihilite_ingot>],[null, <minecraft:nether_star>, null]]);
 recipes.addShaped(<additions:ice_totem> * 1, [[null, <draconicevolution:wyvern_core>, null], [<taiga:tritonite_ingot>, <minecraft:totem_of_undying>, <taiga:tritonite_ingot>],[null, <minecraft:nether_star>, null]]);
 recipes.addShaped(<journey:sentryeye> * 6, [[null, <journey:ancient_stone>, <journey:ancient_stone>], [<journey:ancient_stone>, <journey:ancient_stone>, null],[<minecraft:ender_eye>, <journey:ancient_stone>, null]]);
-recipes.addShaped(<gct_ores:senterian_wrench> * 1, [[null, <journey:senterian_soul>, <journey:sentry_disk>], [<journey:senterian_soul>, <journey:sentry_disk>, <journey:senterian_soul>],[<journey:sentry_disk>, <journey:senterian_soul>, null]]);
-recipes.addShaped(<gct_mobs:reversed_dreamwood_fence> * 3, [[null, null, null],[<gct_mobs:reversed_dreamwood_plank>, <ore:stickWood>, <gct_mobs:reversed_dreamwood_plank>], [<gct_mobs:reversed_dreamwood_plank>, <ore:stickWood>, <gct_mobs:reversed_dreamwood_plank>]]);
-recipes.addShaped(<gct_mobs:reversed_dreamwood_slab> * 6, [[null, null, null],[null, null, null], [<gct_mobs:reversed_dreamwood_plank>, <gct_mobs:reversed_dreamwood_plank>, <gct_mobs:reversed_dreamwood_plank>]]);
-recipes.addShaped(<gct_mobs:reversed_dreamwood_stairs> * 8, [[<gct_mobs:reversed_dreamwood_plank>, null, null],[<gct_mobs:reversed_dreamwood_plank>, <gct_mobs:reversed_dreamwood_plank>, null], [<gct_mobs:reversed_dreamwood_plank>, <gct_mobs:reversed_dreamwood_plank>, <gct_mobs:reversed_dreamwood_plank>]]);
-recipes.addShaped(<gct_mobs:botanical_ingot>, [[null, <ore:soulBotanical>, null],[<ore:soulBotanical>, <ore:ingotMythsteel>, <ore:soulBotanical>], [null, <ore:soulBotanical>, null]]);
+recipes.addShaped(<gct_additions:senterian_wrench> * 1, [[null, <journey:senterian_soul>, <journey:sentry_disk>], [<journey:senterian_soul>, <journey:sentry_disk>, <journey:senterian_soul>],[<journey:sentry_disk>, <journey:senterian_soul>, null]]);
+recipes.addShaped(<gct_additions:reversed_dreamwood_fence> * 3, [[null, null, null],[<gct_additions:reversed_dreamwood_plank>, <ore:stickWood>, <gct_additions:reversed_dreamwood_plank>], [<gct_additions:reversed_dreamwood_plank>, <ore:stickWood>, <gct_additions:reversed_dreamwood_plank>]]);
+recipes.addShaped(<gct_additions:reversed_dreamwood_slab> * 6, [[null, null, null],[null, null, null], [<gct_additions:reversed_dreamwood_plank>, <gct_additions:reversed_dreamwood_plank>, <gct_additions:reversed_dreamwood_plank>]]);
+recipes.addShaped(<gct_additions:reversed_dreamwood_stairs> * 8, [[<gct_additions:reversed_dreamwood_plank>, null, null],[<gct_additions:reversed_dreamwood_plank>, <gct_additions:reversed_dreamwood_plank>, null], [<gct_additions:reversed_dreamwood_plank>, <gct_additions:reversed_dreamwood_plank>, <gct_additions:reversed_dreamwood_plank>]]);
+recipes.addShaped(<gct_additions:botanical_ingot>, [[null, <ore:soulBotanical>, null],[<ore:soulBotanical>, <ore:ingotMythsteel>, <ore:soulBotanical>], [null, <ore:soulBotanical>, null]]);
 recipes.addShaped(<additions:starchain_ingot>, [[<ore:ingotAdaminite>, <ore:ingotAstralStarmetal>, <ore:ingotMirion>],[<ore:ingotBoundMetal>, <actuallyadditions:item_mining_lens>, <ore:ingotSentientMetal>], [<ore:ingotSignalum>, <astralsorcery:itemcraftingcomponent:4>, <ore:ingotEnderium>]]);
 recipes.addShaped(<mekanism:machineblock:8>, [[<ore:ingotIron>, <minecraft:furnace>, <ore:ingotIron>],[<ore:alloyBasic>, <ore:ingotOsmium>, <ore:alloyBasic>], [<ore:ingotIron>, <minecraft:furnace>, <ore:ingotIron>]]);
 recipes.addShaped(<additions:lock_of_space>, [[<rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>],[<rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>], [<rftools:dimensional_shard>, <rftools:dimensional_shard>, <rftools:dimensional_shard>]]);
@@ -130,17 +130,17 @@ recipes.addShaped(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thebetweenland
 recipes.addShaped(<enderio:item_material:66>, [[<enderio:block_end_iron_bars>, <ore:ingotEndSteel>, <enderio:block_end_iron_bars>],[<ore:ingotEndSteel>, <ore:dustDurasteel>, <ore:ingotEndSteel>], [<enderio:block_end_iron_bars>, <ore:ingotEndSteel>, <enderio:block_end_iron_bars>]]);
 recipes.addShaped(<journey:ancient_stone> * 4, [[null, <minecraft:bedrock>, null],[<minecraft:bedrock>, <ore:blockChloroplast>, <minecraft:bedrock>], [null, <minecraft:bedrock>, null]]);
 recipes.addShaped(<additions:undead_ingot>, [[null, <ore:essenceUndead>, null],[<ore:essenceUndead>, <ore:ingotSorrowium>, <ore:essenceUndead>], [null, <ore:essenceUndead>, null]]);
-recipes.addShaped(<gct_mobs:earth_orb>, [[<ore:obsidian>, <ore:ingotTerrasteel>, <ore:obsidian>],[<ore:ingotTerrasteel>, <ore:gemTerrestrial>, <ore:ingotTerrasteel>], [<ore:obsidian>, <ore:ingotTerrasteel>, <ore:obsidian>]]);
-recipes.addShaped(<gct_mobs:earthbound_receiver>, [[<ore:livingwoodTwig>, <ore:ingotSky>, <ore:livingwoodTwig>],[<ore:livingwoodTwig>, <gct_mobs:earthbound_core>, <ore:livingwoodTwig>], [<ore:blockMud>, <ore:blockMud>, <ore:blockMud>]]);
-recipes.addShaped(<gct_mobs:earthbound_core>, [[<ore:livingwoodTwig>, <ore:ingotAuraIron>, <ore:livingwoodTwig>],[<ore:livingwoodTwig>, <gct_mobs:holysteel_ingot>, <ore:livingwoodTwig>], [<naturesaura:infused_brick>, <naturesaura:infused_brick>, <naturesaura:infused_brick>]]);
+recipes.addShaped(<gct_additions:earth_orb>, [[<ore:obsidian>, <ore:ingotTerrasteel>, <ore:obsidian>],[<ore:ingotTerrasteel>, <ore:gemTerrestrial>, <ore:ingotTerrasteel>], [<ore:obsidian>, <ore:ingotTerrasteel>, <ore:obsidian>]]);
+recipes.addShaped(<gct_additions:earthbound_receiver>, [[<ore:livingwoodTwig>, <ore:ingotSky>, <ore:livingwoodTwig>],[<ore:livingwoodTwig>, <gct_additions:earthbound_core>, <ore:livingwoodTwig>], [<ore:blockMud>, <ore:blockMud>, <ore:blockMud>]]);
+recipes.addShaped(<gct_additions:earthbound_core>, [[<ore:livingwoodTwig>, <ore:ingotAuraIron>, <ore:livingwoodTwig>],[<ore:livingwoodTwig>, <gct_additions:holysteel_ingot>, <ore:livingwoodTwig>], [<naturesaura:infused_brick>, <naturesaura:infused_brick>, <naturesaura:infused_brick>]]);
 recipes.addShaped(<gugu-utils:aurainputhatch>, [[<ore:ingotModularium>, <ore:ingotSky>, <ore:ingotModularium>],[<ore:ingotAuraIron>, <modularmachinery:blockcasing>, <ore:ingotAuraIron>], [<ore:ingotModularium>, <ore:ingotEarth>, <ore:ingotModularium>]]);
 recipes.addShaped(<gugu-utils:auraoutputhatch>, [[<ore:ingotModularium>, <ore:ingotEarth>, <ore:ingotModularium>],[<ore:ingotAuraIron>, <modularmachinery:blockcasing>, <ore:ingotAuraIron>], [<ore:ingotModularium>, <ore:ingotSky>, <ore:ingotModularium>]]);
-recipes.addShaped(<gct_ores:gaia_spirit_machine_frame>, [[<ore:ingotGaia>, null, <ore:ingotGaia>],[null, <ore:gearGaia>, null], [<ore:ingotGaia>, null, <ore:ingotGaia>]]);
-recipes.addShaped(<gct_ores:gaia_steel_machine_frame>, [[<ore:ingotGaiasteel>, null, <ore:ingotGaiasteel>],[null, <ore:gearGaiasteel>, null], [<ore:ingotGaiasteel>, null, <ore:ingotGaiasteel>]]);
-recipes.addShaped(<gct_ores:orichalcos_machine_frame>, [[<ore:ingotOrichalcos>, null, <ore:ingotOrichalcos>],[null, <ore:gearOrichalcos>, null], [<ore:ingotOrichalcos>, null, <ore:ingotOrichalcos>]]);
-recipes.addShaped(<gct_ores:elemetiumsteel_machine_frame>, [[<ore:ingotElvenElementium>, null, <ore:ingotElvenElementium>],[null, <ore:gearElvenElementium>, null], [<ore:ingotElvenElementium>, null, <ore:ingotElvenElementium>]]);
-recipes.addShaped(<gct_ores:manasteel_machine_frame>, [[<ore:ingotManasteel>, null, <ore:ingotManasteel>],[null, <ore:gearManasteel>, null], [<ore:ingotManasteel>, null, <ore:ingotManasteel>]]);
-recipes.addShaped(<gct_ores:terrasteel_machine_frame>, [[<ore:ingotTerrasteel>, null, <ore:ingotTerrasteel>],[null, <ore:gearTerrasteel>, null], [<ore:ingotTerrasteel>, null, <ore:ingotTerrasteel>]]);
+recipes.addShaped(<gct_additions:gaia_spirit_machine_frame>, [[<ore:ingotGaia>, null, <ore:ingotGaia>],[null, <ore:gearGaia>, null], [<ore:ingotGaia>, null, <ore:ingotGaia>]]);
+recipes.addShaped(<gct_additions:gaia_steel_machine_frame>, [[<ore:ingotGaiasteel>, null, <ore:ingotGaiasteel>],[null, <ore:gearGaiasteel>, null], [<ore:ingotGaiasteel>, null, <ore:ingotGaiasteel>]]);
+recipes.addShaped(<gct_additions:orichalcos_machine_frame>, [[<ore:ingotOrichalcos>, null, <ore:ingotOrichalcos>],[null, <ore:gearOrichalcos>, null], [<ore:ingotOrichalcos>, null, <ore:ingotOrichalcos>]]);
+recipes.addShaped(<gct_additions:elemetiumsteel_machine_frame>, [[<ore:ingotElvenElementium>, null, <ore:ingotElvenElementium>],[null, <ore:gearElvenElementium>, null], [<ore:ingotElvenElementium>, null, <ore:ingotElvenElementium>]]);
+recipes.addShaped(<gct_additions:manasteel_machine_frame>, [[<ore:ingotManasteel>, null, <ore:ingotManasteel>],[null, <ore:gearManasteel>, null], [<ore:ingotManasteel>, null, <ore:ingotManasteel>]]);
+recipes.addShaped(<gct_additions:terrasteel_machine_frame>, [[<ore:ingotTerrasteel>, null, <ore:ingotTerrasteel>],[null, <ore:gearTerrasteel>, null], [<ore:ingotTerrasteel>, null, <ore:ingotTerrasteel>]]);
 recipes.addShaped(<modularmachinery:blockmegasinputbus>, [[<modularmachinery:itemmodularium>, <mekeng:gas_import_bus>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <appliedenergistics2:material:43>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:blockcasing>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<modularmachinery:blockmefluidinputbus>, [[<modularmachinery:itemmodularium>, <appliedenergistics2:part:241>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <appliedenergistics2:material:43>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:blockcasing>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<modularmachinery:blockmeiteminputbus>, [[<modularmachinery:itemmodularium>, <appliedenergistics2:part:240>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <appliedenergistics2:material:43>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:blockcasing>, <modularmachinery:itemmodularium>]]);
@@ -1422,17 +1422,17 @@ RecipeUtil.addShaped("final_cuit", <additions:final_control_circuit>, [
     [<ore:alloyFinal>, <ore:circuitUltimate>, <ore:alloyFinal>],
     [null, <ore:ingotChromasteel>, null]
 ]);
-recipes.addShaped(<gct_ores:rainboquartz_block_chiseled>, [
-    [<gct_ores:rainboquartz_slab>], [<gct_ores:rainboquartz_slab>]]);
-recipes.addShaped(<gct_ores:rainboquartz_stair> * 4, [
-    [<gct_ores:rainboquartz_slab>, null, null], [<gct_ores:rainboquartz_slab>, <gct_ores:rainboquartz_slab>, null], 
-    [<gct_ores:rainboquartz_slab>, <gct_ores:rainboquartz_slab>, <gct_ores:rainboquartz_slab>]]);
-recipes.addShaped(<gct_ores:rainboquartz_slab> * 6, [
-    [<gct_ores:rainboquartz_block>, <gct_ores:rainboquartz_block>, <gct_ores:rainboquartz_block>]]);
-recipes.addShaped(<gct_ores:stormy_shard>, [
-    [<gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>], 
-    [<gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>], 
-    [<gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>]
+recipes.addShaped(<gct_additions:rainboquartz_block_chiseled>, [
+    [<gct_additions:rainboquartz_slab>], [<gct_additions:rainboquartz_slab>]]);
+recipes.addShaped(<gct_additions:rainboquartz_stair> * 4, [
+    [<gct_additions:rainboquartz_slab>, null, null], [<gct_additions:rainboquartz_slab>, <gct_additions:rainboquartz_slab>, null], 
+    [<gct_additions:rainboquartz_slab>, <gct_additions:rainboquartz_slab>, <gct_additions:rainboquartz_slab>]]);
+recipes.addShaped(<gct_additions:rainboquartz_slab> * 6, [
+    [<gct_additions:rainboquartz_block>, <gct_additions:rainboquartz_block>, <gct_additions:rainboquartz_block>]]);
+recipes.addShaped(<gct_additions:stormy_shard>, [
+    [<gct_additions:stormy_fragment_large>, <gct_additions:stormy_fragment_large>, <gct_additions:stormy_fragment_large>], 
+    [<gct_additions:stormy_fragment_large>, <gct_additions:stormy_fragment_large>, <gct_additions:stormy_fragment_large>], 
+    [<gct_additions:stormy_fragment_large>, <gct_additions:stormy_fragment_large>, <gct_additions:stormy_fragment_large>]
     ]);
 recipes.addShaped(<mekanismgenerators:generator:12>, [
     [<mekanismgenerators:generator:10>, <mekanismgenerators:generator:10>, <mekanismgenerators:generator:10>], 
@@ -1485,9 +1485,9 @@ RecipeUtil.addShaped("extendable_digital_storage_subsystem_l6", <ecoaeextension:
     [<draconicevolution:awakened_core>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>]
 ]);
 RecipeUtil.addShaped("extendable_digital_storage_subsystem_l9", <ecoaeextension:extendable_digital_storage_subsystem_l9>, [
-    [<gct_ores:stormy_core>, <mysticalagradditions:storage:1>, <gct_ores:stormy_core>],
+    [<gct_additions:stormy_core>, <mysticalagradditions:storage:1>, <gct_additions:stormy_core>],
     [<mysticalagradditions:storage:1>, <ecoaeextension:extendable_digital_storage_subsystem_l6>, <mysticalagradditions:storage:1>],
-    [<gct_ores:stormy_core>, <mysticalagradditions:storage:1>, <gct_ores:stormy_core>]
+    [<gct_additions:stormy_core>, <mysticalagradditions:storage:1>, <gct_additions:stormy_core>]
 ]);
 RecipeUtil.addShaped("estorage_energy_cell_l4", <ecoaeextension:estorage_energy_cell_l4>, [
     [<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>],

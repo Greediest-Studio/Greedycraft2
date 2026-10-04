@@ -150,17 +150,17 @@ val compressingRecipes as IItemStack[IItemStack] = {
     <additions:enderite_ingot> : <additions:enderite_block>,
     <additions:aetherite_ingot> : <additions:aetherite_block>,
     <additions:glowing_crystal> : <additions:glowing_crystal_block>,
-    <gct_ores:fallen_metal_ingot> : <gct_ores:fallen_metal_block>,
-    <gct_ores:relifed_metal_ingot> : <gct_ores:relifed_metal_block>,
-    <gct_ores:stormy_metal_ingot> : <gct_ores:stormy_metal_block>,
-    <gct_ores:ordered_metal_ingot> : <gct_ores:ordered_metal_block>,
-    <gct_ores:fallen_metal_nugget> : <gct_ores:fallen_metal_ingot>,
-    <gct_ores:relifed_metal_nugget> : <gct_ores:relifed_metal_ingot>,
-    <gct_ores:stormy_metal_nugget> : <gct_ores:stormy_metal_ingot>,
-    <gct_ores:ordered_metal_nugget> : <gct_ores:ordered_metal_ingot>,
+    <gct_additions:fallen_metal_ingot> : <gct_additions:fallen_metal_block>,
+    <gct_additions:relifed_metal_ingot> : <gct_additions:relifed_metal_block>,
+    <gct_additions:stormy_metal_ingot> : <gct_additions:stormy_metal_block>,
+    <gct_additions:ordered_metal_ingot> : <gct_additions:ordered_metal_block>,
+    <gct_additions:fallen_metal_nugget> : <gct_additions:fallen_metal_ingot>,
+    <gct_additions:relifed_metal_nugget> : <gct_additions:relifed_metal_ingot>,
+    <gct_additions:stormy_metal_nugget> : <gct_additions:stormy_metal_ingot>,
+    <gct_additions:ordered_metal_nugget> : <gct_additions:ordered_metal_ingot>,
     <additions:flux_nugget> : <additions:flux_ingot>,
     <additions:flux_ingot> : <additions:flux_block>,
-    <gct_ores:finallium_ingot> : <additions:finallium_block>,
+    <gct_additions:finallium_ingot> : <additions:finallium_block>,
     <additions:queenslime_ingot> : <additions:queenslime_block>,
     <additions:queenslime_nugget> : <additions:queenslime_ingot>,
     <additions:godslime_ingot> : <additions:godslime_block>,
@@ -173,7 +173,7 @@ val compressingRecipes as IItemStack[IItemStack] = {
     <additions:nonenium_essence> : <additions:nonenium_essence_block>,
     <additions:modularium_block> : <additions:compressed_1x_modularium_block>,
     <additions:compressed_1x_modularium_block> : <additions:compressed_2x_modularium_block>,
-    <gct_ores:order_crystal> : <gct_ores:order_crystal_block>
+    <gct_additions:order_crystal> : <gct_additions:order_crystal_block>
 } as IItemStack[IItemStack];
 
 for original in compressingRecipes {

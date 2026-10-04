@@ -15,7 +15,7 @@
 		uid: "54805cb9",
 		type: "item",
 		items: [{
-			item: "gct_ores:ordered_core"
+			item: "gct_additions:ordered_core"
 		}]
 	}],
 	rewards: [{
@@ -29,7 +29,7 @@
 		uid: "41f8448c",
 		type: "item",
 		item: {
-			id: "gct_ores:ordered_core",
+			id: "gct_additions:ordered_core",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}
@@ -39,7 +39,7 @@
 		uid: "a864d1f1",
 		type: "item",
 		item: {
-			id: "gct_ores:order_crystal",
+			id: "gct_additions:order_crystal",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

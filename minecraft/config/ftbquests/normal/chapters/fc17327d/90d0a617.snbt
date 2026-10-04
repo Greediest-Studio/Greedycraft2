@@ -13,19 +13,19 @@
 	tasks: [{
 		uid: "0f6ce3df",
 		type: "kill",
-		entity: "gct_mobs:apocalypse_cube",
+		entity: "gct_additions:apocalypse_cube",
 		value: 1L
 	},
 	{
 		uid: "d4758895",
 		type: "kill",
-		entity: "gct_mobs:apocalypse_knight",
+		entity: "gct_additions:apocalypse_knight",
 		value: 1L
 	}],
 	rewards: [{
 		uid: "20e24a61",
 		type: "item",
-		item: "gct_mobs:apocalypsium_ingot",
+		item: "gct_additions:apocalypsium_ingot",
 		count: 24
 	},
 	{

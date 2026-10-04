@@ -68,11 +68,11 @@
     {
         "dimension": 42,
         "biome": [
-            "gct_mobs:reversed_forest"
+            "gct_additions:reversed_forest"
         ],
         "mobs": [
             {
-                "mob": "gct_mobs:reversed_elf",
+                "mob": "gct_additions:reversed_elf",
                 "weight": 10,
                 "groupcountmin": 3,
                 "groupcountmax": 5

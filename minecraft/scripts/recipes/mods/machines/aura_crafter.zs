@@ -67,7 +67,7 @@ RecipeBuilder.newBuilder("earth_craft", "aura_crafter", 180)
     .addAuraInput(800, true)
     .addGasInput(<gas:air> * 800)
     .addGasInput(<gas:airend> * 800)
-    .addItemOutput(<gct_mobs:earth_ingot> * 2)
+    .addItemOutput(<gct_additions:earth_ingot> * 2)
     .setMaxThreads(1)
     .build();
 

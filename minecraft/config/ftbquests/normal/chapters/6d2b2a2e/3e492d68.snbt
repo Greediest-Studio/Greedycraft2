@@ -13,7 +13,7 @@
 		uid: "830366c1",
 		type: "item",
 		items: [{
-			item: "gct_aby:sanite_siphon"
+			item: "gct_additions:sanite_siphon"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
@@ -22,13 +22,13 @@
 		uid: "a03f7dc0",
 		type: "item",
 		items: [{
-			item: "gct_aby:shoggoth_slimeball"
+			item: "gct_additions:shoggoth_slimeball"
 		}]
 	}],
 	rewards: [{
 		uid: "8f47658c",
 		type: "item",
-		item: "gct_aby:shoggoth_slimeball",
+		item: "gct_additions:shoggoth_slimeball",
 		count: 16
 	},
 	{

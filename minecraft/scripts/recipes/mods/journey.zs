@@ -24,7 +24,7 @@ SummoningTable.addRecipe(
     <journey:sentry_disk>,
     <journey:sentry_disk>,
     <journey:sentry_disk>,
-<gct_ores:senterian_builder_lab>);
+<gct_additions:senterian_builder_lab>);
 
 SummoningTable.addRecipe(
     <additions:sorrowium_ingot>,

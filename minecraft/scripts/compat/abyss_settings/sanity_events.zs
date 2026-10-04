@@ -125,15 +125,15 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
 events.onEntityLivingUseItemFinish(function(event as Finish) {
     
     if (event.isPlayer) {
-        if (<gct_aby:shoggothtancale>.matches(event.item)) {
+        if (<gct_additions:shoggothtancale>.matches(event.item)) {
             SanityHelper.removeSanity(event.player, 10);
-        } else if (<gct_aby:shoggoth_tancale_soup>.matches(event.item)) {
+        } else if (<gct_additions:shoggoth_tancale_soup>.matches(event.item)) {
             SanityHelper.removeSanity(event.player, 20);
-        } else if (<gct_aby:remnant_cookie>.matches(event.item)) {
+        } else if (<gct_additions:remnant_cookie>.matches(event.item)) {
             SanityHelper.removeSanity(event.player, 5);
-        } else if (<gct_aby:fruit_of_mind>.matches(event.item)) {
+        } else if (<gct_additions:fruit_of_mind>.matches(event.item)) {
             SanityHelper.addSanity(event.player, 20);
-        } else if (<gct_aby:fruit_of_mind_enchanted>.matches(event.item)) {
+        } else if (<gct_additions:fruit_of_mind_enchanted>.matches(event.item)) {
             SanityHelper.addSanity(event.player, 200);
         }
     }

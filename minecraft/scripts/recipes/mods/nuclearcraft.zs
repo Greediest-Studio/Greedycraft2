@@ -224,11 +224,11 @@ Melter.addRecipe(<ore:dustPhosphorusPentaoxide>, <liquid:phosphorus_pentaoxide> 
 Melter.addRecipe(<ore:materialMethane>, <liquid:methane> * 200);
 Melter.addRecipe(<additions:ancient_debris>, <liquid:ancient_debris> * 320);
 Melter.addRecipe(<additions:netherite_scrap>, <liquid:ancient_debris> * 160);
-Melter.addRecipe(<gct_mobs:resonate_debris>, <liquid:resonant_debris> * 320);
-Melter.addRecipe(<gct_mobs:resonate_debris_cracked>, <liquid:resonant_debris> * 160);
-Melter.addRecipe(<gct_mobs:resonated_scrap>, <liquid:resonant_debris> * 160);
-Melter.addRecipe(<gct_mobs:gravity_debris>, <liquid:gravity_debris> * 320);
-Melter.addRecipe(<gct_mobs:gravity_scrap>, <liquid:gravity_debris> * 160);
+Melter.addRecipe(<gct_additions:resonate_debris>, <liquid:resonant_debris> * 320);
+Melter.addRecipe(<gct_additions:resonate_debris_cracked>, <liquid:resonant_debris> * 160);
+Melter.addRecipe(<gct_additions:resonated_scrap>, <liquid:resonant_debris> * 160);
+Melter.addRecipe(<gct_additions:gravity_debris>, <liquid:gravity_debris> * 320);
+Melter.addRecipe(<gct_additions:gravity_scrap>, <liquid:gravity_debris> * 160);
 Melter.addRecipe(<tcomplement:materials:1>, <liquid:scorched> * 144);
 Melter.addRecipe(<ore:itemSilicon>, <liquid:silicon> * 144);
 Melter.addRecipe(<twilightforest:mazebreaker_pickaxe>, <liquid:fracturite> * 432);
@@ -304,8 +304,8 @@ Melter.addRecipe(<ore:ingotRoyalAlloy>, <liquid:royal_alloy> * 144);
 Melter.addRecipe(<ore:dustRoyalAlloy>, <liquid:royal_alloy> * 144);
 Melter.addRecipe(<ore:blockRoyalAlloy>, <liquid:royal_alloy> * 1296);
 Melter.addRecipe(<ore:nuggetRoyalAlloy>, <liquid:royal_alloy> * 16);
-Melter.addRecipe(<gct_ores:balanced_matrix_ingot>, <liquid:balanced_matrix> * 144);
-Melter.addRecipe(<gct_ores:balanced_matrix_block>, <liquid:balanced_matrix> * 1296);
+Melter.addRecipe(<gct_additions:balanced_matrix_ingot>, <liquid:balanced_matrix> * 144);
+Melter.addRecipe(<gct_additions:balanced_matrix_block>, <liquid:balanced_matrix> * 1296);
 Melter.addRecipe(<ore:nuggetBalancedMatrix>, <liquid:balanced_matrix> * 16);
 Melter.addRecipe(<ore:dustBalancedMatrix>, <liquid:balanced_matrix> * 144);
 Melter.addRecipe(<abyssalcraft:cingot>, <liquid:liquified_coralium> * 144);
@@ -494,14 +494,14 @@ Melter.addRecipe(<thermalfoundation:material:893>, <liquid:redstone> * 250);
 Melter.addRecipe(<thermalfoundation:material:894>, <liquid:glowstone> * 250);
 Melter.addRecipe(<thermalfoundation:material:895>, <liquid:ender> * 250);
 
-Melter.addRecipe(<gct_mobs:bnatuz_dust>, <liquid:naturaeum> * 100);
-Melter.addRecipe(<gct_mobs:bthdz_dust>, <liquid:tonitruium> * 100);
-Melter.addRecipe(<gct_mobs:bligtz_dust>, <liquid:lumixeium> * 100);
-Melter.addRecipe(<gct_mobs:bninz_dust>, <liquid:noxexeum> * 100);
-Melter.addRecipe(<gct_mobs:naturaeum_dust>, <liquid:naturaeum> * 250);
-Melter.addRecipe(<gct_mobs:tonitruium_dust>, <liquid:tonitruium> * 250);
-Melter.addRecipe(<gct_mobs:lumixeium_dust>, <liquid:lumixeium> * 250);
-Melter.addRecipe(<gct_mobs:noxexeum_dust>, <liquid:noxexeum> * 250);
+Melter.addRecipe(<gct_additions:bnatuz_dust>, <liquid:naturaeum> * 100);
+Melter.addRecipe(<gct_additions:bthdz_dust>, <liquid:tonitruium> * 100);
+Melter.addRecipe(<gct_additions:bligtz_dust>, <liquid:lumixeium> * 100);
+Melter.addRecipe(<gct_additions:bninz_dust>, <liquid:noxexeum> * 100);
+Melter.addRecipe(<gct_additions:naturaeum_dust>, <liquid:naturaeum> * 250);
+Melter.addRecipe(<gct_additions:tonitruium_dust>, <liquid:tonitruium> * 250);
+Melter.addRecipe(<gct_additions:lumixeium_dust>, <liquid:lumixeium> * 250);
+Melter.addRecipe(<gct_additions:noxexeum_dust>, <liquid:noxexeum> * 250);
 
 AlloyFurnace.removeRecipeWithOutput(<ore:ingotBrass> * 4);
 AlloyFurnace.removeRecipeWithOutput(<ore:blockBrass> * 4);
@@ -534,11 +534,11 @@ IngotFormer.addRecipe(<liquid:livingrock> * 72, <additions:empty_rune>);
 IngotFormer.addRecipe(<liquid:polyethylene_low_density> * 144, <additions:ldpe_sheet>);
 IngotFormer.addRecipe(<liquid:polyethylene_high_density> * 144, <mekanism:hdpe_sheet>);
 IngotFormer.addRecipe(<liquid:awakened_draconium> * 144, <draconicevolution:draconic_ingot>);
-IngotFormer.addRecipe(<liquid:chaotic_draconium> * 144, <gct_ores:chaotic_draconium_ingot>);
-IngotFormer.addRecipe(<liquid:ruled_draconium> * 144, <gct_ores:ruled_draconium_ingot>);
-IngotFormer.addRecipe(<liquid:relifed_witherium> * 144, <gct_ores:relifed_witherium_ingot>);
-IngotFormer.addRecipe(<liquid:stormy_witherium> * 144, <gct_ores:stormy_witherium_ingot>);
-IngotFormer.addRecipe(<liquid:equipment_witherium> * 144, <gct_ores:equipment_witherium_ingot>);
+IngotFormer.addRecipe(<liquid:chaotic_draconium> * 144, <gct_additions:chaotic_draconium_ingot>);
+IngotFormer.addRecipe(<liquid:ruled_draconium> * 144, <gct_additions:ruled_draconium_ingot>);
+IngotFormer.addRecipe(<liquid:relifed_witherium> * 144, <gct_additions:relifed_witherium_ingot>);
+IngotFormer.addRecipe(<liquid:stormy_witherium> * 144, <gct_additions:stormy_witherium_ingot>);
+IngotFormer.addRecipe(<liquid:equipment_witherium> * 144, <gct_additions:equipment_witherium_ingot>);
 IngotFormer.addRecipe(<liquid:gallium_indium_phosphide> * 144, <additions:gallium_indium_phosphide>);
 IngotFormer.addRecipe(<liquid:gallium_phosphide> * GEM, <additions:gallium_phosphide>);
 IngotFormer.addRecipe(<liquid:indium_phosphide> * GEM, <additions:indium_phosphide>);
@@ -547,7 +547,7 @@ IngotFormer.addRecipe(<liquid:rose_gold> * 144, <mca:rose_gold_ingot>);
 IngotFormer.addRecipe(<liquid:fluxed_electrum> * 144, <redstonearsenal:material:32>);
 IngotFormer.addRecipe(<liquid:glowing_signalum> * 144, <additions:glowing_signalum_ingot>);
 IngotFormer.addRecipe(<liquid:royal_alloy> * 144, <tiths:ingot_royal_alloy>);
-IngotFormer.addRecipe(<liquid:balanced_matrix> * 144, <gct_ores:balanced_matrix_ingot>);
+IngotFormer.addRecipe(<liquid:balanced_matrix> * 144, <gct_additions:balanced_matrix_ingot>);
 IngotFormer.addRecipe(<liquid:liquified_coralium> * 144, <abyssalcraft:cingot>);
 IngotFormer.addRecipe(<liquid:basalt_fluid> * 144, <taiga:basalt_ingot>);
 IngotFormer.addRecipe(<liquid:tiberium_fluid> * 144, <taiga:tiberium_ingot>);
@@ -828,7 +828,7 @@ Enricher.addRecipe(<additions:alpha_hydroxyisobutyric_acid>, <liquid:water> * 10
 Enricher.addRecipe(<additions:calcium_acetate>, <liquid:water> * 1000, <liquid:calcium_acetate_solution> * 666);
 Enricher.addRecipe(allSpecialFlowers, <liquid:diluted_plant_essence> * 100, <liquid:concentrated_plant_essence_precursor> * 100);
 
-Infuser.addRecipe(<botania:manaresource:5>, <liquid:concentrated_plant_essence> * 250, <gct_mobs:botanical_soul>, 2.0d, 8.0d);
+Infuser.addRecipe(<botania:manaresource:5>, <liquid:concentrated_plant_essence> * 250, <gct_additions:botanical_soul>, 2.0d, 8.0d);
 
 Electrolyzer.addRecipe(<liquid:brine> * 1000, <liquid:sodium_hydroxide_solution> * 666, <liquid:hydrogen> * 500, <liquid:liquidchlorine> * 500, null, 1.0d, 1.0d, 0.0d);
 Electrolyzer.addRecipe(<liquid:sodium_chloride> * 333, <liquid:sodium> * 72, <liquid:liquidchlorine> * 250, null, null);
@@ -930,8 +930,8 @@ for plant in ErebusPlants {
     Extractor.addRecipe(plant, null, <liquid:erebus_organic_fluid> * 20);
 }
 
-Extractor.addRecipe(<gct_mobs:botanical_soul>, <botania:manaresource:5>, <liquid:concentrated_plant_essence> * 200, 10.0d, 8.0d);
-Extractor.addRecipe(<gct_mobs:botanical_stone>, <gct_mobs:alf_stone>, <liquid:concentrated_plant_essence> * 50, 1.5d, 4.0d);
+Extractor.addRecipe(<gct_additions:botanical_soul>, <botania:manaresource:5>, <liquid:concentrated_plant_essence> * 200, 10.0d, 8.0d);
+Extractor.addRecipe(<gct_additions:botanical_stone>, <gct_additions:alf_stone>, <liquid:concentrated_plant_essence> * 50, 1.5d, 4.0d);
 
 DecayHastener.addRecipe(<ore:dustIridium192>, <mekanism:dust:2>, 0.12d, 1.0d, number(850.0d, u));
 DecayHastener.addRecipe(<ore:dustGold198>, <thaumcraft:quicksilver>, 0.059d, 1.0d, 20.5d);

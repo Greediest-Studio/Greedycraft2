@@ -95,19 +95,19 @@
     },
     {
         "type":"spotlight",
-        "item":"gct_aby:key_of_warped_active",
+        "item":"gct_additions:key_of_warped_active",
         "link_recipe":true,
         "text":"$(c)warped ruin$(): $(2)扭曲遗址$()(Dim 55)$(li)$()你需要用到$(6)激活的深暗之扭曲遗址门钥匙$()右键任意方块即可召唤传送门"
     },
     {
         "type":"spotlight",
-        "item":"gct_ores:creepy_wither_doll",
+        "item":"gct_additions:creepy_wither_doll",
         "link_recipe":true,
         "text":"$(c)the void$(): $(2)虚空之地$()(Dim 100)$(li)$()你需要用到$(6)可怕的凋零玩偶$()，在末地原点（0 0 0 ）处右键，即可直接传送至虚空之地"
     },
     {
         "type":"spotlight",
-        "item":"gct_ores:rng_relinquisher",
+        "item":"gct_additions:rng_relinquisher",
         "link_recipe":true,
         "text":"$(c)the nowhere$(): $(2)无名之地$()(Dim 101)$(li)你需要用到$(6)随机遗弃器$()在末地原点(0 0 0)右键即可传送至无名之地"
     },
@@ -117,13 +117,13 @@
 			"symmertrical": true,
             "multiblock": {
                 "mapping":{
-                    "0":"gct_mobs:primordial_vis_receiver",
-                    "A":"gct_mobs:primordial_stone",
-                    "B":"gct_mobs:primordial_portal_holder_up",
-                    "C":"gct_mobs:primordial_portal_holder_down",
-                    "D":"gct_mobs:void_seed_container",
-                    "E":"gct_mobs:arcane_vis_receiver",
-                    "F":"gct_mobs:ruin_holder"
+                    "0":"gct_additions:primordial_vis_receiver",
+                    "A":"gct_additions:primordial_stone",
+                    "B":"gct_additions:primordial_portal_holder_up",
+                    "C":"gct_additions:primordial_portal_holder_down",
+                    "D":"gct_additions:void_seed_container",
+                    "E":"gct_additions:arcane_vis_receiver",
+                    "F":"gct_additions:ruin_holder"
                 },
                 "pattern":[
                     [
@@ -193,8 +193,8 @@
         "symmertrical": true,
         "multiblock": {
             "mapping":{
-                "0":"gct_mobs:heavite",
-                "A":"gct_mobs:heavite"
+                "0":"gct_additions:heavite",
+                "A":"gct_additions:heavite"
             },
             "pattern":[
                 [
@@ -217,7 +217,7 @@
     },
     {
         "type":"spotlight",
-        "item":"gct_mobs:everheaven",
+        "item":"gct_additions:everheaven",
         "link_recipe":true,
         "text":"$(c)everheaven$()$(2)深空之域$()(Dim 78)$(li)搭建出左图结构，手拿$(6)深空核心$()右键此多方块结构（跟打开地狱门一样）即可激活深空之域传送门"
     },
@@ -230,9 +230,9 @@
                 "0":"botania:alfheimportal",
                 "A":"botania:bifrostperm",
                 "B":"botania:livingwood",
-                "C":"gct_mobs:orichalcos_dreamwood",
+                "C":"gct_additions:orichalcos_dreamwood",
                 "D":"botania:pylon[variant=gaia]",
-                "E":"gct_mobs:mana_block",
+                "E":"gct_additions:mana_block",
                 "F":"botania:livingwood[variant=glimmering]",
                 "G":"extrabotany:blockphotonium",
                 "H":"extrabotany:blockshadowium",
@@ -353,7 +353,7 @@
     },
     {
         "type":"spotlight",
-        "item":"gct_mobs:atlantis",
+        "item":"gct_additions:atlantis",
         "link_recipe":true,
         "text":"$(c)atlantis$()$(2)亚特兰蒂斯$()(Dim 324987)$(li)搭建出左图结构，手拿$(6)亚特兰蒂斯核心$()右键此多方块结构（跟开地狱门一样）即可激活传送门$()$(br)$(6)亚特兰蒂斯核心$()由$(2)玩家$()击杀$(5)海洋神殿$()的$(c)远古守卫者$()掉落$(br)$(c)传送门结构必须使用海晶石砖，此多方快结构仍能识别！请注意"
     },
@@ -366,7 +366,7 @@
                 "0":"additions:astral_projector",
                 "A":"astralsorcery:blockblackmarble",
                 "B":"astralsorcery:blockmarble[marbletype=runed]",
-                "C":"gct_mobs:astral_portal_core"
+                "C":"gct_additions:astral_portal_core"
             },
             "pattern":[
                 [
@@ -395,7 +395,7 @@
     },
     {
         "type":"spotlight",
-        "item":"gct_ores:door_key_of_orderland",
+        "item":"gct_additions:door_key_of_orderland",
         "link_recipe":true,
         "text":"$(c)orderland$()$(2)秩序之地$()(Dim 102)$(li)使用$(6)守则破坏之秩序之门钥匙$()右键任意方块即可召唤出秩序之地传送门"
     },
@@ -1091,7 +1091,7 @@
     },
     {
         "type":"spotlight",
-        "item":"gct_aby:keyofdark",
+        "item":"gct_additions:keyofdark",
         "link_recipe":true,
         "text":"$(c)dimdarkerrealm$()$(2)深暗领域$()(Dim 54)$(li)手持$(6)萨多斯的灵魂陨落之钥$()右击任意方块即可召唤深暗领域传送门"
     },
@@ -1172,8 +1172,8 @@
         "symmertrical":true,
         "multiblock":{
             "mapping":{
-                "0":"gct_ores:order_stone_final",
-                "A":"gct_ores:order_stone"
+                "0":"gct_additions:order_stone_final",
+                "A":"gct_additions:order_stone"
             },
             "pattern":[
                 [

@@ -53,9 +53,9 @@ aurUpgrade.addDescriptions("§b解锁生命树构建器 Aur 光环等级");
 aurUpgrade.addCompatibleMachines("kabalah_builder");
 aurUpgrade.buildAndRegister();
 
-MachineUpgradeHelper.addFixedUpgrade(<gct_mobs:kabalah_ring_ain>, "kabalah_builder_ain");
-MachineUpgradeHelper.addFixedUpgrade(<gct_mobs:kabalah_ring_soph>, "kabalah_builder_soph");
-MachineUpgradeHelper.addFixedUpgrade(<gct_mobs:kabalah_ring_aur>, "kabalah_builder_aur");
+MachineUpgradeHelper.addFixedUpgrade(<gct_additions:kabalah_ring_ain>, "kabalah_builder_ain");
+MachineUpgradeHelper.addFixedUpgrade(<gct_additions:kabalah_ring_soph>, "kabalah_builder_soph");
+MachineUpgradeHelper.addFixedUpgrade(<gct_additions:kabalah_ring_aur>, "kabalah_builder_aur");
 
 MMEvents.onControllerGUIRender("kabalah_builder", function(event as ControllerGUIRenderEvent) {
     var hasAin as bool = event.controller.hasMachineUpgrade("kabalah_builder_ain") || event.controller.hasModifier("kabalah_builder_ain");
@@ -144,35 +144,35 @@ function createKabalahBuilderNormalRecipe(
 
 global KabalahBuilderRecipeList as IItemStack[][IItemStack][int] = {
     0 : {
-        <gct_mobs:kabalah_ring_aur> : [
-            <gct_mobs:rune_active_1>,
-            <gct_mobs:rune_active_2>,
-            <gct_mobs:rune_active_3>,
-            <gct_mobs:rune_active_4>,
-            <gct_mobs:rune_active_5>,
-            <gct_mobs:rune_active_6>,
-            <gct_mobs:rune_active_7>,
-            <gct_mobs:rune_active_8>,
-            <gct_mobs:rune_active_9>,
-            <gct_mobs:rune_active_10>
+        <gct_additions:kabalah_ring_aur> : [
+            <gct_additions:rune_active_1>,
+            <gct_additions:rune_active_2>,
+            <gct_additions:rune_active_3>,
+            <gct_additions:rune_active_4>,
+            <gct_additions:rune_active_5>,
+            <gct_additions:rune_active_6>,
+            <gct_additions:rune_active_7>,
+            <gct_additions:rune_active_8>,
+            <gct_additions:rune_active_9>,
+            <gct_additions:rune_active_10>
         ]
     },
     1 : {
-        <gct_mobs:elf_passes> * 2 : [
-            <gct_mobs:elementium_fusionplate>,
-            <gct_mobs:elementium_fusionplate>,
-            <gct_mobs:elementium_fusionplate>,
-            <gct_mobs:elementium_fusionplate>,
-            <gct_mobs:elementium_fusionplate>,
-            <gct_mobs:elementium_fusionplate>,
-            <gct_mobs:elementium_fusionplate>,
-            <gct_mobs:elementium_fusionplate>,
-            <gct_mobs:orichalcos_fusionplate>,
+        <gct_additions:elf_passes> * 2 : [
+            <gct_additions:elementium_fusionplate>,
+            <gct_additions:elementium_fusionplate>,
+            <gct_additions:elementium_fusionplate>,
+            <gct_additions:elementium_fusionplate>,
+            <gct_additions:elementium_fusionplate>,
+            <gct_additions:elementium_fusionplate>,
+            <gct_additions:elementium_fusionplate>,
+            <gct_additions:elementium_fusionplate>,
+            <gct_additions:orichalcos_fusionplate>,
             null
         ],
         <additions:plate_of_emberlight> : [
-            <gct_mobs:botanical_ingot_awakened>,
-            <gct_mobs:botanical_ingot_awakened>,
+            <gct_additions:botanical_ingot_awakened>,
+            <gct_additions:botanical_ingot_awakened>,
             <additions:ascensionite_ingot>,
             <additions:ascensionite_ingot>,
             <additions:ascensionite_ingot>,

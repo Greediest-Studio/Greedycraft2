@@ -16,8 +16,8 @@ import scripts.util.lang as LangUtil;
 val errorStone = <minecraft:stone>.withTag({display: {Name: LangUtil.translate("greedycraft.misc.bug_stone.name"), Lore: [LangUtil.translate("greedycraft.misc.bug_stone.tooltip.1"), LangUtil.translate("greedycraft.misc.bug_stone.tooltip.2")]}}) as IItemStack;
 
 StarlightInfusion.addInfusion(<biomesoplenty:gem:1>, <additions:resonating_ruby>, false, 0.7, 200);
-StarlightInfusion.addInfusion(<astralsorcery:blockmarble>, <gct_mobs:astral_portal_core>, true, 1.0, 400);
-StarlightInfusion.addInfusion(<minecraft:stone>, <gct_mobs:polarisite>, true, 0.3, 60);
+StarlightInfusion.addInfusion(<astralsorcery:blockmarble>, <gct_additions:astral_portal_core>, true, 1.0, 400);
+StarlightInfusion.addInfusion(<minecraft:stone>, <gct_additions:polarisite>, true, 0.3, 60);
 
 AttunementAltar.addRecipe(<ore:toolTiC>, errorStone);
 AttunementAltar.addRecipe(<ore:armorTiC>, errorStone);
@@ -91,7 +91,7 @@ Altar.addTraitAltarRecipe("jotunheim_rock", <gctcore:gct_mana_rock> * 4, 5000, 4
     <ore:ingotPhotonium>, <ore:ingotPhotonium>, <ore:ingotPhotonium>, <ore:ingotPhotonium>
 ], "astralsorcery.constellation.lucerna");
 
-Altar.addTraitAltarRecipe("heavite", <gct_mobs:heavite> * 14, 4000, 100, [
+Altar.addTraitAltarRecipe("heavite", <gct_additions:heavite> * 14, 4000, 100, [
     <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,
     <ore:stoneAmeralite>, <ore:blockDaynight>, <ore:stoneAmeralite>,
     <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,

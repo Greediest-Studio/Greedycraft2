@@ -116,21 +116,21 @@ RecipeBuilder.newBuilder("cosmilite_forge", "cosmic_forge", 7200, 1)
         ]
     ).setChance(0.50f)
     .addCatalystInput(
-        <gct_mobs:botanical_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到90%", "§e材料产出增加到105%"], [
+        <gct_additions:botanical_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到90%", "§e材料产出增加到105%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.90f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build(),
         ]
     ).setChance(0.75f)
     .addCatalystInput(
-        <gct_ores:equipment_witherium_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到80%", "§e材料产出增加到103%"], [
+        <gct_additions:equipment_witherium_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到80%", "§e材料产出增加到103%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.80f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.03f, 1, false).build(),
         ]
     ).setChance(0.75f)
     .addCatalystInput(
-        <gct_ores:ruled_draconium_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到80%", "§e材料产出增加到103%"], [
+        <gct_additions:ruled_draconium_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到80%", "§e材料产出增加到103%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.80f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.03f, 1, false).build(),
@@ -158,7 +158,7 @@ RecipeBuilder.newBuilder("cosmilite_forge", "cosmic_forge", 7200, 1)
         ]
     ).setChance(0.50f)
     .addCatalystInput(
-        <gct_ores:order_crystal>, ["§e加工时间减少到80%", "§e能量消耗减少到80%", "§e材料产出增加到105%"], [
+        <gct_additions:order_crystal>, ["§e加工时间减少到80%", "§e能量消耗减少到80%", "§e材料产出增加到105%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.80f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.80f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build(),

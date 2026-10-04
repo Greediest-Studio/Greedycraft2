@@ -97,7 +97,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:balance_core> * 2, [
 	[null, null, <ore:ingotDullium>, <thermalexpansion:florb>, <ore:ingotDullium>, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:orichalcos_fusionplate>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:orichalcos_fusionplate>, [
 	[null, null, null, <ore:nuggetEverite>, null, null, null], 
 	[null, null, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, null, null], 
 	[null, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, null], 
@@ -107,7 +107,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:orichalcos_fusionplat
 	[null, null, null, <ore:nuggetEverite>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:elementium_fusionplate>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:elementium_fusionplate>, [
 	[null, null, null, <ore:nuggetEverite>, null, null, null], 
 	[null, null, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, null, null], 
 	[null, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, null], 
@@ -117,7 +117,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:elementium_fusionplat
 	[null, null, null, <ore:nuggetEverite>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:manasteel_fusionplate>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:manasteel_fusionplate>, [
 	[null, null, null, <ore:nuggetEverite>, null, null, null], 
 	[null, null, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, null, null], 
 	[null, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, null], 
@@ -147,26 +147,26 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:gloomy_passport>, [
 	[null, null, null, <ore:ingotDullium>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:soul_stealer_scroll>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:soul_stealer_scroll>, [
 	[null, null, null, null, null, null, null], 
 	[<ore:ingotSanite>, null, null, null, null, null, <ore:ingotSanite>], 
 	[<ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>], 
-	[<ore:ingotAbyssalnite>, <ore:ingotCthulhurite>, <ore:gemValonite>, <gct_aby:essence_of_warped_ruin>, <ore:gemValonite>, <ore:ingotCthulhurite>, <ore:ingotAbyssalnite>], 
+	[<ore:ingotAbyssalnite>, <ore:ingotCthulhurite>, <ore:gemValonite>, <gct_additions:essence_of_warped_ruin>, <ore:gemValonite>, <ore:ingotCthulhurite>, <ore:ingotAbyssalnite>], 
 	[<ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>, <ore:ingotAbyssalnite>], 
 	[<ore:ingotSanite>, null, null, null, null, null, <ore:ingotSanite>], 
 	[null, null, null, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:shalloite> * 48, [<ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:nuggetFinallium>]);
+mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_additions:shalloite> * 48, [<ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:nuggetFinallium>]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:abyss_wand>, [
-	[null, null, null, null, <gct_aby:shoggoth_complex_crystal>, <ore:ingotAdaminite>, <abyssalcraft:oc>], 
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:abyss_wand>, [
+	[null, null, null, null, <gct_additions:shoggoth_complex_crystal>, <ore:ingotAdaminite>, <abyssalcraft:oc>], 
 	[null, null, null, null, <ore:ingotAdaminite>, <abyssalcraft:oc>, <ore:ingotAdaminite>], 
-	[null, null, null, <gct_aby:shoggoth_complex_crystal>, <ore:ingotAbyssine>, <ore:ingotAdaminite>, <gct_aby:shoggoth_complex_crystal>], 
-	[null, null, <gct_aby:shoggoth_complex_crystal>, <ore:ingotFinallium>, <gct_aby:shoggoth_complex_crystal>, null, null], 
-	[null, <gct_aby:shoggoth_complex_crystal>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_complex_crystal>, null, null, null], 
-	[<gct_aby:shoggoth_complex_crystal>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_complex_crystal>, null, null, null, null], 
-	[<thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_complex_crystal>, null, null, null, null, null]
+	[null, null, null, <gct_additions:shoggoth_complex_crystal>, <ore:ingotAbyssine>, <ore:ingotAdaminite>, <gct_additions:shoggoth_complex_crystal>], 
+	[null, null, <gct_additions:shoggoth_complex_crystal>, <ore:ingotFinallium>, <gct_additions:shoggoth_complex_crystal>, null, null], 
+	[null, <gct_additions:shoggoth_complex_crystal>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_additions:shoggoth_complex_crystal>, null, null, null], 
+	[<gct_additions:shoggoth_complex_crystal>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_additions:shoggoth_complex_crystal>, null, null, null, null], 
+	[<thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_additions:shoggoth_complex_crystal>, null, null, null, null, null]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:modular_dimensional_magnifier>, [
@@ -209,14 +209,14 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:final_scythe>, [
 	[<bloodarsenal:base_item:1>, null, null, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_ores:finallium_container>, [
-	[<gct_ores:shalloite_block>, <gct_ores:shalloite_block>, null, <ore:ingotOrderedMetal>, null, <gct_ores:shalloite_block>, <gct_ores:shalloite_block>], 
-	[<gct_ores:shalloite_block>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <ore:ingotFinallium>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <gct_ores:shalloite_block>], 
-	[null, <additions:dragonbone_block_mixed>, <gct_ores:shalloite_block>, <ore:stoneOrdered>, <gct_ores:shalloite_block>, <additions:dragonbone_block_mixed>, null], 
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:finallium_container>, [
+	[<gct_additions:shalloite_block>, <gct_additions:shalloite_block>, null, <ore:ingotOrderedMetal>, null, <gct_additions:shalloite_block>, <gct_additions:shalloite_block>], 
+	[<gct_additions:shalloite_block>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <ore:ingotFinallium>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <gct_additions:shalloite_block>], 
+	[null, <additions:dragonbone_block_mixed>, <gct_additions:shalloite_block>, <ore:stoneOrdered>, <gct_additions:shalloite_block>, <additions:dragonbone_block_mixed>, null], 
 	[<ore:ingotOrderedMetal>, <ore:ingotFinallium>, <ore:stoneOrdered>, <additions:dragonbone_block_mixed>, <ore:stoneOrdered>, <ore:ingotFinallium>, <ore:ingotOrderedMetal>], 
-	[null, <additions:dragonbone_block_mixed>, <gct_ores:shalloite_block>, <ore:stoneOrdered>, <gct_ores:shalloite_block>, <additions:dragonbone_block_mixed>, null], 
-	[<gct_ores:shalloite_block>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <ore:ingotFinallium>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <gct_ores:shalloite_block>], 
-	[<gct_ores:shalloite_block>, <gct_ores:shalloite_block>, null, <ore:ingotOrderedMetal>, null, <gct_ores:shalloite_block>, <gct_ores:shalloite_block>]
+	[null, <additions:dragonbone_block_mixed>, <gct_additions:shalloite_block>, <ore:stoneOrdered>, <gct_additions:shalloite_block>, <additions:dragonbone_block_mixed>, null], 
+	[<gct_additions:shalloite_block>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <ore:ingotFinallium>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <gct_additions:shalloite_block>], 
+	[<gct_additions:shalloite_block>, <gct_additions:shalloite_block>, null, <ore:ingotOrderedMetal>, null, <gct_additions:shalloite_block>, <gct_additions:shalloite_block>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:order_wand>, [

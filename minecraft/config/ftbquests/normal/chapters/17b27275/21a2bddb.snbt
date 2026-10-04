@@ -14,14 +14,14 @@
 		uid: "c337db21",
 		type: "item",
 		items: [{
-			item: "gct_aby:further_soul"
+			item: "gct_additions:further_soul"
 		}]
 	}],
 	rewards: [{
 		uid: "9a44d0bf",
 		type: "item",
 		item: {
-			id: "gct_mobs:azathothium_ingot",
+			id: "gct_additions:azathothium_ingot",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}
@@ -32,7 +32,7 @@
 		uid: "a9a73828",
 		type: "item",
 		item: {
-			id: "gct_mobs:nyarlathotepium_ingot",
+			id: "gct_additions:nyarlathotepium_ingot",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}
@@ -43,7 +43,7 @@
 		uid: "ebf14b75",
 		type: "item",
 		item: {
-			id: "gct_mobs:yogsothothium_ingot",
+			id: "gct_additions:yogsothothium_ingot",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}
@@ -54,7 +54,7 @@
 		uid: "736a3e7e",
 		type: "item",
 		item: {
-			id: "gct_mobs:shubniggurathium_ingot",
+			id: "gct_additions:shubniggurathium_ingot",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

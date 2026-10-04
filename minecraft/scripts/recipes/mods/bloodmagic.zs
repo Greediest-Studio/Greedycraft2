@@ -23,8 +23,8 @@ TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <tconevo:material>]);
 TartaricForge.addRecipe(<tconevo:metal:30>, [<bloodmagic:soul_gem>, <additions:stainless_steel_ingot>], 2.0, 2.0);
 TartaricForge.addRecipe(<additions:darkest_ingot> * 2, [<additions:darkest_core>, <evilcraft:promise:2>, <tconevo:metal:25>, <tconevo:metal:25>], 6400.0, 1600.0);
 TartaricForge.addRecipe(<additions:reagent_ghost>, [<jaopca:dust.wigthium>, <jaopca:dust.darkest>, <tconevo:metal:32>, <minecraft:gunpowder>], 4000.0, 1000.0);
-TartaricForge.addRecipe(<additions:balanced_slate> * 2, [<additions:slate_7>, <gct_ores:balanced_matrix_ingot>], 7200.0, 1800.0);
-TartaricForge.addRecipe(<additions:reagent_godness>, [<jaopca:dust.cosmilite>, <jaopca:dust.scientificite>, <jaopca:dust.eugardite>, <gct_ores:everite_ingot>], 6400.0, 1600.0);
+TartaricForge.addRecipe(<additions:balanced_slate> * 2, [<additions:slate_7>, <gct_additions:balanced_matrix_ingot>], 7200.0, 1800.0);
+TartaricForge.addRecipe(<additions:reagent_godness>, [<jaopca:dust.cosmilite>, <jaopca:dust.scientificite>, <jaopca:dust.eugardite>, <gct_additions:everite_ingot>], 6400.0, 1600.0);
 TartaricForge.addRecipe(<gctcore:soul_gem>, [<bloodmagic:soul_gem:4>, <ore:ingotCrimsonite>, <ore:coreBasic>, <ore:ingotSoularium>], 16000.0, 2000.0);
 TartaricForge.addRecipe(<gctcore:soul_gem:1>, [<gctcore:soul_gem>, <ore:ingotEthaxium>, <ore:gemRemorseful>, <ore:ingotShadowium>], 60000.0, 10000.0);
 TartaricForge.addRecipe(<gctcore:soul_gem:2>, [<gctcore:soul_gem:1>, <ore:ingotEverite>, <ore:coreExcellent>], 240000.0, 50000.0);
@@ -52,7 +52,7 @@ BloodAltar.addRecipe(<thaumcraft:curio:1>, <thaumcraft:amber>, 5, 80000, 150, 15
 BloodAltar.addRecipe(<additions:pearl_of_knowledge>, <botania:manaresource:1>, 5, 250000, 250, 250);
 BloodAltar.addRecipe(<additions:creative_shard>, <additions:cosmilite_block>, 5, 850000, 700, 700);
 BloodAltar.addRecipe(<additions:slate_6>, <bloodmagic:slate:4>, 5, 200000, 400, 400);
-BloodAltar.addRecipe(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:builder_3"}), <gct_ores:blue_print_forge>, 5, 100000, 300, 300);
+BloodAltar.addRecipe(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:builder_3"}), <gct_additions:blue_print_forge>, 5, 100000, 300, 300);
 
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <animus:kama_diamond>);
 AlchemyArray.removeRecipe(<bloodarsenal:base_item:9>, <bloodmagic:slate:4>);

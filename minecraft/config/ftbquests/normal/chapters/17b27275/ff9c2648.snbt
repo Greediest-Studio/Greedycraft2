@@ -10,21 +10,21 @@
 		uid: "79b4ace6",
 		type: "item",
 		items: [{
-			item: "gct_ores:ruled_draconium_block"
+			item: "gct_additions:ruled_draconium_block"
 		}]
 	},
 	{
 		uid: "570e1c30",
 		type: "item",
 		items: [{
-			item: "gct_ores:equipment_witherium_block"
+			item: "gct_additions:equipment_witherium_block"
 		}]
 	}],
 	rewards: [{
 		uid: "15521d16",
 		type: "item",
 		item: {
-			id: "gct_ores:ruled_draconium_ingot",
+			id: "gct_additions:ruled_draconium_ingot",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}
@@ -35,7 +35,7 @@
 		uid: "9ea2062f",
 		type: "item",
 		item: {
-			id: "gct_ores:equipment_witherium_ingot",
+			id: "gct_additions:equipment_witherium_ingot",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

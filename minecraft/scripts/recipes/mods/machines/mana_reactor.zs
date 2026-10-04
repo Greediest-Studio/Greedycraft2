@@ -17,7 +17,7 @@ import mods.multiblocked.definition.ComponentDefinition;
 import mods.multiblocked.recipe.RecipeMap;
 import mods.ctutils.utils.Math;
 
-var rac as ComponentDefinition = MBDRegistry.getDefinition("gct_mac:mana_reactor");
+var rac as ComponentDefinition = MBDRegistry.getDefinition("gct_additions:mana_reactor");
 var racct = rac as ControllerDefinition;
 
 var r1 = <additions:metatron_rune>;

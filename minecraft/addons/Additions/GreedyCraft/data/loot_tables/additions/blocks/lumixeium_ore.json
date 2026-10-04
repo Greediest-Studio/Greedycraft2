@@ -1,7 +1,7 @@
 {
   "preset_block": "additions:lumixeium_ore",
   "preset_dropStack": {
-    "item": "gct_mobs:lumixeium_dust"
+    "item": "gct_additions:lumixeium_dust"
   },
   "preset_dropMin": 3,
   "preset_dropMax": 1,
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "gct_mobs:lumixeium_dust",
+          "name": "gct_additions:lumixeium_dust",
           "weight": 1,
           "functions": [
             {

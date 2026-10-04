@@ -2,13 +2,13 @@
   "recipe": {
     "type": "forge:ore_shapeless",
     "result": {
-      "item": "gct_ores:stormy_fragment_large"
+      "item": "gct_additions:stormy_fragment_large"
     },
     "ingredients": [
       {
         "stack_list": [
           {
-            "item": "gct_ores:stormy_fragment_small",
+            "item": "gct_additions:stormy_fragment_small",
             "damage": "any"
           }
         ],
@@ -17,7 +17,7 @@
       {
         "stack_list": [
           {
-            "item": "gct_ores:stormy_fragment_small",
+            "item": "gct_additions:stormy_fragment_small",
             "damage": "any"
           }
         ],
@@ -26,7 +26,7 @@
       {
         "stack_list": [
           {
-            "item": "gct_ores:stormy_fragment_small",
+            "item": "gct_additions:stormy_fragment_small",
             "damage": "any"
           }
         ],
@@ -35,7 +35,7 @@
       {
         "stack_list": [
           {
-            "item": "gct_ores:stormy_fragment_small",
+            "item": "gct_additions:stormy_fragment_small",
             "damage": "any"
           }
         ],
@@ -44,7 +44,7 @@
       {
         "stack_list": [
           {
-            "item": "gct_ores:stormy_fragment_small",
+            "item": "gct_additions:stormy_fragment_small",
             "damage": "any"
           }
         ],
@@ -53,7 +53,7 @@
       {
         "stack_list": [
           {
-            "item": "gct_ores:stormy_fragment_small",
+            "item": "gct_additions:stormy_fragment_small",
             "damage": "any"
           }
         ],
@@ -62,7 +62,7 @@
       {
         "stack_list": [
           {
-            "item": "gct_ores:stormy_fragment_small",
+            "item": "gct_additions:stormy_fragment_small",
             "damage": "any"
           }
         ],
@@ -71,7 +71,7 @@
       {
         "stack_list": [
           {
-            "item": "gct_ores:stormy_fragment_small",
+            "item": "gct_additions:stormy_fragment_small",
             "damage": "any"
           }
         ],
@@ -80,7 +80,7 @@
       {
         "stack_list": [
           {
-            "item": "gct_ores:stormy_fragment_small",
+            "item": "gct_additions:stormy_fragment_small",
             "damage": "any"
           }
         ],

@@ -13,7 +13,7 @@
 		uid: "e753bc89",
 		type: "item",
 		items: [{
-			item: "gct_mobs:arcane_vis_receiver"
+			item: "gct_additions:arcane_vis_receiver"
 		}],
 		count: 4L
 	},
@@ -21,14 +21,14 @@
 		uid: "be0fffe0",
 		type: "item",
 		items: [{
-			item: "gct_mobs:primordial_vis_receiver"
+			item: "gct_additions:primordial_vis_receiver"
 		}]
 	},
 	{
 		uid: "59291f36",
 		type: "item",
 		items: [{
-			item: "gct_mobs:void_seed_container"
+			item: "gct_additions:void_seed_container"
 		}],
 		count: 4L
 	},
@@ -36,21 +36,21 @@
 		uid: "5e23826c",
 		type: "item",
 		items: [{
-			item: "gct_mobs:primordial_portal_holder_up"
+			item: "gct_additions:primordial_portal_holder_up"
 		}]
 	},
 	{
 		uid: "597d5cd1",
 		type: "item",
 		items: [{
-			item: "gct_mobs:primordial_portal_holder_down"
+			item: "gct_additions:primordial_portal_holder_down"
 		}]
 	},
 	{
 		uid: "1267cfe9",
 		type: "item",
 		items: [{
-			item: "gct_mobs:primordial_stone"
+			item: "gct_additions:primordial_stone"
 		}],
 		count: 12L
 	},
@@ -58,7 +58,7 @@
 		uid: "db500403",
 		type: "item",
 		items: [{
-			item: "gct_mobs:ruin_holder"
+			item: "gct_additions:ruin_holder"
 		}],
 		count: 4L
 	}],

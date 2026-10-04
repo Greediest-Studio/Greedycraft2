@@ -30,15 +30,15 @@ Apothecary.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<ore:p
 
 ElvenTrade.addRecipe([<defiledlands:scarlite>], [<ore:slimeballBlood>, <ore:gemEmerald>, <ore:gemEmerald>]);
 ElvenTrade.addRecipe([<minecraft:gold_block>], [<ore:shardTime>]);
-ElvenTrade.addRecipe([<gct_mobs:dreamwood_log>], [<ore:logWoodLiving>]);
-ElvenTrade.addRecipe([<gct_mobs:dreamwood_leaves>], [<ore:treeLeavesLiving>]);
-ElvenTrade.addRecipe([<gct_mobs:alf_stone>], [<ore:stoneMana>]);
-ElvenTrade.addRecipe([<gct_mobs:alf_cobble_stone>], [<ore:cobblestoneMana>]);
-ElvenTrade.addRecipe([<gct_mobs:alf_dirt>], [<ore:dirtMana>]);
-ElvenTrade.addRecipe([<gct_mobs:alf_grass>], [<ore:grassMana>]);
-ElvenTrade.addRecipe([<gct_mobs:elementium_ore>], [<ore:oreManasteel>, <ore:oreManasteel>]);
+ElvenTrade.addRecipe([<gct_additions:dreamwood_log>], [<ore:logWoodLiving>]);
+ElvenTrade.addRecipe([<gct_additions:dreamwood_leaves>], [<ore:treeLeavesLiving>]);
+ElvenTrade.addRecipe([<gct_additions:alf_stone>], [<ore:stoneMana>]);
+ElvenTrade.addRecipe([<gct_additions:alf_cobble_stone>], [<ore:cobblestoneMana>]);
+ElvenTrade.addRecipe([<gct_additions:alf_dirt>], [<ore:dirtMana>]);
+ElvenTrade.addRecipe([<gct_additions:alf_grass>], [<ore:grassMana>]);
+ElvenTrade.addRecipe([<gct_additions:elementium_ore>], [<ore:oreManasteel>, <ore:oreManasteel>]);
 ElvenTrade.addRecipe([<treetweaker:dreamwood>], [<treetweaker:livingwood>]);
-ElvenTrade.addRecipe([<gct_mobs:alf_sand>], [<ore:sand>]);
+ElvenTrade.addRecipe([<gct_additions:alf_sand>], [<ore:sand>]);
 ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<botania:quartz:5>, <ore:dustCoal>]);
 
 Apothecary.addRecipe(<additions:bag_of_dyes>, [<ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>]);
@@ -70,7 +70,7 @@ Apothecary.addRecipe("thaumaura", [<ore:petalPink>, <ore:petalPink>, <ore:petalP
     recipes.addShapeless("thaumaura_float", <botania:floatingspecialflower>.withTag({type: "thaumaura"}), [<botania:specialflower>.withTag({type: "thaumaura"}), <botania:miniisland:*>]);
 
 PureDaisy.addRecipe(<minecraft:grass>, <minecraft:dirt>, 200);
-PureDaisy.addRecipe(<ore:treeLeaves>, <gct_mobs:livingwood_leaves>, 100);
+PureDaisy.addRecipe(<ore:treeLeaves>, <gct_additions:livingwood_leaves>, 100);
 PureDaisy.addRecipe(<ore:treeSapling>, <treetweaker:livingwood>, 1200);
 
 RuneAltar.removeRecipe(<botanicadds:mana_tesseract>);
@@ -103,7 +103,7 @@ RuneAltar.addRecipe(<additions:haniel_rune> * 2, [<ore:runeGluttonyB>.reuse(), <
 RuneAltar.addRecipe(<additions:raphael_rune> * 2, [<ore:runePrideB>.reuse(), <ore:runeLustB>.reuse(), <ore:runeGluttonyB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotAeroite>, <aether_legacy:ambrosium_shard>], 50000);
 RuneAltar.addRecipe(<additions:gabriel_rune> * 2, [<ore:runeWrathB>.reuse(), <ore:runeEnvyB>.reuse(), <ore:runeSlothB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotAurorianSteel>, <ore:ingotManyullyn>], 50000);
 RuneAltar.addRecipe(<additions:sandalphon_rune> * 2, [<ore:runeGreedB>.reuse(), <ore:runeGluttonyB>.reuse(), <ore:runeEnvyB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotEezo>, <ore:ingotTerrax>], 50000);
-RuneAltar.addRecipe(<gct_mobs:orichalcos_dreamwood>, [<botania:dreamwood:5>, <ore:ingotOrichalcos>, <ore:ingotEugardite>, <ore:nuggetCosmilite>], 100000);
+RuneAltar.addRecipe(<gct_additions:orichalcos_dreamwood>, [<botania:dreamwood:5>, <ore:ingotOrichalcos>, <ore:ingotEugardite>, <ore:nuggetCosmilite>], 100000);
 RuneAltar.addRecipe(<botaniverse:morerune> * 2, [<ore:runeWaterB>.reuse(), <ore:runeAirB>.reuse(), <ore:runeFireB>.reuse(), <ore:runeEarthB>.reuse(), <ore:ingotShadowium>], 100000);
 RuneAltar.addRecipe(<botaniverse:morerune:1> * 2, [<ore:runeSpringB>.reuse(), <ore:runeSummerB>.reuse(), <ore:runeAutumnB>.reuse(), <ore:runeWinterB>.reuse(), <ore:ingotLavarite>], 200000);
 RuneAltar.addRecipe(<botaniverse:morerune:2> * 3, [<ore:runeGreedB>.reuse(), <ore:runePrideB>.reuse(), <ore:runeWrathB>.reuse(), <ore:runeEnvyB>.reuse(), <ore:runeSlothB>.reuse(), <ore:runeLustB>.reuse(), <ore:runeGluttonyB>.reuse(), <ore:ingotBnightium>], 400000);
@@ -120,12 +120,12 @@ OrechidIgnem.removeOre(<ore:oreOnyx>);
 
 ManaInfusion.removeRecipe(<botania:manacookie>);
 
-ManaInfusion.addInfusion(<gct_mobs:mana_stone>, <ore:stone>, 1000);
-ManaInfusion.addInfusion(<gct_mobs:mana_cobble_stone>, <ore:cobblestone>, 1000);
-ManaInfusion.addInfusion(<gct_mobs:mana_dirt>, <ore:dirt>, 1000);
-ManaInfusion.addInfusion(<gct_mobs:mana_grass>, <ore:grass>, 1000);
-ManaInfusion.addInfusion(<botania:livingwood>, <gct_mobs:livingwood_log>, 0);
-ManaInfusion.addInfusion(<botania:dreamwood>, <gct_mobs:dreamwood_log>, 0);
+ManaInfusion.addInfusion(<gct_additions:mana_stone>, <ore:stone>, 1000);
+ManaInfusion.addInfusion(<gct_additions:mana_cobble_stone>, <ore:cobblestone>, 1000);
+ManaInfusion.addInfusion(<gct_additions:mana_dirt>, <ore:dirt>, 1000);
+ManaInfusion.addInfusion(<gct_additions:mana_grass>, <ore:grass>, 1000);
+ManaInfusion.addInfusion(<botania:livingwood>, <gct_additions:livingwood_log>, 0);
+ManaInfusion.addInfusion(<botania:dreamwood>, <gct_additions:dreamwood_log>, 0);
 ManaInfusion.addInfusion(<additions:manasteel_ore>, <ore:oreIron>, 8000);
 ManaInfusion.addInfusion(<additions:manadiamond_ore>, <ore:oreDiamond>, 20000);
 ManaInfusion.addInfusion(<additions:manaquartz_ore>, <ore:oreQuartz>, 500);
@@ -135,8 +135,8 @@ ManaInfusion.addInfusion(<thermalfoundation:storage:8>, <ore:blockSilver>, 36000
 ManaInfusion.addInfusion(<additions:holium_ingot>, <ore:ingotGold>, 5000);
 ManaInfusion.addInfusion(<additions:holium_block>, <ore:blockGold>, 45000);
 ManaInfusion.addInfusion(<additions:mana_firestone>, <ore:gemFirestone>, 90000);
-ManaInfusion.addInfusion(<gct_mobs:mana_leaves>, <ore:treeLeaves>, 1000);
-ManaInfusion.addInfusion(<gct_mobs:mana_log>, <ore:logWood>, 1000);
+ManaInfusion.addInfusion(<gct_additions:mana_leaves>, <ore:treeLeaves>, 1000);
+ManaInfusion.addInfusion(<gct_additions:mana_log>, <ore:logWood>, 1000);
 
 Agglomeration.addRecipe(<additions:elfsteel_ingot>, [
     <botania:manaresource:7>, 
@@ -148,7 +148,7 @@ Agglomeration.addRecipe(<additions:mythsteel_ingot>, [
     <ore:ingotElfsteel>, 
     <ore:ingotGaiasteel>
 ], 3000000, 0x54ff05, 0xffffcb, <minecraft:quartz_block>, <extrabotany:blockphotonium>, <minecraft:quartz_block>, null, null, null);
-Agglomeration.addRecipe(<gct_mobs:holysteel_ingot>, [
+Agglomeration.addRecipe(<gct_additions:holysteel_ingot>, [
     <ore:ingotHolium>, 
     <ore:ingotAsgardium>, 
     <ore:ingotSky>
@@ -170,7 +170,7 @@ Agglomeration.addRecipe(<elementalend:earth_eye>, [
     <botania:manaresource:5>
 ], 100000, 0x82be74, 0x07c020, <botania:storage>, <minecraft:mycelium>, <botania:storage>, <minecraft:iron_block>, <minecraft:dirt:1>, <minecraft:iron_block>);
 
-GodAgglomeration.addRecipe(<gct_mobs:botanical_ingot_awakened> * 2, [
+GodAgglomeration.addRecipe(<gct_additions:botanical_ingot_awakened> * 2, [
     <ore:ingotBotanical>,
     <ore:ingotRosium>,
     <ore:ingotChrysanthemium>,
@@ -181,7 +181,7 @@ GodAgglomeration.addRecipe(<gct_mobs:botanical_ingot_awakened> * 2, [
     <ore:ingotKianate>,
     <ore:ingotBalancedMatrix>
 ], 40000000, 0xe8d26c, 0x7eb98c, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
-GodAgglomeration.addRecipe(<gct_mobs:begonium_ingot>, [
+GodAgglomeration.addRecipe(<gct_additions:begonium_ingot>, [
     <ore:runeForth1B>,
     <ore:runeForth2B>,
     <ore:runeForth3B>,
@@ -192,7 +192,7 @@ GodAgglomeration.addRecipe(<gct_mobs:begonium_ingot>, [
     <ore:blockDiamondSakura>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffb7ff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
-GodAgglomeration.addRecipe(<gct_mobs:carnationium_ingot>, [
+GodAgglomeration.addRecipe(<gct_additions:carnationium_ingot>, [
     <ore:runeForth1B>,
     <ore:runeForth3B>,
     <ore:runeForth5B>,
@@ -203,7 +203,7 @@ GodAgglomeration.addRecipe(<gct_mobs:carnationium_ingot>, [
     <ore:blockPhotonium>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffffff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
-GodAgglomeration.addRecipe(<gct_mobs:chrysanthemium_ingot>, [
+GodAgglomeration.addRecipe(<gct_additions:chrysanthemium_ingot>, [
     <ore:runeForth6B>,
     <ore:runeForth7B>,
     <ore:runeForth8B>,
@@ -214,7 +214,7 @@ GodAgglomeration.addRecipe(<gct_mobs:chrysanthemium_ingot>, [
     <ore:blockValkyrie>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffffff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
-GodAgglomeration.addRecipe(<gct_mobs:myosotisium_ingot>, [
+GodAgglomeration.addRecipe(<gct_additions:myosotisium_ingot>, [
     <ore:runeForth2B>,
     <ore:runeForth4B>,
     <ore:runeForth6B>,
@@ -225,7 +225,7 @@ GodAgglomeration.addRecipe(<gct_mobs:myosotisium_ingot>, [
     <ore:blockShadowium>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xa07bff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
-GodAgglomeration.addRecipe(<gct_mobs:dandelionium_ingot>, [
+GodAgglomeration.addRecipe(<gct_additions:dandelionium_ingot>, [
     <ore:runeForth1B>,
     <ore:runeForth4B>,
     <ore:runeForth7B>,
@@ -236,7 +236,7 @@ GodAgglomeration.addRecipe(<gct_mobs:dandelionium_ingot>, [
     <ore:blockBalancite>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xcff2f9, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
-GodAgglomeration.addRecipe(<gct_mobs:rosium_ingot>, [
+GodAgglomeration.addRecipe(<gct_additions:rosium_ingot>, [
     <ore:runeForth2B>,
     <ore:runeForth5B>,
     <ore:runeForth8B>,

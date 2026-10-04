@@ -53,7 +53,7 @@ RecipeBuilder.newBuilder("balanced_matrix", "matrix_balancer", 4000)
     .addFluidInput(<liquid:flashite> * 432)
     .addFluidInput(<liquid:overlaite> * 432)
     .addEnergyPerTickInput(32768)
-    .addItemOutput(<gct_ores:balanced_matrix_ingot> * 1)
+    .addItemOutput(<gct_additions:balanced_matrix_ingot> * 1)
     .build();
 
 RecipeAdapterBuilder.create("matrix_balancer", "modularmachinery:matrix_fusioner").build();

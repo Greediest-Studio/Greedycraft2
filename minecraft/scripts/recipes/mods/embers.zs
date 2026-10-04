@@ -71,7 +71,7 @@ Alchemy.add(<additions:ancient_scrab>, [
 });
 
 Alchemy.add(<additions:nefrathite_ingot> * 2, [
-    <gct_mobs:cthulhurite_block>,
+    <gct_additions:cthulhurite_block>,
     <additions:nefrath_cloth>,
     <additions:nefrath_cloth>,
     <additions:nefrath_cloth>,

@@ -92,10 +92,10 @@ LootTweaker.getTable("journey:mobs/boss/withering_beast").getPool("main").addIte
 LootTweaker.getTable("journey:mobs/boss/calcia").getPool("main").addItemEntry(<additions:hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
 LootTweaker.getTable("journey:mobs/boss/soul_watcher").getPool("main").addItemEntry(<additions:hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
 
-LootTweaker.getTable("gct_mobs:entities/bligtz").addPool("bligtz", 1, 1, 0, 0).addItemEntry(<gct_mobs:bligtz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
-LootTweaker.getTable("gct_mobs:entities/bninz").addPool("bninz", 1, 1, 0, 0).addItemEntry(<gct_mobs:bninz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
-LootTweaker.getTable("gct_mobs:entities/bthdz").addPool("bthdz", 1, 1, 0, 0).addItemEntry(<gct_mobs:bthdz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
-LootTweaker.getTable("gct_mobs:entities/bnatuz").addPool("bnatuz", 1, 1, 0, 0).addItemEntry(<gct_mobs:bnatuz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
+LootTweaker.getTable("gct_additions:entities/bligtz").addPool("bligtz", 1, 1, 0, 0).addItemEntry(<gct_additions:bligtz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
+LootTweaker.getTable("gct_additions:entities/bninz").addPool("bninz", 1, 1, 0, 0).addItemEntry(<gct_additions:bninz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
+LootTweaker.getTable("gct_additions:entities/bthdz").addPool("bthdz", 1, 1, 0, 0).addItemEntry(<gct_additions:bthdz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
+LootTweaker.getTable("gct_additions:entities/bnatuz").addPool("bnatuz", 1, 1, 0, 0).addItemEntry(<gct_additions:bnatuz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
 
 LootTweaker.getTable("divinerpg:entities/vanilla/rainbour").removePool("divinerpg:rainbour");
 LootTweaker.getTable("divinerpg:entities/boss/eternal_archer").removePool("divinerpg:eternal_archer");

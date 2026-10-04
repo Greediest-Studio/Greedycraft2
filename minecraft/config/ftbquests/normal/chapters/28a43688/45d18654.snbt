@@ -1,6 +1,6 @@
 {
 	title: "§b灵之主",
-	icon: "gct_aby:shoggothtooth",
+	icon: "gct_additions:shoggothtooth",
 	x: -15.0d,
 	y: -5.5d,
 	description: "召唤并击杀远古修格斯",
@@ -19,24 +19,24 @@
 			id: "minecraft:spawn_egg",
 			tag: {
 				EntityTag: {
-					id: "gct_aby:ancientshoggoth"
+					id: "gct_additions:ancientshoggoth"
 				}
 			}
 		},
-		entity: "gct_aby:ancientshoggoth",
+		entity: "gct_additions:ancientshoggoth",
 		value: 1L
 	},
 	{
 		uid: "f94f17d3",
 		type: "item",
 		items: [{
-			item: "gct_aby:shoggothtooth"
+			item: "gct_additions:shoggothtooth"
 		}]
 	}],
 	rewards: [{
 		uid: "fddaedbf",
 		type: "item",
-		item: "gct_mobs:sanite_ingot",
+		item: "gct_additions:sanite_ingot",
 		count: 16
 	},
 	{

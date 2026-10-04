@@ -132,7 +132,7 @@ RecipeBuilder.newBuilder("finallium_forge", "final_forge", 9600, 1)
         ]
     ).setChance(0.50f)
     .addCatalystInput(
-        <gct_aby:shoggoth_complex_crystal>, ["§e加工时间减少到90%", "§e能量消耗减少到90%", "§e材料产出增加到105%"], [
+        <gct_additions:shoggoth_complex_crystal>, ["§e加工时间减少到90%", "§e能量消耗减少到90%", "§e材料产出增加到105%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.90f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build(),
@@ -146,7 +146,7 @@ RecipeBuilder.newBuilder("finallium_forge", "final_forge", 9600, 1)
         ]
     ).setChance(0.25f)
     .addCatalystInput(
-        <gct_aby:shoggy_slime_purified>, ["§e加工时间减少到70%", "§e能量消耗减少到75%", "§e材料产出增加到108%"], [
+        <gct_additions:shoggy_slime_purified>, ["§e加工时间减少到70%", "§e能量消耗减少到75%", "§e材料产出增加到108%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.70f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.75f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.08f, 1, false).build(),
@@ -216,7 +216,7 @@ RecipeBuilder.newBuilder("finallium_forge", "final_forge", 9600, 1)
             RecipeModifierBuilder.create(RF, "input", 0.8f, 1, false).build(),
         ]
     ).setChance(1.0f)
-    .addItemOutput(<gct_ores:finallium_ingot> * 8)
+    .addItemOutput(<gct_additions:finallium_ingot> * 8)
     .addRecipeTooltip("§b关于催化剂的介绍：")
     .addRecipeTooltip("§c催化剂§e为机器运行配方时的§a可选§e输入，")
     .addRecipeTooltip("§e可以降低能耗、提升效率、增加产量，")

@@ -40,17 +40,17 @@ for removedItem in removedRecipes {
     ArcaneWorkbench.removeRecipe(removedItem);
 }
 
-ArcaneWorkbench.registerShapedRecipe("sanity_checker_abyss", "ABYSSISM_STARTING", 40, [<aspect:ordo> * 10, <aspect:perditio> * 10], <gct_aby:sanity_observer>, [
-    [null, <jaopca:nugget.cthulhurite>, <gct_aby:shoggothtooth>],
+ArcaneWorkbench.registerShapedRecipe("sanity_checker_abyss", "ABYSSISM_STARTING", 40, [<aspect:ordo> * 10, <aspect:perditio> * 10], <gct_additions:sanity_observer>, [
+    [null, <jaopca:nugget.cthulhurite>, <gct_additions:shoggothtooth>],
     [<jaopca:nugget.cthulhurite>, null, <thaumcraft:sanity_checker>],
-    [null, <jaopca:nugget.cthulhurite>, <gct_aby:shoggothtooth>]
+    [null, <jaopca:nugget.cthulhurite>, <gct_additions:shoggothtooth>]
 ]);
-ArcaneWorkbench.registerShapedRecipe("mind_fruit", "SANCHECK", 5, [<aspect:ordo> * 3], <gct_aby:fruit_of_mind>, [
+ArcaneWorkbench.registerShapedRecipe("mind_fruit", "SANCHECK", 5, [<aspect:ordo> * 3], <gct_additions:fruit_of_mind>, [
     [<ore:ingotSanite>, <ore:ingotSanite>, <ore:ingotSanite>],
     [<ore:ingotSanite>, <minecraft:apple>, <ore:ingotSanite>],
     [<ore:ingotSanite>, <ore:ingotSanite>, <ore:ingotSanite>]
 ]);
-ArcaneWorkbench.registerShapedRecipe("mind_fruit_enchanted", "SANCHECK", 5, [<aspect:ordo> * 9], <gct_aby:fruit_of_mind_enchanted>, [
+ArcaneWorkbench.registerShapedRecipe("mind_fruit_enchanted", "SANCHECK", 5, [<aspect:ordo> * 9], <gct_additions:fruit_of_mind_enchanted>, [
     [<ore:blockSanite>, <ore:blockSanite>, <ore:blockSanite>],
     [<ore:blockSanite>, <minecraft:apple>, <ore:blockSanite>],
     [<ore:blockSanite>, <ore:blockSanite>, <ore:blockSanite>]
@@ -198,7 +198,7 @@ Infusion.registerRecipe("adaminite_ingot", "TAR_ADAMINITE", <thaumadditions:adam
     <thaumicwonders:primordial_grain>,
     <thaumadditions:mithrillium_resonator>,
     <thaumicwonders:primordial_grain>,
-    <gct_ores:relifed_witherium_ingot>
+    <gct_additions:relifed_witherium_ingot>
 ]);
 
 Infusion.registerRecipe("eldritch_steel_ingot", "", <additions:eldritch_steel_ingot>, 18, [
@@ -233,8 +233,8 @@ Infusion.registerRecipe("extended_primordial_metal_ingot", "", <additions:extend
     <thaumcraft:primordial_pearl>,
     <thaumcraft:salis_mundus>,
     <thaumcraft:salis_mundus>,
-    <gct_ores:everite_dust>,
-    <gct_ores:everite_dust>
+    <gct_additions:everite_dust>,
+    <gct_additions:everite_dust>
 ]);
 
 Infusion.registerRecipe("cursium_ingot", "", <additions:cursium_ingot>, 30, [
@@ -250,7 +250,7 @@ Infusion.registerRecipe("cursium_ingot", "", <additions:cursium_ingot>, 30, [
     <aspect:praemunio> * 750,
     <aspect:sensus> * 750,
     <aspect:vitium> * 750
-], <gct_ores:balanced_matrix_ingot>, [
+], <gct_additions:balanced_matrix_ingot>, [
     <additions:impetusite_ingot>,
     <additions:impetusite_ingot>,
     <additions:eldritch_steel_ingot>,
@@ -261,8 +261,8 @@ Infusion.registerRecipe("cursium_ingot", "", <additions:cursium_ingot>, 30, [
     <additions:extended_primal_metal_ingot>,
     <additions:darkest_core>,
     <additions:darkest_core>,
-    <gct_ores:equipment_witherium_ingot>,
-    <gct_ores:ruled_draconium_ingot>
+    <gct_additions:equipment_witherium_ingot>,
+    <gct_additions:ruled_draconium_ingot>
 ]);
 
 Infusion.registerRecipe("mithminite_ingot", "TAR_MITHMINITE", <thaumadditions:mithminite_ingot>, 25, [
@@ -330,7 +330,7 @@ Infusion.registerRecipe("disaster_metal_ingot", "", <additions:disaster_metal_in
     <thaumicaugmentation:elytra_harness>
 ]);
 
-Infusion.registerRecipe("shoggoth_complex_crystal", "SHOGGOTH_MUD_COLLECTION", <gct_aby:shoggoth_complex_crystal>, 15, [
+Infusion.registerRecipe("shoggoth_complex_crystal", "SHOGGOTH_MUD_COLLECTION", <gct_additions:shoggoth_complex_crystal>, 15, [
     <aspect:coralos> * 180,
     <aspect:dreadia> * 180,
     <aspect:abyss> * 180,
@@ -338,23 +338,23 @@ Infusion.registerRecipe("shoggoth_complex_crystal", "SHOGGOTH_MUD_COLLECTION", <
     <aspect:praemunio> * 140
 ], <additions:abyssine_ingot>, [
     <additions:godslime_slimeball>,
-    <gct_aby:shoggoth_slimeball>,
+    <gct_additions:shoggoth_slimeball>,
     <additions:godslime_slimeball>,
-    <gct_aby:shoggoth_slimeball>,
+    <gct_additions:shoggoth_slimeball>,
     <additions:godslime_slimeball>,
-    <gct_aby:shoggoth_slimeball>,
+    <gct_additions:shoggoth_slimeball>,
     <additions:godslime_slimeball>,
-    <gct_aby:shoggoth_slimeball>
+    <gct_additions:shoggoth_slimeball>
 ]);
 
-Infusion.registerRecipe("sanite_siphon", "ABYSSISM_MOBS", <gct_aby:sanite_siphon>, 16, [
+Infusion.registerRecipe("sanite_siphon", "ABYSSISM_MOBS", <gct_additions:sanite_siphon>, 16, [
     <aspect:abyss> * 320,
     <aspect:cthulhu> * 120,
     <aspect:tenebrae> * 320,
     <aspect:machina> * 320,
     <aspect:desiderium> * 320,
     <aspect:permutatio> * 320
-], <gct_mobs:sanite_block>, [
+], <gct_additions:sanite_block>, [
     <additions:abyssine_ingot>,
     <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}),
     <appliedenergistics2:material:47>,
@@ -559,13 +559,13 @@ Infusion.registerRecipe("remnant_soul", "ABYSSISM_MOBS_REMNANT", <additions:remn
     <aspect:caeles> * 800,
     <aspect:alienis> * 1200
 ], <additions:annihilation_capacitor>, [
-    <gct_aby:solid_pot_energy>,
+    <gct_additions:solid_pot_energy>,
     <botania:manaresource:5>,
-    <gct_aby:solid_pot_energy>,
+    <gct_additions:solid_pot_energy>,
     <botania:manaresource:5>,
-    <gct_aby:solid_pot_energy>,
+    <gct_additions:solid_pot_energy>,
     <botania:manaresource:5>,
-    <gct_aby:solid_pot_energy>,
+    <gct_additions:solid_pot_energy>,
     <botania:manaresource:5>
 ]);
 
@@ -597,7 +597,7 @@ Infusion.registerRecipe("perfect_solar_panel", "", <crazyae:perfect_solar_panel>
     <solarflux:solar_panel_void_metal>
 ]);
 
-Infusion.registerRecipe("botanical_soul", "", <gct_mobs:botanical_soul> * 6, 25, [
+Infusion.registerRecipe("botanical_soul", "", <gct_additions:botanical_soul> * 6, 25, [
     <aspect:herba> * 640,
     <aspect:terra> * 640,
     <aspect:primitivus> * 320

@@ -179,7 +179,7 @@
     },
     {
         "type": "entity",
-        "entity": "gct_mobs:zethur",
+        "entity": "gct_additions:zethur",
         "scale": 0.8,
         "text": "$(6)雷霆之巅$()"
     },
@@ -190,7 +190,7 @@
     },
     {
         "type": "entity",
-        "entity": "gct_mobs:weather_eyevil",
+        "entity": "gct_additions:weather_eyevil",
         "scale": 0.8,
         "text": "$(6)天气邪眼$()"
     },
@@ -264,14 +264,14 @@
     },
     {
         "type":"entity",
-        "entity":"gct_aby:ancientshoggoth",
+        "entity":"gct_additions:ancientshoggoth",
         "scale":0.9,
         "offset":-1.5,
         "text":"“噩梦般的黑亮形体，那无定型的身躯散发出恶臭，向前蠕动着、流淌着……"
     },
     {
         "type":"spotlight",
-        "item":"gct_aby:ancientmud",
+        "item":"gct_additions:ancientmud",
         "text":"$(6)远古淤泥$()需在$(2)黑暗领域$()处召唤！$(br)具体到达方法请参考本书维度图鉴$(c)召唤时请在灵神台座上放置一个黑曜石"
     }
  ]

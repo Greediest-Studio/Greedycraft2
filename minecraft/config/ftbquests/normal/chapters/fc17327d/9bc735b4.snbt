@@ -15,9 +15,9 @@
 		uid: "7efe7ab1",
 		type: "observation",
 		title: "天启祭坛",
-		icon: "gct_mobs:apocalypse_altar",
+		icon: "gct_additions:apocalypse_altar",
 		match_type: "block_id",
-		match: "gct_mobs:apocalypse_altar",
+		match: "gct_additions:apocalypse_altar",
 		timer: 0L
 	}],
 	rewards: [{

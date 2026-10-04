@@ -17,28 +17,28 @@
 		uid: "0c2b9e04",
 		type: "item",
 		items: [{
-			item: "gct_mobs:azathothium_ingot"
+			item: "gct_additions:azathothium_ingot"
 		}]
 	},
 	{
 		uid: "9d0e3eb0",
 		type: "item",
 		items: [{
-			item: "gct_mobs:nyarlathotepium_ingot"
+			item: "gct_additions:nyarlathotepium_ingot"
 		}]
 	},
 	{
 		uid: "957b9a8d",
 		type: "item",
 		items: [{
-			item: "gct_mobs:yogsothothium_ingot"
+			item: "gct_additions:yogsothothium_ingot"
 		}]
 	},
 	{
 		uid: "8d28a178",
 		type: "item",
 		items: [{
-			item: "gct_mobs:shubniggurathium_ingot"
+			item: "gct_additions:shubniggurathium_ingot"
 		}]
 	}],
 	rewards: [{
@@ -54,7 +54,7 @@
 	{
 		uid: "07087cc1",
 		type: "item",
-		item: "gct_aby:solid_pot_energy",
+		item: "gct_additions:solid_pot_energy",
 		count: 4
 	},
 	{

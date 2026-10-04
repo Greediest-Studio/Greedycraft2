@@ -413,22 +413,22 @@ addRitualRecipe(<abyssalcraft:psdl>, [
     <abyssalcraft:powerstonetracker> * 8
 ], 10000, -1, true);
 
-addRitualRecipe(<gct_ores:door_key_empty>, [
+addRitualRecipe(<gct_additions:door_key_empty>, [
     <abyssalcraft:gatewaykey>,
     <ore:itemDarkMatter> * 8
 ], 10000, -1, false);
 
-addRitualRecipe(<gct_ores:door_key_empty>, [
+addRitualRecipe(<gct_additions:door_key_empty>, [
     <abyssalcraft:gatewaykeydl>,
     <ore:itemDarkMatter> * 8
 ], 10000, -1, false);
 
-addRitualRecipe(<gct_ores:door_key_empty>, [
+addRitualRecipe(<gct_additions:door_key_empty>, [
     <abyssalcraft:gatewaykeyjzh>,
     <ore:itemDarkMatter> * 8
 ], 10000, -1, false);
 
-addRitualRecipe(<gct_ores:door_key_of_orderland>, [
+addRitualRecipe(<gct_additions:door_key_of_orderland>, [
     <ore:ingotCosmilite>,
     <ore:blockEverite>,
     <ore:blockDraconiumRuled>,
@@ -438,16 +438,16 @@ addRitualRecipe(<gct_ores:door_key_of_orderland>, [
     <ore:ingotBalancedMatrix> * 2
 ], 100000, 53, true);
 
-addRitualRecipe(<gct_aby:ancientmud>, [
+addRitualRecipe(<gct_additions:ancientmud>, [
     <ore:slimeball>,
     <ore:blockEthaxium>,
     <ore:blockSanite>,
-    <gct_aby:essenceofdarkerrealm> * 2,
-    <gct_aby:shoggothtancale> * 4
+    <gct_additions:essenceofdarkerrealm> * 2,
+    <gct_additions:shoggothtancale> * 4
 ], 50000, 53, true);
 
 addRitualRecipe(<thebetweenlands:swamp_talisman>, [
-    <gct_ores:door_key_empty> * 4,
+    <gct_additions:door_key_empty> * 4,
     <thebetweenlands:swamp_talisman:1>,
     <thebetweenlands:swamp_talisman:2>,
     <thebetweenlands:swamp_talisman:3>,
@@ -462,20 +462,20 @@ addRitualRecipe(<additions:living_fire>, [
     <ore:ingotStellarium>
 ], 64000, -1, false);
 
-addRitualRecipe(<gct_aby:key_of_warped>, [
+addRitualRecipe(<gct_additions:key_of_warped>, [
     <ore:ingotCthulhurite> * 4,
-    <gct_aby:shoggothtooth> * 2,
-    <gct_ores:door_key_empty> * 2
+    <gct_additions:shoggothtooth> * 2,
+    <gct_additions:door_key_empty> * 2
 ], 100010, -1, false);
 
-addRitualRecipe(<gct_aby:key_of_warped_active>, [
+addRitualRecipe(<gct_additions:key_of_warped_active>, [
     <thebetweenlands:spirit_fruit>,
     <ore:ingotBalancedMatrix>,
     <ore:ingotCosmilite>,
-    <gct_aby:key_of_warped>
+    <gct_additions:key_of_warped>
 ], 100010, -1, true);
 
-addRitualRecipe(<gct_aby:solid_pot_energy>, [
+addRitualRecipe(<gct_additions:solid_pot_energy>, [
     <additions:sanite_ethaxium_capsule>
 ], 90000, -1, false);
 
@@ -490,16 +490,16 @@ addRitualRecipe(<additions:abyssine_block>, [
     <ore:ingotBalancedMatrix> * 2
 ], 50000, -1, true);
 
-addRitualRecipe(<gct_aby:eye_of_abyss>, [
+addRitualRecipe(<gct_additions:eye_of_abyss>, [
     <ore:ingotFinallium>,
     <additions:awakened_eye>,
     <thaumadditions:adaminite_fabric>,
     <abyssalcraft:essence>,
     <abyssalcraft:essence:1>,
     <abyssalcraft:essence:2>,
-    <gct_aby:essenceofdarkrealm>,
-    <gct_aby:essenceofdarkerrealm>,
-    <gct_aby:essence_of_warped_ruin>
+    <gct_additions:essenceofdarkrealm>,
+    <gct_additions:essenceofdarkerrealm>,
+    <gct_additions:essence_of_warped_ruin>
 ], 100000, -1, true);
 
 addRitualRecipe(<elementalend:void_eye>, [

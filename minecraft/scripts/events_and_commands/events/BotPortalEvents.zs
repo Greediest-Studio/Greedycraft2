@@ -37,39 +37,39 @@ events.register(function(event as ElvenPortalUpdateEvent) {
         var facingState as AlfPortalState = blockState.getValue(BotaniaStateProps.ALFPORTAL_STATE) as AlfPortalState;
         var facing as string = facingState.getName();
 
-        if (facing == "on_z" && isBlock(worldCt, posCt.north(6), "gct_mobs:mana_block")) {
+        if (facing == "on_z" && isBlock(worldCt, posCt.north(6), "gct_additions:mana_block")) {
             if (
-                isBlock(worldCt, posCt.north(3).west(4).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.north(3).west(4).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.north(3).west(4).up(2), "extrabotany:blockphotonium") &&
                 isBlock(worldCt, posCt.north(3).west(4).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.north(3).west(4).up(4), "botania:pylon") &&
-                isBlock(worldCt, posCt.south(3).east(4).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.south(3).east(4).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.south(3).east(4).up(2), "extrabotany:blockphotonium") &&
                 isBlock(worldCt, posCt.south(3).east(4).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.south(3).east(4).up(4), "botania:pylon") &&
 
-                isBlock(worldCt, posCt.north(3).east(4).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.north(3).east(4).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.north(3).east(4).up(2), "extrabotany:blockshadowium") &&
                 isBlock(worldCt, posCt.north(3).east(4).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.north(3).east(4).up(4), "botania:pylon") &&
-                isBlock(worldCt, posCt.south(3).west(4).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.south(3).west(4).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.south(3).west(4).up(2), "extrabotany:blockshadowium") &&
                 isBlock(worldCt, posCt.south(3).west(4).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.south(3).west(4).up(4), "botania:pylon") &&
 
-                isBlock(worldCt, posCt.west(5).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.west(5).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.west(5).up(2), "extrabotany:blockorichalcos") &&
                 isBlock(worldCt, posCt.west(5).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.west(5).up(4), "botania:pylon") &&
-                isBlock(worldCt, posCt.east(5).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.east(5).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.east(5).up(2), "extrabotany:blockorichalcos") &&
                 isBlock(worldCt, posCt.east(5).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.east(5).up(4), "botania:pylon") &&
 
-                isBlock(worldCt, posCt.north(6), "gct_mobs:mana_block") &&
-                isBlock(worldCt, posCt.south(6), "gct_mobs:mana_block") &&
-                isBlock(worldCt, posCt.north(6).up(4), "gct_mobs:mana_block") &&
-                isBlock(worldCt, posCt.south(6).up(4), "gct_mobs:mana_block") &&
+                isBlock(worldCt, posCt.north(6), "gct_additions:mana_block") &&
+                isBlock(worldCt, posCt.south(6), "gct_additions:mana_block") &&
+                isBlock(worldCt, posCt.north(6).up(4), "gct_additions:mana_block") &&
+                isBlock(worldCt, posCt.south(6).up(4), "gct_additions:mana_block") &&
 
                 isBlock(worldCt, posCt.north(6).up(1), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.north(6).up(2), "botania:bifrostperm") &&
@@ -82,39 +82,39 @@ events.register(function(event as ElvenPortalUpdateEvent) {
             } else {
                 tileentity.getTileData().setBoolean("isPortable", false);
             }
-        } else if (facing == "on_x" && isBlock(worldCt, posCt.west(6), "gct_mobs:mana_block")) {
+        } else if (facing == "on_x" && isBlock(worldCt, posCt.west(6), "gct_additions:mana_block")) {
             if (
-                isBlock(worldCt, posCt.west(3).north(4).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.west(3).north(4).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.west(3).north(4).up(2), "extrabotany:blockphotonium") &&
                 isBlock(worldCt, posCt.west(3).north(4).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.west(3).north(4).up(4), "botania:pylon") &&
-                isBlock(worldCt, posCt.east(3).south(4).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.east(3).south(4).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.east(3).south(4).up(2), "extrabotany:blockphotonium") &&
                 isBlock(worldCt, posCt.east(3).south(4).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.east(3).south(4).up(4), "botania:pylon") &&
 
-                isBlock(worldCt, posCt.west(3).south(4).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.west(3).south(4).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.west(3).south(4).up(2), "extrabotany:blockshadowium") &&
                 isBlock(worldCt, posCt.west(3).south(4).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.west(3).south(4).up(4), "botania:pylon") &&
-                isBlock(worldCt, posCt.east(3).north(4).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.east(3).north(4).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.east(3).north(4).up(2), "extrabotany:blockshadowium") &&
                 isBlock(worldCt, posCt.east(3).north(4).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.east(3).north(4).up(4), "botania:pylon") &&
 
-                isBlock(worldCt, posCt.north(5).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.north(5).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.north(5).up(2), "extrabotany:blockorichalcos") &&
                 isBlock(worldCt, posCt.north(5).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.north(5).up(4), "botania:pylon") &&
-                isBlock(worldCt, posCt.south(5).up(1), "gct_mobs:orichalcos_dreamwood") &&
+                isBlock(worldCt, posCt.south(5).up(1), "gct_additions:orichalcos_dreamwood") &&
                 isBlock(worldCt, posCt.south(5).up(2), "extrabotany:blockorichalcos") &&
                 isBlock(worldCt, posCt.south(5).up(3), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.south(5).up(4), "botania:pylon") &&
 
-                isBlock(worldCt, posCt.west(6), "gct_mobs:mana_block") &&
-                isBlock(worldCt, posCt.east(6), "gct_mobs:mana_block") &&
-                isBlock(worldCt, posCt.west(6).up(4), "gct_mobs:mana_block") &&
-                isBlock(worldCt, posCt.east(6).up(4), "gct_mobs:mana_block") &&
+                isBlock(worldCt, posCt.west(6), "gct_additions:mana_block") &&
+                isBlock(worldCt, posCt.east(6), "gct_additions:mana_block") &&
+                isBlock(worldCt, posCt.west(6).up(4), "gct_additions:mana_block") &&
+                isBlock(worldCt, posCt.east(6).up(4), "gct_additions:mana_block") &&
                 isBlock(worldCt, posCt.west(6).up(1), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.west(6).up(2), "botania:bifrostperm") &&
                 isBlock(worldCt, posCt.west(6).up(3), "botania:bifrostperm") &&

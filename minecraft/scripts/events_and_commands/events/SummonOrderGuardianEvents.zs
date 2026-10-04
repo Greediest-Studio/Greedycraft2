@@ -53,10 +53,10 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     
     if (player.dimension != 103) pass = false;
     if (y > 220) pass = false;
-    if (block.definition.id != "gct_ores:finallium_container_active") pass = false;
+    if (block.definition.id != "gct_additions:finallium_container_active") pass = false;
     if (world.isAirBlock(Position3f.create(x, y - 35, z).asBlockPos())) {
         pass = false;
-    } else if (world.getBlock(x, y - 35, z).definition.id != "gct_ores:order_stone_base") {
+    } else if (world.getBlock(x, y - 35, z).definition.id != "gct_additions:order_stone_base") {
         pass = false;
     }
 

@@ -19,7 +19,7 @@ var orbs as IIngredient =
 	<bloodmagic:blood_orb>.withTag({orb: "gctcore:the_end"}) |
 	<avaritia:armok_orb>;
 
-mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:rainboquartz> * 24, [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:nuggetChromasteel>]);
+mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_additions:rainboquartz> * 24, [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:nuggetChromasteel>]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <denseneutroncollectors:compressed_neutron_collector>, [
 	[null, null, <ore:ingotCoalescenceMatrix>, null, null], 
@@ -36,57 +36,57 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <cyclicmagic:tool_mount_inverse
 	[null, null, <ore:itemLeather>, <minecraft:lead>, <ore:itemLeather>], 
 	[null, null, <ore:itemLeather>, <ore:itemLeather>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_mobs:primordial_stone> * 24, [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <ore:nuggetPrimordial>]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:primordial_vis_receiver>, [
+mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_additions:primordial_stone> * 24, [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <ore:nuggetPrimordial>]);
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:primordial_vis_receiver>, [
 	[null, null, <ore:nuggetAdaminite>, null, null], 
 	[null, <ore:nuggetAdaminite>, <ore:ingotPrimordial>, <ore:nuggetAdaminite>, null], 
-	[<gct_mobs:primordial_stone>, null, <ore:nuggetAdaminite>, null, <gct_mobs:primordial_stone>], 
-	[<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>], 
-	[<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>]
+	[<gct_additions:primordial_stone>, null, <ore:nuggetAdaminite>, null, <gct_additions:primordial_stone>], 
+	[<gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>], 
+	[<gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:arcane_vis_receiver>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:arcane_vis_receiver>, [
 	[null, null, <ore:nuggetMithrillium>, null, null], 
 	[null, <ore:nuggetMithrillium>, <ore:ingotVoid>, <ore:nuggetMithrillium>, null], 
 	[<thaumcraft:stone_arcane>, null, <ore:nuggetMithrillium>, null, <thaumcraft:stone_arcane>], 
 	[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>], 
 	[<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:primordial_portal_holder_down>, [
-	[<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>], 
-	[<gct_mobs:primordial_stone>, <ore:ingotPrimordial>, null, <ore:ingotPrimordial>, <gct_mobs:primordial_stone>], 
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:primordial_portal_holder_down>, [
+	[<gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>], 
+	[<gct_additions:primordial_stone>, <ore:ingotPrimordial>, null, <ore:ingotPrimordial>, <gct_additions:primordial_stone>], 
 	[<ore:ingotPrimordial>, null, null, null, <ore:ingotPrimordial>], 
 	[null, null, null, null, null], 
 	[null, null, null, null, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:primordial_portal_holder_up>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:primordial_portal_holder_up>, [
 	[null, null, null, null, null], 
 	[null, null, null, null, null], 
 	[<ore:ingotPrimordial>, null, null, null, <ore:ingotPrimordial>], 
-	[<gct_mobs:primordial_stone>, <ore:ingotPrimordial>, null, <ore:ingotPrimordial>, <gct_mobs:primordial_stone>], 
-	[<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>]
+	[<gct_additions:primordial_stone>, <ore:ingotPrimordial>, null, <ore:ingotPrimordial>, <gct_additions:primordial_stone>], 
+	[<gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:essenceofdarkerrealm>, [
-	[null, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, null], 
-	[<ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:nuclearShadow>, <gct_aby:shoggothtancale>, <ore:ingotSanite>], 
-	[<gct_aby:shoggothtancale>, <ore:nuclearShadow>, <ore:stoneDarkDense>, <ore:nuclearShadow>, <gct_aby:shoggothtancale>], 
-	[<ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:nuclearShadow>, <gct_aby:shoggothtancale>, <ore:ingotSanite>], 
-	[null, <ore:ingotSanite>, <gct_aby:shoggothtancale>, <ore:ingotSanite>, null]
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:essenceofdarkerrealm>, [
+	[null, <ore:ingotSanite>, <gct_additions:shoggothtancale>, <ore:ingotSanite>, null], 
+	[<ore:ingotSanite>, <gct_additions:shoggothtancale>, <ore:nuclearShadow>, <gct_additions:shoggothtancale>, <ore:ingotSanite>], 
+	[<gct_additions:shoggothtancale>, <ore:nuclearShadow>, <ore:stoneDarkDense>, <ore:nuclearShadow>, <gct_additions:shoggothtancale>], 
+	[<ore:ingotSanite>, <gct_additions:shoggothtancale>, <ore:nuclearShadow>, <gct_additions:shoggothtancale>, <ore:ingotSanite>], 
+	[null, <ore:ingotSanite>, <gct_additions:shoggothtancale>, <ore:ingotSanite>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:keyofdark>, [
-	[<gct_aby:essenceofdarkrealm>, null, null, <abyssalcraft:oc>, null], 
-	[null, <gct_aby:essenceofdarkrealm>, <abyssalcraft:oc>, <abyssalcraft:soulreaper>, <abyssalcraft:oc>], 
-	[null, null, <gct_aby:essenceofdarkrealm>, <abyssalcraft:oc>, null], 
-	[null, <ore:blockEthaxium>, null, <gct_aby:essenceofdarkrealm>, null], 
-	[<ore:blockEthaxium>, null, null, null, <gct_aby:essenceofdarkrealm>]
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:keyofdark>, [
+	[<gct_additions:essenceofdarkrealm>, null, null, <abyssalcraft:oc>, null], 
+	[null, <gct_additions:essenceofdarkrealm>, <abyssalcraft:oc>, <abyssalcraft:soulreaper>, <abyssalcraft:oc>], 
+	[null, null, <gct_additions:essenceofdarkrealm>, <abyssalcraft:oc>, null], 
+	[null, <ore:blockEthaxium>, null, <gct_additions:essenceofdarkrealm>, null], 
+	[<ore:blockEthaxium>, null, null, null, <gct_additions:essenceofdarkrealm>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:essenceofdarkrealm>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:essenceofdarkrealm>, [
 	[null, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, null], 
 	[<ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>], 
 	[<ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>], 
 	[<ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>], 
 	[null, <ore:gemShadow>, <ore:gemShadow>, <ore:gemShadow>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:sanity_altar>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:sanity_altar>, [
 	[<ore:ingotSanite>, null, null, null, <ore:ingotSanite>], 
 	[<abyssalcraft:darkstone_brick>, <ore:ingotSanite>, <ore:ingotCthulhurite>, <ore:ingotSanite>, <abyssalcraft:darkstone_brick>], 
 	[null, <ore:gemShadow>, <ore:blockSanite>, <ore:gemShadow>, null], 
@@ -121,89 +121,89 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:heaven_gem>, [
 	[null, null, <ore:ingotDaynight>, null, null], 
 	[null, null, <ore:ingotShadowium>, null, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:everheaven>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:everheaven>, [
 	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>], 
 	[<ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotUmbrium>], 
 	[<extendedcrafting:material:48>, <ore:ingotDaynight>, <ore:gemHeaven>, <ore:ingotDaynight>, <extendedcrafting:material:48>], 
 	[<ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotUmbrium>], 
 	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_1>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:rune_active_1>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeMetatronB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_2>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:rune_active_2>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeRatzielB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_3>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:rune_active_3>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeZaphkielB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_4>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:rune_active_4>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeZadkielB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_5>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:rune_active_5>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeChamaelB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_6>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:rune_active_6>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeMichaelB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_7>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:rune_active_7>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeHanielB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_8>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:rune_active_8>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeRaphaelB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_9>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:rune_active_9>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeGabrielB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_10>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:rune_active_10>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[<ore:dustShadowium>, <ore:dustElfsteel>, <ore:runeSandalphonB>, <ore:dustElfsteel>, <ore:dustShadowium>], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:naturalline>, [
-	[<gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>], 
-	[<gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>], 
-	[<gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>], 
-	[<gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>], 
-	[<gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>]
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:naturalline>, [
+	[<gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>], 
+	[<gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>], 
+	[<gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>], 
+	[<gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>], 
+	[<gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>, <gct_additions:naturalline_scrap>]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:sanite_ethaxium_capsule> * 16, [
 	[null, null, null, null, null], 
@@ -212,12 +212,12 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:sanite_ethaxium_caps
 	[null, <ore:ingotSanite>, <ore:ingotEthaxium>, <ore:ingotEthaxium>, null], 
 	[null, null, null, null, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:essence_of_warped_ruin>, [
-	[null, <gct_aby:warped_soul>, <gct_aby:warped_soul>, <gct_aby:warped_soul>, null], 
-	[<gct_aby:warped_soul>, <ore:ingotAzathothium>, <ore:stoneAbyssExtended>, <ore:ingotNyarlathotepium>, <gct_aby:warped_soul>], 
-	[<gct_aby:warped_soul>, <ore:stoneAbyssExtended>, <ore:stoneAbyssExtended>, <ore:stoneAbyssExtended>, <gct_aby:warped_soul>], 
-	[<gct_aby:warped_soul>, <ore:ingotYogsothoth>, <ore:stoneAbyssExtended>, <ore:ingotShubniggurath>, <gct_aby:warped_soul>], 
-	[null, <gct_aby:warped_soul>, <gct_aby:warped_soul>, <gct_aby:warped_soul>, null]
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:essence_of_warped_ruin>, [
+	[null, <gct_additions:warped_soul>, <gct_additions:warped_soul>, <gct_additions:warped_soul>, null], 
+	[<gct_additions:warped_soul>, <ore:ingotAzathothium>, <ore:stoneAbyssExtended>, <ore:ingotNyarlathotepium>, <gct_additions:warped_soul>], 
+	[<gct_additions:warped_soul>, <ore:stoneAbyssExtended>, <ore:stoneAbyssExtended>, <ore:stoneAbyssExtended>, <gct_additions:warped_soul>], 
+	[<gct_additions:warped_soul>, <ore:ingotYogsothoth>, <ore:stoneAbyssExtended>, <ore:ingotShubniggurath>, <gct_additions:warped_soul>], 
+	[null, <gct_additions:warped_soul>, <gct_additions:warped_soul>, <gct_additions:warped_soul>, null]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:2>, [
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
@@ -264,9 +264,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallel
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:consciousness_brain_mk1>, [
 	[null, <ore:rottenFlesh>, <ore:ingotScientificite>, <ore:rottenFlesh>, null], 
-	[<ore:listAllmeatraw>, <gct_aby:ancient_shoggoth_mud>, <ore:heartContainer>, <gct_aby:ancient_shoggoth_mud>, <ore:listAllmeatraw>], 
-	[<ore:listAllmeatraw>, <gct_aby:ancient_shoggoth_mud>, <thaumcraft:brain>, <gct_aby:ancient_shoggoth_mud>, <ore:listAllmeatraw>], 
-	[<ore:listAllmeatraw>, <gct_aby:ancient_shoggoth_mud>, <ore:ingotFinallium>, <gct_aby:ancient_shoggoth_mud>, <ore:listAllmeatraw>], 
+	[<ore:listAllmeatraw>, <gct_additions:ancient_shoggoth_mud>, <ore:heartContainer>, <gct_additions:ancient_shoggoth_mud>, <ore:listAllmeatraw>], 
+	[<ore:listAllmeatraw>, <gct_additions:ancient_shoggoth_mud>, <thaumcraft:brain>, <gct_additions:ancient_shoggoth_mud>, <ore:listAllmeatraw>], 
+	[<ore:listAllmeatraw>, <gct_additions:ancient_shoggoth_mud>, <ore:ingotFinallium>, <gct_additions:ancient_shoggoth_mud>, <ore:listAllmeatraw>], 
 	[null, <ore:rottenFlesh>, <ore:ingotScientificite>, <ore:rottenFlesh>, null]
 ]);
 
@@ -366,7 +366,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:breedum_core>, [
 	[<ore:ingotBreedum>, <ore:ingotUracilite>, null, <ore:ingotUracilite>, <ore:ingotBreedum>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_ores:senterian_builder_lab>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:senterian_builder_lab>, [
 	[<ore:ingotMortum>, <ore:gemGorbite>, <ore:ingotMortum>, <ore:gemGorbite>, <ore:ingotMortum>], 
 	[<ore:gemGorbite>, <ore:ingotDullium>, <ore:gemEnderillium>, <ore:ingotDullium>, <ore:gemGorbite>], 
 	[<ore:ingotMortum>, <ore:gemEnderillium>, <ore:ingotChromasteel>, <ore:gemEnderillium>, <ore:ingotMortum>], 

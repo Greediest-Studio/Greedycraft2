@@ -313,25 +313,25 @@ if (!isNull(event.item) && !event.world.isRemote()) {
         } else if (randomInt <= 30) {
             player.give(<additions:mythsteel_ingot> * 4);
         } else if (randomInt <= 42) {
-            player.give(<gct_mobs:botanical_soul> * 5);
+            player.give(<gct_additions:botanical_soul> * 5);
         } else if (randomInt <= 52) {
             player.give(<extrabotany:material:1> * 3);
         } else if (randomInt <= 62) {
-            player.give(<gct_mobs:botanical_ingot> * 3);
+            player.give(<gct_additions:botanical_ingot> * 3);
         } else if (randomInt <= 70) {
-            player.give(<gct_mobs:dandelionium_ingot> * 5);
+            player.give(<gct_additions:dandelionium_ingot> * 5);
         } else if (randomInt <= 78) {
-            player.give(<gct_mobs:carnationium_ingot> * 5);
+            player.give(<gct_additions:carnationium_ingot> * 5);
         } else if (randomInt <= 86) {
-            player.give(<gct_mobs:rosium_ingot> * 5);
+            player.give(<gct_additions:rosium_ingot> * 5);
         } else if (randomInt <= 94) {
-            player.give(<gct_mobs:begonium_ingot> * 5);
+            player.give(<gct_additions:begonium_ingot> * 5);
         } else if (randomInt <= 102) {
-            player.give(<gct_mobs:myosotisium_ingot> * 5);
+            player.give(<gct_additions:myosotisium_ingot> * 5);
         } else if (randomInt <= 110) {
-            player.give(<gct_mobs:chrysanthemium_ingot> * 5);
+            player.give(<gct_additions:chrysanthemium_ingot> * 5);
         } else if (randomInt <= 116) {
-            player.give(<gct_mobs:gaia_heart> * 2);
+            player.give(<gct_additions:gaia_heart> * 2);
         } else if (randomInt <= 122) {
             player.give(<extrabotany:material:6> * 2);
         } else {

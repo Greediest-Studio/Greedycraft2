@@ -571,7 +571,7 @@ addBuilderRecipe(<modularmachinery:arcane_compressor_factory_controller>, [
     <ore:ingotPrimordial> * 8,
     <ore:ingotMithrillium> * 4,
     <thaumcraft:stone_arcane> * 64,
-    <gct_mobs:primordial_stone> * 16
+    <gct_additions:primordial_stone> * 16
 ], 3, 4000);
 
 addBuilderRecipe(<modularmachinery:arcane_alchemical_pot_factory_controller>, [
@@ -859,7 +859,7 @@ addBuilderRecipe(<modularmachinery:arcane_matrix_factory_controller>, [
     <ore:ingotVoid> * 64,
     <ore:ingotMithrillium> * 16,
     <ore:ingotAdamant> * 8,
-    <gct_mobs:primordial_stone> * 64
+    <gct_additions:primordial_stone> * 64
 ], 4, 1200);
 
 addBuilderRecipe(<modularmachinery:kabalah_builder_factory_controller>, [
@@ -953,7 +953,7 @@ addBuilderRecipe(<modularmachinery:biotechnic_computer_factory_controller>, [
     <ore:ingotBalancedMatrix> * 16,
     <ore:ingotAbyssine> * 2,
     <ore:ingotFinallium> * 2,
-    <gct_ores:shalloite> * 108
+    <gct_additions:shalloite> * 108
 ], 5, 8000);
 
 addBuilderRecipe(<modularmachinery:crimson_extractor_factory_controller>, [
@@ -1056,7 +1056,7 @@ addBuilderRecipe(<modularmachinery:nuclear_bomb_reactor_factory_controller>, [
 
 //Units
 addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <enderio:block_enhanced_alloy_smelter> * 4,
     <enderio:block_alloy_smelter> * 16,
@@ -1064,7 +1064,7 @@ addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_centrifuge_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <plustic:centrifuge> * 16,
     <thermalexpansion:machine:10> * 16,
@@ -1072,7 +1072,7 @@ addBuilderRecipe(<modularmachinery:elysia_centrifuge_factory_controller>, [
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_crusher_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <enderio:block_sag_mill> * 8,
     <enderio:block_simple_sag_mill> * 16,
@@ -1081,14 +1081,14 @@ addBuilderRecipe(<modularmachinery:elysia_crusher_factory_controller>, [
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_electrolyzer_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <mekanism:machineblock2:4> * 16,
     <nuclearcraft:electrolyzer> * 16
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_forger_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <thermalexpansion:machine:5> * 16,
     <thermalfoundation:upgrade:35> * 16,
@@ -1096,7 +1096,7 @@ addBuilderRecipe(<modularmachinery:elysia_forger_factory_controller>, [
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_liquefier_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <aether_legacy:freezer> * 16,
     <thermalexpansion:machine:14> * 16,
@@ -1104,7 +1104,7 @@ addBuilderRecipe(<modularmachinery:elysia_liquefier_factory_controller>, [
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_melter_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <thermalexpansion:machine:6> * 16,
     <thermalfoundation:upgrade:35> * 16,
@@ -1112,35 +1112,35 @@ addBuilderRecipe(<modularmachinery:elysia_melter_factory_controller>, [
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_pyrolyzer_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <tcomplement:high_oven_controller> * 16,
     <mekanism:basicblock:14> * 16
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_reactor_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <nuclearcraft:chemical_reactor> * 16,
     <mekanism:machineblock2:2> * 16
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_solidifier_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <nuclearcraft:supercooler> * 16,
     <nuclearcraft:ingot_former> * 16
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_vaporizer_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <tcomplement:melter> * 32,
     <tcomplement:melter:8> * 32 
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_smelter_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <thermalexpansion:machine:12> * 32,
     <thermalfoundation:upgrade:35> * 32,
@@ -1148,28 +1148,28 @@ addBuilderRecipe(<modularmachinery:elysia_smelter_factory_controller>, [
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_grinder_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <tcomplement:alloy_tank> * 32,
     <nuclearcraft:salt_mixer> * 32
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_polymer_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <mekanism:machineblock2:10> * 32,
     <avaritia:neutron_collector> * 32
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_etcher_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <ae2stuff:inscriber> * 32,
     <threng:etcher> * 32
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_enricher_factory_controller>, [
-    <gct_ores:blue_print_empty> * 32,
+    <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <thermalexpansion:machine:7> * 32,
     <thermalfoundation:upgrade:35> * 32,
@@ -1177,7 +1177,7 @@ addBuilderRecipe(<modularmachinery:elysia_enricher_factory_controller>, [
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:factory_4x_factory_controller>, [
-    <gct_ores:blue_print_forge> * 32,
+    <gct_additions:blue_print_forge> * 32,
     <ore:ingotModularium> * 64,
     <mekanism:machineblock2:3> * 16,
     <mekanism:machineblock:9> * 16,
@@ -1188,7 +1188,7 @@ addBuilderRecipe(<modularmachinery:factory_4x_factory_controller>, [
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:factory_5x_factory_controller>, [
-    <gct_ores:blue_print_forge> * 48,
+    <gct_additions:blue_print_forge> * 48,
     <ore:ingotModularium> * 72,
     <mekanism:machineblock2:6> * 32,
     <mekanism:machineblock2:7> * 32,
@@ -1197,7 +1197,7 @@ addBuilderRecipe(<modularmachinery:factory_5x_factory_controller>, [
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:factory_atomic_acider_factory_controller>, [
-    <gct_ores:blue_print_forge> * 32,
+    <gct_additions:blue_print_forge> * 32,
     <ore:ingotModularium> * 48,
     <ore:ingotPorpezite> * 48,
     <ore:ingotProtonium> * 12,
@@ -1206,7 +1206,7 @@ addBuilderRecipe(<modularmachinery:factory_atomic_acider_factory_controller>, [
 ], 1, 2400);
 
 addBuilderRecipe(<modularmachinery:factory_atomic_vibrator_factory_controller>, [
-    <gct_ores:blue_print_forge> * 32,
+    <gct_additions:blue_print_forge> * 32,
     <ore:ingotModularium> * 48,
     <ore:ingotPorpezite> * 48,
     <ore:ingotNeutronium> * 12,
@@ -1215,7 +1215,7 @@ addBuilderRecipe(<modularmachinery:factory_atomic_vibrator_factory_controller>, 
 ], 1, 2400);
 
 addBuilderRecipe(<modularmachinery:factory_atomic_decayer_factory_controller>, [
-    <gct_ores:blue_print_forge> * 32,
+    <gct_additions:blue_print_forge> * 32,
     <ore:ingotModularium> * 48,
     <ore:ingotPorpezite> * 48,
     <ore:ingotElectronium> * 12,
@@ -1224,7 +1224,7 @@ addBuilderRecipe(<modularmachinery:factory_atomic_decayer_factory_controller>, [
 ], 1, 2400);
 
 addBuilderRecipe(<modularmachinery:factory_arcanic_infuser_factory_controller>, [
-    <gct_ores:blue_print_forge> * 48,
+    <gct_additions:blue_print_forge> * 48,
     <ore:ingotModularium> * 64,
     <ore:ingotVoid> * 64,
     <ore:ingotOrichalcosReversed> * 24,
@@ -1235,7 +1235,7 @@ addBuilderRecipe(<modularmachinery:factory_arcanic_infuser_factory_controller>, 
 ], 1, 3000);
 
 addBuilderRecipe(<modularmachinery:factory_arcanic_brewer_factory_controller>, [
-    <gct_ores:blue_print_forge> * 48,
+    <gct_additions:blue_print_forge> * 48,
     <ore:ingotModularium> * 64,
     <ore:ingotSentientMetal> * 64,
     <ore:ingotDarkest> * 24,
@@ -1246,7 +1246,7 @@ addBuilderRecipe(<modularmachinery:factory_arcanic_brewer_factory_controller>, [
 ], 1, 3000);
 
 addBuilderRecipe(<modularmachinery:factory_arcanic_astrallizer_factory_controller>, [
-    <gct_ores:blue_print_forge> * 48,
+    <gct_additions:blue_print_forge> * 48,
     <ore:ingotModularium> * 64,
     <ore:ingotAstralMetal> * 64,
     <ore:ingotWigthium> * 24,

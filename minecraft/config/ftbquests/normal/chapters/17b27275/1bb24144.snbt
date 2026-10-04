@@ -13,14 +13,14 @@
 		uid: "9bc0db4b",
 		type: "item",
 		items: [{
-			item: "gct_ores:ordered_metal_ingot"
+			item: "gct_additions:ordered_metal_ingot"
 		}]
 	}],
 	rewards: [{
 		uid: "ebb3e569",
 		type: "item",
 		item: {
-			id: "gct_ores:ordered_metal_ingot",
+			id: "gct_additions:ordered_metal_ingot",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

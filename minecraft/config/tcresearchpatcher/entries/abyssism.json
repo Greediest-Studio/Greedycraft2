@@ -3,7 +3,7 @@
         {
             "key": "ABYSSISM_STARTING",
             "name": "tc.research.ABYSSISM_STARTING.name",
-            "icons": ["gct_aby:eye_of_abyss"],
+            "icons": ["gct_additions:eye_of_abyss"],
             "category": "ABYSSISM",
             "location": [0, 0],
             "parents": ["FIRSTSTEPS"],
@@ -15,13 +15,13 @@
                 },
                 {
                     "text": "tc.research.ABYSSISM_STARTING.stage.2",
-                    "recipes": ["gct_aby:eye_of_abyss"],
-                    "required_item": ["gct_aby:eye_of_abyss"],
+                    "recipes": ["gct_additions:eye_of_abyss"],
+                    "required_item": ["gct_additions:eye_of_abyss"],
                     "warp": 15
                 },
                 {
                     "text": "tc.research.ABYSSISM_STARTING.stage.3",
-                    "recipes": ["gct_aby:eye_of_abyss"]
+                    "recipes": ["gct_additions:eye_of_abyss"]
                 }
             ]
         },
@@ -46,14 +46,14 @@
         {
             "key": "SANCHECK",
             "name": "tc.research.SANCHECK.name",
-            "icons": ["gct_aby:sanity_observer"],
+            "icons": ["gct_additions:sanity_observer"],
             "category": "ABYSSISM",
             "location": [0, 3],
             "parents": ["ABYSSISM_STARTING"],
             "stages": [
                 {
                     "text": "tc.research.SANCHECK.stage.1",
-                    "required_craft": ["gct_aby:sanity_observer"],
+                    "required_craft": ["gct_additions:sanity_observer"],
                     "recipes": ["thaumcraft:sanity_checker_abyss"]
                 },
                 {
@@ -65,14 +65,14 @@
         {
             "key": "MINDFRUIT",
             "name": "tc.research.MINDFRUIT.name",
-            "icons": ["gct_aby:fruit_of_mind"],
+            "icons": ["gct_additions:fruit_of_mind"],
             "category": "ABYSSISM",
             "location": [-2, 5],
             "parents": ["SANCHECK"],
             "stages": [
                 {
                     "text": "tc.research.MINDFRUIT.stage.1",
-                    "required_craft": ["gct_aby:fruit_of_mind"],
+                    "required_craft": ["gct_additions:fruit_of_mind"],
                     "recipes": ["thaumcraft:mind_fruit", "thaumcraft:mind_fruit_enchanted"]
                 },
                 {
@@ -84,14 +84,14 @@
         {
             "key": "SHOGGOTH_COMPLEX_CRYSTAL",
             "name": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.name",
-            "icons": ["gct_aby:shoggoth_complex_crystal"],
+            "icons": ["gct_additions:shoggoth_complex_crystal"],
             "category": "ABYSSISM",
             "location": [5, 2],
             "parents": ["CTHULHU"],
             "stages": [
                 {
                     "text": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.stage.1",
-                    "required_craft": ["gct_aby:shoggoth_complex_crystal"],
+                    "required_craft": ["gct_additions:shoggoth_complex_crystal"],
                     "recipes": ["thaumcraft:shoggothComplexCrystal"]
                 },
                 {
@@ -103,19 +103,19 @@
         {
             "key": "SHOGGOTH_MUD_COLLECTION",
             "name": "tc.research.SHOGGOTH_MUD_COLLECTION.name",
-            "icons": ["gct_aby:sanite_siphon", "gct_aby:shoggoth_slimeball"],
+            "icons": ["gct_additions:sanite_siphon", "gct_additions:shoggoth_slimeball"],
             "category": "ABYSSISM",
             "location": [5, -2],
             "parents": ["CTHULHU"],
             "stages": [
                 {
                     "text": "tc.research.SHOGGOTH_MUD_COLLECTION.stage.1",
-                    "required_craft": ["gct_aby:sanite_siphon"],
+                    "required_craft": ["gct_additions:sanite_siphon"],
                     "recipes": ["thaumcraft:saniteSiphon"]
                 },
                 {
                     "text": "tc.research.SHOGGOTH_MUD_COLLECTION.stage.2",
-                    "required_item": ["gct_aby:shoggoth_slimeball"],
+                    "required_item": ["gct_additions:shoggoth_slimeball"],
                     "recipes": ["thaumcraft:saniteSiphon"]
                 },
                 {
@@ -183,7 +183,7 @@
         {
             "key": "ABYSS_WAND",
             "name": "tc.research.ABYSS_WAND.name",
-            "icons": ["gct_aby:abyss_wand"],
+            "icons": ["gct_additions:abyss_wand"],
             "category": "ABYSSISM",
             "location": [8, 2],
             "parents": ["SHOGGOTH_COMPLEX_CRYSTAL"],
@@ -191,7 +191,7 @@
                 {
                     "text": "tc.research.ABYSS_WAND.stage.1",
                     "required_research": [
-                        "ABYSS_WAND;gct_aby:textures/items/sanite_controller.png"
+                        "ABYSS_WAND;gct_additions:textures/items/sanite_controller.png"
                     ]
                 }
             ]
@@ -199,18 +199,18 @@
         {
             "key": "MUDDY_FLESH",
             "name": "tc.research.MUDDY_FLESH.name",
-            "icons": ["gct_aby:muddy_flesh"],
+            "icons": ["gct_additions:muddy_flesh"],
             "category": "ABYSSISM",
             "location": [8, -2],
             "parents": ["ABYSS_WAND", "SHOGGOTH_MUD_COLLECTION"],
-            "reward_item": ["gct_aby:muddy_flesh"],
+            "reward_item": ["gct_additions:muddy_flesh"],
             "stages": [
                 {
                     "text": "tc.research.MUDDY_FLESH.stage.1"
                 },
                 {
                     "text": "tc.research.MUDDY_FLESH.stage.2",
-                    "required_item": ["gct_aby:muddy_flesh"],
+                    "required_item": ["gct_additions:muddy_flesh"],
                     "warp": 5
                 }
             ]
@@ -238,15 +238,15 @@
         {
             "key": "ANCIENT_SHOGGOTH",
             "name": "tc.research.ANCIENT_SHOGGOTH.name",
-            "icons": ["gct_aby:ancient_shoggoth_mud"],
+            "icons": ["gct_additions:ancient_shoggoth_mud"],
             "category": "ABYSSISM",
             "location": [-12, 0],
             "parents": ["BLOODY_SHOGGOTH"],
-            "reward_item": ["gct_aby:ancient_shoggoth_mud"],
+            "reward_item": ["gct_additions:ancient_shoggoth_mud"],
             "stages": [
                 {
                     "text": "tc.research.ANCIENT_SHOGGOTH.stage.1",
-                    "required_item": ["gct_aby:ancient_shoggoth_mud"]
+                    "required_item": ["gct_additions:ancient_shoggoth_mud"]
                 },
                 {
                     "text": "tc.research.ANCIENT_SHOGGOTH.stage.2",

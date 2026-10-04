@@ -217,7 +217,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         }
     }
     //Convert order stone to final
-    if (event.block.definition.id == "gct_ores:order_stone" && !event.world.remote && event.hand == "MAIN_HAND") {
+    if (event.block.definition.id == "gct_additions:order_stone" && !event.world.remote && event.hand == "MAIN_HAND") {
         var player as IPlayer = event.player;
         var pos as IBlockPos = event.position;
         var world as IWorld = event.world;
@@ -242,7 +242,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         }).sleep(20).then(function(world as IWorld, context) {
                             server.commandManager.executeCommandSilent(server, "particleex normal smoke" + state + "0.5 0.5 0.5 0.2 0 0 0 0.5 0.5 0.5 5 20 100 a=0.08;(vx,,vy,,vz)=(-sin(a),0,-cos(a),,0,1,0,,cos(a),0,-sin(a))*(x*2*sin(a),,0,,z*2*sin(a))");
                         }).sleep(40).then(function(world as IWorld, context) {
-                            world.setBlockState(<blockstate:gct_ores:order_stone_final>, pos);
+                            world.setBlockState(<blockstate:gct_additions:order_stone_final>, pos);
                             player.sendStatusMessage("§a转化完成！");
                         }).start();
                     } else {
@@ -385,7 +385,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     if (!event.world.remote && event.block.definition.id == "additions:shadowberry_leaves" && event.player.hasGameStage("wake_up")) {
         var pos as IBlockPos = event.position;
         var player as IPlayer = event.player;
-        event.world.setBlockState(<blockstate:gct_mobs:reversed_dreamwood_leaves>, pos);
+        event.world.setBlockState(<blockstate:gct_additions:reversed_dreamwood_leaves>, pos);
         player.give(<additions:shadowberry> * event.world.random.nextInt(1, 3));
     }
 });

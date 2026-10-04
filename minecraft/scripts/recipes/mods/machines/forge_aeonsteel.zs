@@ -72,7 +72,7 @@ RecipeBuilder.newBuilder("aeonsteel_forge", "aeonsteel_forge", 3000, 1)
         ]
     ).setChance(0.75f)
     .addCatalystInput(
-        <gct_ores:relifed_witherium_ingot>, ["§e加工时间减少到85%", "§e能量消耗减少到70%", "§e材料产出增加到104%"], [
+        <gct_additions:relifed_witherium_ingot>, ["§e加工时间减少到85%", "§e能量消耗减少到70%", "§e材料产出增加到104%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.85f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.70f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.04f, 1, false).build()
@@ -114,7 +114,7 @@ RecipeBuilder.newBuilder("aeonsteel_forge", "aeonsteel_forge", 3000, 1)
         ]
     ).setChance(0.25f)
     .addCatalystInput(
-        <gct_mobs:earth_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到85%", "§e材料产出增加到104%"], [
+        <gct_additions:earth_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到85%", "§e材料产出增加到104%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.85f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.04f, 1, false).build()
@@ -161,7 +161,7 @@ RecipeBuilder.newBuilder("aeonsteel_forge", "aeonsteel_forge", 3000, 1)
         ]
     ).setChance(0.25f)
     .addCatalystInput(
-        <gct_mobs:apocalypsium_ingot>, ["§e加工时间减少到70%", "§e能量消耗减少到70%", "§e材料产出增加到108%"], [
+        <gct_additions:apocalypsium_ingot>, ["§e加工时间减少到70%", "§e能量消耗减少到70%", "§e材料产出增加到108%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.70f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.70f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.08f, 1, false).build()

@@ -1195,7 +1195,7 @@ specific_immunityTrait.onAbility = function(trait, level, world, player) {
         player.removePotionEffect(<potion:champions:plague>);
         player.removePotionEffect(<potion:abyssalcraft:cplague>);
         player.removePotionEffect(<potion:abyssalcraft:dplague>);
-        player.removePotionEffect(<potion:gct_aby:abyssplague>);
+        player.removePotionEffect(<potion:gct_additions:abyssplague>);
     }
 };
 specific_immunityTrait.register();
@@ -1695,9 +1695,9 @@ correctingTrait.localizedDescription = game.localize("greedycraft.tconstruct.arm
 correctingTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
         if (Math.random() < 0.08) {
-            player.addPotionEffect(<potion:gct_mobs:correcting>.makePotionEffect(60, 0, false, false));
+            player.addPotionEffect(<potion:gct_additions:correcting>.makePotionEffect(60, 0, false, false));
         }
-        if (player.isPotionActive(<potion:gct_mobs:correcting>)) {
+        if (player.isPotionActive(<potion:gct_additions:correcting>)) {
             return 0.0f;
         }
     }
@@ -4968,7 +4968,7 @@ hexaelementalTrait.onHurt = function(trait, armor, player, source, damage, newDa
             attacker.setFire(10);
         } else if (turn == 2) {
             server.commandManager.executeCommandSilent(player, "particle smoke " + x as string + " " + y as string + " " + z as string + " 0.5 0.5 0.5 0 10 force");
-            attacker.addPotionEffect(<potion:gct_aby:stop>.makePotionEffect(60, 0, false, false));
+            attacker.addPotionEffect(<potion:gct_additions:stop>.makePotionEffect(60, 0, false, false));
         } else if (turn == 3) {
             server.commandManager.executeCommandSilent(player, "particle cloud " + x as string + " " + y as string + " " + z as string + " 0.5 0.5 0.5 0 10 force");
             attacker.motionY += 0.5d;

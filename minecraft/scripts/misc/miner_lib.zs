@@ -253,7 +253,7 @@ oreOutput.create("主世界",0,AEONSTEEL,<taiga:vibranium_ore>,1,0.005);
 oreOutput.create("主世界",0,AEONSTEEL,<additions:cytosinite_ore>,1,0.008);
 oreOutput.create("主世界",0,AEONSTEEL,<taiga:eezo_ore>,1,0.02);
 oreOutput.create("主世界",0,AEONSTEEL,<draconicevolution:draconium_dust>,1,0.004);
-oreOutput.create("主世界",0,AEONSTEEL,<gct_ores:witherium_dust>,1,0.004);
+oreOutput.create("主世界",0,AEONSTEEL,<gct_additions:witherium_dust>,1,0.004);
 oreOutput.create("主世界",0,AEONSTEEL,<taiga:dilithium_crystal>,1,0.035);
 oreOutput.create("主世界",0,AEONSTEEL,<mekanism:fluoriteclump>,1,0.02);
 oreOutput.create("主世界",0,AEONSTEEL,<thaumcraft:ore_amber>,1,0.03);
@@ -318,7 +318,7 @@ oreOutput.create("下界",-1,AEONSTEEL,<taiga:valyrium_ore>,1,0.009);
 oreOutput.create("下界",-1,AEONSTEEL,<additions:thyminite_ore>,1,0.008);
 oreOutput.create("下界",-1,AEONSTEEL,<taiga:tiberium_crystal>,1,0.06);
 oreOutput.create("下界",-1,AEONSTEEL,<draconicevolution:draconium_dust>,1,0.004);
-oreOutput.create("下界",-1,AEONSTEEL,<gct_ores:witherium_dust>,1,0.004);
+oreOutput.create("下界",-1,AEONSTEEL,<gct_additions:witherium_dust>,1,0.004);
 //下界 炫钢级
 oreOutput.create("下界",-1,CHROMASTEEL,<additions:lavarite_ore>,1,0.005);
 oreOutput.create("下界",-1,CHROMASTEEL,<additions:infernium_ore>,1,0.005);
@@ -351,8 +351,8 @@ oreOutput.create("末地",1,AEONSTEEL,<taiga:aurorium_ore>,1,0.015);
 oreOutput.create("末地",1,AEONSTEEL,<taiga:obsidiorite_block>,1,0.008);
 oreOutput.create("末地",1,AEONSTEEL,<taiga:obsidioritecobble_block>,1,0.012);
 oreOutput.create("末地",1,AEONSTEEL,<draconicevolution:draconium_dust>,1,0.02);
-oreOutput.create("末地",1,AEONSTEEL,<gct_ores:witherium_dust>,1,0.02);
-oreOutput.create("末地",1,AEONSTEEL,<gct_mobs:resonated_scrap>,1,0.001);
+oreOutput.create("末地",1,AEONSTEEL,<gct_additions:witherium_dust>,1,0.02);
+oreOutput.create("末地",1,AEONSTEEL,<gct_additions:resonated_scrap>,1,0.001);
 //末地 炫钢级
 oreOutput.create("末地",1,CHROMASTEEL,<endreborn:block_wolframium_ore>,1,0.009);
 oreOutput.create("末地",1,CHROMASTEEL,<additions:plasmarite_ore>,1,0.005);
@@ -405,7 +405,7 @@ oreOutput.create("天境",173,STAINLESS,<aether_legacy:zanite_gemstone>,1,0.035)
 oreOutput.create("天境",173,DURASTEEL,<additions:asgardium_ore>,1,0.02);
 oreOutput.create("天境",173,DURASTEEL,<aether_legacy:golden_amber>,1,0.01);
 //天境 恒钢级
-oreOutput.create("天境",173,AEONSTEEL,<gct_mobs:gravity_scrap>,1,0.001);
+oreOutput.create("天境",173,AEONSTEEL,<gct_additions:gravity_scrap>,1,0.001);
 oreOutput.create("天境",173,AEONSTEEL,<thermalfoundation:material:1026>,1,0.01);
 //天境 炫钢级
 oreOutput.create("天境",173,CHROMASTEEL,<additions:aetherium_ore>,1,0.005);
@@ -448,15 +448,15 @@ oreOutput.create("黑暗领域",53,STAINLESS,<abyssalcraft:shadowgem>,1,0.01);
 oreOutput.create("黑暗领域",53,COSMILITE,<additions:bnightium_ore>,1,0.008);
 
 //深暗领域 寰宇级
-oreOutput.create("深暗领域",54,COSMILITE,<gct_aby:dreadiumore>,1,0.03);
-oreOutput.create("深暗领域",54,COSMILITE,<gct_aby:ethauxiumore>,1,0.01);
-oreOutput.create("深暗领域",54,COSMILITE,<gct_aby:saniteore>,1,0.004);
+oreOutput.create("深暗领域",54,COSMILITE,<gct_additions:dreadiumore>,1,0.03);
+oreOutput.create("深暗领域",54,COSMILITE,<gct_additions:ethauxiumore>,1,0.01);
+oreOutput.create("深暗领域",54,COSMILITE,<gct_additions:saniteore>,1,0.004);
 
 //扭曲遗址 终焉级
-oreOutput.create("扭曲遗址",55,FINALLIUM,<gct_aby:azathothium_ore_complex>,1,0.01);
-oreOutput.create("扭曲遗址",55,FINALLIUM,<gct_aby:nyralathotepium_ore_complex>,1,0.01);
-oreOutput.create("扭曲遗址",55,FINALLIUM,<gct_aby:yogsothothium_ore_complex>,1,0.01);
-oreOutput.create("扭曲遗址",55,FINALLIUM,<gct_aby:shubniggurathium_ore_complex>,1,0.01);
+oreOutput.create("扭曲遗址",55,FINALLIUM,<gct_additions:azathothium_ore_complex>,1,0.01);
+oreOutput.create("扭曲遗址",55,FINALLIUM,<gct_additions:nyralathotepium_ore_complex>,1,0.01);
+oreOutput.create("扭曲遗址",55,FINALLIUM,<gct_additions:yogsothothium_ore_complex>,1,0.01);
+oreOutput.create("扭曲遗址",55,FINALLIUM,<gct_additions:shubniggurathium_ore_complex>,1,0.01);
 
 //冰晶雪原 基础级
 oreOutput.create("冰晶雪原",425,BASIC,<divinerpg:corrupted_shards>,1,0.04);
@@ -499,20 +499,20 @@ oreOutput.create("桉域",820,CHROMASTEEL,<journey:koriteore>,1,0.03);
 oreOutput.create("桉域",820,CHROMASTEEL,<journey:mekyumore>,1,0.03);
 oreOutput.create("桉域",820,CHROMASTEEL,<journey:storonore>,1,0.03);
 //桉域 终焉级
-oreOutput.create("桉域",820,FINALLIUM,<gct_mobs:lumixeium_dust>,1,0.01);
+oreOutput.create("桉域",820,FINALLIUM,<gct_additions:lumixeium_dust>,1,0.01);
 
 //噬渊 炫钢级
 oreOutput.create("噬渊",821,CHROMASTEEL,<journey:flairiumore>,1,0.03);
 oreOutput.create("噬渊",821,CHROMASTEEL,<journey:desore>,1,0.03);
 //噬渊 终焉级
 oreOutput.create("噬渊",821,CHROMASTEEL,<additions:barite_ore>,1,0.04);
-oreOutput.create("噬渊",821,FINALLIUM,<gct_mobs:noxexeum_dust>,1,0.01);
+oreOutput.create("噬渊",821,FINALLIUM,<gct_additions:noxexeum_dust>,1,0.01);
 
 //尘泥沼泽 炫钢级
 oreOutput.create("尘泥沼泽",824,CHROMASTEEL,<journey:orbaditeore>,1,0.03);
 oreOutput.create("尘泥沼泽",824,CHROMASTEEL,<journey:gorbitegem>,1,0.04);
 //尘泥沼泽 终焉级
-oreOutput.create("尘泥沼泽",824,FINALLIUM,<gct_mobs:naturaeum_dust>,1,0.01);
+oreOutput.create("尘泥沼泽",824,FINALLIUM,<gct_additions:naturaeum_dust>,1,0.01);
 
 //迷雾丛林 寰宇级
 oreOutput.create("迷雾丛林",827,COSMILITE,<additions:chloroplast_ore>,1,0.04);
@@ -520,7 +520,7 @@ oreOutput.create("迷雾丛林",827,COSMILITE,<additions:chloroplast_ore>,1,0.04
 //苍穹之城 寰宇级
 oreOutput.create("苍穹之城",826,COSMILITE,<journey:lunitechunk>,1,0.04);
 //苍穹之城 终焉级
-oreOutput.create("苍穹之城",826,FINALLIUM,<gct_mobs:tonitruium_dust>,1,0.01);
+oreOutput.create("苍穹之城",826,FINALLIUM,<gct_additions:tonitruium_dust>,1,0.01);
 
 //漆黑世界 炫钢级
 oreOutput.create("漆黑世界",-11325,CHROMASTEEL,<additions:shadowium_ore>,1,0.02);
@@ -550,7 +550,7 @@ oreOutput.create("无名之地",101,COSMILITE,<additions:adamantium_ore>,1,0.02)
 oreOutput.create("无名之地",101,FINALLIUM,<additions:dawnium_ore>,1,0.008);
 
 //秩序之地 终焉级
-oreOutput.create("秩序之地",102,FINALLIUM,<gct_ores:order_crystal>,1,0.0005);
+oreOutput.create("秩序之地",102,FINALLIUM,<gct_additions:order_crystal>,1,0.0005);
 
 //交错次元 终焉级
 oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:octine_ore>,1,0.04);
@@ -567,11 +567,11 @@ oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:life_crystal>,1,0.
 oreOutput.create("交错次元",20,WAVITE,<additions:izumium_ore>,1,0.02);
 
 //亚尔夫海姆 寰宇级
-oreOutput.create("亚尔夫海姆",42,COSMILITE,<gct_mobs:elementium_ore>,1,0.03);
-oreOutput.create("亚尔夫海姆",42,COSMILITE,<gct_mobs:terrasteel_ore>,1,0.008);
+oreOutput.create("亚尔夫海姆",42,COSMILITE,<gct_additions:elementium_ore>,1,0.03);
+oreOutput.create("亚尔夫海姆",42,COSMILITE,<gct_additions:terrasteel_ore>,1,0.008);
 //亚尔夫海姆 终焉级
-oreOutput.create("亚尔夫海姆",42,FINALLIUM,<gct_mobs:orichalcos_ore>,1,0.005);
-oreOutput.create("亚尔夫海姆",42,FINALLIUM,<gct_mobs:botanical_stone>,1,0.004);
+oreOutput.create("亚尔夫海姆",42,FINALLIUM,<gct_additions:orichalcos_ore>,1,0.005);
+oreOutput.create("亚尔夫海姆",42,FINALLIUM,<gct_additions:botanical_stone>,1,0.004);
 
 //尼福尔海姆 波动级
 oreOutput.create("尼福尔海姆",43,WAVITE,<gctcore:apathy_ore>,1,0.02);

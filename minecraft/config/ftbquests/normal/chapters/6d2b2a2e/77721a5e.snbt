@@ -18,12 +18,12 @@
 			id: "minecraft:spawn_egg",
 			tag: {
 				EntityTag: {
-					id: "gct_aby:mixture_shoggoth"
+					id: "gct_additions:mixture_shoggoth"
 				}
 			}
 		},
 		match_type: "entity_id",
-		match: "gct_aby:mixture_shoggoth",
+		match: "gct_additions:mixture_shoggoth",
 		timer: 0L
 	}],
 	rewards: [{

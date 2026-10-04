@@ -28,7 +28,7 @@ TreeRitual.addRecipe("token_emotion", <minecraft:sapling>, <additions:token_emot
     <naturesaura:token_grief>
 ]);
 
-TreeRitual.addRecipe("eb_altar", <minecraft:sapling>, <gct_mobs:earthbound_altar>, 200, [
+TreeRitual.addRecipe("eb_altar", <minecraft:sapling>, <gct_additions:earthbound_altar>, 200, [
     <additions:fusion_matrix_block>,
     <botania:manaresource:3>,
     <botania:manaresource:3>,
@@ -44,7 +44,7 @@ TreeRitual.addRecipe("daynight_ingot", <minecraft:sapling>, <additions:daynight_
     <journey:gorbitegem>,
     <theaurorian:auroriansteel>,
     <journey:gorbitegem>,
-    <gct_ores:fallen_metal_nugget>,
+    <gct_additions:fallen_metal_nugget>,
     <journey:gorbitegem>,
     <tconevo:metal:2>,
     <journey:gorbitegem>

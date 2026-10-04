@@ -12,9 +12,9 @@
 	tasks: [{
 		uid: "3a60e24c",
 		type: "observation",
-		icon: "gct_aby:seek_altar",
+		icon: "gct_additions:seek_altar",
 		match_type: "block_id",
-		match: "gct_aby:seek_altar",
+		match: "gct_additions:seek_altar",
 		timer: 0L
 	}],
 	rewards: [{

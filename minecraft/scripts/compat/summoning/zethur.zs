@@ -24,7 +24,7 @@ SummoningDirector.addSummonInfo(
         .setConsumeCatalyst(true)
         .setReagents([])
         .addMob(MobInfo.create()
-            .setMob("gct_mobs:zethur")
+            .setMob("gct_additions:zethur")
             .setCount(1)
             .setOffset(0,4,0)
             .setSpread(1,4,1)

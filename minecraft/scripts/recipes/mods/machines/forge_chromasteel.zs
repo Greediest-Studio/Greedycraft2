@@ -122,7 +122,7 @@ RecipeBuilder.newBuilder("chromasteel_forge", "chromasteel_forge", 4200, 1)
         ]
     ).setChance(0.5f)
     .addCatalystInput(
-        <gct_mobs:sanite_ingot>, ["§e加工时间减少到75%", "§e能量消耗减少到90%", "§e材料产出增加到103%"], [
+        <gct_additions:sanite_ingot>, ["§e加工时间减少到75%", "§e能量消耗减少到90%", "§e材料产出增加到103%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.75f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.9f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.03f, 1, false).build(),
@@ -185,14 +185,14 @@ RecipeBuilder.newBuilder("chromasteel_forge", "chromasteel_forge", 4200, 1)
         ]
     ).setChance(0.50f)
     .addCatalystInput(
-        <gct_ores:stormy_witherium_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到75%", "§e材料产出增加到104%"], [
+        <gct_additions:stormy_witherium_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到75%", "§e材料产出增加到104%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.75f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.04f, 1, false).build(),
         ]
     ).setChance(0.75f)
     .addCatalystInput(
-        <gct_ores:chaotic_draconium_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到75%", "§e材料产出增加到104%"], [
+        <gct_additions:chaotic_draconium_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到75%", "§e材料产出增加到104%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.75f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.04f, 1, false).build(),

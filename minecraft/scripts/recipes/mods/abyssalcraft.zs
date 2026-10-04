@@ -23,13 +23,13 @@ Remnant.addTrade("librarian", <additions:remnant_data>, <abyssalcraft:eldercoin>
 
 Transmutator.removeTransmutationOutput(<abyssalcraft:solidlava>);
 
-Transmutator.addTransmutation(<gct_mobs:reserved_reserver>, <gct_mobs:reserver>, 3.0f);
+Transmutator.addTransmutation(<gct_additions:reserved_reserver>, <gct_additions:reserver>, 3.0f);
 Transmutator.addTransmutation(<additions:reversed_orichalcos>, <extrabotany:material:1>, 1.0f);
 
 Transmutator.addFuel(<abyssalcraft:cingot>, 1200);
 Transmutator.addFuel(<additions:energy_matter_core>, 600000);
-Transmutator.addFuel(<gct_mobs:sanite_ingot>, 2000);
-Transmutator.addFuel(<gct_mobs:sanite_block>, 18000);
+Transmutator.addFuel(<gct_additions:sanite_ingot>, 2000);
+Transmutator.addFuel(<gct_additions:sanite_block>, 18000);
 
 InfusionRitual.addRitual("abyssalite", 0, -1, 500, false, <abyssalcraft:abyore>,  <minecraft:iron_ore>, [
     <abyssalcraft:shadowshard>, 
@@ -53,7 +53,7 @@ InfusionRitual.addRitual("dreadland_artifact", 1, -1, 10000, true, <abyssalcraft
     <abyssalcraft:powerstonetracker>
 ] as IIngredient[], false);
 
-InfusionRitual.addRitual("empty_key1", 4, -1, 10000, false, <gct_ores:door_key_empty>, <abyssalcraft:gatewaykey>, [
+InfusionRitual.addRitual("empty_key1", 4, -1, 10000, false, <gct_additions:door_key_empty>, <abyssalcraft:gatewaykey>, [
     <projecte:item.pe_matter>,
     <projecte:item.pe_matter>,
     <projecte:item.pe_matter>,
@@ -64,7 +64,7 @@ InfusionRitual.addRitual("empty_key1", 4, -1, 10000, false, <gct_ores:door_key_e
     <projecte:item.pe_matter>,
 ] as IIngredient[], false);
 
-InfusionRitual.addRitual("empty_key2", 4, -1, 10000, false, <gct_ores:door_key_empty>, <abyssalcraft:gatewaykeydl>, [
+InfusionRitual.addRitual("empty_key2", 4, -1, 10000, false, <gct_additions:door_key_empty>, <abyssalcraft:gatewaykeydl>, [
     <projecte:item.pe_matter>,
     <projecte:item.pe_matter>,
     <projecte:item.pe_matter>,
@@ -75,7 +75,7 @@ InfusionRitual.addRitual("empty_key2", 4, -1, 10000, false, <gct_ores:door_key_e
     <projecte:item.pe_matter>,
 ] as IIngredient[], false);
 
-InfusionRitual.addRitual("empty_key3", 4, -1, 10000, false, <gct_ores:door_key_empty>, <abyssalcraft:gatewaykeyjzh>, [
+InfusionRitual.addRitual("empty_key3", 4, -1, 10000, false, <gct_additions:door_key_empty>, <abyssalcraft:gatewaykeyjzh>, [
     <projecte:item.pe_matter>,
     <projecte:item.pe_matter>,
     <projecte:item.pe_matter>,
@@ -86,37 +86,37 @@ InfusionRitual.addRitual("empty_key3", 4, -1, 10000, false, <gct_ores:door_key_e
     <projecte:item.pe_matter>,
 ] as IIngredient[], false);
 
-InfusionRitual.addRitual("key_order", 4, 53, 100000, true, <gct_ores:door_key_of_orderland>, <gct_ores:door_key_empty>, [
+InfusionRitual.addRitual("key_order", 4, 53, 100000, true, <gct_additions:door_key_of_orderland>, <gct_additions:door_key_empty>, [
     <additions:cosmilite_ingot>,
-    <gct_ores:ruled_draconium_block>,
+    <gct_additions:ruled_draconium_block>,
     <draconicevolution:chaotic_core>,
-    <gct_ores:balanced_matrix_ingot>,
-    <gct_ores:everite_block>,
-    <gct_ores:balanced_matrix_ingot>,
-    <gct_ores:stormy_core>,
-    <gct_ores:equipment_witherium_block>
+    <gct_additions:balanced_matrix_ingot>,
+    <gct_additions:everite_block>,
+    <gct_additions:balanced_matrix_ingot>,
+    <gct_additions:stormy_core>,
+    <gct_additions:equipment_witherium_block>
 ] as IIngredient[], false);
 
-InfusionRitual.addRitual("ancient_mud", 4, 53, 50000, true, <gct_aby:ancientmud>, <minecraft:slime_ball>, [
-    <gct_mobs:sanite_block>,
+InfusionRitual.addRitual("ancient_mud", 4, 53, 50000, true, <gct_additions:ancientmud>, <minecraft:slime_ball>, [
+    <gct_additions:sanite_block>,
     <abyssalcraft:ingotblock:3>,
-    <gct_aby:essenceofdarkerrealm>,
-    <gct_aby:essenceofdarkerrealm>,
-    <gct_aby:shoggothtancale>,
-    <gct_aby:shoggothtancale>,
-    <gct_aby:shoggothtancale>,
-    <gct_aby:shoggothtancale>
+    <gct_additions:essenceofdarkerrealm>,
+    <gct_additions:essenceofdarkerrealm>,
+    <gct_additions:shoggothtancale>,
+    <gct_additions:shoggothtancale>,
+    <gct_additions:shoggothtancale>,
+    <gct_additions:shoggothtancale>
 ] as IIngredient[], false); 
 
 CreationRitual.addRitual("key_portal", 4, -1, 100010, false, <thebetweenlands:swamp_talisman>, [
     <thebetweenlands:swamp_talisman:1>,
-    <gct_ores:door_key_empty>,
+    <gct_additions:door_key_empty>,
     <thebetweenlands:swamp_talisman:2>,
-    <gct_ores:door_key_empty>,
+    <gct_additions:door_key_empty>,
     <thebetweenlands:swamp_talisman:3>,
-    <gct_ores:door_key_empty>,
+    <gct_additions:door_key_empty>,
     <thebetweenlands:swamp_talisman:4>,
-    <gct_ores:door_key_empty>
+    <gct_additions:door_key_empty>
 ], true);
 
 InfusionRitual.addRitual("living_fire", 3, -1, 64000, false, <additions:living_fire>, <tiths:ingot_stellarium>, [
@@ -130,50 +130,50 @@ InfusionRitual.addRitual("living_fire", 3, -1, 64000, false, <additions:living_f
     <additions:moltenium_ingot>
 ] as IIngredient[], false);
 
-CreationRitual.addRitual("warped_key", 4, -1, 100010, false, <gct_aby:key_of_warped>, [
-    <gct_ores:door_key_empty>,
-    <gct_mobs:cthulhurite_ingot>,
-    <gct_aby:shoggothtooth>,
-    <gct_mobs:cthulhurite_ingot>,
-    <gct_ores:door_key_empty>,
-    <gct_mobs:cthulhurite_ingot>,
-    <gct_aby:shoggothtooth>,
-    <gct_mobs:cthulhurite_ingot>
+CreationRitual.addRitual("warped_key", 4, -1, 100010, false, <gct_additions:key_of_warped>, [
+    <gct_additions:door_key_empty>,
+    <gct_additions:cthulhurite_ingot>,
+    <gct_additions:shoggothtooth>,
+    <gct_additions:cthulhurite_ingot>,
+    <gct_additions:door_key_empty>,
+    <gct_additions:cthulhurite_ingot>,
+    <gct_additions:shoggothtooth>,
+    <gct_additions:cthulhurite_ingot>
 ], true);
 
-InfusionRitual.addRitual("warped_key_active", 4, -1, 100010, true, <gct_aby:key_of_warped_active>, <gct_aby:key_of_warped>, [
+InfusionRitual.addRitual("warped_key_active", 4, -1, 100010, true, <gct_additions:key_of_warped_active>, <gct_additions:key_of_warped>, [
     <thebetweenlands:spirit_fruit>,
     null,
     null,
     <additions:cosmilite_ingot>,
     null,
     null,
-    <gct_ores:balanced_matrix_ingot>
+    <gct_additions:balanced_matrix_ingot>
 ] as IIngredient[], false);
 
-CreationRitual.addRitual("capsule", 3, -1, 90000, false, <gct_aby:solid_pot_energy>, [
+CreationRitual.addRitual("capsule", 3, -1, 90000, false, <gct_additions:solid_pot_energy>, [
     <additions:sanite_ethaxium_capsule>
 ], true);
 
-InfusionRitual.addRitual("abyssine_ingot", 4, -1, 50000, true, <additions:abyssine_block>, <gct_ores:balanced_matrix_ingot>, [
-    <gct_mobs:azathothium_ingot>,
-    <gct_mobs:nyarlathotepium_ingot>,
-    <gct_mobs:yogsothothium_ingot>,
-    <gct_mobs:shubniggurathium_ingot>,
+InfusionRitual.addRitual("abyssine_ingot", 4, -1, 50000, true, <additions:abyssine_block>, <gct_additions:balanced_matrix_ingot>, [
+    <gct_additions:azathothium_ingot>,
+    <gct_additions:nyarlathotepium_ingot>,
+    <gct_additions:yogsothothium_ingot>,
+    <gct_additions:shubniggurathium_ingot>,
     <additions:husturite_ingot>,
     <additions:cthughate_ingot>,
-    <gct_mobs:cthulhurite_ingot>,
-    <gct_ores:balanced_matrix_ingot>
+    <gct_additions:cthulhurite_ingot>,
+    <gct_additions:balanced_matrix_ingot>
 ] as IIngredient[], false);
 
-InfusionRitual.addRitual("eye_of_abyss", 4, -1, 100000, true, <gct_aby:eye_of_abyss>, <additions:awakened_eye>, [
+InfusionRitual.addRitual("eye_of_abyss", 4, -1, 100000, true, <gct_additions:eye_of_abyss>, <additions:awakened_eye>, [
     <abyssalcraft:essence>,
     <abyssalcraft:essence:1>,
     <abyssalcraft:essence:2>,
-    <gct_aby:essenceofdarkrealm>,
-    <gct_aby:essenceofdarkerrealm>,
-    <gct_aby:essence_of_warped_ruin>,
-    <gct_ores:finallium_ingot>,
+    <gct_additions:essenceofdarkrealm>,
+    <gct_additions:essenceofdarkerrealm>,
+    <gct_additions:essence_of_warped_ruin>,
+    <gct_additions:finallium_ingot>,
     <thaumadditions:adaminite_fabric>
 ] as IIngredient[], false);
 

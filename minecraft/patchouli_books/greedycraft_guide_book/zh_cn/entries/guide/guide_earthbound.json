@@ -1,6 +1,6 @@
 {
     "name":"§8地缚祭坛",
-    "icon":"gct_mobs:earthbound_core",
+    "icon":"gct_additions:earthbound_core",
     "category":"patchouli:guide_category",
     "pages":[
         {
@@ -9,10 +9,10 @@
             "symmertrical":true,
             "multiblock":{
                 "mapping":{
-                    "B":"gct_mobs:earthbound_core",
+                    "B":"gct_additions:earthbound_core",
                     "A":"minecraft:grass",
-                    "0":"gct_mobs:earthbound_altar",
-                    "C":"gct_mobs:earthbound_receiver"
+                    "0":"gct_additions:earthbound_altar",
+                    "C":"gct_additions:earthbound_receiver"
                 },
                 "pattern":[
                     [
@@ -43,7 +43,7 @@
         },
         {
             "type":"spotlight",
-            "item":"gct_mobs:earthbound_core",
+            "item":"gct_additions:earthbound_core",
             "text":"搭建如左图所示多方块结构$(li)将$(6)大地提取宝珠$()放入$(2)四周$()的$(6)地缚接收器$()即可激活$(li)使用$(6)神圣钢锭$()右击$(c)已激活$()的地缚祭坛结构，同时消耗100000灵气以合成$(6)大地之锭$()（$(2)成功概率30%$()）"
         }
     ]

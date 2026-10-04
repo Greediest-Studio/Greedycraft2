@@ -14,14 +14,14 @@
 	tasks: [{
 		uid: "d2f8815a",
 		type: "kill",
-		icon: "gct_ores:stormy_shard_block",
+		icon: "gct_additions:stormy_shard_block",
 		entity: "ageofminecraft:witherstormbosshelpful",
 		value: 1L
 	}],
 	rewards: [{
 		uid: "4ee5f160",
 		type: "item",
-		item: "gct_ores:stormy_shard",
+		item: "gct_additions:stormy_shard",
 		count: 15
 	},
 	{

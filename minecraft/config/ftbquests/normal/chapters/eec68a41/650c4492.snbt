@@ -12,9 +12,9 @@
 	tasks: [{
 		uid: "25374cfc",
 		type: "observation",
-		icon: "gct_mobs:reserved_reserver",
+		icon: "gct_additions:reserved_reserver",
 		match_type: "block_id",
-		match: "gct_mobs:reserved_reserver",
+		match: "gct_additions:reserved_reserver",
 		timer: 0L
 	}],
 	rewards: [{

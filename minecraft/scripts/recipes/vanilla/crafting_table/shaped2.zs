@@ -109,9 +109,9 @@ RecipeUtil.addShaped("ecalculator_tail_l6", <ecoaeextension:ecalculator_tail_l6>
     [<ecoaeextension:ecalculator_casing>, <additions:cryonium_block>, null]
 ]);
 RecipeUtil.addShaped("ecalculator_tail_l9", <ecoaeextension:ecalculator_tail_l9>, [
-    [<ecoaeextension:ecalculator_casing>, <gct_ores:ice_alloy_block>, null],
+    [<ecoaeextension:ecalculator_casing>, <gct_additions:ice_alloy_block>, null],
     [<ecoaeextension:ecalculator_casing>, <ecoaeextension:ecalculator_tail_l6>, null],
-    [<ecoaeextension:ecalculator_casing>, <gct_ores:ice_alloy_block>, null]
+    [<ecoaeextension:ecalculator_casing>, <gct_additions:ice_alloy_block>, null]
 ]);
 RecipeUtil.addShaped("ecalculator_me_channel", <ecoaeextension:ecalculator_me_channel>, [
     [<ecoaeextension:ecalculator_casing>, <appliedenergistics2:io_port>, <ecoaeextension:ecalculator_casing>],
@@ -263,17 +263,17 @@ RecipeUtil.addShaped("therm_Chloroplast_2", <tiths:ingot_chloroplast> * 2, [
     [<thermalfoundation:material:1024>, null, null],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("therm_Sanite", <gct_mobs:sanite_ingot>, [
+RecipeUtil.addShaped("therm_Sanite", <gct_additions:sanite_ingot>, [
     [<ore:oreSanite>, <thermalfoundation:material:1024>, null],
     [null, null, null],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("therm_Sanite_1", <gct_mobs:sanite_ingot>, [
+RecipeUtil.addShaped("therm_Sanite_1", <gct_additions:sanite_ingot>, [
     [<ore:dustSanite>, <thermalfoundation:material:1024>, null],
     [null, null, null],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("therm_Sanite_2", <gct_mobs:sanite_ingot> * 2, [
+RecipeUtil.addShaped("therm_Sanite_2", <gct_additions:sanite_ingot> * 2, [
     [<ore:oreSanite>, <thermalfoundation:material:1027>, null],
     [<thermalfoundation:material:1024>, null, null],
     [null, null, null]
@@ -508,25 +508,25 @@ RecipeUtil.addShaped("infinity_cell_cobblestone", <extendedae:infinity_cell>.wit
     [<extrautils2:compressedcobblestone:7>, <appliedenergistics2:material:39>, <extrautils2:compressedcobblestone:7>],
     [<extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>]
 ]);
-RecipeUtil.addShaped("primordial_stonebrick", <gct_mobs:primordial_stonebrick> * 4, [
-    [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, null],
-    [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, null],
+RecipeUtil.addShaped("primordial_stonebrick", <gct_additions:primordial_stonebrick> * 4, [
+    [<gct_additions:primordial_stone>, <gct_additions:primordial_stone>, null],
+    [<gct_additions:primordial_stone>, <gct_additions:primordial_stone>, null],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("primordial_stonebrick_stairs", <gct_mobs:primordial_stonebrick_stairs> * 8, [
-    [<gct_mobs:primordial_stonebrick>, null, null],
-    [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, null],
-    [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>]
+RecipeUtil.addShaped("primordial_stonebrick_stairs", <gct_additions:primordial_stonebrick_stairs> * 8, [
+    [<gct_additions:primordial_stonebrick>, null, null],
+    [<gct_additions:primordial_stonebrick>, <gct_additions:primordial_stonebrick>, null],
+    [<gct_additions:primordial_stonebrick>, <gct_additions:primordial_stonebrick>, <gct_additions:primordial_stonebrick>]
 ]);
-RecipeUtil.addShaped("primordial_stonebrick_slab", <gct_mobs:primordial_stonebrick_slab> * 6, [
+RecipeUtil.addShaped("primordial_stonebrick_slab", <gct_additions:primordial_stonebrick_slab> * 6, [
     [null, null, null],
-    [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>],
+    [<gct_additions:primordial_stonebrick>, <gct_additions:primordial_stonebrick>, <gct_additions:primordial_stonebrick>],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("primordial_stonebrick_wall", <gct_mobs:primordial_stonebrick_wall> * 6, [
+RecipeUtil.addShaped("primordial_stonebrick_wall", <gct_additions:primordial_stonebrick_wall> * 6, [
     [null, null, null],
-    [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>],
-    [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>]
+    [<gct_additions:primordial_stonebrick>, <gct_additions:primordial_stonebrick>, <gct_additions:primordial_stonebrick>],
+    [<gct_additions:primordial_stonebrick>, <gct_additions:primordial_stonebrick>, <gct_additions:primordial_stonebrick>]
 ]);
 RecipeUtil.addShaped("link_card", <whimcraft:link_card>, [
     [null, <crazyae:material:35>, null],
@@ -538,22 +538,22 @@ RecipeUtil.addShaped("ancient_collection", <additions:ancient_collection>, [
     [<additions:ancient_tome>, <additions:ancient_tome>, <additions:ancient_tome>],
     [<additions:ancient_tome>, <additions:ancient_tome>, <additions:ancient_tome>]
 ]);
-RecipeUtil.addShaped("primordial_stone_slab", <gct_mobs:primordial_stone_slab> * 6, [
+RecipeUtil.addShaped("primordial_stone_slab", <gct_additions:primordial_stone_slab> * 6, [
     [null, null, null],
-    [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>],
+    [<gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("primordial_stone_stairs", <gct_mobs:primordial_stone_stairs> * 8, [
-    [<gct_mobs:primordial_stone>, null, null],
-    [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, null],
-    [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>]
+RecipeUtil.addShaped("primordial_stone_stairs", <gct_additions:primordial_stone_stairs> * 8, [
+    [<gct_additions:primordial_stone>, null, null],
+    [<gct_additions:primordial_stone>, <gct_additions:primordial_stone>, null],
+    [<gct_additions:primordial_stone>, <gct_additions:primordial_stone>, <gct_additions:primordial_stone>]
 ]);
 RecipeUtil.addShaped("summoning_crystal_lightning", <iceandfire:summoning_crystal_lightning>, [
     [<iceandfire:lightning_dragon_blood>, <ore:enderpearl>, null],
     [<ore:gemDiamond>, <ore:gemAmethyst>, null],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("command_dismantler", <gct_ores:command_dismantler>, [
+RecipeUtil.addShaped("command_dismantler", <gct_additions:command_dismantler>, [
     [null, <ore:gemDiamond>, <ore:ingotEverite>],
     [null, <tconstruct:stone_stick>, <ore:gemDiamond>],
     [<tconstruct:stone_stick>, null, null]
@@ -825,7 +825,7 @@ RecipeUtil.addShaped("elder_prismarine", <quark:elder_prismarine>, [
 ]);
 RecipeUtil.addShaped("reversed_elven_passes", <additions:reversed_elven_passes>, [
     [null, <additions:shadowberry>, null],
-    [<additions:shadowberry>, <gct_mobs:elf_passes>, <additions:shadowberry>],
+    [<additions:shadowberry>, <gct_additions:elf_passes>, <additions:shadowberry>],
     [null, <additions:shadowberry>, null]
 ]);
 RecipeUtil.addShaped("extendedcrafting_interface", <extendedcrafting:interface>, [
@@ -1089,14 +1089,14 @@ RecipeUtil.addShaped("universal_eco_le6", <eco_expand:estorage_cell_universal_64
     [<additions:upgrade_cosmilite>, <additions:cosmilite_ingot>, <additions:upgrade_cosmilite>]
 ]);
 RecipeUtil.addShaped("universal_eco_le9", <eco_expand:estorage_cell_universal_256m>, [
-    [<additions:upgrade_finallium>, <gct_ores:finallium_ingot>, <additions:upgrade_finallium>],
-    [<gct_ores:finallium_ingot>, <eco_expand:estorage_cell_universal_64m>, <gct_ores:finallium_ingot>],
-    [<additions:upgrade_finallium>, <gct_ores:finallium_ingot>, <additions:upgrade_finallium>]
+    [<additions:upgrade_finallium>, <gct_additions:finallium_ingot>, <additions:upgrade_finallium>],
+    [<gct_additions:finallium_ingot>, <eco_expand:estorage_cell_universal_64m>, <gct_additions:finallium_ingot>],
+    [<additions:upgrade_finallium>, <gct_additions:finallium_ingot>, <additions:upgrade_finallium>]
 ]);
 RecipeUtil.addShaped("universal_eco_le12", <eco_expand:estorage_cell_universal_1024m>, [
-    [<additions:upgrade_wavite>, <gct_mobs:wavite_ingot>, <additions:upgrade_wavite>],
-    [<gct_mobs:wavite_ingot>, <eco_expand:estorage_cell_universal_256m>, <gct_mobs:wavite_ingot>],
-    [<additions:upgrade_wavite>, <gct_mobs:wavite_ingot>, <additions:upgrade_wavite>]
+    [<additions:upgrade_wavite>, <gct_additions:wavite_ingot>, <additions:upgrade_wavite>],
+    [<gct_additions:wavite_ingot>, <eco_expand:estorage_cell_universal_256m>, <gct_additions:wavite_ingot>],
+    [<additions:upgrade_wavite>, <gct_additions:wavite_ingot>, <additions:upgrade_wavite>]
 ]);
 RecipeUtil.addShaped("trinity_pit_cf253", <additions:pit_cf253>, [
     [<contenttweaker:californium53>, <contenttweaker:californium53>, <contenttweaker:californium53>],
@@ -1628,45 +1628,45 @@ RecipeUtil.addShaped("aurora_block_inf_cell", <extendedae:infinity_cell>.withTag
     [<ore:ingotAurorianSteel>, <appliedenergistics2:material:39>, <ore:ingotAurorianSteel>],
     [<ore:ingotAurorianite>, <additions:aurora_heart>, <ore:ingotAurorianite>]
 ]);
-RecipeUtil.addShaped("polarisite_brick", <gct_mobs:polarisite_brick> * 4, [
-    [<gct_mobs:polarisite>, <gct_mobs:polarisite>, null],
-    [<gct_mobs:polarisite>, <gct_mobs:polarisite>, null],
+RecipeUtil.addShaped("polarisite_brick", <gct_additions:polarisite_brick> * 4, [
+    [<gct_additions:polarisite>, <gct_additions:polarisite>, null],
+    [<gct_additions:polarisite>, <gct_additions:polarisite>, null],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("polarisite_slab", <gct_mobs:polarisite_slab> * 6, [
+RecipeUtil.addShaped("polarisite_slab", <gct_additions:polarisite_slab> * 6, [
     [null, null, null],
-    [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>],
+    [<gct_additions:polarisite_brick>, <gct_additions:polarisite_brick>, <gct_additions:polarisite_brick>],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("polarisite_stair", <gct_mobs:polarisite_stair> * 6, [
-    [<gct_mobs:polarisite_brick>, null, null],
-    [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, null],
-    [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>]
+RecipeUtil.addShaped("polarisite_stair", <gct_additions:polarisite_stair> * 6, [
+    [<gct_additions:polarisite_brick>, null, null],
+    [<gct_additions:polarisite_brick>, <gct_additions:polarisite_brick>, null],
+    [<gct_additions:polarisite_brick>, <gct_additions:polarisite_brick>, <gct_additions:polarisite_brick>]
 ]);
-RecipeUtil.addShaped("polarisite_wall", <gct_mobs:polarisite_wall> * 6, [
+RecipeUtil.addShaped("polarisite_wall", <gct_additions:polarisite_wall> * 6, [
     [null, null, null],
-    [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>],
-    [<gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>, <gct_mobs:polarisite_brick>]
+    [<gct_additions:polarisite_brick>, <gct_additions:polarisite_brick>, <gct_additions:polarisite_brick>],
+    [<gct_additions:polarisite_brick>, <gct_additions:polarisite_brick>, <gct_additions:polarisite_brick>]
 ]);
-RecipeUtil.addShaped("polarisite_dark_brick", <gct_mobs:polarisite_dark_brick> * 4, [
-    [<gct_mobs:polarisite_dark>, <gct_mobs:polarisite_dark>, null],
-    [<gct_mobs:polarisite_dark>, <gct_mobs:polarisite_dark>, null],
+RecipeUtil.addShaped("polarisite_dark_brick", <gct_additions:polarisite_dark_brick> * 4, [
+    [<gct_additions:polarisite_dark>, <gct_additions:polarisite_dark>, null],
+    [<gct_additions:polarisite_dark>, <gct_additions:polarisite_dark>, null],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("polarisite_dark_slab", <gct_mobs:polarisite_dark_slab> * 6, [
+RecipeUtil.addShaped("polarisite_dark_slab", <gct_additions:polarisite_dark_slab> * 6, [
     [null, null, null],
-    [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>],
+    [<gct_additions:polarisite_dark_brick>, <gct_additions:polarisite_dark_brick>, <gct_additions:polarisite_dark_brick>],
     [null, null, null]
 ]);
-RecipeUtil.addShaped("polarisite_dark_stair", <gct_mobs:polarisite_dark_stair> * 6, [
-    [<gct_mobs:polarisite_dark_brick>, null, null],
-    [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, null],
-    [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>]
+RecipeUtil.addShaped("polarisite_dark_stair", <gct_additions:polarisite_dark_stair> * 6, [
+    [<gct_additions:polarisite_dark_brick>, null, null],
+    [<gct_additions:polarisite_dark_brick>, <gct_additions:polarisite_dark_brick>, null],
+    [<gct_additions:polarisite_dark_brick>, <gct_additions:polarisite_dark_brick>, <gct_additions:polarisite_dark_brick>]
 ]);
-RecipeUtil.addShaped("polarisite_dark_wall", <gct_mobs:polarisite_dark_wall> * 6, [
+RecipeUtil.addShaped("polarisite_dark_wall", <gct_additions:polarisite_dark_wall> * 6, [
     [null, null, null],
-    [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>],
-    [<gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>, <gct_mobs:polarisite_dark_brick>]
+    [<gct_additions:polarisite_dark_brick>, <gct_additions:polarisite_dark_brick>, <gct_additions:polarisite_dark_brick>],
+    [<gct_additions:polarisite_dark_brick>, <gct_additions:polarisite_dark_brick>, <gct_additions:polarisite_dark_brick>]
 ]);
 RecipeUtil.addShaped("redstone_control_hatch", <mmce_complement:redstone_control_hatch>, [
     [<ore:ingotModularium>, <minecraft:repeater>, <ore:ingotModularium>],

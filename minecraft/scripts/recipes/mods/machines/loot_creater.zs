@@ -268,7 +268,7 @@ createLootRecipe("cosmilite_loot", [
     <extrabotany:material:6>
 ], [
     <extrabotany:treasurebox>,
-    <gct_mobs:gaia_heart> * 2
+    <gct_additions:gaia_heart> * 2
 ], 45, 1.0E6 as long, 0);
 
 //空之律者
@@ -355,9 +355,9 @@ createLootRecipe("durasteel_loot", [
 
 //天启立方
 createLootRecipe("chromasteel_loot", [
-    <gct_mobs:apocalypse_ruin>
+    <gct_additions:apocalypse_ruin>
 ], [
-    <gct_mobs:apocalypsium_scrap> * 20
+    <gct_additions:apocalypsium_scrap> * 20
 ], 30, 2.0E5 as long, 0);
 
 //混沌守卫
@@ -370,9 +370,9 @@ createLootRecipe("cosmilite_loot", [
 
 //凋灵风暴
 createLootRecipe("cosmilite_loot", [
-    <gct_ores:creepy_witherstorm_doll>
+    <gct_additions:creepy_witherstorm_doll>
 ], [
-    <gct_ores:stormy_shard> * 6,
+    <gct_additions:stormy_shard> * 6,
     <ageofminecraft:withered_nether_star> * 1,
     <additions:withered_nether_star_shard> * 2,
     <minecraft:command_block> * 1
@@ -380,7 +380,7 @@ createLootRecipe("cosmilite_loot", [
 
 //哨兵之心
 createLootRecipe("cosmilite_loot", [
-    <gct_ores:senterian_builder_lab>
+    <gct_additions:senterian_builder_lab>
 ], [
     <additions:dullium_ingot> * 15
 ], 30, 9.0E5 as long, 0);
@@ -446,11 +446,11 @@ createLootRecipe("aeonsteel_loot", [
 
 //秩序守护使
 createLootRecipe("finallium_loot", [
-    <gct_ores:finallium_container>,
-    <gct_ores:ordered_core>,
+    <gct_additions:finallium_container>,
+    <gct_additions:ordered_core>,
     <additions:order_scale> * 1
 ], [
-    <gct_ores:order_crystal> * 8,
+    <gct_additions:order_crystal> * 8,
     <contenttweaker:chaos_heart> * 4,
     <additions:pure_dragonbone> * 16,
     <additions:order_scale> * 18
