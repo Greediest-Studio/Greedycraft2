@@ -222,12 +222,18 @@ function createLootRecipe(license as string, consume as IItemStack[], output as 
     builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
         if (!event.controller.hasMachineUpgrade(license)) {
             event.setFailed("需要安装" + licenseMap[license]);
+            return;
+        }
+        var parallelism as int = event.activeRecipe.parallelism;
+        if (essence * parallelism > event.controller.getEssence()) {
+            event.setFailed("精华值不足");
+            return;
         }
     });
     builder.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         var parallelism as int = event.activeRecipe.parallelism;
         if (essence * parallelism > event.controller.getEssence()) {
-            event.setFailed(true, "精华值不足");
+            event.preventProgressing("精华值不足");
         }
     });
     builder.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
