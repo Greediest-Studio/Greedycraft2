@@ -59,7 +59,7 @@ RecipeBuilder.newBuilder("genite_build", "gene_builder", 1000, 0)
     .addItemInput(<additions:guaninite_ingot>)
     .addItemInput(<additions:adeninite_ingot>)
     .addEnergyPerTickInput(1150)
-    .addItemOutput(<gct_ores:genite_ingot>)
+    .addItemOutput(<gct_additions:genite_ingot>)
     .build();
 
 MMEvents.onControllerGUIRender("gene_builder", function(event as ControllerGUIRenderEvent) {
