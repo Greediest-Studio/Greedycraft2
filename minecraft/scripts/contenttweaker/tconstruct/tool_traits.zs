@@ -3848,7 +3848,7 @@ overglueTrait.onHit = function(trait, tool, attacker, target, damage, isCritical
     if (attacker instanceof IPlayer && tool.hasOverslime()) {
         var player as IPlayer = attacker;
         tool.mutable().removeOverslime(8);
-        target.addPotionEffect(<potion:potioncore:strong_weight>.makePotionEffect(100, 4, false, false));
+        target.addPotionEffect(<potion:potioncore:weight>.makePotionEffect(100, 4, false, false));
     }
 };
 overglueTrait.register();
