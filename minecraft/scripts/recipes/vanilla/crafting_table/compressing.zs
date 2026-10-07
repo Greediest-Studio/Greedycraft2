@@ -173,7 +173,10 @@ val compressingRecipes as IItemStack[IItemStack] = {
     <additions:nonenium_essence> : <additions:nonenium_essence_block>,
     <additions:modularium_block> : <additions:compressed_1x_modularium_block>,
     <additions:compressed_1x_modularium_block> : <additions:compressed_2x_modularium_block>,
-    <gct_additions:order_crystal> : <gct_additions:order_crystal_block>
+    <gct_additions:order_crystal> : <gct_additions:order_crystal_block>,
+    <gct_additions:lavarite_nugget> : <additions:lavarite_ingot>,
+    <gct_additions:snowingium_nugget> : <additions:snowingium_ingot>,
+    <gct_additions:aetherium_nugget> : <additions:aetherium_ingot>
 } as IItemStack[IItemStack];
 
 for original in compressingRecipes {
