@@ -36,10 +36,10 @@ CombinationCrafting.addRecipe(<additions:twilit_block> * 1, 2000000000, 8388608,
     <ore:gemTwilightRefined>,
     <ore:gemTwilightRefined>,
     <ore:gemTwilightRefined>,
-    <moretcon:repitem:6>,
-    <moretcon:repitem:6>,
-    <moretcon:repitem:6>,
-    <moretcon:repitem:6>,
+    <moretcon:compositeferroherb>,
+    <moretcon:compositeferroherb>,
+    <moretcon:compositeferroherb>,
+    <moretcon:compositeferroherb>,
     <ore:ingotBalancedMatrix>
 ]);
 

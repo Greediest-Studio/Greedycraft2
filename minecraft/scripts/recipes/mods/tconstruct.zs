@@ -243,6 +243,11 @@ Casting.removeTableRecipe(<jaopca:plate.xenon>);
 Casting.removeTableRecipe(<jaopca:plate.radon>);
 Casting.removeTableRecipe(<thaumcraft:quicksilver>);
 Casting.removeTableRecipe(<tiths:cinnabar>);
+Casting.removeTableRecipe(<moretcon:compositeenderexamite>);
+Casting.removeTableRecipe(<moretcon:compositeshadowglass>);
+Casting.removeTableRecipe(<moretcon:compositeioximite>);
+Casting.removeTableRecipe(<moretcon:compositeferroherb>);
+Casting.removeTableRecipe(<moretcon:compositeemberlight>);
 
 Casting.addBasinRecipe(<additions:astral_metal_block>, null, <liquid:astral_metal>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:compressed_experience_block>, <ore:blockExperience>, <liquid:experience>, 10368, true, 300);

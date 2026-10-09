@@ -2941,8 +2941,8 @@ val ferroherb = mods.contenttweaker.tconstruct.MaterialBuilder.create("ferroherb
 ferroherb.color = Color.fromHex("5c6251").getIntColor();
 ferroherb.craftable = true;
 ferroherb.castable =  false;
-ferroherb.representativeItem = <item:moretcon:repitem:6>;
-ferroherb.addItem(<item:moretcon:repitem:6>);
+ferroherb.representativeItem = <item:moretcon:compositeferroherb>;
+ferroherb.addItem(<item:moretcon:compositeferroherb>);
 ferroherb.localizedName = game.localize("greedycraft.tconstruct.material.ferroherb.name");
 ferroherb.addHeadMaterialStats(600,8,13.5,4);
 ferroherb.addHandleMaterialStats(1.2,100);
@@ -2954,8 +2954,8 @@ val enderexamite = mods.contenttweaker.tconstruct.MaterialBuilder.create("endere
 enderexamite.color = Color.fromHex("561c85").getIntColor();
 enderexamite.craftable = true;
 enderexamite.castable =  false;
-enderexamite.representativeItem = <item:moretcon:repitem:2>;
-enderexamite.addItem(<item:moretcon:repitem:2>);
+enderexamite.representativeItem = <item:moretcon:compositeenderexamite>;
+enderexamite.addItem(<item:moretcon:compositeenderexamite>);
 enderexamite.localizedName = game.localize("greedycraft.tconstruct.material.enderexamite.name");
 enderexamite.addHeadMaterialStats(800,14,20,7);
 enderexamite.addHandleMaterialStats(1.4,150);
@@ -2967,8 +2967,8 @@ val amberwood = mods.contenttweaker.tconstruct.MaterialBuilder.create("amberwood
 amberwood.color = Color.fromHex("7a7a59").getIntColor();
 amberwood.craftable = true;
 amberwood.castable =  false;
-amberwood.representativeItem = <item:moretcon:repitem:5>;
-amberwood.addItem(<item:moretcon:repitem:5>);
+amberwood.representativeItem = <item:additions:amberwood_composite>;
+amberwood.addItem(<item:additions:amberwood_composite>);
 amberwood.localizedName = game.localize("greedycraft.tconstruct.material.amberwood.name");
 amberwood.addHeadMaterialStats(800,20,14,7);
 amberwood.addHandleMaterialStats(1.3,100);
@@ -2980,8 +2980,8 @@ val shadowglass = mods.contenttweaker.tconstruct.MaterialBuilder.create("shadowg
 shadowglass.color = Color.fromHex("162031").getIntColor();
 shadowglass.craftable = true;
 shadowglass.castable =  false;
-shadowglass.representativeItem = <item:moretcon:repitem:3>;
-shadowglass.addItem(<item:moretcon:repitem:3>);
+shadowglass.representativeItem = <item:moretcon:compositeshadowglass>;
+shadowglass.addItem(<item:moretcon:compositeshadowglass>);
 shadowglass.localizedName = game.localize("greedycraft.tconstruct.material.shadowglass.name");
 shadowglass.addHeadMaterialStats(1200,20,32,10);
 shadowglass.addHandleMaterialStats(1.6,950);

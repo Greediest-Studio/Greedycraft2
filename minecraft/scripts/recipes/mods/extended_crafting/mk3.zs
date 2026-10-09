@@ -325,8 +325,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <endexpansion:key>, [
 	[null, null, <ore:ingotBreedum>, <ore:ingotEldritchSteel>, <ore:ingotBreedum>, null, null], 
 	[null, null, null, <ore:ingotBreedum>, null, null, null], 
 	[null, null, null, <ore:blockThallasium>, null, null, null], 
-	[null, null, null, <ore:blockThallasium>, <moretcon:repitem:2>, null, null], 
-	[null, null, null, <ore:blockThallasium>, <moretcon:repitem:2>, null, null]
+	[null, null, null, <ore:blockThallasium>, <moretcon:compositeenderexamite>, null, null], 
+	[null, null, null, <ore:blockThallasium>, <moretcon:compositeenderexamite>, null, null]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <endexpansion:ash_key>, [
@@ -335,8 +335,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <endexpansion:ash_key>, [
 	[null, <ore:blockOctine>, <ore:blockThallasium>, <ore:blockThallasium>, <ore:blockOctine>, null, null], 
 	[null, null, <ore:blockOctine>, <ore:blockOctine>, null, <ore:blockHarcadium>, null], 
 	[null, null, null, <ore:blockDraconiumAwakened>, null, null, null], 
-	[null, null, null, <ore:blockDraconiumAwakened>, <moretcon:repitem:2>, null, null], 
-	[null, null, null, <ore:blockDraconiumAwakened>, <moretcon:repitem:2>, null, null]
+	[null, null, null, <ore:blockDraconiumAwakened>, <moretcon:compositeenderexamite>, null, null], 
+	[null, null, null, <ore:blockDraconiumAwakened>, <moretcon:compositeenderexamite>, null, null]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <gaiapro:cerlinite_calling>, [
