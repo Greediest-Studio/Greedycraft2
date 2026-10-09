@@ -16,7 +16,7 @@ import mods.modularmachinery.MachineTickEvent;
 import mods.modularmachinery.RecipeTickEvent;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.ControllerGUIRenderEvent;
-import mods.modularmachinery.SmartInterfaceType;
+import mods.modularmachinery.ControllerMode;
 import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.FactoryRecipeStartEvent;
@@ -29,15 +29,27 @@ MachineModifier.setMaxThreads("unitcell_builder", 1);
 MachineModifier.setMaxParallelism("unitcell_builder", 65536);
 MachineModifier.setInternalParallelism("unitcell_builder", 1);
 
-MachineModifier.addSmartInterfaceType("unitcell_builder", SmartInterfaceType.create("模式", 0.0f).setHeaderInfo("§e///运行模式设置///"));
+MachineModifier.addControllerMode("unitcell_builder",
+    ControllerMode.create("模式", 0)
+        .addMode(0, "原子再构")
+        .addMode(1, "共晶复制")
+        .addMode(2, "星辰重塑")
+        .setControllerButtonVisible(true)
+        .setControllerButtonTooltip(
+            "§e按下按钮切换运行模式",
+            "§a当前模式：§f%s"
+        )
+);
 
 MachineModifier.addCoreThread("unitcell_builder", FactoryRecipeThread.createCoreThread("星辰输入模块"));
 
 MMEvents.onControllerGUIRender("unitcell_builder", function(event as ControllerGUIRenderEvent) {
+    var mode as string = event.controller.getControllerMode("模式") == 0 ? "原子再构" : (event.controller.getControllerMode("模式") == 1 ? "共晶复制" : "星辰重塑");
     var info as string[] = [
         "§a///晶胞重塑器控制面板///",
         "§a机器名称：§eLV3 - 晶胞重塑器",
-        "§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无") as string
+        "§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无") as string,
+        "§a当前模式：§e" ~ mode
     ];
     info += "§a尺寸参数：§e" ~ (event.controller.getSize() as string) ~ "§a，输出后为 §e0";
     info += "§a纯度参数：§e" ~ (event.controller.getPurity() as string) ~ "§a，输出后为 §e" ~ (((event.controller.getPurity() - 10000 < 0) ? 0 : (event.controller.getPurity() - 10000)) as string);
@@ -55,7 +67,7 @@ function addCFFusionRecipe(input as IItemStack, output as IItemStack, cost as in
         .addItemInput(input)
         .addItemOutput(output)
         .addEnergyPerTickInput(cost / 10)
-        .addSmartInterfaceDataInput("模式", 0)
+        .addModeSelect("模式", 0)
         .addRecipeTooltip("§a运行模式：原子再构")
         .build();
 }
@@ -64,7 +76,7 @@ function addCFFusionRecipeOre(input as IOreDictEntry, output as IItemStack, cost
         .addItemInput(input)
         .addItemOutput(output)
         .addEnergyPerTickInput(cost / 10)
-        .addSmartInterfaceDataInput("模式", 0)
+        .addModeSelect("模式", 0)
         .addRecipeTooltip("§a运行模式：原子再构")
         .build();
 }
@@ -176,7 +188,7 @@ RecipeBuilder.newBuilder("cp_chaotic", "unitcell_builder", 400)
     .addItemOutput(<draconicevolution:chaos_shard:2>).setChance(0.5f)
     .addItemOutput(<draconicevolution:chaos_shard:2>).setChance(0.5f)
     .addItemOutput(<draconicevolution:chaos_shard:2>).setChance(0.5f)
-    .addSmartInterfaceDataInput("模式", 1)
+    .addModeSelect("模式", 1)
     .addRecipeTooltip("§a运行模式：共晶复制")
     .addEnergyPerTickInput(12800)
     .build();
@@ -191,7 +203,7 @@ RecipeBuilder.newBuilder("cp_stormy", "unitcell_builder", 400)
     .addItemOutput(<gct_additions:stormy_fragment_small>).setChance(0.5f)
     .addItemOutput(<gct_additions:stormy_fragment_small>).setChance(0.5f)
     .addItemOutput(<gct_additions:stormy_fragment_small>).setChance(0.5f)
-    .addSmartInterfaceDataInput("模式", 1)
+    .addModeSelect("模式", 1)
     .addRecipeTooltip("§a运行模式：共晶复制")
     .addEnergyPerTickInput(12800)
     .build();
@@ -229,7 +241,7 @@ RecipeBuilder.newBuilder("as_crystal", "unitcell_builder", 1200)
         }
         controller.setSize(0);
     })
-    .addSmartInterfaceDataInput("模式", 2)
+    .addModeSelect("模式", 2)
     .addRecipeTooltip(
         "§a运行模式：星辰重塑",
         "§a向机器中输入对应物品以提升水晶石参数：",
