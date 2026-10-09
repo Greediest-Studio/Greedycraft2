@@ -33,14 +33,11 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MachineTickEvent;
 
 import mods.modularmachinery.IMachineController;
-import mods.modularmachinery.SmartInterfaceData;
 import mods.modularmachinery.MachineModifier;
-import mods.modularmachinery.SmartInterfaceType;
+import mods.modularmachinery.ControllerMode;
 import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.RecipeFinishEvent;
 import mods.modularmachinery.RecipeTickEvent;
-import mods.mmceguiext.MMCEGEEvents;
-import mods.mmceguiext.ControllerButtonClickEvent;
 
 import mods.gctweaker.IBigInteger;
 import mods.gctweaker.IBigDecimal;
@@ -49,7 +46,17 @@ MachineModifier.setMaxThreads("blood_altar", 1);
 MachineModifier.setInternalParallelism("blood_altar", 2147483647);
 MachineModifier.setMaxParallelism("blood_altar", 2147483647);
 
-MachineModifier.addSmartInterfaceType("blood_altar", SmartInterfaceType.create("模式", 0));
+MachineModifier.addControllerMode("blood_altar",
+    ControllerMode.create("模式", 0)
+        .addMode(0, "由外界输入")
+        .addMode(1, "向外界输出")
+        .addMode(2, "转移到玩家网络")
+        .setControllerButtonVisible(true)
+        .setControllerButtonTooltip(
+            "§e按下按钮切换运行模式",
+            "§a当前模式：§f%s"
+        )
+);
 
 MachineModifier.addCoreThread("blood_altar", FactoryRecipeThread.createCoreThread("源质净化模块").addRecipe("purify"));
 MachineModifier.addCoreThread("blood_altar", FactoryRecipeThread.createCoreThread("宝珠输出模块"));
@@ -88,11 +95,7 @@ function setStoredAltarLP(controller as IMachineController, amount as IBigIntege
 }
 
 $expand IMachineController$getAltarMode() as int {
-    if (!isNull(this.customData.mode)) {
-        return this.customData.mode as int;
-    } else {
-        return 0;
-    }
+    return this.getControllerMode("模式");
 }
 
 $expand IMachineController$getAltarSpeed() as int {
@@ -227,14 +230,6 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     var acceleration as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int;
     var checkTime as int = (20 - acceleration) > 1 ? (20 - acceleration) : 1;
 
-    //定义祭坛模式
-    if (!isNull(event.controller.getSmartInterfaceData("模式")) && world.getWorldTime() % 20 == 0) {
-        if (event.controller.getSmartInterfaceData("模式").value > 2.0f || event.controller.getSmartInterfaceData("模式").value < 0.0f) {
-            event.controller.customData = event.controller.customData.update({mode : 0});
-        } else {
-            event.controller.customData = event.controller.customData.update({mode : event.controller.getSmartInterfaceData("模式").value as int});
-        }
-    }
     //初始化并修正祭坛 LE
     if (!world.isRemote()) {
         if (isNull(event.controller.customData.LP) && world.getWorldTime() % 20 == 0) {
@@ -358,20 +353,6 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
     }
 
     event.extraInfo = info;
-});
-
-MMCEGEEvents.onControllerButtonClick("blood_altar", function(event as ControllerButtonClickEvent) {
-    val ctrl = event.controller;
-    val data = ctrl.customData;
-    val mode = event.getCustomFloat("mode");
-    if (event.buttonId == "event_mode") {
-        if (mode == 0) {
-            event.setCustomFloat("mode", 1);
-        } else {
-            event.setCustomFloat("mode", 0);
-        }
-        event.syncController();
-    }
 });
 
 function economyCount(event as FactoryRecipeEvent) as IBigDecimal {
