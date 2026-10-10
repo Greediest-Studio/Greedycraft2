@@ -1,0 +1,13 @@
+filename = 'Trinity-Unofficial-1.12.2-1.6.a.jar'
+name = 'Trinity Unofficial'
+side = 'both'
+
+[download]
+hash = '3443c0c0efce1f31894ba9477fca68c88aadeb04'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 8248304
+project-id = 1575461
