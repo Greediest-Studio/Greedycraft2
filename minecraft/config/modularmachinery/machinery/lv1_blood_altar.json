@@ -1,6 +1,7 @@
 ﻿{
     "registryname": "blood_altar",
     "localizedname": "§aLV1 - 血之祭坛",
+    "factory-gui-background": "modularmachinery:gui/bloodaltargui.png",
     "requires-blueprint": false,
     "failure-action": "still",
     "color": "777776",
