@@ -79,6 +79,12 @@ alias = "mods/ae2_utilix-1.2.2.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/ae2fluidcraft-rework-unofficial.pw.toml"
+hash = "3c4b271bdf31006611b9c953bdd3f5920a91e6ac9d3fa59240c6e62b61d52b72"
+alias = "mods/ae2fc-2.7.10-unofficial.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/ae2uel-wireless-universal-terminal.pw.toml"
 hash = "224be4457722646220bef0492113edfb3a4cee0397af59fae0b511549ec38b03"
 alias = "mods/ae2wut-1.2.10.jar"
@@ -337,12 +343,6 @@ alias = "mods/betterDrawHoveringText-1.0.1.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/betterendforge-backport.pw.toml"
-hash = "7080fa6e97176c9f63844e0a7ba9988a2d5d756cad092b6c18c8ca69b939c3f9"
-alias = "mods/BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/betterer-p2p.pw.toml"
 hash = "afcb5c2c6fb24147fbe5a76ec338795fc84d67aa3ae0b1965f5d6593ce760344"
 alias = "mods/betterp2p-1.12.2-1.3.3.jar"
@@ -448,12 +448,6 @@ metafile = true
 file = "mods/.index/brandons-core.pw.toml"
 hash = "fa15afad0b06ae471fcc54906a54ccf4ea83d9bf5942232bf2d8d03ee9b71e4b"
 alias = "mods/BrandonsCore-1.12.2-2.4.20.162-universal.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/brewin-and-chewin-legacy.pw.toml"
-hash = "4b20528c7a45becaba9a4d59fcbbd6701cd1ff5d462acda865caeee924f19068"
-alias = "mods/brewin-and-chewin-legacy-1.1.3.jar"
 metafile = true
 
 [[files]]
@@ -793,12 +787,6 @@ alias = "mods/EndReborn [0.3.9].jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/end-s-delight-legacy.pw.toml"
-hash = "060e57f7320db6d2e6f69f153b40eef0e84c1855a53bbcac84a7314377be717f"
-alias = "mods/ends-delight-legacy-1.0.3.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/ender-io-conduit-replacer.pw.toml"
 hash = "f0048943ea0c74202c39e8d37bd3c3fe5b73164b242fd2a77f33983369c4feca"
 alias = "mods/enderio-conduit-replacer-1.1.0.jar"
@@ -904,12 +892,6 @@ metafile = true
 file = "mods/.index/fancymenu.pw.toml"
 hash = "8af63cc3490a71c977dfaf0df2d21bde7e5054be63746138a857e79bbaa4740c"
 alias = "mods/fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/farmer-s-delight-legacy.pw.toml"
-hash = "b5805ffbf69b621bf852aa91bfc90e4566cebb4c96665c962e7c34c0d45b69e3"
-alias = "mods/FarmersDelightLegacy-1.1.6.jar"
 metafile = true
 
 [[files]]
@@ -1412,8 +1394,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/mct-smeltery-io.pw.toml"
-hash = "1c91952bad53c67f486f099d2e16d089d60e27f4dfa5578b02f0c4c2b6c2d178"
-alias = "mods/MCT-SmelteryIO-1.12.2-1.3.71-release.jar"
+hash = "4aea3bd47aaf1b73522c1dbe0fdf8bf7619334f2bb56e899a726947776676905"
+alias = "mods/MCT-SmelteryIO-1.12.2-1.3.72-release.jar"
 metafile = true
 
 [[files]]
@@ -1484,8 +1466,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modularmachinery-community-edition-complement.pw.toml"
-hash = "9893599f14e4dba71841b7de6948469c381d31a5a7186b1413530cf879bfdce2"
-alias = "mods/mmce_complement-1.5.0-hotfix1.jar"
+hash = "9820b8d6daef4b08d89cec7471a3f117fa41d2653d200ae4e7371102e4ad26cd"
+alias = "mods/mmce_complement-1.5.1-hotfix1.jar"
 metafile = true
 
 [[files]]
@@ -1606,12 +1588,6 @@ metafile = true
 file = "mods/.index/nether-api.pw.toml"
 hash = "6dd299baec3ce9332cf393f4291a27276da6865c09ecebff7fb93af740818a44"
 alias = "mods/Nether-API-v1.4.5-mc1.12.2.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/nether-s-delight-legacy.pw.toml"
-hash = "e97ccdcedd1854f3896c1a00fc72392d4a54c9e3ebe7ad550257d27146348dcb"
-alias = "mods/nethers-delight-legacy-1.0.8.jar"
 metafile = true
 
 [[files]]
@@ -1888,6 +1864,12 @@ metafile = true
 file = "mods/.index/quantum-things.pw.toml"
 hash = "ff5cc67945512beab2726244cbea510940c822265314a237589b29444f58e9bc"
 alias = "mods/QuantumThings-MC-1.12.2-1.3.0.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/quark-rotn-edition.pw.toml"
+hash = "e5082b552b16a16a209790bb18d718055379e9931cc2c5ce5b1aa1f53ace5f3b"
+alias = "mods/QuarkRotN-r1.6-192.jar"
 metafile = true
 
 [[files]]
@@ -2461,6 +2443,12 @@ alias = "mods/treetweaker-1.6.1.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/trinity-unofficial.pw.toml"
+hash = "3931828a714baf2c469dd66cef367f43c49d1e5ce5c6dd904faea629455f41ee"
+alias = "mods/Trinity-Unofficial-1.12.2-1.6.a.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/tumbleweed.pw.toml"
 hash = "f46f7fc546a46280874e01ebdc94f5524d990902c43d138a38d6e83b70d66144"
 alias = "mods/tumbleweed-1.12-0.4.7.jar"
@@ -2470,12 +2458,6 @@ metafile = true
 file = "mods/.index/tweakers-construct.pw.toml"
 hash = "828e5c38028326ab4c4e47eea77de527de876434b414cf1e66647f7818b1ca66"
 alias = "mods/tweakersconstruct-1.12.2-1.6.1.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/twilight-delight-legacy.pw.toml"
-hash = "01e600d854f89a5f214396e8329b6e05db40474801fddae4dd4825e6b24dd506"
-alias = "mods/TwilightDelightLegacy-1.2.1.jar"
 metafile = true
 
 [[files]]
