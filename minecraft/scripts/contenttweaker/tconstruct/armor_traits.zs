@@ -3416,7 +3416,7 @@ underwaterregenTrait.localizedDescription = game.localize("greedycraft.tconstruc
 underwaterregenTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         if (player.isInWater) {
-            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(1, 3, false, false));
+            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(10, 3, false, false));
             player.motionX *= 0.5f;
             player.motionZ *= 0.5f;
         }
