@@ -1609,6 +1609,12 @@ alias = "mods/New-Crimson-Revelations-1.12.2-1.5.3.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/no-tooltip-id.pw.toml"
+hash = "c8fda9f6647dd264eca61bb933700c382d36221126fbcf79e340a223c466e9ef"
+alias = "mods/NoTooltipId-1.12.2-1.0.0.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/nonausea.pw.toml"
 hash = "274dd79a1c1c439a4485d6785c5fa203576ed9d418bec537e650ff34641817b7"
 alias = "mods/NoNausea-MC1.12-1.0.jar"
