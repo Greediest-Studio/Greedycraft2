@@ -1889,69 +1889,6 @@
                 "value": [1]
             }
         },
-        "prometheum": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "taiga:prometheum_ore",
-                    "weight": 100
-                }],
-                "material": "minecraft:netherrack",
-                "cluster-size": 1
-            },
-            "cluster-count": 32,
-            "min-height": 1,
-            "max-height": 30,
-            "retrogen": "true",
-            "biome": "all",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [-1]
-            }
-        },
-        "valyrium": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "taiga:valyrium_ore",
-                    "weight": 100
-                }],
-                "material": "minecraft:netherrack",
-                "cluster-size": 1
-            },
-            "cluster-count": 64,
-            "min-height": 1,
-            "max-height": 128,
-            "retrogen": "true",
-            "biome": "all",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [-1]
-            }
-        },
-        "vibranium": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "taiga:vibranium_ore",
-                    "weight": 100
-                }],
-                "material": "minecraft:stone",
-                "cluster-size": 1
-            },
-            "cluster-count": 16,
-            "min-height": 1,
-            "max-height": 48,
-            "retrogen": "true",
-            "biome": "all",
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [-1, 1]
-            }
-        },
         "dilithium": {
             "enabled": "true",
             "distribution": "uniform",
@@ -1971,69 +1908,6 @@
                 "restriction": "whitelist",
                 "value": "minecraft:desert"
             },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [-1, 1]
-            }
-        },
-        "karmesine": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "taiga:karmesine_ore",
-                    "weight": 100
-                }],
-                "material": "minecraft:andersite",
-                "cluster-size": 1
-            },
-            "cluster-count": 48,
-            "min-height": 1,
-            "max-height": 128,
-            "retrogen": "true",
-            "biome": "all",
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [-1, 1]
-            }
-        },
-        "ovium": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "taiga:ovium_ore",
-                    "weight": 100
-                }],
-                "material": "minecraft:diorite",
-                "cluster-size": 1
-            },
-            "cluster-count": 48,
-            "min-height": 1,
-            "max-height": 128,
-            "retrogen": "true",
-            "biome": "all",
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [-1, 1]
-            }
-        },
-        "jauxum": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "taiga:jauxum_ore",
-                    "weight": 100
-                }],
-                "material": "minecraft:granite",
-                "cluster-size": 1
-            },
-            "cluster-count": 48,
-            "min-height": 1,
-            "max-height": 128,
-            "retrogen": "true",
-            "biome": "all",
             "dimension": {
                 "restriction": "blacklist",
                 "value": [-1, 1]

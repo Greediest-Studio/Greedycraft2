@@ -635,27 +635,6 @@
                 "value": [7]
             }
         },
-        "heartcrystal": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "scalinghealth:crystalore",
-                    "weight": 100
-                }],
-                "material": "minecraft:stone",
-                "cluster-size": 1
-            },
-            "cluster-count": 1,
-            "min-height": 5,
-            "max-height": 32,
-            "retrogen": "true",
-            "biome": "all",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [4]
-            }
-        },
         "emerald": {
             "enabled": "true",
             "distribution": "uniform",
