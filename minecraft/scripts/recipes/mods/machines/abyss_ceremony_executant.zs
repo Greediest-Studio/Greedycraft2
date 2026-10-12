@@ -71,7 +71,7 @@ function addRitualRecipe(output as IItemStack, inputs as IIngredient[], potEnerg
     builder.setMaxThreads(1);
     builderAsPE.setMaxThreads(1);
     builder.setJEICategory("pe_liquid", "§dLV3 - 深渊仪式执行者 - 使用液态PE");
-    builder.setJEICategory("pe_energy", "§dLV3 - 深渊仪式执行者 - 使用虚拟PE");
+    builderAsPE.setJEICategory("pe_energy", "§dLV3 - 深渊仪式执行者 - 使用虚拟PE");
     builder.build();
     builderAsPE.build();
 }
