@@ -1699,6 +1699,12 @@ alias = "mods/packaged_acceleration-1.0.1.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/packagedauto-terminals.pw.toml"
+hash = "7f765e1bb5feb43b6a7be8f5760de507c2b72148b3d916162837f465b53e745a"
+alias = "mods/packagedautoterminals-1.12.2-0.1.0-beta.8.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/packagedauto-wireless.pw.toml"
 hash = "d3d85d9a9da1d5a4744237acbde96ed7b73f84e0bc452cde94e97a6df5bc0477"
 alias = "mods/packagedautowireless-1.0.1.jar"
