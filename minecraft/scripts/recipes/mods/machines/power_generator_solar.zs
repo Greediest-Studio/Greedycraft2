@@ -10,6 +10,7 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.world.IBlockPos;
+import crafttweaker.block.IBlockStateMatcher;
 
 import crafttweaker.world.IWorldProvider;
 
@@ -39,8 +40,10 @@ MMEvents.onControllerGUIRender("solar_power_generator", function(event as Contro
     var efficiency as float = isNull(event.controller.customData.solarEfficiency) ? 0.0f : event.controller.customData.solarEfficiency as float;
     var panelLight as int = isNull(event.controller.customData.solarPanelLight) ? 0 : event.controller.customData.solarPanelLight as int;
     var worldBrightness as float = isNull(event.controller.customData.solarWorldBrightness) ? 0.0f : event.controller.customData.solarWorldBrightness as float;
+    var solarLevel as int = isNull(event.controller.customData.solarLevel) ? 0 : event.controller.customData.solarLevel as int;
     info += "§a工作面积：§e" ~ panelLight as string ~ "§a/§e36";
     info += "§a世界亮度：§e" ~ ((Math.round(worldBrightness * 10000.0f) as float / 100.0f) as string) ~ "%";
+    info += "§a电管等级：§e" ~ ((solarLevel == 0) ? "§c光电管不完全一致" : solarLevel as string);
     info += "§a实际效率：§e" ~ ((Math.round(efficiency * 10000.0f) as float / 100.0f) as string) ~ "%";
     event.extraInfo = info;
 });
@@ -51,11 +54,22 @@ MMEvents.onMachinePreTick("solar_power_generator", function(event as MachineTick
         var panelLight as int = ctrl.checkPanelLight();
         var World = IWorldProvider.getFromID(ctrl.world.getDimension());
         var worldBrightness as float = World.getSunBrightness(1.0F);
-        var efficiency as float = (panelLight as float / 36.0f) * worldBrightness;
+        var solarLevel as int = 0;
+        if (ctrl.getBlocksInPattern(IBlockStateMatcher.create(<blockstate:jaopca:block.silicon>)) == 36) {
+            solarLevel = 1;
+        } else if (ctrl.getBlocksInPattern(IBlockStateMatcher.create(<blockstate:jaopca:block.germanium>)) == 36) {
+            solarLevel = 2;
+        } else if (ctrl.getBlocksInPattern(IBlockStateMatcher.create(<blockstate:jaopca:block.gallium_indium_phosphide>)) == 36) {
+            solarLevel = 3;
+        } else if (ctrl.getBlocksInPattern(IBlockStateMatcher.create(<blockstate:jaopca:block.cadmium_chalcogenide>)) == 36) {
+            solarLevel = 4;
+        }
+        var efficiency as float = (panelLight as float / 36.0f) * worldBrightness * solarLevel * solarLevel;
         ctrl.customData = ctrl.customData.update({
             solarPanelLight: panelLight as int,
             solarWorldBrightness: worldBrightness as float,
-            solarEfficiency: efficiency as float
+            solarEfficiency: efficiency as float,
+            solarLevel: solarLevel as int
         });
     }
 });

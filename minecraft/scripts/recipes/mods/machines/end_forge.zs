@@ -86,6 +86,7 @@ for fuel in fuelList {
         .addRecipeTooltip("§e为冶炼炉提供" + fuelList[fuel] + "点末影能量")
         .setMaxThreads(1)
         .setThreadName("能量输入模块")
+        .setJEICategory("fuel", "§3LV2 - 末影冶炼炉 - 燃料")
         .build();
 }
 
@@ -113,6 +114,7 @@ function addEndForgeRecipe(output as IItemStack, inputs as IIngredient[], energy
     });
     recipe.addRecipeTooltip("§a需要" + energy + "点末影能量");
     recipe.setThreadName("末影锻造模块");
+    recipe.setJEICategory("recipe", "§3LV2 - 末影冶炼炉 - 末影锻造");
     recipe.build();
 }
 

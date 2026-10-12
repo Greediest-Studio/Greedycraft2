@@ -38,7 +38,7 @@ MachineModifier.setMaxThreads("elysia_etcher", 8);
 MachineModifier.setInternalParallelism("elysia_etcher", 4);
 MachineModifier.setMaxParallelism("elysia_etcher", 65536);
 
-MachineModifier.addSmartInterfaceType("elysia_etcher", SmartInterfaceType.create("模式", 0));
+MachineModifier.addSmartInterfaceType("elysia_etcher", SmartInterfaceType.create("配方选择", 0.0f));
 
 var upgradeMK2 as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder("etcher_mk2_upg", "2级蚀刻升级", 1, 1);
 upgradeMK2.addDescriptions("§b令ELYSIA蚀刻单元可以刻蚀2级电路板");
@@ -92,7 +92,8 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
         builder.addEnergyPerTickInput(200);
         builder.addRecipeTooltip("§d蚀刻配方支持模块化电容升级，详情请查询“模块化电容”");
         builder.setMaxThreads(1);
-        builder.addSmartInterfaceDataInput("模式", 0);
+        builder.addSmartInterfaceDataInput("配方选择", 0);
+        builder.setJEICategory("circuit", "§cELYSIA单元 - 大型蚀刻单元 - 电路蚀刻");
         builder.build();
     } else if (level == 2) {
         var builder = RecipeBuilder.newBuilder(output.definition.id + "_" + output.metadata + "_etcher_recipe", "elysia_etcher", 200);
@@ -109,7 +110,8 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
             }
         });
         builder.setMaxThreads(1);
-        builder.addSmartInterfaceDataInput("模式", 0);
+        builder.addSmartInterfaceDataInput("配方选择", 0);
+        builder.setJEICategory("circuit", "§cELYSIA单元 - 大型蚀刻单元 - 电路蚀刻");
         builder.build();
     } else if (level == 3) {
         var builder = RecipeBuilder.newBuilder(output.definition.id + "_" + output.metadata + "_etcher_recipe", "elysia_etcher", 300);
@@ -126,7 +128,8 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
             }
         });
         builder.setMaxThreads(1);
-        builder.addSmartInterfaceDataInput("模式", 0);
+        builder.addSmartInterfaceDataInput("配方选择", 0);
+        builder.setJEICategory("circuit", "§cELYSIA单元 - 大型蚀刻单元 - 电路蚀刻");
         builder.build();
     } else if (level == 4) {
         var builder = RecipeBuilder.newBuilder(output.definition.id + "_" + output.metadata + "_etcher_recipe", "elysia_etcher", 400);
@@ -143,7 +146,8 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
             }
         });
         builder.setMaxThreads(1);
-        builder.addSmartInterfaceDataInput("模式", 0);
+        builder.addSmartInterfaceDataInput("配方选择", 0);
+        builder.setJEICategory("circuit", "§cELYSIA单元 - 大型蚀刻单元 - 电路蚀刻");
         builder.build();
     }
 }
@@ -179,7 +183,7 @@ function addInscriberRecipe(output as IItemStack, input as IIngredient, level as
         .addEnergyPerTickInput(800)
         .addRecipeTooltip("§d蚀刻配方支持模块化电容升级，详情请查询“模块化电容”")
         .setMaxThreads(1)
-        .addSmartInterfaceDataInput("模式", 1);
+        .addSmartInterfaceDataInput("配方选择", 1);
     if (level > 1) {
         builder.addRecipeTooltip("§a该配方需要" + level + "级蚀刻升级，详情请查询“模块化电容-蚀刻" + level + "”");
         builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
@@ -188,6 +192,7 @@ function addInscriberRecipe(output as IItemStack, input as IIngredient, level as
             }
         });
     }
+    builder.setJEICategory("circuit", "§cELYSIA单元 - 大型蚀刻单元 - 电路蚀刻");
     builder.build();
 }
 
@@ -227,7 +232,8 @@ function addManaRuneRecipe(output as IItemStack, id as int, level as int, input 
         .addRecipeTooltip("§a需要模块：符文模块")
         .setMaxThreads(1)
         .withModule(["rune"])
-        .addSmartInterfaceDataInput("模式", 2)
+        .addSmartInterfaceDataInput("配方选择", 2)
+        .setJEICategory("rune", "§cELYSIA单元 - 大型蚀刻单元 - 符文雕刻")
         .build();
 }
 

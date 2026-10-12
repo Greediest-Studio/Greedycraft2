@@ -55,7 +55,7 @@ MMEvents.onControllerModelAnimation("chaos_reactor", function(event as Controlle
 
 //数据接口
 MachineModifier.addSmartInterfaceType("chaos_reactor", 
-    SmartInterfaceType.create("speed",1.0f)
+    SmartInterfaceType.create("速度调节", 1.0f)
         .setHeaderInfo("§e///反应速率设置///")
         .setValueInfo("§e///当前反应速率：%.2fx")
         .setNotEqualMessage("§e反应速率非法")
@@ -135,7 +135,7 @@ function speedcheck(event as FactoryRecipeStartEvent) {
     val ctrl = event.controller;
     var data = ctrl.customData;
     var map = data.asMap();
-    var speedget = ctrl.getSmartInterfaceData("speed");
+    var speedget = ctrl.getSmartInterfaceData("速度调节");
     var speed = isNull(speedget) ? 1 as float : speedget.value;
     if (speed < 0.0001f || speed > 100000000.0f) {
         speedget.value = 1 as float;
@@ -191,6 +191,7 @@ for fuel , amount in Fuelmap {
         })
         .addRecipeTooltip("§e为混沌注入系统增加" ~ amount ~ "§e点燃料值")
         .setThreadName("混沌注入系统")
+        .setJEICategory("fuel", "§6LV4 - 混沌汲能反应堆 - 燃料")
         .build();
     r += 1;
 }
@@ -210,19 +211,21 @@ for cool , amount in Coolingmap {
         })
         .addRecipeTooltip("§e为混沌调律系统增加" ~ amount ~ "§e点充能值")
         .setThreadName("混沌调律系统")
+        .setJEICategory("cooling", "§6LV4 - 混沌汲能反应堆 - 冷却剂")
         .build();
     r += 1;
 }
 
 //写入速度&判断
 RecipeBuilder.newBuilder("speedwrite","chaos_reactor",20,3)
-    .addSmartInterfaceDataInput("speed",0.00001,100000000.0)
+    .addSmartInterfaceDataInput("速度调节",0.00001,100000000.0)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         speedcheck(event);
     })
     .addRecipeTooltip("§e同步秩序与混沌")
     .setThreadName("混沌同步系统")
     .setParallelized(false)
+    .setLoadJEI(false)
     .build();
 
 //反应
@@ -243,4 +246,5 @@ RecipeBuilder.newBuilder("chaosreacting","chaos_reactor",10,0)
     .addEnergyPerTickOutput(10000000)
     .addRecipeTooltip("§e1倍产出")
     .setThreadName("混沌能量汲取系统")
+    .setJEICategory("react", "§6LV4 - 混沌汲能反应堆 - 产出")
     .build();

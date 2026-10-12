@@ -407,6 +407,7 @@ function addAltarRecipe(input as IIngredient, output as IItemStack, costLP as st
         .addRecipeTooltip("§e需求生命源质：" ~ costLP ~ "点")
         .addRecipeTooltip("§c配方加工时间以祭坛实际速度为准，配方显示时间仅为占位符！")
         .setThreadName("血之合成模块")
+        .setJEICategory("recipe", "§aLV1 - 血之祭坛 - 血之灌注")
         .build();
 }
 
@@ -454,6 +455,7 @@ RecipeBuilder.newBuilder("purify", "blood_altar", 1)
     })
     .addRecipeTooltip("§a此配方仅在祭坛上有净化符文时生效")
     .setThreadName("源质净化模块")
+    .setJEICategory("purify", "§aLV1 - 血之祭坛 - 净化符文")
     .build();
 
 RecipeBuilder.newBuilder("orb", "blood_altar", 20)
@@ -511,6 +513,7 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
     .addRecipeTooltip("§a输出速率为§e20*促进符文数*(1+0.2*速度符文数)*1.2^转位符文数§a")
     .addRecipeTooltip("§a存在§e玩家符文§a时无需在输入仓放置宝珠，且输出速率额外获得§e2^玩家符文数§a倍修正")
     .setThreadName("宝珠输出模块")
+    .setJEICategory("orb", "§aLV1 - 血之祭坛 - 宝珠输出")
     .build();
 
 RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
@@ -569,6 +572,7 @@ RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
     })
     .setLoadJEI(false)
     .setThreadName("宝珠输出模块")
+    .setJEICategory("orb", "§aLV1 - 血之祭坛 - 宝珠输出")
     .build();
 
 addAltarRecipe(<ore:gemEmerald>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), 2000, 1);

@@ -56,6 +56,7 @@ RecipeAdapterBuilder.create("elysia_forger", "thermalexpansion:compactor_plate")
     .addModeSelect("模式", 0)
     .addRecipeTooltip("§d铸造配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需求模式：板材模式")
+    .setJEICategory("plate", "§cELYSIA单元 - 大型铸造单元 - 板材辊压")
     .setMaxThreads(1)
     .build();
 
@@ -63,5 +64,6 @@ RecipeAdapterBuilder.create("elysia_forger", "thermalexpansion:compactor_gear")
     .addModeSelect("模式", 1)
     .addRecipeTooltip("§d铸造配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需求模式：齿轮模式")
+    .setJEICategory("gear", "§cELYSIA单元 - 大型铸造单元 - 齿轮挤出")
     .setMaxThreads(1)
     .build();

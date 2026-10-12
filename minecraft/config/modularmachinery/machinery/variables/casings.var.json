@@ -164,5 +164,11 @@
         "additions:blood_rune_purify",
         "additions:blood_rune_thread",
         "additions:blood_rune_personal" 
+    ],
+    "semiconductor": [
+        "jaopca:block.silicon",
+        "jaopca:block.germanium",
+        "jaopca:block.gallium_indium_phosphide",
+        "jaopca:block.cadmium_chalcogenide"
     ]
 }

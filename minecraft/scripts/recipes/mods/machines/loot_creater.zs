@@ -139,6 +139,7 @@ for essence in essenceList {
         .addRecipeTooltip("增加" + essenceList[essence] + "点精华值")
         .setThreadName("精华收集模块")
         .setMaxThreads(1)
+        .setJEICategory("fuel", "§6LV4 - 战利品扫荡机 - 精华燃料")
         .build();
 }
 
@@ -198,6 +199,7 @@ RecipeBuilder.newBuilder("liquid_output_legendite", "loot_creater", 1)
     .addRecipeTooltip("§e1点§6荣耀§e对应20mB§6荣耀浆液")
     .setParallelized(false)
     .setThreadName("流体产出模块")
+    .setJEICategory("fluid", "§6LV4 - 战利品扫荡机 - 流体产出")
     .build();
 
 function createLootRecipe(license as string, consume as IItemStack[], output as IItemStack[], time as int, essence as long, priority as int) {
@@ -247,6 +249,7 @@ function createLootRecipe(license as string, consume as IItemStack[], output as 
     builder.addRecipeTooltip("§e消耗" + essence + "点精华值");
     builder.addRecipeTooltip("§a需要升级：" + licenseMap[license]);
     builder.setMaxThreads(1);
+    builder.setJEICategory("recipe", "§6LV4 - 战利品扫荡机 - 生物扫荡");
     builder.build();
 }
 

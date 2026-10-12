@@ -69,6 +69,7 @@ function addCFFusionRecipe(input as IItemStack, output as IItemStack, cost as in
         .addEnergyPerTickInput(cost / 10)
         .addModeSelect("模式", 0)
         .addRecipeTooltip("§a运行模式：原子再构")
+        .setJEICategory("atom_rebuild", "§dLV3 - 晶胞重塑器 - 原子再构")
         .build();
 }
 function addCFFusionRecipeOre(input as IOreDictEntry, output as IItemStack, cost as int) {
@@ -78,6 +79,7 @@ function addCFFusionRecipeOre(input as IOreDictEntry, output as IItemStack, cost
         .addEnergyPerTickInput(cost / 10)
         .addModeSelect("模式", 0)
         .addRecipeTooltip("§a运行模式：原子再构")
+        .setJEICategory("atom_rebuild", "§dLV3 - 晶胞重塑器 - 原子再构")
         .build();
 }
 
@@ -191,6 +193,7 @@ RecipeBuilder.newBuilder("cp_chaotic", "unitcell_builder", 400)
     .addModeSelect("模式", 1)
     .addRecipeTooltip("§a运行模式：共晶复制")
     .addEnergyPerTickInput(12800)
+    .setJEICategory("crystal_duplicate", "§dLV3 - 晶胞重塑器 - 共晶复制")
     .build();
     
 RecipeBuilder.newBuilder("cp_stormy", "unitcell_builder", 400)
@@ -206,6 +209,7 @@ RecipeBuilder.newBuilder("cp_stormy", "unitcell_builder", 400)
     .addModeSelect("模式", 1)
     .addRecipeTooltip("§a运行模式：共晶复制")
     .addEnergyPerTickInput(12800)
+    .setJEICategory("crystal_duplicate", "§dLV3 - 晶胞重塑器 - 共晶复制")
     .build();
     
 RecipeBuilder.newBuilder("as_crystal", "unitcell_builder", 1200)
@@ -249,6 +253,7 @@ RecipeBuilder.newBuilder("as_crystal", "unitcell_builder", 1200)
         "§e纯度：§c<纯度参数>⁰˙⁵%§e（最大100%）",
         "§e抛光：§c<抛光参数>⁰˙⁵%§e（最大100%）"
     )
+    .setJEICategory("astral", "§dLV3 - 晶胞重塑器 - 星辰重塑 - 主线程")
     .build();
 
 val sizeItems as double[IIngredient] = {
@@ -294,6 +299,7 @@ for item in sizeItems {
             .setThreadName("星辰输入模块")
             .addRecipeTooltip("增加" + sizeItems[item] + "点尺寸参数，上限为" + sizeMax[item] + "点")
             .setParallelized(false)
+            .setJEICategory("astral_size", "§dLV3 - 晶胞重塑器 - 星辰重塑 - 尺寸参数调整")
             .build();
     }
 }
@@ -307,6 +313,7 @@ RecipeBuilder.newBuilder("as_z_purity", "unitcell_builder", 1)
     })
     .setThreadName("星辰输入模块")
     .addRecipeTooltip("增加10点纯度参数")
+    .setJEICategory("astral_purity", "§dLV3 - 晶胞重塑器 - 星辰重塑 - 纯度参数调整")
     .build();
 
 RecipeBuilder.newBuilder("as_z_collective", "unitcell_builder", 1)
@@ -318,4 +325,5 @@ RecipeBuilder.newBuilder("as_z_collective", "unitcell_builder", 1)
     })
     .setThreadName("星辰输入模块")
     .addRecipeTooltip("增加10点抛光参数")
+    .setJEICategory("astral_collective", "§dLV3 - 晶胞重塑器 - 星辰重塑 - 抛光参数调整")
     .build();

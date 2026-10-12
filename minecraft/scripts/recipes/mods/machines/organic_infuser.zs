@@ -263,6 +263,7 @@ for row in crops {
     .addItemOutput(<mysticalagriculture:fertilized_essence>)
     .setChance(0.03f)
     .setMaxThreads(1)
+    .setJEICategory("seed", "§3LV2 - 有机灌注机 - 资源种子培养")
     .build();
     
     recipeId += 1;
@@ -287,6 +288,7 @@ for seed in loadedMods["thaumadditions"].items {
         .setChance(0.1f)
         .addAspcetInput(6, "herba")
         .setMaxThreads(1)
+        .setJEICategory("seed_vis", "§3LV2 - 有机灌注机 - 源质种子培养")
         .build();
 
         recipeId += 1;
@@ -311,6 +313,7 @@ RecipeAdapterBuilder.create("organic_infuser", "gctcore:bonsaitrees")
     .addCatalystInput(<ore:gemApatite> * 8, ["§e加工时间减少到50%"], [
         RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.50f, 1, false).build()
     ])
+    .setJEICategory("tree", "§3LV2 - 有机灌注机 - 树场作物培养")
     .build();
 
 val fishes as IItemStack[] = [
@@ -379,6 +382,7 @@ for fish in fishes {
         .addItemOutput(fish * 2).setChance(0.5f)
         .setMaxThreads(1)
         .addRecipeTooltip("§a需要模块：渔场模块")
+        .setJEICategory("fish", "§3LV2 - 有机灌注机 - 渔场繁殖捕捞")
         .build();
     recipeIdFish += 1;
 }

@@ -132,6 +132,7 @@ RecipeBuilder.newBuilder("nutrition_input", "biotechnic_computer", 1)
     .addRecipeTooltip("§e向缸中之脑容器内部输入培养液")
     .addRecipeTooltip("§c如果机器运行时无法获取足够多的培养液，机器会立即爆炸！")
     .setThreadName("营养供给模块")
+    .setJEICategory("nutrition_input", "§bLV5 - 超精密生物质计算机 - 营养输入")
     .build();
 
 RecipeBuilder.newBuilder("decode_orderkey", "biotechnic_computer", 200)
@@ -148,6 +149,7 @@ RecipeBuilder.newBuilder("decode_orderkey", "biotechnic_computer", 200)
             controller.addEntropy(2);
         }
     })
+    .setJEICategory("recipe", "§bLV5 - 超精密生物质计算机 - 解析")
     .build();
 
 RecipeBuilder.newBuilder("decode_dubhe", "biotechnic_computer", 200)
@@ -164,6 +166,7 @@ RecipeBuilder.newBuilder("decode_dubhe", "biotechnic_computer", 200)
             controller.addEntropy(2);
         }
     })
+    .setJEICategory("recipe", "§bLV5 - 超精密生物质计算机 - 解析")
     .build();
 
 RecipeBuilder.newBuilder("decode_remnant", "biotechnic_computer", 200)
@@ -180,6 +183,7 @@ RecipeBuilder.newBuilder("decode_remnant", "biotechnic_computer", 200)
             controller.addEntropy(2);
         }
     })
+    .setJEICategory("recipe", "§bLV5 - 超精密生物质计算机 - 解析")
     .build();
 
 RecipeBuilder.newBuilder("decode_orderdice", "biotechnic_computer", 200)
@@ -230,4 +234,5 @@ RecipeBuilder.newBuilder("decode_orderdice", "biotechnic_computer", 200)
         }
     })
     .addRecipeTooltip("§b需要解码逻辑核心升级")
+    .setJEICategory("recipe", "§bLV5 - 超精密生物质计算机 - 解析")
     .build();

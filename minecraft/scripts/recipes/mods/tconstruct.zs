@@ -17,6 +17,7 @@ import mods.tconstruct.Alloy;
 import mods.tconstruct.Fuel;
 import mods.tcomplement.highoven.HighOven;
 import mods.tcomplement.highoven.MixRecipeBuilder;
+import mods.moretcon.MoreTCon;
 
 val VOLUME_BLOCK = 1296;
 val VOLUME_INGOT = 144;
@@ -161,6 +162,8 @@ Alloy.addRecipe(<liquid:zircaloy> * 8, [<liquid:zirconium> * 7, <liquid:tin>]);
 Alloy.addRecipe(<liquid:hastelloy> * 4, [<liquid:nichrome> * 3, <liquid:molybdenum>]);
 Alloy.addRecipe(<liquid:nichrome> * 2, [<liquid:nickel>, <liquid:chromium>]);
 Alloy.addRecipe(<liquid:h_s_l_a_steel> * 16, [<liquid:steel> * 13, <liquid:niobium_titanium>, <liquid:vanadium>, <liquid:aluminum>]);
+
+MoreTCon.removeCatalyzedAlloy(<moretcon:catalystrunic>, <liquid:liquidrunesteel>);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);

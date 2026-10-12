@@ -69,6 +69,7 @@ function addGasFuel(gas as ILiquidStack, energyPerTick as int, burnTime as int) 
     RecipeBuilder.newBuilder("gas_generation_" + gas.definition.name, regName, burnTime, 1)
         .addFluidInput(gas * 1000)
         .addEnergyPerTickOutput(energyPerTick)
+        .setJEICategory("gas", "§aLV1 - 燃气发电机 - 空气燃烧")
         .build();
     var oxidizeRecipe = RecipeBuilder.newBuilder("gas_generation_" + gas.definition.name + "_ox", regName, burnTime, 0);
     oxidizeRecipe.addFluidInput(gas * 1000);
@@ -82,6 +83,7 @@ function addGasFuel(gas as ILiquidStack, energyPerTick as int, burnTime as int) 
     oxidizeRecipe.withModule(["oxidize"]);
     oxidizeRecipe.addRecipeTooltip("§a需要模块：助燃模块");
     oxidizeRecipe.addRecipeTooltip("§c注意！助燃剂不可叠加使用！");
+    oxidizeRecipe.setJEICategory("gas_cat", "§aLV1 - 燃气发电机 - 助燃燃烧");
     oxidizeRecipe.build();
 }
 
@@ -100,6 +102,7 @@ function addGasFuelAsGas(gas as IGasStack, energyPerTick as int, burnTime as int
     RecipeBuilder.newBuilder("gas_generation_" + gas.definition.NAME + "_gas", regName, burnTime, 1)
         .addGasInput(gas * 1000)
         .addEnergyPerTickOutput(energyPerTick)
+        .setJEICategory("gas", "§aLV1 - 燃气发电机 - 空气燃烧")
         .build();
     var oxidizeRecipe = RecipeBuilder.newBuilder("gas_generation_" + gas.definition.NAME + "_ox_gas", regName, burnTime, 0);
     oxidizeRecipe.addGasInput(gas * 1000);
@@ -113,6 +116,7 @@ function addGasFuelAsGas(gas as IGasStack, energyPerTick as int, burnTime as int
     oxidizeRecipe.withModule(["oxidize"]);
     oxidizeRecipe.addRecipeTooltip("§a需要模块：助燃模块");
     oxidizeRecipe.addRecipeTooltip("§c注意！助燃剂不可叠加使用！");
+    oxidizeRecipe.setJEICategory("gas_cat", "§aLV1 - 燃气发电机 - 助燃燃烧");
     oxidizeRecipe.build();
 }
 

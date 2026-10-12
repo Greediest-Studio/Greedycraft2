@@ -76,6 +76,7 @@ RecipeBuilder.newBuilder("mana_circulation", "kabalah_builder", 1)
     .setThreadName("魔力环流")
     .setParallelized(false)
     .addRecipeTooltip("§b每tick运行一次，用于维持生命树构建器的魔力环流")
+    .setJEICategory("mana_ring", "§6LV4 - 生命树构建器 - 魔力环流维持")
     .build();
 
 global kabalahNormalRecipeIndex as int = 0;
@@ -139,6 +140,7 @@ function createKabalahBuilderNormalRecipe(
     if (!isNull(slot9)) {builder.addItemInput(slot9);}
     if (!isNull(slot10)) {builder.addItemInput(slot10);}
 
+    builder.setJEICategory("recipe", "§6LV4 - 生命树构建器 - 质点凝聚");
     builder.build();
 }
 

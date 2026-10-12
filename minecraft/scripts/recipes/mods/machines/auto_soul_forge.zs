@@ -171,6 +171,7 @@ RecipeBuilder.newBuilder("will_absorption", "auto_soul_forge", 10)
     })
     .setParallelized(false)
     .addRecipeTooltip("§a汲取区块内恶魔意志")
+    .setJEICategory("will_absorption", "§3LV2 - 扩展狱火熔炉 - 汲取恶魔意志")
     .setThreadName("意志汲取模块")
     .build();
 
@@ -200,6 +201,7 @@ function addHellForgeRecipe(inputs as IIngredient[], output as IItemStack, will 
         ctrl.removeWillAmount(will * parallel);
     });
     builder.addRecipeTooltip("§a消耗恶魔意志" ~ will as string ~ "点");
+    builder.setJEICategory("will_recipe", "§3LV2 - 扩展狱火熔炉 - 狱火熔炉凝聚");
     builder.build();
 }
 
