@@ -2358,7 +2358,8 @@ land_of_illusionTrait.onHurt = function(trait, armor, player, source, damage, ne
             player.sendChat("§a[太虚幻境] 显形！");
         })
         .start();
-    return newDamage;
+    evt.cancel();
+    return 0.0f;
 };
 land_of_illusionTrait.register();
 

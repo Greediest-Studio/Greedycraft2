@@ -383,7 +383,7 @@ tcongreedyaddon.jei.modifier.rest_lament.text=目标为玩家时伤害固定为0
 tcongreedyaddon.jei.modifier.antiterrorism.text=伤害来源为爆炸时减少80%伤害
 tcongreedyaddon.jei.modifier.parasitism.text=根据寄生等级减伤(每级4.5%)，最多20级
 tcongreedyaddon.jei.modifier.wolf_roar.text=当前为狼人(phase==1)时减少10%伤害
-tcongreedyaddon.jei.modifier.land_of_illusion.text=10%概率使攻击者眩晕60tick(3秒)并传送回原位
+tcongreedyaddon.jei.modifier.land_of_illusion.text=受到攻击时10%概率免疫当次攻击，进入虚幻状态(旁观者模式)60tick(3秒)并传送回原位
 tcongreedyaddon.jei.modifier.containment.text=最终伤害超过3倍护甲值时施加抗性IV和护盾，完全减伤
 tcongreedyaddon.jei.modifier.stacked.text=减伤=原始伤害-护甲数值(最低为护甲等级)
 tcongreedyaddon.jei.modifier.element_force.text=受伤时暂时获得水/火/岩石皮肤效果
