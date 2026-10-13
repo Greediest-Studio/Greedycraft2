@@ -1817,21 +1817,6 @@ antilevitationTrait.onAbility = function(trait, level, world, player) {
 };
 antilevitationTrait.register();
 
-val power_decreaseTrait = ArmorTraitBuilder.create("power_decrease");
-power_decreaseTrait.color = Color.fromHex("ffffff").getIntColor();
-power_decreaseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.power_decreaseTrait.name");
-power_decreaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.power_decreaseTrait.desc");
-power_decreaseTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    if (!isNull(player)) {
-        mods.contenttweaker.Commands.call("/fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:sand 0 replace minecraft:gravel", player, player.world, false, true);
-        mods.contenttweaker.Commands.call("/fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:gravel 0 replace minecraft:cobblestone", player, player.world, false, true);
-        mods.contenttweaker.Commands.call("/fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:cobblestone 0 replace minecraft:stone", player, player.world, false, true);
-        return newDamage * 0.95f;
-    }
-    return newDamage;
-};
-power_decreaseTrait.register();
-
 val comfortTrait = ArmorTraitBuilder.create("comfort");
 comfortTrait.color = Color.fromHex("ffffff").getIntColor();
 comfortTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.comfortTrait.name");
