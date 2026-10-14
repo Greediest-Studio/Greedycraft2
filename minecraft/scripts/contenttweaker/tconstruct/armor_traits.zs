@@ -1817,21 +1817,6 @@ antilevitationTrait.onAbility = function(trait, level, world, player) {
 };
 antilevitationTrait.register();
 
-val power_decreaseTrait = ArmorTraitBuilder.create("power_decrease");
-power_decreaseTrait.color = Color.fromHex("ffffff").getIntColor();
-power_decreaseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.power_decreaseTrait.name");
-power_decreaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.power_decreaseTrait.desc");
-power_decreaseTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    if (!isNull(player)) {
-        mods.contenttweaker.Commands.call("/fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:sand 0 replace minecraft:gravel", player, player.world, false, true);
-        mods.contenttweaker.Commands.call("/fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:gravel 0 replace minecraft:cobblestone", player, player.world, false, true);
-        mods.contenttweaker.Commands.call("/fill ~2 ~2 ~2 ~-2 ~-2 ~-2 minecraft:cobblestone 0 replace minecraft:stone", player, player.world, false, true);
-        return newDamage * 0.95f;
-    }
-    return newDamage;
-};
-power_decreaseTrait.register();
-
 val comfortTrait = ArmorTraitBuilder.create("comfort");
 comfortTrait.color = Color.fromHex("ffffff").getIntColor();
 comfortTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.comfortTrait.name");
@@ -5270,15 +5255,21 @@ smoke_checkerTrait.color = Color.fromHex("ffffff").getIntColor();
 smoke_checkerTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.smoke_checkerTrait.name");
 smoke_checkerTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.smoke_checkerTrait.desc");
 smoke_checkerTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    if (!isNull(player)) {
-        var world as IWorld = player.world;
-        var radiationSource as IRadiationSource = RadiationHelper.getRadiationSource(world.native.getChunk(BlockPos(player.x as int, player.y as int, player.z as int)));
-        var radiation as double = radiationSource.getRadiationLevel();
-        var mtp as float = 0.07f * (Math.log10(radiation / 0.00000001d) as float);
-        var reduction as float = Math.min(Math.max(mtp as double, 0.0d) as float, 1.0f) as float;
-        return newDamage * (1.0f - reduction);
+    if (isNull(player)) {
+        return newDamage;
     }
-    return newDamage;
+    var world as IWorld = player.world;
+    var radiationSource as IRadiationSource = RadiationHelper.getRadiationSource(world.native.getChunk(BlockPos(player.x as int, player.y as int, player.z as int)));
+    if (isNull(radiationSource)) {
+        return newDamage;
+    }
+    var radiation as double = radiationSource.getRadiationLevel();
+    if (radiation <= 0.00000001d) {
+        return newDamage;
+    }
+    var mtp as float = 0.07f * (Math.log10(radiation / 0.00000001d) as float);
+    var reduction as float = Math.min(Math.max(mtp as double, 0.0d) as float, 1.0f) as float;
+    return newDamage * (1.0f - reduction);
 };
 smoke_checkerTrait.register();
 

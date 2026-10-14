@@ -498,3 +498,32 @@ createLootRecipe("chromasteel_loot", [
     <ftbquests:lootcrate>.withTag({type: "loot_level_3"}) * 2,
     <ftbquests:lootcrate>.withTag({type: "loot_level_4"})
 ], 20, 5.0E5 as long, 0);
+
+
+//冰与火之歌的龙
+val dragonList as IItemStack[][] = [
+    [<iceandfire:dragonegg_red>, <iceandfire:dragonscales_red> * 16, <iceandfire:fire_dragon_blood> * 8, <iceandfire:fire_dragon_heart>],
+    [<iceandfire:dragonegg_green>, <iceandfire:dragonscales_green> * 16, <iceandfire:fire_dragon_blood> * 8, <iceandfire:fire_dragon_heart>],
+    [<iceandfire:dragonegg_bronze>, <iceandfire:dragonscales_bronze> * 16, <iceandfire:fire_dragon_blood> * 8, <iceandfire:fire_dragon_heart>],
+    [<iceandfire:dragonegg_gray>, <iceandfire:dragonscales_gray> * 16, <iceandfire:fire_dragon_blood> * 8, <iceandfire:fire_dragon_heart>],
+    [<iceandfire:dragonegg_blue>, <iceandfire:dragonscales_blue> * 16, <iceandfire:ice_dragon_blood> * 8, <iceandfire:ice_dragon_heart>],
+    [<iceandfire:dragonegg_white>, <iceandfire:dragonscales_white> * 16, <iceandfire:ice_dragon_blood> * 8, <iceandfire:ice_dragon_heart>],
+    [<iceandfire:dragonegg_sapphire>, <iceandfire:dragonscales_sapphire> * 16, <iceandfire:ice_dragon_blood> * 8, <iceandfire:ice_dragon_heart>],
+    [<iceandfire:dragonegg_silver>, <iceandfire:dragonscales_silver> * 16, <iceandfire:ice_dragon_blood> * 8, <iceandfire:ice_dragon_heart>],
+    [<iceandfire:dragonegg_electric>, <iceandfire:dragonscales_electric> * 16, <iceandfire:lightning_dragon_blood> * 8, <iceandfire:lightning_dragon_heart>],
+    [<iceandfire:dragonegg_amythest>, <iceandfire:dragonscales_amythest> * 16, <iceandfire:lightning_dragon_blood> * 8, <iceandfire:lightning_dragon_heart>],
+    [<iceandfire:dragonegg_copper>, <iceandfire:dragonscales_copper> * 16, <iceandfire:lightning_dragon_blood> * 8, <iceandfire:lightning_dragon_heart>],
+    [<iceandfire:dragonegg_black>, <iceandfire:dragonscales_black> * 16, <iceandfire:lightning_dragon_blood> * 8, <iceandfire:lightning_dragon_heart>]
+];
+
+for entry in dragonList {
+    createLootRecipe("finallium_loot", [
+        entry[0]
+    ], [
+        entry[1],
+        <iceandfire:dragonbone> * 16,
+        entry[2],
+        entry[3],
+        entry[0]
+    ], 50, 6.0E6 as long, 0);
+}

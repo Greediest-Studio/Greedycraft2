@@ -35,19 +35,19 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
         }
 
         //dummy fix
-        if (isNull(player.mainHandHeldItem) && player.isSneaking && entity.definition.id == "testdummy:dummy") {
-            if !(player.tags has "dummy") {
-                player.addTag("dummy");
-                var itemList = player.creative ? [] as IItemStack[] : ((isNull(entity.equipmentAndArmor) ? [] as IItemStack[] : entity.equipmentAndArmor) + <testdummy:dummy>);
-                for item in itemList {
-                    player.give(item);
-                }
-                entity.removeFromWorld();
-            }
-            event.cancel();
+        if (isNull(player.mainHandHeldItem) && isNull(player.offHandHeldItem) && player.isSneaking && entity.definition.id == "testdummy:dummy") {
             if (!player.world.remote) {
+                if !(player.tags has "dummy") {
+                    player.addTag("dummy");
+                    var itemList = player.creative ? [] as IItemStack[] : ((isNull(entity.equipmentAndArmor) ? [] as IItemStack[] : entity.equipmentAndArmor) + <testdummy:dummy>);
+                    for item in itemList {
+                        player.give(item);
+                    }
+                    entity.removeFromWorld();
+                }
                 player.world.catenation().run(function(world, context) {}).sleep(5).then(function(world, context) {player.removeTag("dummy");}).start();
             }
+            event.cancel();
         }
         //dummy fix +
         if (!isNull(player.mainHandHeldItem) && entity.definition.id == "testdummy:dummy" && (player.mainHandHeldItem.definition.id == "bloodmagic:dagger_of_sacrifice" || player.mainHandHeldItem.definition.id == "bloodarsenal:glass_dagger_of_sacrifice")) {

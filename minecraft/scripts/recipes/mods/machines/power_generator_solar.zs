@@ -132,6 +132,7 @@ function addSolarPanelRecipe(panel as IItemStack, baseRF as long) {
         })
         .setMaxThreads(1)
         .addRecipeTooltip("§b实际发电量拥有§c并行奖赏§b机制，其单位输出电量将乘以(0.8+0.08×并行数)")
+        .addRecipeTooltip("§b发电量还将乘以当前半导体等级的平方作为§c等级奖赏")
         .addRecipeTooltip("§b该机器的最大并行数和最大线程数均为§e36")
         .build();
 }

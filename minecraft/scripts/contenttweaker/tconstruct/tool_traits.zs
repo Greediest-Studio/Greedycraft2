@@ -5906,15 +5906,21 @@ smoke_checkerTrait.color = Color.fromHex("ffffff").getIntColor();
 smoke_checkerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.smoke_checkerTrait.name");
 smoke_checkerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.smoke_checkerTrait.desc");
 smoke_checkerTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    if (attacker instanceof IPlayer) {
-        var player as IPlayer = attacker;
-        var world as IWorld = player.world;
-        var radiationSource as IRadiationSource = RadiationHelper.getRadiationSource(world.native.getChunk(BlockPos(player.x as int, player.y as int, player.z as int)));
-        var radiation as double = radiationSource.getRadiationLevel();
-        var mtp as float = 0.14f * (Math.log10(radiation / 0.00000001d) as float);
-        return newDamage * (1.0f + mtp);
+    if (isNull(attacker) || !(attacker instanceof IPlayer)) {
+        return newDamage;
     }
-    return newDamage;
+    var player as IPlayer = attacker;
+    var world as IWorld = player.world;
+    var radiationSource as IRadiationSource = RadiationHelper.getRadiationSource(world.native.getChunk(BlockPos(player.x as int, player.y as int, player.z as int)));
+    if (isNull(radiationSource)) {
+        return newDamage;
+    }
+    var radiation as double = radiationSource.getRadiationLevel();
+    if (radiation <= 0.00000001d) {
+        return newDamage;
+    }
+    var mtp as float = 0.14f * (Math.log10(radiation / 0.00000001d) as float);
+    return newDamage * (1.0f + Math.max(mtp, 0.0f));
 };
 smoke_checkerTrait.register();
 

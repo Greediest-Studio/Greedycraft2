@@ -1673,6 +1673,11 @@ RecipeUtil.addShaped("redstone_control_hatch", <mmce_complement:redstone_control
     [<ore:dustRedstone>, <minecraft:lever>, <ore:dustRedstone>],
     [<ore:ingotModularium>, <minecraft:comparator>, <ore:ingotModularium>]
 ]);
+RecipeUtil.addShaped("environment_hatch", <gugu-utils:environmenthatch>,[
+    [<modularmachinery:blockcasing>,<appliedenergistics2:material:9>,<modularmachinery:blockcasing>],
+    [<appliedenergistics2:material:9>,<modularmachinery:blockcontroller>,<appliedenergistics2:material:9>],
+    [<modularmachinery:blockcasing>,<appliedenergistics2:material:9>,<modularmachinery:blockcasing>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

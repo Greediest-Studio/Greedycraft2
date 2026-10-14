@@ -1076,7 +1076,9 @@ var disabledItems as IIngredient[] = [
     <cells:import_combined_interface>,
     <cells:export_combined_interface>,
     <cells:part:4>,
-    <cells:part:5>
+    <cells:part:5>,
+    <plustic:centrifuge>,
+    <plustic:centrifuge:1>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

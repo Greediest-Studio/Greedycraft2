@@ -5193,5 +5193,1521 @@
                 "enderio:block_reinforced_obsidian@0"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": 3,
+            "y": 11,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_stairs@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "futuremc:campfire@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "futuremc:campfire@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "projecte:fuel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "jaopca:block.twilight_crystal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "futuremc:campfire@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "jaopca:block.twilight_crystal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "projecte:fuel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "projecte:fuel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "futuremc:campfire@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "projecte:fuel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 12,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "projecte:fuel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "futuremc:campfire@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 14,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "futuremc:campfire@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_stairs@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "projecte:fuel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "jaopca:block.twilight_crystal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "projecte:fuel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "futuremc:campfire@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 14,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 5,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "futuremc:campfire@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_stairs@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "projecte:fuel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 12,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_stairs@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 11,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "jaopca:block.twilight_crystal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "betterendforge:neon_cactus_stairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 14,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:fire@15"
+            ]
+        }]
+    }]
+}
 
