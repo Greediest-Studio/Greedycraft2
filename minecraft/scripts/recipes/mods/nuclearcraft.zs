@@ -486,6 +486,10 @@ Melter.addRecipe(<ore:ingotBlueAlloy>, <liquid:blue_alloy> * 144);
 Melter.addRecipe(<ore:dustBlueAlloy>, <liquid:blue_alloy> * 144);
 Melter.addRecipe(<ore:blockBlueAlloy>, <liquid:blue_alloy> * 1296);
 Melter.addRecipe(<ore:nuggetBlueAlloy>, <liquid:blue_alloy> * 16);
+Melter.addRecipe(<ore:ingotTrichromadentium>, <liquid:liquidtrichromadentium> * 144);
+Melter.addRecipe(<ore:dustTrichromadentium>, <liquid:liquidtrichromadentium> * 144);
+Melter.addRecipe(<ore:blockTrichromadentium>, <liquid:liquidtrichromadentium> * 1296);
+Melter.addRecipe(<ore:nuggetTrichromadentium>, <liquid:liquidtrichromadentium> * 16);
 Melter.addRecipe(<additions:ldpe_sheet>, <liquid:polyethylene_low_density> * 144);
 Melter.addRecipe(<mekanism:hdpe_sheet>, <liquid:polyethylene_high_density> * 144);
 Melter.addRecipe(<contenttweaker:einsteinium52>, <liquid:einsteinium_252> * 144);
@@ -597,6 +601,7 @@ IngotFormer.addRecipe(<liquid:cadmium_polonide> * 666, <additions:cadmium_poloni
 IngotFormer.addRecipe(<liquid:cadmium_chalcogenide> * 144, <additions:cadmium_chalcogenide_ingot>);
 IngotFormer.addRecipe(<liquid:boundless_alloy> * 144, <additions:boundless_alloy_ingot>);
 IngotFormer.addRecipe(<liquid:liquidpenguinite> * 144, <moretcon:ingotpenguinite>);
+IngotFormer.addRecipe(<liquid:liquidtrichromadentium> * 144, <moretcon:ingottrichromadentium>);
 
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 
