@@ -1,0 +1,13 @@
+filename = 'AE2CT-Legacy-Unofficial-0.2.0.jar'
+name = 'AE2 Crafting Tree Legacy Unofficial'
+side = 'client'
+
+[download]
+hash = 'ba424b72ff87fdea9febb077e321691578206557'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 8872879
+project-id = 1694497
