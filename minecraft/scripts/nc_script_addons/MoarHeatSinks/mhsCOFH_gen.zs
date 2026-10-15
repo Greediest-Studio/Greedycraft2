@@ -39,7 +39,7 @@ mods.nuclearcraft.Registration.registerFissionHeater("signalum", "signalum_nak",
 mods.nuclearcraft.Registration.registerFissionHeater("lumium", "lumium_nak", 1, "lumium_nak_hot", 1, 175, "four glowstone heaters");
 mods.nuclearcraft.Registration.registerFissionHeater("mana_dust", "mana_dust_nak", 1, "mana_dust_nak_hot", 1, 80, "exactly three casing");
 mods.nuclearcraft.Registration.registerFissionHeater("mithril", "mithril_nak", 1, "mithril_nak_hot", 1, 120, "two axial enderium heaters && exactly zero moderator");
-mods.nuclearcraft.Registration.registerFissionHeater("invar", "invar_nak", 1, "invar_nak_hot", 1, 105, "one lumium heater && one water heater");
+mods.nuclearcraft.Registration.registerFissionHeater("invar", "invar_nak", 1, "invar_nak_hot", 1, 105, "one lumium heater && one aero heater");
 mods.nuclearcraft.Registration.registerFissionHeater("constantan", "constantan_nak", 1, "constantan_nak_hot", 1, 120, "one copper heater && one nickel heater");
 mods.nuclearcraft.Registration.registerFissionHeater("bronze", "bronze_nak", 1, "bronze_nak_hot", 1, 90, "three copper heaters && one tin heater");
 mods.nuclearcraft.Registration.registerFissionHeater("electrum", "electrum_nak", 1, "electrum_nak_hot", 1, 195, "two axial silver heaters");
