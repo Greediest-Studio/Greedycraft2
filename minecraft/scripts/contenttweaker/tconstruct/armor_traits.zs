@@ -4322,7 +4322,7 @@ barrierToughTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tr
 barrierToughTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.barrier_toughTrait.desc");
 barrierToughTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
-        var armorToughAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armorToughness", 1.1f, 1, "e7f6d5c4-1b2a-4c3d-9e5f-3f8f6b4d9e92");
+        var armorToughAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armorToughness", 0.1f, 1, "e7f6d5c4-1b2a-4c3d-9e5f-3f8f6b4d9e92");
         if (!player.getAttribute("generic.armorToughness").hasModifier(armorToughAttribute)) {
             player.getAttribute("generic.armorToughness").applyModifier(armorToughAttribute);
         }
@@ -4330,7 +4330,7 @@ barrierToughTrait.onArmorTick = function(trait, armor, world, player) {
 };
 barrierToughTrait.onArmorRemove = function(trait, armor, player, index) {
     if (!isNull(player)) {
-        var armorToughAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armorToughness", 1.1f, 1, "e7f6d5c4-1b2a-4c3d-9e5f-3f8f6b4d9e92");
+        var armorToughAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armorToughness", 0.1f, 1, "e7f6d5c4-1b2a-4c3d-9e5f-3f8f6b4d9e92");
         if (player.getAttribute("generic.armorToughness").hasModifier(armorToughAttribute)) {
             player.getAttribute("generic.armorToughness").removeModifier("e7f6d5c4-1b2a-4c3d-9e5f-3f8f6b4d9e92");
         }
