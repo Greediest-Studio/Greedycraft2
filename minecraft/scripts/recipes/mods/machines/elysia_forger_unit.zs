@@ -47,6 +47,7 @@ MMEvents.onControllerGUIRender("elysia_forger", function(event as ControllerGUIR
     var info as string[] = [
         "§e///大型铸造单元控制面板///",
         "§a机器名称：§eELYSIA单元 - 大型铸造单元",
+        "§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无"),
         "§a当前模式：§f" ~ (mode == 0 ? "板材模式" : "齿轮模式")
     ];
     event.extraInfo = info;
