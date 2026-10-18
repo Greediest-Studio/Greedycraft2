@@ -2,10 +2,12 @@
 #sideonly client
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
 
 import native.net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import native.net.minecraft.client.gui.GuiScreen;
 import mods.ticlib.TicTool;
+import mods.ctutils.utils.Math;
 
 var EIOitemLevelList as string[string] = {
     "ometweaks:blackhole_capacitor": "§7全局等级： §f6.0",
@@ -20,8 +22,122 @@ var EIOitemLevelList as string[string] = {
     "avaritiaio:infinitecapacitor": "§7全局等级： §c1§e0§a.§b0"
 };
 
+// 璀璨祭坛中各星座水晶的基础产率和速度修正
+// 实际单颗增幅还会根据水晶尺寸、纯度和抛光计算品质权重
+global brightAltarTooltipYieldCoefficients as double[string] = {
+    "astralsorcery.constellation.discidia" : 0.12d,
+    "astralsorcery.constellation.armara" : 0.06d,
+    "astralsorcery.constellation.vicio" : 0.03d,
+    "astralsorcery.constellation.aevitas" : 0.20d,
+    "astralsorcery.constellation.evorsio" : 0.08d,
+    "astralsorcery.constellation.lucerna" : 0.10d,
+    "astralsorcery.constellation.mineralis" : 0.16d,
+    "astralsorcery.constellation.horologium" : 0.02d,
+    "astralsorcery.constellation.octans" : 0.04d,
+    "astralsorcery.constellation.bootes" : 0.12d,
+    "astralsorcery.constellation.fornax" : 0.25d,
+    "astralsorcery.constellation.pelotrio" : 0.30d
+};
+
+global brightAltarTooltipSpeedCoefficients as double[string] = {
+    "astralsorcery.constellation.discidia" : 0.10d,
+    "astralsorcery.constellation.armara" : 0.45d,
+    "astralsorcery.constellation.vicio" : 0.85d,
+    "astralsorcery.constellation.aevitas" : 0.05d,
+    "astralsorcery.constellation.evorsio" : 0.25d,
+    "astralsorcery.constellation.lucerna" : 0.15d,
+    "astralsorcery.constellation.mineralis" : 0.10d,
+    "astralsorcery.constellation.horologium" : 1.20d,
+    "astralsorcery.constellation.octans" : 0.50d,
+    "astralsorcery.constellation.bootes" : 0.30d,
+    "astralsorcery.constellation.fornax" : -0.10d,
+    "astralsorcery.constellation.pelotrio" : -0.20d
+};
+
+// 星座 ID 到中文名称的映射，用于水晶提示文本
+global brightAltarTooltipConstellationNames as string[string] = {
+    "astralsorcery.constellation.discidia" : "非攻座",
+    "astralsorcery.constellation.armara" : "遁甲座",
+    "astralsorcery.constellation.vicio" : "虚御座",
+    "astralsorcery.constellation.aevitas" : "生息座",
+    "astralsorcery.constellation.evorsio" : "解离座",
+    "astralsorcery.constellation.lucerna" : "圣芒座",
+    "astralsorcery.constellation.mineralis" : "晶金座",
+    "astralsorcery.constellation.horologium" : "时钟座",
+    "astralsorcery.constellation.octans" : "南极座",
+    "astralsorcery.constellation.bootes" : "牧夫座",
+    "astralsorcery.constellation.fornax" : "天炉座",
+    "astralsorcery.constellation.pelotrio" : "唤生座"
+};
+
+// 将增幅格式化为带正负号和百分号的两位小数
+function formatBrightAltarTooltipPercent(value as double) as string {
+    val rounded as double = (Math.round(value * 100.0d) as double) / 100.0d;
+    return (rounded >= 0.0d ? "+" : "") ~ rounded as string ~ "%";
+}
+
+// 为天体共鸣水晶计算单颗水晶在璀璨祭坛中的品质加权增幅
+function getBrightAltarCrystalTooltip(itemStack as IItemStack) as string {
+    if (isNull(itemStack.tag) || !(itemStack.tag has "astralsorcery")) {
+        return "";
+    }
+    val astralData as IData = itemStack.tag.memberGet("astralsorcery") as IData;
+    if (!(astralData has "constellationName")) {
+        return "";
+    }
+    val constellationId as string = astralData.memberGet("constellationName") as string;
+    if (!(brightAltarTooltipYieldCoefficients.keys has constellationId)) {
+        return "§7璀璨祭坛增幅：该星座暂未配置效果";
+    }
+    var size as int = 0;
+    var purity as int = 0;
+    var polish as int = 0;
+    if (astralData has "crystalProperties") {
+        val properties as IData = astralData.memberGet("crystalProperties") as IData;
+        if (properties has "size") {
+            size = properties.memberGet("size").asInt();
+        }
+        if (properties has "purity") {
+            purity = properties.memberGet("purity").asInt();
+        }
+        if (properties has "collectiveCapability") {
+            polish = properties.memberGet("collectiveCapability").asInt();
+        } else if (properties has "collect") {
+            polish = properties.memberGet("collect").asInt();
+        }
+    }
+    val quality as double = ((size as double / 900.0d) + (purity as double / 100.0d) + (polish as double / 100.0d)) / 3.0d;
+    val yieldBonus as double = brightAltarTooltipYieldCoefficients[constellationId] * quality * 100.0d;
+    val speedBonus as double = brightAltarTooltipSpeedCoefficients[constellationId] * quality * 100.0d;
+    val constellationName as string = brightAltarTooltipConstellationNames[constellationId];
+    return "§7璀璨祭坛增幅: §b" ~ constellationName ~ "\n§7产率: §6" ~ formatBrightAltarTooltipPercent(yieldBonus) ~ "\n§7速度: §6" ~ formatBrightAltarTooltipPercent(speedBonus);
+}
+
 events.register(function(event as ItemTooltipEvent) {
     var itemStack as IItemStack = event.getItemStack().wrapper;
+
+    // 天体共鸣水晶的璀璨祭坛增幅仅在按住 Shift 时显示
+    if (!isNull(itemStack) && !isNull(itemStack.definition) && itemStack.definition.id == "astralsorcery:blockcelestialcollectorcrystal") {
+        if (GuiScreen.isShiftKeyDown()) {
+            val crystalTooltip as string = getBrightAltarCrystalTooltip(itemStack);
+            if (crystalTooltip != "" && event.getToolTip().length >= 2) {
+                var constellationLine as int = -1;
+                var tooltipIndex as int = 0;
+                while (tooltipIndex < event.getToolTip().length) {
+                    if (event.getToolTip()[tooltipIndex] has "收集星能") {
+                        constellationLine = tooltipIndex;
+                        break;
+                    }
+                    tooltipIndex += 1;
+                }
+                if (constellationLine >= 0) {
+                    event.getToolTip()[0 .. constellationLine].add(crystalTooltip);
+                } else {
+                    event.getToolTip()[0 .. 1].add(crystalTooltip);
+                }
+            }
+        }
+    }
     
     //EIO Capacitor Tooltip
     if (!isNull(itemStack) && !isNull(itemStack.definition)) {

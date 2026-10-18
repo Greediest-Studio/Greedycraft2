@@ -34,6 +34,7 @@ MMEvents.onControllerGUIRender("elysia_solidifier", function(event as Controller
     var info as string[] = [
         "§e///大型凝结单元控制面板///",
         "§a机器名称：§eELYSIA单元 - 大型凝结单元",
+        
         "§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无")
     ];
     event.extraInfo = info;

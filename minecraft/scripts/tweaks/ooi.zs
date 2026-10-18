@@ -104,6 +104,7 @@ ConversionItem.create(<appliedenergistics2:material:46>).addMatchItem(<betterend
 ConversionItem.create(<additions:bismuth_ingot>).addMatchItem(<ore:ingotBismuth>).register();
 ConversionItem.create(<gct_additions:saniteore>).addMatchItem(<additions:sanite_ore>).register();
 ConversionItem.create(<moretcon:dustfiery>).addMatchItem(<ore:dustFierymetal>).register();
+ConversionItem.create(<aether_legacy:quicksoil>).addMatchItem(<aether_legacy:quicksoil:1>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();

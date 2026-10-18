@@ -4615,7 +4615,7 @@ igneousTrait.color = Color.fromHex("ffffff").getIntColor();
 igneousTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.igneousTrait.name");
 igneousTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.igneousTrait.desc");
 igneousTrait.calcCrit = function(trait, tool, attacker, target) {
-    if (Math.random() < 0.3f && attacker instanceof IPlayer) {
+    if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
         var pass as bool = false;
         for i in 0 to 9 {
@@ -4649,7 +4649,7 @@ igneousTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
             }
         }
         if (pass) {
-            return newDamage * 1.15f;
+            return newDamage * 1.5f;
         }
     }
     return newDamage;

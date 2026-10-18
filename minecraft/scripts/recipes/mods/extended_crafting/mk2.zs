@@ -216,7 +216,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_additions:essence_of_warpe
 	[null, <gct_additions:warped_soul>, <gct_additions:warped_soul>, <gct_additions:warped_soul>, null], 
 	[<gct_additions:warped_soul>, <ore:ingotAzathothium>, <ore:stoneAbyssExtended>, <ore:ingotNyarlathotepium>, <gct_additions:warped_soul>], 
 	[<gct_additions:warped_soul>, <ore:stoneAbyssExtended>, <ore:stoneAbyssExtended>, <ore:stoneAbyssExtended>, <gct_additions:warped_soul>], 
-	[<gct_additions:warped_soul>, <ore:ingotYogsothoth>, <ore:stoneAbyssExtended>, <ore:ingotShubniggurath>, <gct_additions:warped_soul>], 
+	[<gct_additions:warped_soul>, <ore:ingotYogsothothium>, <ore:stoneAbyssExtended>, <ore:ingotShubniggurathium>, <gct_additions:warped_soul>], 
 	[null, <gct_additions:warped_soul>, <gct_additions:warped_soul>, <gct_additions:warped_soul>, null]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:2>, [

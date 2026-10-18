@@ -33,7 +33,8 @@ MachineModifier.setMaxParallelism("elysia_vaporizer", 65536);
 MMEvents.onControllerGUIRender("elysia_vaporizer", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§e///大型汽化单元控制面板///",
-        "§a机器名称：§eELYSIA单元 - 大型汽化单元"
+        "§a机器名称：§eELYSIA单元 - 大型汽化单元",
+        "§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无")
     ];
     event.extraInfo = info;
 });

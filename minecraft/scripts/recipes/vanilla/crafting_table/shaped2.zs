@@ -26,7 +26,6 @@ recipes.remove(<enderutilities:handybag:1>);
 recipes.remove(<mekanismmultiblockmachine:largewindgenerator>);
 recipes.remove(<mekanismmultiblockmachine:largegasgenerator>);
 recipes.remove(<functionalstoragelegacy:netherite_upgrade>);
-recipes.remove(<mmce_advanced_builder_tool:advanced_builder_tool>);
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("botania:quartztypedark_0");
