@@ -40,7 +40,7 @@ AlloySmelter.addRecipe(<taiga:ignitz_ingot> * 2, [<ore:ingotArdite> * 2, <ore:in
 AlloySmelter.addRecipe(<taiga:imperomite_ingot> * 2, [<ore:ingotDuranite> * 3, <ore:ingotPrometheum>, <ore:ingotAbyssum>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:solarium_ingot> * 2, [<ore:ingotNucleum>, <ore:ingotUru> * 2, <ore:ingotValyrium> * 2], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:nihilite_ingot>, [<ore:ingotVibranium>, <ore:ingotSolarium>], 2000, 10.0f);
-AlloySmelter.addRecipe(<taiga:adamant_ingot> * 3, [<ore:ingotVibranium>, <ore:ingotSolarium>, <ore:ingotIox> * 3], 2000, 10.0f);
+AlloySmelter.addRecipe(<taiga:adamant_ingot> * 3, [<ore:ingotNihilite>, <ore:ingotIox> * 3], 2000, 10.0f);
 AlloySmelter.addRecipe(<gct_additions:densite_ingot>, [<ore:ingotOsram>, <ore:ingotSeismum>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:dyonite_ingot> * 3, [<ore:ingotTriberium> * 3, <ore:ingotFractum>, <ore:ingotDensite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:nucleum_ingot> * 3, [<ore:ingotProxii> * 3, <ore:ingotAbyssum>, <ore:ingotOsram>], 2000, 10.0f);
