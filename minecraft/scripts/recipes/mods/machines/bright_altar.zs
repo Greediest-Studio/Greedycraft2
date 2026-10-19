@@ -11,6 +11,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.world.IWorld;
+import native.hellfirepvp.modularmachinery.common.tiles.base.TileMultiblockMachineController;
+import native.hellfirepvp.modularmachinery.common.machine.DynamicMachine;
 
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipePrimer;
@@ -27,7 +29,7 @@ import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("bright_altar", 4);
 MachineModifier.setMaxParallelism("bright_altar", 65536);
-MachineModifier.setInternalParallelism("bright_altar", 1);
+MachineModifier.setInternalParallelism("bright_altar", 12);
 
 // 水晶编号以控制器正面为0号，俯视时沿顺时针方向排列。
 global brightAltarCrystalOffsets as int[][] = [
@@ -35,7 +37,6 @@ global brightAltarCrystalOffsets as int[][] = [
     [0, 11], [-5, 9], [-9, 5], [-11, 0], [-9, -5], [-5, -9]
 ] as int[][];
 
-// 每颗水晶的基础产率修正。实际数值还会乘以尺寸、纯度和抛光的品质权重。
 global brightAltarYieldCoefficients as double[string] = {
     "astralsorcery.constellation.discidia" : 0.12d,
     "astralsorcery.constellation.armara" : 0.06d,
@@ -122,11 +123,10 @@ function getBrightAltarBonuses(crystalData as IData[]) as double[] {
                 val size as int = (crystal has "size") ? crystal.memberGet("size").asInt() : 0;
                 val purity as int = (crystal has "purity") ? crystal.memberGet("purity").asInt() : 0;
                 val polish as int = (crystal has "polish") ? crystal.memberGet("polish").asInt() : 0;
-                val quality as double = ((size as double / 900.0d) + (purity as double / 100.0d) + (polish as double / 100.0d)) / 3.0d;
                 counts[constellation] = counts[constellation] + 1;
                 if (brightAltarYieldCoefficients.keys has constellation) {
-                    yieldSums[constellation] = yieldSums[constellation] + brightAltarYieldCoefficients[constellation] * quality;
-                    speedSums[constellation] = speedSums[constellation] + brightAltarSpeedCoefficients[constellation] * quality;
+                    yieldSums[constellation] = yieldSums[constellation] + brightAltarYieldCoefficients[constellation];
+                    speedSums[constellation] = speedSums[constellation] + brightAltarSpeedCoefficients[constellation];
                 }
                 minSizes[constellation] = (size < minSizes[constellation]) ? size : minSizes[constellation];
                 maxSizes[constellation] = (size > maxSizes[constellation]) ? size : maxSizes[constellation];
@@ -142,22 +142,23 @@ function getBrightAltarBonuses(crystalData as IData[]) as double[] {
     for constellation in counts {
         if (counts[constellation] > 0 && (brightAltarYieldCoefficients.keys has constellation)) {
             var correction as double = 1.0d;
-            if (minSizes[constellation] > 0) {
-                correction *= 1.0d - ((maxSizes[constellation] - minSizes[constellation]) as double / minSizes[constellation] as double);
+            var sizeRatio as double = 0.0d;
+            var purityRatio as double = 0.0d;
+            var polishRatio as double = 0.0d;
+            if (maxSizes[constellation] != minSizes[constellation] && (maxSizes[constellation] + minSizes[constellation]) != 0) {
+                sizeRatio = ((maxSizes[constellation] - minSizes[constellation]) as double / (maxSizes[constellation] + minSizes[constellation]) as double);
             }
-            if (minPurities[constellation] > 0) {
-                correction *= 1.0d - ((maxPurities[constellation] - minPurities[constellation]) as double / minPurities[constellation] as double);
+            if (maxPurities[constellation] != minPurities[constellation] && (maxPurities[constellation] + minPurities[constellation]) != 0) {
+                purityRatio = ((maxPurities[constellation] - minPurities[constellation]) as double / (maxPurities[constellation] + minPurities[constellation]) as double);
             }
-            if (minPolishes[constellation] > 0) {
-                correction *= 1.0d - ((maxPolishes[constellation] - minPolishes[constellation]) as double / minPolishes[constellation] as double);
+            if (maxPolishes[constellation] != minPolishes[constellation] && (maxPolishes[constellation] + minPolishes[constellation]) != 0) {
+                polishRatio = ((maxPolishes[constellation] - minPolishes[constellation]) as double / (maxPolishes[constellation] + minPolishes[constellation]) as double);
             }
-            correction = correction < 0.0d ? 0.0d : correction;
+            correction *= (1.0d - sizeRatio) * (1.0d - purityRatio) * (1.0d - polishRatio);
             totalYield += yieldSums[constellation] * correction;
             totalSpeed += speedSums[constellation] * correction;
         }
     }
-    totalYield = totalYield < -0.5d ? -0.5d : (totalYield > 1.5d ? 1.5d : totalYield);
-    totalSpeed = totalSpeed < -0.5d ? -0.5d : (totalSpeed > 29.0d ? 29.0d : totalSpeed);
     return [totalYield, totalSpeed] as double[];
 }
 
@@ -173,12 +174,23 @@ function addBrightAltarRecipeModifiers(event as FactoryRecipeStartEvent) {
     event.factoryRecipeThread.addModifier("bright_altar_duration", RecipeModifierBuilder.create("modularmachinery:duration", "input", durationMultiplier, 1, false).build());
 }
 
+// 统计祭坛中二级水晶的数量，每颗二级水晶提供 2 个并行槽位。
+function getBrightAltarEternalCrystalCount(crystalData as IData[]) as int {
+    var count as int = 0;
+    for crystal in crystalData {
+        if (!isNull(crystal) && (crystal has "eternal") && crystal.memberGet("eternal").asBool()) {
+            count += 1;
+        }
+    }
+    return count;
+}
+
 // 将修正值四舍五入到两位小数，避免 GUI 显示冗长的浮点尾数。
 function formatBrightAltarBonus(value as double) as string {
     return ((Math.round(value * 100.0d) as double) / 100.0d) as string;
 }
 
-// 在原版星能输入的基础上，要求指定星座为数量最多且尺寸总和达到阈值。
+// 在原版星能输入的基础上，要求指定星座的水晶尺寸总和达到阈值。
 $expand RecipePrimer$addMixStarlightInput(num as int, id as string, minScale as int) as RecipePrimer {
     this.addStarlightInput(num, id);
     this.addPreCheckHandler(function(event as RecipeCheckEvent) {
@@ -187,19 +199,12 @@ $expand RecipePrimer$addMixStarlightInput(num as int, id as string, minScale as 
             return;
         }
         val crystalData as IData[] = event.controller.customData.crystalData.asList() as IData[];
-        var counts as int[string] = {} as int[string];
         var requiredCount as int = 0;
         var requiredScale as int = 0;
-        var maxCount as int = 0;
         for crystal in crystalData {
             if (!isNull(crystal) && (crystal has "constellation")) {
                 val constellation as string = crystal.memberGet("constellation") as string;
                 if (constellation != "") {
-                    if (!(counts.keys has constellation)) {
-                        counts[constellation] = 0;
-                    }
-                    counts[constellation] = counts[constellation] + 1;
-                    maxCount = counts[constellation] > maxCount ? counts[constellation] : maxCount;
                     if (constellation == id) {
                         requiredCount += 1;
                         requiredScale += (crystal has "size") ? crystal.memberGet("size").asInt() : 0;
@@ -207,22 +212,42 @@ $expand RecipePrimer$addMixStarlightInput(num as int, id as string, minScale as 
                 }
             }
         }
-        if (requiredCount == 0 || requiredCount < maxCount) {
+        if (requiredCount == 0) {
             val constellationName as string = brightAltarConstellationNames.keys has id ? brightAltarConstellationNames[id] : id;
-            event.setFailed("需要数量最多的星座水晶：" ~ constellationName);
+            event.setFailed("未检测到目标星座水晶：" ~ constellationName);
         } else if (requiredScale <= minScale) {
             event.setFailed("星座水晶尺寸总和不足，需要超过 " ~ minScale as string);
         }
     });
-    this.addRecipeTooltip("§e需要目标星座水晶总尺寸大于" ~ minScale as string ~ "，且数量为最多");
+    this.addRecipeTooltip("§b12颗水晶对祭坛配方的影响如下：");
+    this.addRecipeTooltip("§e同星座水晶增幅值线性叠加，");
+    this.addRecipeTooltip("§e而后乘以如下的修正系数，");
+    this.addRecipeTooltip("§e之后异种增幅值再线性叠加。");
+    this.addRecipeTooltip("§d(1－尺寸极差/(尺寸最大值+尺寸最小值))");
+    this.addRecipeTooltip("§d×(1－纯度极差/(纯度最大值+纯度最小值))");
+    this.addRecipeTooltip("§d×(1－抛光极差/(抛光最大值+抛光最小值))");
+    this.addRecipeTooltip("§e同项数值完全相同时，该项按0计算。");
+    this.addRecipeTooltip("§e产出＝基础产出×§d(1＋总产率增幅值)§e；");
+    this.addRecipeTooltip("§e时间＝基础时间÷§d(1＋总速度增幅值)§e。");
+    this.addRecipeTooltip("§e二级水晶（永恒水晶）：每颗额外增加§d2§e个并行位。");
+    this.addRecipeTooltip("§e星座基础加成（产率/速度）：");
+    this.addRecipeTooltip("§e非攻座 §a+12%/+10%§e；遁甲座 §a+6%/+45%§e；");
+    this.addRecipeTooltip("§e虚御座 §a+3%/+85%§e；§e生息座 §a+20%/+5%§e；");
+    this.addRecipeTooltip("§e解离座 §a+8%/+25%§e；圣芒座 §a+10%/+15%§e；");
+    this.addRecipeTooltip("§e晶金座 §a+16%/+10%§e；时钟座 §a+2%/+120%§e；");
+    this.addRecipeTooltip("§e南极座 §a+4%/+50%§e；牧夫座 §a+12%/+30%§e；");
+    this.addRecipeTooltip("§e天炉座 §a+25%/§c-10%§e；唤生座 §a+30%/§c-20%");
+    this.addRecipeTooltip("§e配方运行需要目标星座水晶总尺寸大于" ~ minScale as string ~ "。");
     return this;
 }
 
 function readBrightAltarCrystal(world as IWorld, pos as IBlockPos) as IData {
     val block = world.getBlock(pos);
+    // 二级水晶通过方块 ID 识别，普通天体共鸣水晶不计入并行加成。
+    val eternal as bool = !isNull(block) && !isNull(block.definition) && block.definition.id == "gctcore:eternal_collector_crystal";
     var nbt as IData = block.data;
     if (isNull(nbt)) {
-        return {size: 0, purity: 0, polish: 0, constellation: ""};
+        return {size: 0, purity: 0, polish: 0, constellation: "", eternal: eternal};
     }
     if (nbt has "tag") {
         nbt = nbt.memberGet("tag") as IData;
@@ -282,7 +307,8 @@ function readBrightAltarCrystal(world as IWorld, pos as IBlockPos) as IData {
         size: size,
         purity: purity,
         polish: polish,
-        constellation: constellation
+        constellation: constellation,
+        eternal: eternal
     };
 }
 
@@ -293,8 +319,11 @@ MMEvents.onControllerGUIRender("bright_altar", function(event as ControllerGUIRe
     ];
     var yieldBonusText as string = isNull(event.controller.customData.yieldBonus) ? "0.00" : formatBrightAltarBonus(event.controller.customData.yieldBonus as double);
     var speedBonusText as string = isNull(event.controller.customData.speedBonus) ? "0.00" : formatBrightAltarBonus(event.controller.customData.speedBonus as double);
+    var parallelBonusValue as int = isNull(event.controller.customData.parallelBonus) ? 0 : event.controller.customData.parallelBonus.asInt();
+    var parallelBonusText as string = parallelBonusValue as string;
     info += "§a产率乘数：§e" ~ yieldBonusText;
     info += "§a速度乘数：§e" ~ speedBonusText;
+    info += "§a内置并行：§e" ~ (12 + parallelBonusValue) as string ~ "（+" ~ parallelBonusText ~ "）";
     info += "§a水晶属性：";
     var crystalList as IData[] = [] as IData[];
     if (!isNull(event.controller.customData.crystalData)) {
@@ -365,10 +394,18 @@ MMEvents.onMachinePreTick("bright_altar", function(event as MachineTickEvent) {
             crystalData = crystalData.add(readBrightAltarCrystal(event.controller.world, crystalPos));
         }
         val bonuses as double[] = getBrightAltarBonuses(crystalData);
+        val eternalCrystalCount as int = getBrightAltarEternalCrystalCount(crystalData);
+        // 直接调整当前机器实例的内置并行数，而不是修改配方最大并行上限。
+        val nativeController as TileMultiblockMachineController = event.controller as TileMultiblockMachineController;
+        val machine as DynamicMachine = nativeController.getFoundMachine();
+        if (!isNull(machine)) {
+            machine.setInternalParallelism(12 + eternalCrystalCount * 2);
+        }
         event.controller.customData = event.controller.customData.update({
             crystalData: crystalData,
             yieldBonus: bonuses[0],
-            speedBonus: bonuses[1]
+            speedBonus: bonuses[1],
+            parallelBonus: eternalCrystalCount * 2
         });
     }
 });

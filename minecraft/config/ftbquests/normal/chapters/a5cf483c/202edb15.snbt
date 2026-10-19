@@ -1,0 +1,54 @@
+{
+	title: "§b提升你的水晶！",
+	x: 1.5d,
+	y: 15.0d,
+	description: "使用星灵粉在晶胞重塑器中制作永恒水晶石，再合成永恒聚能水晶",
+	text: [
+		"每个永恒聚能水晶可以给璀璨祭坛增加2并行"
+	],
+	dependencies: [
+		"6365b0a0"
+	],
+	tasks: [{
+		uid: "7198ec71",
+		type: "item",
+		items: [{
+			id: "gctcore:eternal_collector_crystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.horologium",
+					collectorType: 1,
+					crystalProperties: {
+						size: 1600,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5b76cfe4",
+		type: "item",
+		item: "additions:zodiacite_ingot",
+		count: 2
+	},
+	{
+		uid: "f37122d3",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "98ff4cd9",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "07701b08",
+		type: "xp",
+		xp: 20000
+	}]
+}

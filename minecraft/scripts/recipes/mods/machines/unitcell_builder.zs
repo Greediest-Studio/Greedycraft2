@@ -51,10 +51,11 @@ MMEvents.onControllerGUIRender("unitcell_builder", function(event as ControllerG
         "§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无") as string,
         "§a当前模式：§e" ~ mode
     ];
-    info += "§a尺寸参数：§e" ~ (event.controller.getSize() as string) ~ "§a，输出后为 §e0";
+    info += "§a尺寸参数：§e" ~ (event.controller.getSize() as string) ~ "§a，输出后为 §e" ~ (((event.controller.getSize() - 1.0E16 < 0.0d) ? 0.0d : (event.controller.getSize() - 1.0E16)) as string);
     info += "§a纯度参数：§e" ~ (event.controller.getPurity() as string) ~ "§a，输出后为 §e" ~ (((event.controller.getPurity() - 10000 < 0) ? 0 : (event.controller.getPurity() - 10000)) as string);
     info += "§a抛光参数：§e" ~ (event.controller.getCollective() as string) ~ "§a，输出后为 §e" ~ (((event.controller.getCollective() - 10000 < 0) ? 0 : (event.controller.getCollective() - 10000)) as string);
-    val cc = (Math.log10(event.controller.getSize() as double == 0.0d ? 1.0d : event.controller.getSize() as double) * 100) as int;
+    val calculatedSize as int = (Math.log10(event.controller.getSize() as double == 0.0d ? 1.0d : event.controller.getSize() as double) * 100) as int;
+    val cc = calculatedSize > 1600 ? 1600 : calculatedSize;
     val cd = Math.sqrt(event.controller.getPurity() as double) as int > 100 ? 100 : Math.sqrt(event.controller.getPurity() as double) as int;
     val pg = Math.sqrt(event.controller.getCollective() as double) as int > 100 ? 100 : Math.sqrt(event.controller.getCollective() as double) as int;
     info += "§a输出水晶石数据：§e" ~ "§a尺寸：§e" ~ cc ~ "，§a纯度：§e" ~ cd ~ "，§a抛光：§e" ~ pg;
@@ -222,11 +223,17 @@ RecipeBuilder.newBuilder("as_crystal", "unitcell_builder", 1200)
         .addItemModifier(function(controller as IMachineController, stack as IItemStack) {
             var realCollective as int = Math.sqrt(controller.getCollective() as double) as int;
             var realPurity as int = Math.sqrt(controller.getPurity() as double) as int;
+            if (realPurity > 100) {
+                realPurity = 100;
+            }
             var realSize as int = (Math.log10(controller.getSize() as double == 0.0d ? 1.0d : controller.getSize() as double) * 100) as int;
+            if (realSize > 1600) {
+                realSize = 1600;
+            }
             var data as IData = {astralsorcery: {crystalProperties: {
                 collectiveCapability: (realCollective > 100) ? 100 : realCollective as int,
                 size : realSize as int,
-                purity : (realPurity > 100) ? 100 : realPurity as int,
+                purity : realPurity as int,
                 sizeOverride: -1
             }}};
             return <astralsorcery:itemcelestialcrystal>.withTag(data);
@@ -243,13 +250,73 @@ RecipeBuilder.newBuilder("as_crystal", "unitcell_builder", 1200)
         } else {
             controller.setPurity(0);
         }
-        controller.setSize(0);
+        val maxSizeParameter as double = 1.0E16;
+        if (controller.getSize() > maxSizeParameter) {
+            controller.removeSize(maxSizeParameter);
+        } else {
+            controller.setSize(0.0d);
+        }
     })
     .addModeSelect("模式", 2)
     .addRecipeTooltip(
         "§a运行模式：星辰重塑",
         "§a向机器中输入对应物品以提升水晶石参数：",
-        "§e尺寸：§c100×log₁₀<尺寸参数>",
+        "§e尺寸：§c100×log₁₀<尺寸参数>§e（最大1600）",
+        "§e纯度：§c<纯度参数>⁰˙⁵%§e（最大100%）",
+        "§e抛光：§c<抛光参数>⁰˙⁵%§e（最大100%）"
+    )
+    .setJEICategory("astral", "§dLV3 - 晶胞重塑器 - 星辰重塑 - 主线程")
+    .build();
+
+RecipeBuilder.newBuilder("as_eternal_crystal", "unitcell_builder", 1200)
+    .addItemInput(<ore:dustZodiacite>)
+    .addEnergyPerTickInput(6400)
+    .setParallelized(false)
+    .setMaxThreads(1)
+    .addItemOutput(<gctcore:eternal_crystal>)
+        .setPreViewNBT({astralsorcery: {crystalProperties: {sizeOverride: -1}}})
+        .addItemModifier(function(controller as IMachineController, stack as IItemStack) {
+            var realCollective as int = Math.sqrt(controller.getCollective() as double) as int;
+            var realPurity as int = Math.sqrt(controller.getPurity() as double) as int;
+            if (realPurity > 100) {
+                realPurity = 100;
+            }
+            var realSize as int = (Math.log10(controller.getSize() as double == 0.0d ? 1.0d : controller.getSize() as double) * 100) as int;
+            if (realSize > 2500) {
+                realSize = 2500;
+            }
+            var data as IData = {astralsorcery: {crystalProperties: {
+                collectiveCapability: (realCollective > 100) ? 100 : realCollective as int,
+                size : realSize as int,
+                purity : realPurity as int,
+                sizeOverride: -1
+            }}};
+            return <gctcore:eternal_crystal>.withTag(data);
+        })
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        var controller as IMachineController = event.controller;
+        if (controller.getCollective() > 10000) {
+            controller.removeCollective(10000);
+        } else {
+            controller.setCollective(0);
+        }
+        if (controller.getPurity() > 10000) {
+            controller.removePurity(10000);
+        } else {
+            controller.setPurity(0);
+        }
+        val maxSizeParameter as double = 1.0E25;
+        if (controller.getSize() > maxSizeParameter) {
+            controller.removeSize(maxSizeParameter);
+        } else {
+            controller.setSize(0.0d);
+        }
+    })
+    .addModeSelect("模式", 2)
+    .addRecipeTooltip(
+        "§a运行模式：星辰重塑",
+        "§a向机器中输入对应物品以提升水晶石参数：",
+        "§e尺寸：§c100×log₁₀<尺寸参数>§e（最大2500）",
         "§e纯度：§c<纯度参数>⁰˙⁵%§e（最大100%）",
         "§e抛光：§c<抛光参数>⁰˙⁵%§e（最大100%）"
     )
@@ -264,7 +331,8 @@ val sizeItems as double[IIngredient] = {
     <ore:ingotNasalum> : 1.0E8,
     <ore:gemHoshine> : 3.0E10,
     <ore:ingotZodiacite> : 5.0E15,
-    <ore:ingotArimite> : 1.0E15
+    <ore:ingotArimite> : 1.0E15,
+    <ore:gemDubhe> : 1.2E17
 };
 
 val sizeMax as double[IIngredient] = {
@@ -275,7 +343,8 @@ val sizeMax as double[IIngredient] = {
     <ore:ingotNasalum> : 1.0E10,
     <ore:gemHoshine> : 1.0E12,
     <ore:ingotZodiacite> : 1.0E16,
-    <ore:ingotArimite> : 1.0E16
+    <ore:ingotArimite> : 1.0E16,
+    <ore:gemDubhe> : 1.0E18
 };
 
 for item in sizeItems {

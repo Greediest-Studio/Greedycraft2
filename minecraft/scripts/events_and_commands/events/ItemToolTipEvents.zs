@@ -23,7 +23,6 @@ var EIOitemLevelList as string[string] = {
 };
 
 // 璀璨祭坛中各星座水晶的基础产率和速度修正
-// 实际单颗增幅还会根据水晶尺寸、纯度和抛光计算品质权重
 global brightAltarTooltipYieldCoefficients as double[string] = {
     "astralsorcery.constellation.discidia" : 0.12d,
     "astralsorcery.constellation.armara" : 0.06d,
@@ -76,7 +75,6 @@ function formatBrightAltarTooltipPercent(value as double) as string {
     return (rounded >= 0.0d ? "+" : "") ~ rounded as string ~ "%";
 }
 
-// 为天体共鸣水晶计算单颗水晶在璀璨祭坛中的品质加权增幅
 function getBrightAltarCrystalTooltip(itemStack as IItemStack) as string {
     if (isNull(itemStack.tag) || !(itemStack.tag has "astralsorcery")) {
         return "";
@@ -89,26 +87,8 @@ function getBrightAltarCrystalTooltip(itemStack as IItemStack) as string {
     if (!(brightAltarTooltipYieldCoefficients.keys has constellationId)) {
         return "§7璀璨祭坛增幅：该星座暂未配置效果";
     }
-    var size as int = 0;
-    var purity as int = 0;
-    var polish as int = 0;
-    if (astralData has "crystalProperties") {
-        val properties as IData = astralData.memberGet("crystalProperties") as IData;
-        if (properties has "size") {
-            size = properties.memberGet("size").asInt();
-        }
-        if (properties has "purity") {
-            purity = properties.memberGet("purity").asInt();
-        }
-        if (properties has "collectiveCapability") {
-            polish = properties.memberGet("collectiveCapability").asInt();
-        } else if (properties has "collect") {
-            polish = properties.memberGet("collect").asInt();
-        }
-    }
-    val quality as double = ((size as double / 900.0d) + (purity as double / 100.0d) + (polish as double / 100.0d)) / 3.0d;
-    val yieldBonus as double = brightAltarTooltipYieldCoefficients[constellationId] * quality * 100.0d;
-    val speedBonus as double = brightAltarTooltipSpeedCoefficients[constellationId] * quality * 100.0d;
+    val yieldBonus as double = brightAltarTooltipYieldCoefficients[constellationId] * 100.0d;
+    val speedBonus as double = brightAltarTooltipSpeedCoefficients[constellationId] * 100.0d;
     val constellationName as string = brightAltarTooltipConstellationNames[constellationId];
     return "§7璀璨祭坛增幅: §b" ~ constellationName ~ "\n§7产率: §6" ~ formatBrightAltarTooltipPercent(yieldBonus) ~ "\n§7速度: §6" ~ formatBrightAltarTooltipPercent(speedBonus);
 }
@@ -117,7 +97,7 @@ events.register(function(event as ItemTooltipEvent) {
     var itemStack as IItemStack = event.getItemStack().wrapper;
 
     // 天体共鸣水晶的璀璨祭坛增幅仅在按住 Shift 时显示
-    if (!isNull(itemStack) && !isNull(itemStack.definition) && itemStack.definition.id == "astralsorcery:blockcelestialcollectorcrystal") {
+    if (!isNull(itemStack) && !isNull(itemStack.definition) && (itemStack.definition.id == "astralsorcery:blockcelestialcollectorcrystal" || itemStack.definition.id == "gctcore:eternal_collector_crystal")) {
         if (GuiScreen.isShiftKeyDown()) {
             val crystalTooltip as string = getBrightAltarCrystalTooltip(itemStack);
             if (crystalTooltip != "" && event.getToolTip().length >= 2) {
