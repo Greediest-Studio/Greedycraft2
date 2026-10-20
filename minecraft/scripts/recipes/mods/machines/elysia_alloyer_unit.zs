@@ -60,9 +60,10 @@ alloyerAdapter.addRecipeTooltip("§d合金配方支持模块化电容升级，�
 alloyerAdapter.forInputItemTypes(1)
     .remove()
     .build();
+alloyerAdapter.setMaxThreads(1);
 alloyerAdapter.build();
 
-// 大于三种输入的配方
+// 其他配方
 function recipe(recipenum as int, output as IIngredient, input as IIngredient[], RF as int, time as float) {
     val tRF = (RF / time);
     var builder = RecipeBuilder.newBuilder("elysia_alloyer_" + recipenum, "elysia_alloyer", time * 20, 0);
@@ -70,15 +71,20 @@ function recipe(recipenum as int, output as IIngredient, input as IIngredient[],
     builder.addItemInputs(input);
     builder.addItemOutput(output);
     builder.addRecipeTooltip("§d合金配方支持模块化电容升级，详情请查询“模块化电容”");
-    builder.addRecipeTooltip("§a该配方需要扩容升级，详情请查询“模块化电容-扩容”");
-    builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
-        if (!event.controller.hasMachineUpgrade("expand_upg")) {
-            event.setFailed("缺少扩容升级！");
-        }
-    });
+    if (input.length >= 4) {
+        builder.addRecipeTooltip("§a该配方需要扩容升级，详情请查询“模块化电容-扩容”");
+        builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
+            if (!event.controller.hasMachineUpgrade("expand_upg")) {
+                event.setFailed("缺少扩容升级！");
+            }
+        });
+    }
     builder.setMaxThreads(1);
     builder.build();
 }
+
+recipe(90 , <additions:compressite_ingot> * 2, [<ore:ingotAstronicium> * 2, <ore:ingotRaisium> * 2, <ore:ingotStellarium>], 4000, 10.0f);
+recipe(91 , <additions:raisium_ingot> * 3, [<ore:ingotSteamium> * 3, <ore:ingotMagiga> * 8, <ore:ingotImitatium> * 2], 4000, 10.0f);
 
 recipe(2000 , <gct_additions:sky_alloy_ingot> * 2, [<ore:ingotAetherium>, <ore:ingotCanopium>, <ore:ingotMistium>, <ore:ingotThyminite>], 51200, 10.0f);
 recipe(2001 , <gct_additions:fire_alloy_ingot> * 2, [<ore:ingotLavarite>, <ore:ingotPlasmarite>, <ore:ingotBnightium>, <ore:ingotGuaninite>], 51200, 10.0f);
