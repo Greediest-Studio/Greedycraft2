@@ -20,7 +20,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 val regName = "loot_power_generator";
-val speed = 100;
+val speed = 400;
 
 MachineModifier.setMaxThreads("loot_power_generator", 1);
 MachineModifier.setInternalParallelism("loot_power_generator", 1);
