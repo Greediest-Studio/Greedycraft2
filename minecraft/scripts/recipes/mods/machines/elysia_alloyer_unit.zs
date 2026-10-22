@@ -89,6 +89,7 @@ recipe(3 , <additions:corbite_ingot> * 2, [<ore:ingotDes> * 2, <ore:ingotFlairiu
 recipe(4 , <tiths:ingot_irisia>* 3, [<ore:ingotShadium>, <ore:ingotLunium>, <ore:ingotShadowBar> * 4], 4000, 10.0f);
 recipe(5 , <additions:glowing_signalum_ingot>, [<ore:ingotSignalum>, <ore:dustGlowstone> * 4], 1000, 10.0f);
 recipe(6 , <tconstruct:ingots:5> * 4, [<ore:ingotAluminium> * 3, <ore:ingotCopper> * 1], 4000, 10.0f);
+recipe(7 , <redstonerepository:material:1> * 1, [<ore:ingotEnderium> * 1, <ore:dustCryotheum> * 4], 10000, 10.0f);
 
 recipe(1000 , <gct_additions:sky_alloy_ingot> * 2, [<ore:ingotAetherium>, <ore:ingotCanopium>, <ore:ingotMistium>, <ore:ingotThyminite>], 51200, 10.0f);
 recipe(1001 , <gct_additions:fire_alloy_ingot> * 2, [<ore:ingotLavarite>, <ore:ingotPlasmarite>, <ore:ingotBnightium>, <ore:ingotGuaninite>], 51200, 10.0f);
