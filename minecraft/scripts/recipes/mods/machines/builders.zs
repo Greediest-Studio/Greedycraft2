@@ -1066,7 +1066,6 @@ addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
 addBuilderRecipe(<modularmachinery:elysia_centrifuge_factory_controller>, [
     <gct_additions:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
-    <plustic:centrifuge> * 16,
     <thermalexpansion:machine:10> * 16,
     <thermalfoundation:upgrade:35> * 16
 ], 1, 3200);
