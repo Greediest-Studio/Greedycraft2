@@ -975,32 +975,7 @@ val outputBlacklist as IItemStack[] = [
     <abyssalcraft:dspplate>,
     <abyssalcraft:dltpplate>,
     <abyssalcraft:dirtyplate>,
-    <witherstormmod:withered_nether_star>,
-    <witherstormmod:command_block_sword>,
-    <witherstormmod:command_block_pickaxe>,
-    <witherstormmod:command_block_axe>,
-    <witherstormmod:command_block_shovel>,
-    <witherstormmod:command_block_hoe>,
-    <witherstormmod:wooden_command_block_sword>,
-    <witherstormmod:wooden_command_block_pickaxe>,
-    <witherstormmod:wooden_command_block_axe>,
-    <witherstormmod:wooden_command_block_shovel>,
-    <witherstormmod:wooden_command_block_hoe>,
-    <witherstormmod:stone_command_block_sword>,
-    <witherstormmod:stone_command_block_pickaxe>,
-    <witherstormmod:stone_command_block_axe>,
-    <witherstormmod:stone_command_block_shovel>,
-    <witherstormmod:stone_command_block_hoe>,
-    <witherstormmod:iron_command_block_sword>,
-    <witherstormmod:iron_command_block_pickaxe>,
-    <witherstormmod:iron_command_block_axe>,
-    <witherstormmod:iron_command_block_shovel>,
-    <witherstormmod:iron_command_block_hoe>,
-    <witherstormmod:gold_command_block_sword>,
-    <witherstormmod:gold_command_block_pickaxe>,
-    <witherstormmod:gold_command_block_axe>,
-    <witherstormmod:gold_command_block_shovel>,
-    <witherstormmod:gold_command_block_hoe>
+    <witherstormmod:withered_nether_star>
 ];
 
 for item in loadedMods["forestry"].items {
@@ -1041,7 +1016,7 @@ for recipe in recipes.all {
         if (recipe.fullResourceDomain.matches(regex)) {
             var isBlacklisted as bool = false;
             for item in outputBlacklist {
-                if (recipe.output.definition.id == item.definition.id && recipe.output.metadata == item.metadata) {
+                if (!isNull(item) && recipe.output.definition.id == item.definition.id && recipe.output.metadata == item.metadata) {
                     isBlacklisted = true;
                     break;
                 }

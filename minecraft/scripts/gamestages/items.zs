@@ -2770,40 +2770,10 @@ for item in loadedMods["contenttweaker"].items {
     }
 }
 
-// 凋灵风暴首次挑战所需的炸弹、命令工具、追踪与治疗均在 chaotic 可用。
+// 凋灵风暴相关方块与物品在 chaotic 可用。
 GameStagesUtil.stageChaotic.addIngredients([
     <witherstormmod:withered_bone>,
-    <witherstormmod:withered_flesh>,
-    <witherstormmod:withered_spider_eye>,
-    <witherstormmod:golden_apple_stew>,
-    <witherstormmod:amulet>,
     <witherstormmod:command_block_book>,
-    <witherstormmod:command_block_sword>,
-    <witherstormmod:command_block_pickaxe>,
-    <witherstormmod:command_block_axe>,
-    <witherstormmod:command_block_shovel>,
-    <witherstormmod:command_block_hoe>,
-    <witherstormmod:wooden_command_block_sword>,
-    <witherstormmod:wooden_command_block_pickaxe>,
-    <witherstormmod:wooden_command_block_axe>,
-    <witherstormmod:wooden_command_block_shovel>,
-    <witherstormmod:wooden_command_block_hoe>,
-    <witherstormmod:stone_command_block_sword>,
-    <witherstormmod:stone_command_block_pickaxe>,
-    <witherstormmod:stone_command_block_axe>,
-    <witherstormmod:stone_command_block_shovel>,
-    <witherstormmod:stone_command_block_hoe>,
-    <witherstormmod:iron_command_block_sword>,
-    <witherstormmod:iron_command_block_pickaxe>,
-    <witherstormmod:iron_command_block_axe>,
-    <witherstormmod:iron_command_block_shovel>,
-    <witherstormmod:iron_command_block_hoe>,
-    <witherstormmod:gold_command_block_sword>,
-    <witherstormmod:gold_command_block_pickaxe>,
-    <witherstormmod:gold_command_block_axe>,
-    <witherstormmod:gold_command_block_shovel>,
-    <witherstormmod:gold_command_block_hoe>,
-    <witherstormmod:phasometer>,
     <witherstormmod:super_tnt>,
     <witherstormmod:formidibomb>,
     <witherstormmod:firework_bundle>,
@@ -2864,26 +2834,4 @@ GameStagesUtil.stageChaotic.addIngredients([
     <witherstormmod:tainted_jack_o_lantern>,
     <witherstormmod:tainted_dust>,
     <witherstormmod:tainted_dust_block>
-], false);
-GameStagesUtil.stageStormBreaker.addIngredients([
-    <witherstormmod:eye_of_the_storm>,
-    <witherstormmod:formidi_blade>,
-    <witherstormmod:super_beacon>,
-    <witherstormmod:super_support_beacon>
-], false);
-
-// 凋零药水和箭矢的 NBT 变体随首次挑战解锁。
-GameStagesUtil.stageChaotic.addIngredients([
-    <minecraft:potion>.withTag({Potion: "witherstormmod:wither"}),
-    <minecraft:potion>.withTag({Potion: "witherstormmod:long_wither"}),
-    <minecraft:potion>.withTag({Potion: "witherstormmod:strong_wither"}),
-    <minecraft:splash_potion>.withTag({Potion: "witherstormmod:wither"}),
-    <minecraft:splash_potion>.withTag({Potion: "witherstormmod:long_wither"}),
-    <minecraft:splash_potion>.withTag({Potion: "witherstormmod:strong_wither"}),
-    <minecraft:lingering_potion>.withTag({Potion: "witherstormmod:wither"}),
-    <minecraft:lingering_potion>.withTag({Potion: "witherstormmod:long_wither"}),
-    <minecraft:lingering_potion>.withTag({Potion: "witherstormmod:strong_wither"}),
-    <minecraft:tipped_arrow>.withTag({Potion: "witherstormmod:wither"}),
-    <minecraft:tipped_arrow>.withTag({Potion: "witherstormmod:long_wither"}),
-    <minecraft:tipped_arrow>.withTag({Potion: "witherstormmod:strong_wither"})
 ], false);
