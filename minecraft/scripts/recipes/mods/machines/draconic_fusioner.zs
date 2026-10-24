@@ -119,7 +119,7 @@ addFusionRecipe(<gct_additions:chaotic_draconium_block> * 4, [<ore:blockDraconiu
 addFusionRecipe(<gct_additions:ruled_draconium_block> * 4, [<ore:blockDraconiumChaotic> * 4, <ore:coreChaotic>, <ore:blockAdamantium> * 2, <ore:blockEverite> * 2, <ore:blockChaosShard>, <contenttweaker:chaos_heart> * 2], 512000000, 3);
 addFusionRecipe(<gct_additions:relifed_witherium_block> * 4, [<ore:blockWitherium> * 4, <ore:coreWitherium> * 6, <ore:netherStar>], 1750000, 1);
 addFusionRecipe(<gct_additions:stormy_witherium_block> * 4, [<ore:blockWitheriumRelifed> * 4, <ore:ingotEverite> * 2, <ore:metalChaotic> * 2, <ore:gemStormyShard> * 2, <ore:netherStarWithered> * 2], 6016340, 2);
-addFusionRecipe(<gct_additions:equipment_witherium_block> * 4, [<ore:blockWitheriumStormy> * 4, <ore:coreStormy>, <ore:blockAdamantium> * 2, <ore:blockEverite> * 2, <ore:blockStormyShard>, <ageofminecraft:withered_nether_star> * 2], 512000000, 3);
+addFusionRecipe(<gct_additions:equipment_witherium_block> * 4, [<ore:blockWitheriumStormy> * 4, <ore:coreStormy>, <ore:blockAdamantium> * 2, <ore:blockEverite> * 2, <ore:blockStormyShard>, <witherstormmod:withered_nether_star> * 2], 512000000, 3);
 
 addFusionRecipe(<tconevo:metal>, [<ore:ingotFusionMatrix>, <ore:coreWyvern>, <ore:blockRedstone>, <ore:gemDiamond> * 2], 1280, 1);
 addFusionRecipe(<tconevo:metal:5>, [<ore:ingotFusionMatrix>, <ore:coreAwakened>, <draconicevolution:wyvern_energy_core>, <ore:netherStar> * 2], 20480, 2);

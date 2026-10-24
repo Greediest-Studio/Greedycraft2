@@ -39,8 +39,8 @@ createComplexRitualJEI(<gct_additions:muddy_flesh>,
     null);
 
 createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_additions:mixture_shoggoth"}}),
-    <minecraft:spawn_egg>.withTag({EntityTag: {id: "ageofabyssalcraft:lessershoggothhelpful"}}),
-    <minecraft:spawn_egg>.withTag({EntityTag: {id: "ageofabyssalcraft:lessershoggothhelpful"}}),
+    <minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_additions:active_shoggoth"}}),
+    <minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_additions:active_shoggoth"}}),
     <gct_additions:shoggy_slime>);
 
 createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_additions:bloody_shoggoth"}}),

@@ -18,6 +18,6 @@ mods.thaumcraft.research.addScannable("MINION_OF_GATEKEEPER", entity('abyssalcra
 mods.thaumcraft.research.addScannable("LESSER_SHOGGOTH", entity('abyssalcraft:lessershoggoth').entityClass, true)
 mods.thaumcraft.research.addScannable("ABYSSALNOMICON", item('abyssalcraft:abyssalnomicon'))
 mods.thaumcraft.research.addScannable("ABYSS_WAND", item('gct_additions:abyss_wand'))
-mods.thaumcraft.research.addScannable("LESSER_SHOGGOTH_ACTIVE", entity('ageofabyssalcraft:lessershoggothhelpful').entityClass, true)
+mods.thaumcraft.research.addScannable("LESSER_SHOGGOTH_ACTIVE", entity('gct_additions:active_shoggoth').entityClass, true)
 mods.thaumcraft.research.addScannable("MIXTURE_SHOGGOTH", entity('gct_additions:mixture_shoggoth').entityClass, true)
 mods.thaumcraft.research.addScannable("BLOODYSHOGGOTH", entity('gct_additions:bloody_shoggoth').entityClass, true)

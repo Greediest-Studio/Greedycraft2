@@ -382,7 +382,7 @@ createLootRecipe("cosmilite_loot", [
     <gct_additions:creepy_witherstorm_doll>
 ], [
     <gct_additions:stormy_shard> * 6,
-    <ageofminecraft:withered_nether_star> * 1,
+    <witherstormmod:withered_nether_star> * 1,
     <additions:withered_nether_star_shard> * 2,
     <minecraft:command_block> * 1
 ], 40, 2.0E6 as long, 0);

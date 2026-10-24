@@ -267,11 +267,6 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         player.setRadiation(0.0d);
     }
 
-    // Remove the bleeding from Engender Mod
-    if (player.isPotionActive(<potion:ageofminecraft:bleeding>)) {
-        player.removePotionEffect(<potion:ageofminecraft:bleeding>);
-    }
-
     // Remove the nightvision effect if in betweenlands
     if (player.isPotionActive(<potion:minecraft:night_vision>) && player.dimension == 20) {
         player.removePotionEffect(<potion:minecraft:night_vision>);

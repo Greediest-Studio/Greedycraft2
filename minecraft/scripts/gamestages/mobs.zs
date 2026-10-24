@@ -16,7 +16,8 @@ val mobStages as string[string] = {
     "mowziesmobs:barako": "wyvern",
     "mowziesmobs:frostmaw": "hardmode",
     "minecraft:wither": "abyssal_conquerer",
-    "ageofminecraft:enderdragonhelpful": "disabled"
+    "witherstormmod:wither_storm": "chaotic",
+    "gct_additions:order_guardian": "chaotic"
 } as string[string];
 
 for mob, stage in mobStages {

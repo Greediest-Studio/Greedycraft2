@@ -76,7 +76,6 @@ recipes.addShaped(<gugu-utils:sparkmanahatch:1> * 1, [[<modularmachinery:itemmod
 recipes.addShaped(<gugu-utils:starlightinputhatch:0> * 1, [[<modularmachinery:itemmodularium>, <astralsorcery:itemcraftingcomponent:0>, <modularmachinery:itemmodularium>], [<astralsorcery:itemcraftingcomponent:0>, <modularmachinery:blockcasing:0>, <astralsorcery:itemcraftingcomponent:0>],[<modularmachinery:itemmodularium>, <astralsorcery:itemcraftingcomponent:0>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<gugu-utils:starlightinputhatch:1> * 1, [[<modularmachinery:itemmodularium>, <astralsorcery:itemcraftingcomponent:1>, <modularmachinery:itemmodularium>], [<astralsorcery:itemcraftingcomponent:1>, <gugu-utils:starlightinputhatch:0>, <astralsorcery:itemcraftingcomponent:1>],[<modularmachinery:itemmodularium>, <astralsorcery:itemcraftingcomponent:1>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<gugu-utils:starlightinputhatch:2> * 1, [[<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>],[<ore:ingotAstralMetal>, <gugu-utils:starlightinputhatch:1>, <ore:ingotAstralMetal>], [<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>]]);
-recipes.addShaped(<additions:storm_kicker>, [[<ore:rodStone>, <ore:coal>, <ore:rodStone>],[<ore:coal>, <ore:rodStone>, <ore:coal>], [<ore:rodStone>, <ore:coal>, <ore:rodStone>]]);
 recipes.addShaped(<additions:dragon_kicker>, [[<ore:rodStone>, <ore:alloyBasic>, <ore:rodStone>],[<ore:alloyBasic>, <ore:rodStone>, <ore:alloyBasic>], [<ore:rodStone>, <ore:alloyBasic>, <ore:rodStone>]]);
 recipes.addShaped(<gct_additions:shalloite_block_chiseled>, [[null, <gct_additions:shalloite_slab>, null],[null, <gct_additions:shalloite_slab>, null], [null, null, null]]);
 recipes.addShaped(<gct_additions:shalloite_slab> * 6, [[null, null, null],[<gct_additions:shalloite_block>, <gct_additions:shalloite_block>, <gct_additions:shalloite_block>], [null, null, null]]);
@@ -192,9 +191,9 @@ RecipeUtil.addShaped("ball_sharpen_alloy", <additions:sharpen_alloy_ball> * 24, 
     [<ore:ingotSharpenAlloy>, <ore:ingotSharpenAlloy>, <ore:ingotSharpenAlloy>],
     [null, <ore:ingotSharpenAlloy>, null]
 ]);
-RecipeUtil.addShaped("withered_nether_star", <ageofminecraft:withered_nether_star> * 2, [
+RecipeUtil.addShaped("withered_nether_star", <witherstormmod:withered_nether_star> * 2, [
     [<additions:withered_nether_star_shard>, <additions:withered_nether_star_shard>, <additions:withered_nether_star_shard>],
-    [<additions:withered_nether_star_shard>, <ageofminecraft:withered_nether_star>, <additions:withered_nether_star_shard>],
+    [<additions:withered_nether_star_shard>, <witherstormmod:withered_nether_star>, <additions:withered_nether_star_shard>],
     [<additions:withered_nether_star_shard>, <additions:withered_nether_star_shard>, <additions:withered_nether_star_shard>]
 ]);
 RecipeUtil.addShaped("catalyst_star", <additions:catalyst_star> * 2, [

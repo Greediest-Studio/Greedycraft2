@@ -128,11 +128,11 @@
             "key": "ABYSSISM_MOBS",
             "name": "tc.research.ABYSSISM_MOBS.name",
             "icons": [
-                "ageofminecraft:shadowbeast",
-                "ageofminecraft:spectraldragon",
-                "ageofminecraft:dreadguard",
-                "ageofminecraft:gatekeeperminion",
-                "ageofminecraft:shoggoth"
+                "abyssalcraft:shadowgem",
+                "gct_additions:eye_of_abyss",
+                "abyssalcraft:dreadshard",
+                "gct_additions:eye_of_abyss",
+                "abyssalcraft:shoggothflesh"
             ],
             "category": "ABYSSISM",
             "location": [-3, 0],
@@ -141,11 +141,11 @@
                 {
                     "text": "tc.research.ABYSSISM_MOBS.stage.1",
                     "required_research": [
-                        "SHADOW_BEAST;ageofminecraft:textures/items/abyssalcraft/shadowbeast.png",
-                        "SPECTRAL_DRAGON;ageofminecraft:textures/items/abyssalcraft/spectraldragon.png",
-                        "DREAD_GUARD;ageofminecraft:textures/items/abyssalcraft/dreadguard.png",
-                        "MINION_OF_GATEKEEPER;ageofminecraft:textures/items/abyssalcraft/minionofthegatekeeper.png",
-                        "LESSER_SHOGGOTH;ageofminecraft:textures/items/abyssalcraft/shoggoth.png"
+                        "SHADOW_BEAST;abyssalcraft:textures/gui/necronomicon/shadow-beast.png",
+                        "SPECTRAL_DRAGON;abyssalcraft:textures/gui/necronomicon/spectral-dragon.png",
+                        "DREAD_GUARD;abyssalcraft:textures/gui/necronomicon/dreadguard.png",
+                        "MINION_OF_GATEKEEPER;abyssalcraft:textures/gui/necronomicon/minion-of-the-gatekeeper.png",
+                        "LESSER_SHOGGOTH;abyssalcraft:textures/gui/necronomicon/lesser-shoggoth.png"
                     ]
                 },
                 {
@@ -157,7 +157,7 @@
         {
             "key": "ABYSSISM_MOBS_SHOGGOTH",
             "name": "tc.research.ABYSSISM_MOBS_SHOGGOTH.name",
-            "icons": ["ageofminecraft:shoggoth"],
+            "icons": ["abyssalcraft:shoggothflesh"],
             "category": "ABYSSISM",
             "location": [-6, 0],
             "parents": ["ABYSSISM_MOBS"],
@@ -165,13 +165,13 @@
                 {
                     "text": "tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.1",
                     "required_research": [
-                        "LESSER_SHOGGOTH_ACTIVE;ageofminecraft:textures/items/abyssalcraft/shoggoth.png"
+                        "LESSER_SHOGGOTH_ACTIVE;abyssalcraft:textures/gui/necronomicon/lesser-shoggoth.png"
                     ]
                 },
                 {
                     "text": "tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.2",
                     "required_research": [
-                        "MIXTURE_SHOGGOTH;ageofminecraft:textures/items/abyssalcraft/shoggoth.png"
+                        "MIXTURE_SHOGGOTH;abyssalcraft:textures/gui/necronomicon/lesser-shoggoth.png"
                     ]
                 },
                 {

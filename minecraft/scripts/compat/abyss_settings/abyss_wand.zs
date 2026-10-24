@@ -1268,9 +1268,9 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             var recipeString as string = "default";
             for entity in getEntityLivingBasesInCube(player, 7) {
                 if (entity instanceof IEntityLiving) {
-                    if (entity.definition.id == "ageofabyssalcraft:lessershoggothhelpful" && shog1 instanceof IPlayer && catalyst.definition.id == "gct_additions:shoggy_slime") {
+                    if (entity.definition.id == "gct_additions:active_shoggoth" && shog1 instanceof IPlayer && catalyst.definition.id == "gct_additions:shoggy_slime") {
                         shog1 = entity;
-                    } else if (entity.definition.id == "ageofabyssalcraft:lessershoggothhelpful" && shog2 instanceof IPlayer) {
+                    } else if (entity.definition.id == "gct_additions:active_shoggoth" && shog2 instanceof IPlayer) {
                         shog2 = entity;
                         recipeString = "shoggoth";
                     }

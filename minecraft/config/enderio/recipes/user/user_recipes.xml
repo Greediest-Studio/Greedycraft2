@@ -35,6 +35,13 @@
 		    <entity name="abyssalcraft:jzahar" disabled="true" soulvial="false"/>
 		    <entity name="abyssalcraft:dragonboss" disabled="true" soulvial="false"/>
 		    <entity name="abyssalcraft:shadowboss" disabled="true" soulvial="false"/>
+            <entity name="witherstormmod:wither_storm" disabled="true" soulvial="false"/>
+            <entity name="witherstormmod:wither_storm_head" disabled="true" soulvial="false"/>
+            <entity name="witherstormmod:wither_storm_segment" disabled="true" soulvial="false"/>
+            <entity name="witherstormmod:command_block" disabled="true" soulvial="false"/>
+            <entity name="witherstormmod:withered_symbiont" disabled="true" soulvial="false"/>
+            <entity name="witherstormmod:tentacle" disabled="true" soulvial="false"/>
+            <entity name="gct_additions:order_guardian" disabled="true" soulvial="false"/>
         </spawning>
     </recipe>
     <grindingball name="Flint" grinding="1.1" chance="1.15" power="0.85" durability="24000">

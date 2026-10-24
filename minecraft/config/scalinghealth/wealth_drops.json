@@ -95,20 +95,6 @@
                 }
             ]
         },
-        "ageofminecraft:witherstormbosshelpful": {
-            "[0, 2147483647]": [
-                {
-                    "amount": "[5,5]",
-                    "chance": 1.0,
-                    "item": "gct_additions:stormy_shard"
-                },
-                {
-                    "amount": "[8,32]",
-                    "chance": 1.0,
-                    "item": "additions:withered_nether_star_shard"
-                }
-            ]
-        },
         "thebetweenlands:sludge_menace": {
             "[1200, 2147483647]": [
                 {
@@ -3333,7 +3319,16 @@
                 }
             ]
         },
-        "ageofchaos:chaosguardianhelpful": {
+        "abyssalcraft:dragonboss": {
+            "[4000, 2147483647]": [
+                {
+                    "amount": "[3,5]",
+                    "chance": 1,
+                    "item": "additions:spectral_soul"
+                }
+            ]
+        },
+        "gct_additions:order_guardian": {
             "[4800, 2147483647]": [
                 {
                     "amount": "[32,64]",
@@ -3359,15 +3354,6 @@
                     "amount": "[12,16]",
                     "chance": 1.0,
                     "item": "draconicevolution:dragon_heart"
-                }
-            ]
-        },
-        "abyssalcraft:dragonboss": {
-            "[4000, 2147483647]": [
-                {
-                    "amount": "[3,5]",
-                    "chance": 1,
-                    "item": "additions:spectral_soul"
                 }
             ]
         }

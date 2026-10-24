@@ -26,7 +26,7 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
                     player.currentItem.mutable().shrink(1);
                     player.sendMessage("§e成功活化！");
                     world.removeEntity(entity);
-                    Commands.call("summon ageofabyssalcraft:lessershoggothhelpful " ~ pos.x ~ " " ~ pos.y ~ " " ~ pos.z, player, world, false, true);
+                    Commands.call("summon gct_additions:active_shoggoth " ~ pos.x ~ " " ~ pos.y ~ " " ~ pos.z, player, world, false, true);
                 } else {
                     player.sendMessage("§c啊哦，活化失败了！");
                 }

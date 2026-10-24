@@ -188,10 +188,6 @@ InfusionRitual.addRitual("void_eye", 2, -1, 10000, false, <elementalend:void_eye
     <abyssalcraft:dreadiumingot>
 ] as IIngredient[], false);
 
-InfusionRitual.removeRitual(<ageofminecraft:fusionasorah>);
-InfusionRitual.removeRitual(<ageofminecraft:fusionchagaroth>);
-InfusionRitual.removeRitual(<ageofminecraft:fusionjzahar>);
-InfusionRitual.removeRitual(<ageofminecraft:fusionsacthoth>);
 InfusionRitual.removeRitual(<abyssalcraft:dhelmet>);
 InfusionRitual.removeRitual(<abyssalcraft:dplate>);
 InfusionRitual.removeRitual(<abyssalcraft:dlegs>);

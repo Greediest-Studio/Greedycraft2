@@ -4,8 +4,9 @@
 	y: 2.0d,
 	description: "再次击杀凋灵风暴",
 	text: [
-		"你再次解救了世界",
-		"温馨提示：在主世界坐标为0,0的位置会有几率生成一只野生的凋灵风暴"
+		"在寂静虚空重新使用风暴玩偶，完成炸弹、分体、体内核心的完整战斗。",
+		"每场终战给在场队伍一次击杀资格，物品结算每场只有一份。",
+		"主世界原点不再生成平台或野生风暴。"
 	],
 	can_repeat: 1b,
 	dependencies: [
@@ -15,7 +16,7 @@
 		uid: "d2f8815a",
 		type: "kill",
 		icon: "gct_additions:stormy_shard_block",
-		entity: "ageofminecraft:witherstormbosshelpful",
+		entity: "witherstormmod:wither_storm",
 		value: 1L
 	}],
 	rewards: [{
@@ -27,7 +28,7 @@
 	{
 		uid: "aa90a4f1",
 		type: "item",
-		item: "ageofminecraft:withered_nether_star",
+		item: "witherstormmod:withered_nether_star",
 		count: 7
 	},
 	{
@@ -49,15 +50,5 @@
 		uid: "d1a903f4",
 		type: "xp",
 		xp: 20000
-	},
-	{
-		uid: "35439cf4",
-		type: "item",
-		item: {
-			id: "additions:storm_kicker",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		}
 	}]
 }

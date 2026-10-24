@@ -3451,7 +3451,7 @@ chaoticTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
         var entity as IEntityLivingBase = target;
         if (!isNull(entity.definition) && entity.definition.id has "minecraft:ender_dragon") {
             return newDamage * 4.0f;
-        } else if (!isNull(entity.definition) && entity.definition.id has "draconicevolution") {
+        } else if (!isNull(entity.definition) && (entity.definition.id has "draconicevolution" || entity.definition.id == "gct_additions:order_guardian")) {
             return newDamage * 2.0f;
         }
     }
@@ -3466,7 +3466,7 @@ stormyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tr
 stormyTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = target;
-        if (!isNull(entity.definition) && entity.definition.id has "minecraft:wither") {
+        if (!isNull(entity.definition) && (entity.definition.id == "minecraft:wither" || entity.definition.id == "witherstormmod:wither_storm" || entity.definition.id == "witherstormmod:wither_storm_head" || entity.definition.id == "witherstormmod:wither_storm_segment" || entity.definition.id == "witherstormmod:tentacle")) {
             return newDamage * 4.0f;
         }
     }

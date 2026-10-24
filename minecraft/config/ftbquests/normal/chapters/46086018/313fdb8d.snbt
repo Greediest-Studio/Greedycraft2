@@ -1,13 +1,6 @@
 {
 	title: "§b无上荣耀",
-	icon: {
-		id: "minecraft:spawn_egg",
-		tag: {
-			EntityTag: {
-				id: "ageofminecraft:witherbosshelpful"
-			}
-		}
-	},
+	icon: "minecraft:nether_star",
 	x: 6.0d,
 	y: -3.0d,
 	shape: "gear",
@@ -28,14 +21,7 @@
 	{
 		uid: "9948b3ed",
 		type: "kill",
-		icon: {
-			id: "minecraft:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "ageofminecraft:witherbosshelpful"
-				}
-			}
-		},
+		icon: "minecraft:nether_star",
 		entity: "minecraft:wither",
 		value: 1L
 	}],
