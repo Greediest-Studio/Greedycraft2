@@ -49,3 +49,13 @@ function addCrusherRecipe(id as int, input as IIngredient, output as IItemStack,
 }
 
 addCrusherRecipe(1, <ore:itemPulsatingCrystal>, <enderio:item_material:36>, 20, 100);
+addCrusherRecipe(2, <botania:specialflower>.withTag({type: "puredaisy"}), <additions:purifying_dust> * 8, 60, 100);
+addCrusherRecipe(3, <iceandfire:dragonbone>, <additions:dragonbone_dust> * 6, 300, 100);
+addCrusherRecipe(4, <iceandfire:dragon_bone_block>, <additions:dragonbone_dust> * 54, 1350, 100);
+addCrusherRecipe(5, <iceandfire:dragon_bone_wall>, <additions:dragonbone_dust> * 36, 900, 100);
+addCrusherRecipe(6, <iceandfire:dragon_skull>, <additions:dragonbone_dust> * 18, 450, 100);
+addCrusherRecipe(7, <iceandfire:dragon_skull:1>, <additions:dragonbone_dust> * 18, 450, 100);
+addCrusherRecipe(8, <iceandfire:dragon_skull:2>, <additions:dragonbone_dust> * 18, 450, 100);
+addCrusherRecipe(9, <tiths:broken_bedrock>, <enderio:item_material:20> * 12, 10240, 100);
+addCrusherRecipe(10, <thaumcraft:stone_ancient>, <additions:ancient_sand>, 400, 100);
+addCrusherRecipe(11, <evilcraft:dark_gem>, <evilcraft:dark_gem_crushed>, 60, 100);
