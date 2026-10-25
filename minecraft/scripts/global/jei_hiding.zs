@@ -10,7 +10,7 @@ for fluidItems in pewter.items {
 
 val modularmachinery as IMod = loadedMods["modularmachinery"];
 for controller in modularmachinery.items {
-    if (controller.definition.id has "_controller" && !(controller.definition.id has "_factory_controller")) {
+    if (controller.definition.id has "_controller" && !(controller.definition.id has "_factory_controller" || controller.definition.id has "_storage_controller")) {
         JEI.addDescription(controller, "§c该物品不可用，请使用机械对应的集成控制器");
         controller.addTooltip("§c该物品不可用，请使用机械对应的集成控制器");
         JEI.hide(controller);

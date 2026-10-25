@@ -23,6 +23,7 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.SmartInterfaceType;
 
 MachineModifier.setMaxThreads("elysia_polymer", 8);
 MachineModifier.setInternalParallelism("elysia_polymer", 4);
@@ -36,7 +37,9 @@ MMEvents.onControllerGUIRender("elysia_polymer", function(event as ControllerGUI
     event.extraInfo = info;
 });
 
-function addPolymerRecipe(inputs as ILiquidStack[], outputs as ILiquidStack[]) {
+MachineModifier.addSmartInterfaceType("elysia_polymer", SmartInterfaceType.create("配方选择", 0.0f));
+
+function addPolymerRecipe(inputs as ILiquidStack[], outputs as ILiquidStack[], smartInterface as int) {
     var builder = RecipeBuilder.newBuilder(outputs[0].definition.name + "_poly", "elysia_polymer", 20);
     for input in inputs {
         builder.addFluidInput(input);
@@ -47,23 +50,24 @@ function addPolymerRecipe(inputs as ILiquidStack[], outputs as ILiquidStack[]) {
     builder.addEnergyPerTickInput(480000);
     builder.addRecipeTooltip("§d聚合配方支持模块化电容升级，详情请查询“模块化电容”");
     builder.setMaxThreads(1);
+    if (smartInterface != 0) builder.addSmartInterfaceDataInput("配方选择", smartInterface as float);
     builder.build();
 }
 
 //加聚
-addPolymerRecipe([<liquid:ethene> * 1000], [<liquid:polyethylene_low_density> * 144]);
-addPolymerRecipe([<liquid:styrene> * 1000], [<liquid:polystyrene> * 144]);
-addPolymerRecipe([<liquid:styrene> * 900, <liquid:divinylbenzene> * 100], [<liquid:styrene_divinylbenzene_copolymer> * 144]);
-addPolymerRecipe([<liquid:tetrafluoroethene> * 1000], [<liquid:polytetrafluoroethene> * 144]);
-addPolymerRecipe([<liquid:caprolactam> * 1000], [<liquid:nylon_6> * 144]);
+addPolymerRecipe([<liquid:ethene> * 1000], [<liquid:polyethylene_low_density> * 144], 0);
+addPolymerRecipe([<liquid:styrene> * 1000], [<liquid:polystyrene> * 144], 0);
+addPolymerRecipe([<liquid:styrene> * 900, <liquid:divinylbenzene> * 100], [<liquid:styrene_divinylbenzene_copolymer> * 144], 1);
+addPolymerRecipe([<liquid:tetrafluoroethene> * 1000], [<liquid:polytetrafluoroethene> * 144], 0);
+addPolymerRecipe([<liquid:caprolactam> * 1000], [<liquid:nylon_6> * 144], 0);
 
 //缩聚
-addPolymerRecipe([<liquid:dfdps> * 666, <liquid:sodium_hydroquinone_solution> * 666], [<liquid:polyethersulfone> * 144, <liquid:sodium_fluoride_solution> * 1332]);
-addPolymerRecipe([<liquid:dfdps> * 666, <liquid:potassium_hydroquinone_solution> * 666], [<liquid:polyethersulfone> * 144, <liquid:potassium_fluoride_solution> * 1332]);
-addPolymerRecipe([<liquid:dimethyldifluorosilane> * 1000, <liquid:sodium> * 288], [<liquid:polydimethylsilylene> * 144, <liquid:sodium_fluoride_solution> * 1332]);
-addPolymerRecipe([<liquid:dimethyldifluorosilane> * 1000, <liquid:potassium> * 288], [<liquid:polydimethylsilylene> * 144, <liquid:potassium_fluoride_solution> * 1332]);
-addPolymerRecipe([<liquid:zirconia> * 288, <liquid:polyphenylene_sulfide> * 288], [<liquid:zirfon> * 144]);
-addPolymerRecipe([<liquid:difluorobenzene> * 1000, <liquid:sodium_sulfide> * 144], [<liquid:polyphenylene_sulfide> * 144, <liquid:sodium_fluoride_solution> * 1332]);
-addPolymerRecipe([<liquid:difluorobenzene> * 1000, <liquid:potassium_sulfide> * 144], [<liquid:polyphenylene_sulfide> * 144, <liquid:potassium_fluoride_solution> * 1332]);
-addPolymerRecipe([<liquid:c4_i4_difluorodiphenylmethanone> * 1000, <liquid:hydroquinone_solution> * 1000], [<liquid:polyetheretherketone> * 144, <liquid:hydrofluoric_acid> * 2000]);
-addPolymerRecipe([<liquid:pyromellitic_dianhydride> * 1000, <liquid:c4_i4_diaminodiphenyl_ether> * 1000], [<liquid:pyroxene> * 144, <liquid:water> * 2000]);
+addPolymerRecipe([<liquid:dfdps> * 666, <liquid:sodium_hydroquinone_solution> * 666], [<liquid:polyethersulfone> * 144, <liquid:sodium_fluoride_solution> * 1332], 0);
+addPolymerRecipe([<liquid:dfdps> * 666, <liquid:potassium_hydroquinone_solution> * 666], [<liquid:polyethersulfone> * 144, <liquid:potassium_fluoride_solution> * 1332], 0);
+addPolymerRecipe([<liquid:dimethyldifluorosilane> * 1000, <liquid:sodium> * 288], [<liquid:polydimethylsilylene> * 144, <liquid:sodium_fluoride_solution> * 1332], 0);
+addPolymerRecipe([<liquid:dimethyldifluorosilane> * 1000, <liquid:potassium> * 288], [<liquid:polydimethylsilylene> * 144, <liquid:potassium_fluoride_solution> * 1332], 0);
+addPolymerRecipe([<liquid:zirconia> * 288, <liquid:polyphenylene_sulfide> * 288], [<liquid:zirfon> * 144], 0);
+addPolymerRecipe([<liquid:difluorobenzene> * 1000, <liquid:sodium_sulfide> * 144], [<liquid:polyphenylene_sulfide> * 144, <liquid:sodium_fluoride_solution> * 1332], 0);
+addPolymerRecipe([<liquid:difluorobenzene> * 1000, <liquid:potassium_sulfide> * 144], [<liquid:polyphenylene_sulfide> * 144, <liquid:potassium_fluoride_solution> * 1332], 0);
+addPolymerRecipe([<liquid:c4_i4_difluorodiphenylmethanone> * 1000, <liquid:hydroquinone_solution> * 1000], [<liquid:polyetheretherketone> * 144, <liquid:hydrofluoric_acid> * 2000], 0);
+addPolymerRecipe([<liquid:pyromellitic_dianhydride> * 1000, <liquid:c4_i4_diaminodiphenyl_ether> * 1000], [<liquid:pyroxene> * 144, <liquid:water> * 2000], 0);
