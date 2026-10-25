@@ -163,7 +163,6 @@ addFusionRecipe(<gct_additions:command_core>, [<ore:ingotHarcadium> * 4, <ore:in
 addFusionRecipe(<gct_additions:creepy_wither_doll>, [<ore:blockHarcadium>, <ore:skullWitherSkeleton> * 4, <ore:soulSand> * 4], 16777216, 2);
 addFusionRecipe(<gct_additions:rng_relinquisher>, [<ore:coreChaotic>, <ore:ingotHarcadium> * 2, <ore:ingotVoidEssence> * 2, <ore:metalChaotic> * 4], 83886080, 3);
 addFusionRecipe(<minecraft:command_block>, [<ore:coreCommand>, <ore:coreRelifed> * 8, <ore:coreChaotic>, <ore:bedrock> * 2, <ore:blockAdamantium>], 26214400, 3);
-addFusionRecipe(<gct_additions:creepy_witherstorm_doll>, [<gct_additions:creepy_wither_doll>, <ore:coreEpic> * 2, <ore:blockInsaniumEssence>, <ore:blockCommand>], 61728395, 3);
 addFusionRecipe(<minecraft:barrier> * 4, [<ore:blockGlass> * 4, <ore:bedrock> * 3, <ore:nuggetCosmilite> * 3], 2500000, 3);
 addFusionRecipe(<extendedcrafting:material:14>, [<extendedcrafting:material:2>, <ore:ingotVibranium> * 2, <extendedcrafting:material:7> * 2], 640, 0);
 addFusionRecipe(<extendedcrafting:material:15>, [<extendedcrafting:material:2>, <ore:ingotFusionMatrix> * 2, <extendedcrafting:material:7> * 2], 12800, 1);

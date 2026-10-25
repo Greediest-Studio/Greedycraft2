@@ -3466,7 +3466,7 @@ stormyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tr
 stormyTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = target;
-        if (!isNull(entity.definition) && (entity.definition.id == "minecraft:wither" || entity.definition.id == "witherstormmod:wither_storm" || entity.definition.id == "witherstormmod:wither_storm_head" || entity.definition.id == "witherstormmod:wither_storm_segment" || entity.definition.id == "witherstormmod:tentacle")) {
+        if (!isNull(entity.definition) && (entity.definition.id == "minecraft:wither" || entity.definition.id has "witherstormmod")) {
             return newDamage * 4.0f;
         }
     }

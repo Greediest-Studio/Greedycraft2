@@ -446,7 +446,8 @@ val removedRecipes as IIngredient[] = [
     <botaniverse:morespreader:1>,
     <botaniverse:morespreader:2>,
     <botaniverse:morespreader:3>,
-    <mmce_advanced_builder_tool:advanced_builder_tool>
+    <mmce_advanced_builder_tool:advanced_builder_tool>,
+    <witherstormmod:formidibomb>
 ];
 
 val removedRecipeNames as string[] = [

@@ -82,12 +82,6 @@ FusionCrafting.add(<minecraft:command_block>, <gct_additions:command_core>, 3, 5
     <ore:bedrock>,
     <ore:blockAdamantium>
 ]);
-FusionCrafting.add(<gct_additions:creepy_witherstorm_doll>, <gct_additions:creepy_wither_doll>, 3, 12345678900, [
-    <ore:coreEpic>,
-    <ore:coreEpic>,
-    <ore:blockInsaniumEssence>,
-    <minecraft:command_block>
-]);
 FusionCrafting.add(<gct_additions:ruled_draconium_block> * 4, <gct_additions:chaotic_draconium_block> * 4, 3, 102400000000, [
     <ore:coreChaotic>,
     <contenttweaker:chaos_heart>,

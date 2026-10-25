@@ -942,7 +942,8 @@ var disabledItems as IIngredient[] = [
     <cells:part:4>,
     <cells:part:5>,
     <plustic:centrifuge>,
-    <plustic:centrifuge:1>
+    <plustic:centrifuge:1>,
+    <gct_additions:creepy_witherstorm_doll>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

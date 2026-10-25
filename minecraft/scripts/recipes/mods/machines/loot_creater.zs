@@ -379,7 +379,9 @@ createLootRecipe("cosmilite_loot", [
 
 //凋灵风暴
 createLootRecipe("cosmilite_loot", [
-    <gct_additions:creepy_witherstorm_doll>
+    <minecraft:soul_sand> * 3,
+    <minecraft:skull:1> * 3,
+    <minecraft:command_block> * 1
 ], [
     <gct_additions:stormy_shard> * 6,
     <witherstormmod:withered_nether_star> * 1,
@@ -498,7 +500,6 @@ createLootRecipe("chromasteel_loot", [
     <ftbquests:lootcrate>.withTag({type: "loot_level_3"}) * 2,
     <ftbquests:lootcrate>.withTag({type: "loot_level_4"})
 ], 20, 5.0E5 as long, 0);
-
 
 //冰与火之歌的龙
 val dragonList as IItemStack[][] = [

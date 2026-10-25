@@ -2644,7 +2644,7 @@ stormyTrait.onHurt = function(trait, armor, player, source, damage, newDamage, e
                 if (entity.definition.id == "minecraft:wither") {
                     return newDamage * 0.4f;
                 }
-                if (entity.definition.id == "witherstormmod:wither_storm" || entity.definition.id == "witherstormmod:wither_storm_head" || entity.definition.id == "witherstormmod:wither_storm_segment" || entity.definition.id == "witherstormmod:tentacle") {
+                if (entity.definition.id has "witherstormmod") {
                     return newDamage * 0.5f;
                 }
             }
