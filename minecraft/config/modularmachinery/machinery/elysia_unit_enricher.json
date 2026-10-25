@@ -2705,5 +2705,985 @@
                 "minecraft:water@0"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": -1,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -13,
+            "z": 6,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": -1,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 8,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -13,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 7,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -13,
+            "z": 8,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -11,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "mekanism:plasticfence@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "mekanism:plasticfence@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -13,
+            "z": 4,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 7,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 6,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -13,
+            "z": 9,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "mekanism:plasticfence@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": -1,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -13,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 6,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -13,
+            "z": 5,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "mekanism:plasticfence@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 9,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 10,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 6,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -13,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 5,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 8,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -13,
+            "z": 0,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -13,
+            "z": 7,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 10,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "mekanism:plasticfence@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "mekanism:plasticfence@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -13,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 15,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -13,
+            "z": 4,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -13,
+            "z": 6,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 9,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -13,
+            "z": 3,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -13,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 8,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 5,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -13,
+            "z": 9,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 10,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "mekanism:plasticfence@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -13,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "mekanism:plasticfence@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "mekanism:plasticfence@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 7,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -13,
+            "z": 5,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -12,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -13,
+            "z": 3,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -13,
+            "z": 8,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -13,
+            "z": 7,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -13,
+            "z": 0,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "jaopca:block.zincargentum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 9,
+            "elements": [
+                "gct_additions:everite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "tiths:block_royal_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "mekanism:plasticfence@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@0"
+            ]
+        }]
+    }]
+}
 
