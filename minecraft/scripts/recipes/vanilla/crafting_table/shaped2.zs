@@ -1679,9 +1679,9 @@ RecipeUtil.addShaped("environment_hatch", <gugu-utils:environmenthatch>,[
     [<modularmachinery:blockcasing>,<appliedenergistics2:material:9>,<modularmachinery:blockcasing>]
 ]);
 RecipeUtil.addShaped("formidibomb", <witherstormmod:formidibomb>, [
-    [<ore:blockInsanium>, <ore:coreEpic>, <ore:blockInsanium>],
+    [<ore:blockSupremium>, <ore:coreEpic>, <ore:blockSupremium>],
     [<ore:metalChaotic>, <witherstormmod:super_tnt>, <ore:metalChaotic>],
-    [<ore:blockInsanium>, <ore:coreEpic>, <ore:blockInsanium>]
+    [<ore:blockSupremium>, <ore:coreEpic>, <ore:blockSupremium>]
 ]);
 /*
 RecipeUtil.addShaped("", , [
