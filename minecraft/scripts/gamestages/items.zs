@@ -1032,7 +1032,32 @@ GameStagesUtil.stageChaotic.addIngredients([
     <ore:dustEcoEnhancedAlloy>,
     <ore:nuggetEcoEnhancedAlloy>,
     <ore:blockEcoEnhancedAlloy>,
-    <moretcon:compositeshadowglass>
+    <moretcon:compositeshadowglass>,
+    <witherstormmod:withered_bone>,
+    <witherstormmod:command_block_book>,
+    <witherstormmod:super_tnt>,
+    <witherstormmod:formidibomb>,
+    <witherstormmod:firework_bundle>,
+    <witherstormmod:tainted_zombie_sitting>,
+    <witherstormmod:tainted_zombie_wall>,
+    <witherstormmod:tainted_zombie_lying>,
+    <witherstormmod:tainted_bone_pile>,
+    <witherstormmod:tainted_skeleton_wall>,
+    <witherstormmod:tainted_skull_ceiling>,
+    <witherstormmod:tainted_flesh_veins>,
+    <witherstormmod:tainted_flesh_block>,
+    <witherstormmod:infected_flesh_block>,
+    <witherstormmod:hardened_flesh_block>,
+    <witherstormmod:withered_phlegm_block>,
+    <witherstormmod:tainted_stone>,
+    <witherstormmod:tainted_stone_stairs>,
+    <witherstormmod:tainted_stone_slab>,
+    <witherstormmod:tainted_stone_button>,
+    <witherstormmod:tainted_stone_pressure_plate>,
+    <witherstormmod:tainted_cobblestone>,
+    <witherstormmod:tainted_cobblestone_stairs>,
+    <witherstormmod:tainted_cobblestone_slab>,
+    <witherstormmod:tainted_cobblestone_wall>
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([
