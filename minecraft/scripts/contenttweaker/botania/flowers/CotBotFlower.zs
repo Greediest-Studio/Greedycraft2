@@ -117,49 +117,71 @@ var Add_Difficulty as ISubTileEntityGenerating = VanillaFactory.createSubTileGen
 Add_Difficulty.maxMana = 40000;
 Add_Difficulty.color = 0xfcff00;
 Add_Difficulty.onBlockPlaceBy = function(world, pos, state, entity, stack) {
+    if (world.remote) {
+        return;
+    }
     var crtpos as IBlockPos = IBlockPos.create(pos.x, pos.y, pos.z);
     var crtworld as IWorld = world;
     var subtile as SubTileEntityInGame = crtworld.getSubTileEntityInGame(crtpos);
-    if(entity instanceof IPlayer){
+    if (isNull(subtile)) {
+        return;
+    }
+    if (entity instanceof IPlayer) {
         var player as IPlayer = entity;
-        if(player.fake) return;
-        subtile.updateCustomData({PlacePlayeruuid : player.uuid});
+        if (player.fake) {
+            return;
+        }
+        var currentTime as long = crtworld.worldInfo.worldTotalTime;
+        subtile.updateCustomData({PlacePlayeruuid : player.uuid, nextClickTime : currentTime + 20});
     }
 };
 Add_Difficulty.onUpdate = function(subtile, world, pos) {
-    if(!world.remote) {
-        if(isNull(subtile.data.time))
-            subtile.updateCustomData({time : 0});
-
-        if(!isNull(subtile.data.time)) {
-            subtile.updateCustomData({time : subtile.data.time.asInt() + 1});
-            if(subtile.data.time.asInt() == 1200){
-                for player in server.players{
-                    if(!isNull(subtile.data.PlacePlayeruuid)){
-                        if(player.uuid == subtile.data.PlacePlayeruuid){
-                            server.commandManager.executeCommand(server, "/scalinghealth difficulty add 2 "+ player.name);
-                            subtile.addMana(10000);
-                            subtile.updateCustomData(subtile.data + {time : 0});
-                        }
-                    }
-                }
-            }
+    if (world.remote || isNull(subtile)) {
+        return;
+    }
+    var elapsedTicks as int = 1;
+    if (!isNull(subtile.data.time)) {
+        elapsedTicks = subtile.data.time.asInt() + 1;
+    }
+    if (elapsedTicks < 1200) {
+        subtile.updateCustomData({time : elapsedTicks});
+        return;
+    }
+    subtile.updateCustomData({time : 0});
+    if (isNull(subtile.data.PlacePlayeruuid)) {
+        return;
+    }
+    for owner in server.players {
+        if (owner.uuid == subtile.data.PlacePlayeruuid.asString()) {
+            server.commandManager.executeCommand(server, "/scalinghealth difficulty add 2 " + owner.name);
+            subtile.addMana(10000);
+            return;
         }
     }
 };
 Add_Difficulty.onBlockActivated = function(world, pos, state, player, hand, side, hitX, hitY, hitZ) {
-    var data as IData = world.getBlock(pos).data;
-    var mana as int = data.subTileCmp.mana.asInt();
-    var subtile as SubTileEntityInGame = world.getSubTileEntityInGame(pos);
-    for player in server.players{
-        if(!isNull(subtile.data.PlacePlayeruuid)){
-            if(player.uuid == subtile.data.PlacePlayeruuid){
-                server.commandManager.executeCommand(server, "/scalinghealth difficulty add 2 "+ player.name);
-                subtile.addMana(10000);
-                subtile.updateCustomData(subtile.data + {time : 0});
-            }
-        }
+    if (world.remote) {
+        return true;
     }
+    var subtile as SubTileEntityInGame = world.getSubTileEntityInGame(pos);
+    if (isNull(subtile)) {
+        return true;
+    }
+    if (isNull(subtile.data.PlacePlayeruuid)) {
+        return true;
+    }
+    if (player.uuid != subtile.data.PlacePlayeruuid.asString()) {
+        player.sendChat("只有放置这朵花的玩家才能使用。");
+        return true;
+    }
+    var crtWorld as IWorld = world;
+    var currentTime as long = crtWorld.worldInfo.worldTotalTime;
+    if (!isNull(subtile.data.nextClickTime) && currentTime < subtile.data.nextClickTime.asLong()) {
+        return true;
+    }
+    server.commandManager.executeCommand(server, "/scalinghealth difficulty add 2 " + player.name);
+    subtile.addMana(10000);
+    subtile.updateCustomData({time : 0, nextClickTime : currentTime + 40});
     return true;
 };
 Add_Difficulty.register();
@@ -169,54 +191,75 @@ var Remove_Difficulty as ISubTileEntityFunctional = VanillaFactory.createSubTile
 Remove_Difficulty.maxMana = 80000;
 Remove_Difficulty.color = 0xaf0000;
 Remove_Difficulty.onBlockPlaceBy = function(world, pos, state, entity, stack) {
+    if (world.remote) {
+        return;
+    }
     var crtpos as IBlockPos = IBlockPos.create(pos.x, pos.y, pos.z);
     var crtworld as IWorld = world;
     var subtile as SubTileEntityInGame = crtworld.getSubTileEntityInGame(crtpos);
-    if(entity instanceof IPlayer){
+    if (isNull(subtile)) {
+        return;
+    }
+    if (entity instanceof IPlayer) {
         var player as IPlayer = entity;
-        if(player.fake) return;
+        if (player.fake) {
+            return;
+        }
         subtile.updateCustomData({PlacePlayeruuid : player.uuid});
     }
 };
 Remove_Difficulty.onUpdate = function(subtile, world, pos) {
-    if(!world.remote) {
-        if(isNull(subtile.data.time))
-            subtile.updateCustomData({time : 0});
-
-        if(!isNull(subtile.data.time)) {
-            subtile.updateCustomData({time : subtile.data.time.asInt() + 1});
-            if(subtile.data.time.asInt() == 1200 && subtile.getMana() >= 40000){
-                for player in server.players{
-                    if(!isNull(subtile.data.PlacePlayeruuid)){
-                        if(player.uuid == subtile.data.PlacePlayeruuid){
-                            server.commandManager.executeCommand(server, "/scalinghealth difficulty add -2 "+ player.name);
-                            subtile.consumeMana(40000);
-                            subtile.updateCustomData(subtile.data + {time : 0});
-                        }
-                    }
-                }
-            }
+    if (world.remote || isNull(subtile)) {
+        return;
+    }
+    var elapsedTicks as int = 1;
+    if (!isNull(subtile.data.time)) {
+        elapsedTicks = subtile.data.time.asInt() + 1;
+    }
+    if (elapsedTicks < 1200) {
+        subtile.updateCustomData({time : elapsedTicks});
+        return;
+    }
+    subtile.updateCustomData({time : 0});
+    if (isNull(subtile.data.PlacePlayeruuid) || subtile.getMana() < 40000) {
+        return;
+    }
+    for owner in server.players {
+        if (owner.uuid == subtile.data.PlacePlayeruuid.asString()) {
+            server.commandManager.executeCommand(server, "/scalinghealth difficulty add -2 " + owner.name);
+            subtile.consumeMana(40000);
+            return;
         }
     }
 };
 Remove_Difficulty.onBlockActivated = function(world, pos, state, player, hand, side, hitX, hitY, hitZ) {
-    var data as IData = world.getBlock(pos).data;
-    var mana as int = data.subTileCmp.mana.asInt();
-    if(mana < 40000) {
-        player.sendChat("你TM不给我魔力，想让我降难度？？？？");
-        return false;
-    } else {
-        var subtile as SubTileEntityInGame = world.getSubTileEntityInGame(pos);
-        for player in server.players{
-            if(!isNull(subtile.data.PlacePlayeruuid)){
-                if(player.uuid == subtile.data.PlacePlayeruuid){
-                    server.commandManager.executeCommand(server, "/scalinghealth difficulty add -2 "+ player.name);
-                    subtile.consumeMana(80000);
-                    subtile.updateCustomData(subtile.data + {time : 0});
-                }
-            }
-        }
+    if (world.remote) {
+        return true;
     }
+    var subtile as SubTileEntityInGame = world.getSubTileEntityInGame(pos);
+    if (isNull(subtile)) {
+        return true;
+    }
+    if (isNull(subtile.data.PlacePlayeruuid)) {
+        return true;
+    }
+    if (player.uuid != subtile.data.PlacePlayeruuid.asString()) {
+        player.sendChat("只有放置这朵花的玩家才能使用。");
+        return true;
+    }
+
+    var crtWorld as IWorld = world;
+    var currentTime as long = crtWorld.worldInfo.worldTotalTime;
+    if (!isNull(subtile.data.nextClickTime) && currentTime < subtile.data.nextClickTime.asLong()) {
+        return true;
+    }
+    if (subtile.getMana() < 40000) {
+        player.sendChat("魔力不足，需要 40000 魔力。");
+        return true;
+    }
+    server.commandManager.executeCommand(server, "/scalinghealth difficulty add -2 " + player.name);
+    subtile.consumeMana(40000);
+    subtile.updateCustomData({time : 0, nextClickTime : currentTime + 100});
     return true;
 };
 Remove_Difficulty.register();
