@@ -116,6 +116,7 @@ AlloySmelter.addRecipe(<nuclearcraft:alloy:7> * 4, [<ore:ingotCopper> * 3, <ore:
 AlloySmelter.addRecipe(<thermalfoundation:material:165> * 2, [<ore:ingotShibuichi> * 2, <ore:dustRedstone> * 5], 4000, 10.0f);
 AlloySmelter.addRecipe(<mca:rose_gold_ingot> * 3, [<ore:ingotCopper>, <ore:ingotSilver>, <ore:ingotGold>], 4000, 10.0f);
 AlloySmelter.addRecipe(<nuclearcraft:alloy:8> * 4, [<ore:ingotTin> * 3, <ore:ingotSilver>], 4000, 10.0f);
+AlloySmelter.addRecipe(<tiths:ingot_oraclium>, [<ore:ingotPolarium>, <ore:ingotAltairium>], 10000, 10.0f);
 
 SagMill.removeRecipe(<minecraft:coal>);
 SagMill.addRecipe([<actuallyadditions:item_dust:7> * 4], [100 as float], <ore:blockQuartzBlack> as IIngredient, "CHANCE_ONLY", 400, [100 as float]);
