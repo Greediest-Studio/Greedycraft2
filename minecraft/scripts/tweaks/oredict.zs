@@ -1042,6 +1042,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:plateWitheriumEquipment> : [<gct_additions:equipment_witherium_plate>],
     <ore:plateWitheriumRelifed> : [<gct_additions:relifed_witherium_plate>],
     <ore:plateWitheriumStormy> : [<gct_additions:stormy_witherium_plate>],
+    <ore:gemGravityDebris> : [<gct_additions:gravity_scrap>],
+    <ore:oreGravityDebris> : [<gct_additions:gravity_debris>],
     <ore:blockAmbrosium> : [<aether_legacy:ambrosium_block>],
     <ore:blockScabyst> : [<thebetweenlands:scabyst_block>],
     <ore:blockManaQuartz> : [<botania:quartztypemana>],
