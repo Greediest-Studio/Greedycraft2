@@ -533,3 +533,101 @@ RecipeBuilder.newBuilder("gas_ethyne", "mek_changer", 1)
 .setMaxThreads(1)
 .setJEICategory("liquid_to_gas", "§fLV0 - MEK气液转换机 - 液体汽化")
 .build();
+
+RecipeBuilder.newBuilder("liquid_overheat_sodium", "mek_changer", 1)
+.addGasInput(<gas:superheatedsodium> * 10)
+.addFluidOutput(<liquid:liquidsuperheatedsodium> * 10)
+.setMaxThreads(1)
+.setJEICategory("gas_to_liquid", "§fLV0 - MEK气液转换机 - 气体凝聚")
+.build();
+
+RecipeBuilder.newBuilder("gas_overheat_sodium", "mek_changer", 1)
+.addFluidInput(<liquid:liquidsuperheatedsodium> * 10)
+.addGasOutput(<gas:superheatedsodium> * 10)
+.setMaxThreads(1)
+.setJEICategory("liquid_to_gas", "§fLV0 - MEK气液转换机 - 液体汽化")
+.build();
+
+RecipeBuilder.newBuilder("liquid_polonium_208", "mek_changer", 1)
+.addGasInput(<gas:mekanism_extras.polonium208> * 10)
+.addFluidOutput(<liquid:mekanism_extras.polonium_208> * 10)
+.setMaxThreads(1)
+.setJEICategory("gas_to_liquid", "§fLV0 - MEK气液转换机 - 气体凝聚")
+.build();
+
+RecipeBuilder.newBuilder("gas_polonium_208", "mek_changer", 1)
+.addFluidInput(<liquid:mekanism_extras.polonium_208> * 10)
+.addGasOutput(<gas:mekanism_extras.polonium208> * 10)
+.setMaxThreads(1)
+.setJEICategory("liquid_to_gas", "§fLV0 - MEK气液转换机 - 液体汽化")
+.build();
+
+RecipeBuilder.newBuilder("liquid_polonium_solution", "mek_changer", 1)
+.addGasInput(<gas:mekanism_extras.polonium_containing_steam> * 10)
+.addFluidOutput(<liquid:mekanism_extras.polonium_containing_solution> * 10)
+.setMaxThreads(1)
+.setJEICategory("gas_to_liquid", "§fLV0 - MEK气液转换机 - 气体凝聚")
+.build();
+
+RecipeBuilder.newBuilder("gas_polonium_solution", "mek_changer", 1)
+.addFluidInput(<liquid:mekanism_extras.polonium_containing_solution> * 10)
+.addGasOutput(<gas:mekanism_extras.polonium_containing_steam> * 10)
+.setMaxThreads(1)
+.setJEICategory("liquid_to_gas", "§fLV0 - MEK气液转换机 - 液体汽化")
+.build();
+
+RecipeBuilder.newBuilder("liquid_naquadah_hexafluoride", "mek_changer", 1)
+.addGasInput(<gas:mekanism_extras.naquadah_hexafluoride> * 10)
+.addFluidOutput(<liquid:mekanism_extras.naquadah_hexafluoride> * 10)
+.setMaxThreads(1)
+.setJEICategory("gas_to_liquid", "§fLV0 - MEK气液转换机 - 气体凝聚")
+.build();
+
+RecipeBuilder.newBuilder("gas_naquadah_hexafluoride", "mek_changer", 1)
+.addFluidInput(<liquid:mekanism_extras.naquadah_hexafluoride> * 10)
+.addGasOutput(<gas:mekanism_extras.naquadah_hexafluoride> * 10)
+.setMaxThreads(1)
+.setJEICategory("liquid_to_gas", "§fLV0 - MEK气液转换机 - 液体汽化")
+.build();
+
+RecipeBuilder.newBuilder("liquid_fluorinated_naquadah_uranium_fuel", "mek_changer", 1)
+.addGasInput(<gas:mekanism_extras.fluorinated_naquadah_uranium_fuel> * 10)
+.addFluidOutput(<liquid:mekanism_extras.fluorinated_naquadah_uranium_fuel> * 10)
+.setMaxThreads(1)
+.setJEICategory("gas_to_liquid", "§fLV0 - MEK气液转换机 - 气体凝聚")
+.build();
+
+RecipeBuilder.newBuilder("gas_fluorinated_naquadah_uranium_fuel", "mek_changer", 1)
+.addFluidInput(<liquid:mekanism_extras.fluorinated_naquadah_uranium_fuel> * 10)
+.addGasOutput(<gas:mekanism_extras.fluorinated_naquadah_uranium_fuel> * 10)
+.setMaxThreads(1)
+.setJEICategory("liquid_to_gas", "§fLV0 - MEK气液转换机 - 液体汽化")
+.build();
+
+RecipeBuilder.newBuilder("liquid_rich_naquadah_fuel", "mek_changer", 1)
+.addGasInput(<gas:mekanism_extras.rich_naquadah_fuel> * 10)
+.addFluidOutput(<liquid:mekanism_extras.rich_naquadah_fuel> * 10)
+.setMaxThreads(1)
+.setJEICategory("gas_to_liquid", "§fLV0 - MEK气液转换机 - 气体凝聚")
+.build();
+
+RecipeBuilder.newBuilder("gas_rich_naquadah_fuel", "mek_changer", 1)
+.addFluidInput(<liquid:mekanism_extras.rich_naquadah_fuel> * 10)
+.addGasOutput(<gas:mekanism_extras.rich_naquadah_fuel> * 10)
+.setMaxThreads(1)
+.setJEICategory("liquid_to_gas", "§fLV0 - MEK气液转换机 - 液体汽化")
+.build();
+
+RecipeBuilder.newBuilder("liquid_rich_uranium_fuel", "mek_changer", 1)
+.addGasInput(<gas:mekanism_extras.rich_uranium_fuel> * 10)
+.addFluidOutput(<liquid:mekanism_extras.rich_uranium_fuel> * 10)
+.setMaxThreads(1)
+.setJEICategory("gas_to_liquid", "§fLV0 - MEK气液转换机 - 气体凝聚")
+.build();
+
+RecipeBuilder.newBuilder("gas_rich_uranium_fuel", "mek_changer", 1)
+.addFluidInput(<liquid:mekanism_extras.rich_uranium_fuel> * 10)
+.addGasOutput(<gas:mekanism_extras.rich_uranium_fuel> * 10)
+.setMaxThreads(1)
+.setJEICategory("liquid_to_gas", "§fLV0 - MEK气液转换机 - 液体汽化")
+.build();

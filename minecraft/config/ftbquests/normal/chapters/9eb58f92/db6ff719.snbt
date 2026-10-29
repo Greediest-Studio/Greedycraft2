@@ -1,0 +1,27 @@
+{
+	title: "§b获得升级",
+	x: -6.5d,
+	y: 2.0d,
+	description: "制作一个高级工厂安装器",
+	text: [
+		"对着基础工厂右键使用，可以将其升级为高级工厂"
+	],
+	tasks: [{
+		uid: "184a6ab0",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "21720241",
+		type: "xp",
+		xp: 900
+	},
+	{
+		uid: "4a3b0f40",
+		type: "random",
+		table: 1
+	}]
+}

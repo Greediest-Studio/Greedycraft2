@@ -1,0 +1,27 @@
+{
+	title: "§b1.12.2的终点……？并非！",
+	x: -6.5d,
+	y: 4.0d,
+	description: "制作一个精英工厂安装器",
+	text: [
+		"对着高级工厂右键使用，可以将其升级为精英工厂"
+	],
+	tasks: [{
+		uid: "f62c035e",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3327336a",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "592b05ca",
+		type: "random",
+		table: 1
+	}]
+}

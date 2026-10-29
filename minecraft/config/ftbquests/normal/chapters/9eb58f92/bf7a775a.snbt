@@ -1,0 +1,21 @@
+{
+	x: -6.5d,
+	y: 10.0d,
+	tasks: [{
+		uid: "e63b9131",
+		type: "item",
+		items: [{
+			item: "mekanism_extras:arcane_tier_installer"
+		}]
+	}],
+	rewards: [{
+		uid: "4d0d3cc7",
+		type: "xp",
+		xp: 4500
+	},
+	{
+		uid: "0aaa753a",
+		type: "random",
+		table: 3
+	}]
+}

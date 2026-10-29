@@ -64,3 +64,6 @@ addLiquefaction(<liquid:liquid_xenon>, <gas:xenon>);
 addLiquefaction(<liquid:liquid_radon>, <gas:radon>);
 addLiquefaction(<liquid:iodine>, <gas:iodine>);
 addLiquefaction(<liquid:hecryo_liquid>, <gas:hecryo_gas>);
+addLiquefaction(<liquid:polonium>, <gas:polonium>);
+addLiquefaction(<liquid:plutonium>, <gas:plutonium>);
+addLiquefaction(<liquid:sodium>, <gas:sodium>);

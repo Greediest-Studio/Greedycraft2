@@ -18,13 +18,18 @@
 		}]
 	}],
 	rewards: [{
-		uid: "b4a812c1",
-		type: "loot",
-		table: 2
-	},
-	{
 		uid: "d21c63bd",
 		type: "item",
 		item: "thaumcraft:matrix_speed"
+	},
+	{
+		uid: "85b22991",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1f64544b",
+		type: "xp",
+		xp: 1500
 	}]
 }

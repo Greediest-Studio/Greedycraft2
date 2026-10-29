@@ -105,6 +105,15 @@ ConversionItem.create(<additions:bismuth_ingot>).addMatchItem(<ore:ingotBismuth>
 ConversionItem.create(<gct_additions:saniteore>).addMatchItem(<additions:sanite_ore>).register();
 ConversionItem.create(<moretcon:dustfiery>).addMatchItem(<ore:dustFierymetal>).register();
 ConversionItem.create(<aether_legacy:quicksoil>).addMatchItem(<aether_legacy:quicksoil:1>).register();
+ConversionItem.create(<additions:imaginative_alloy>).addMatchItem(<mekanism_extras:alloy_fantasy>).register();
+ConversionItem.create(<additions:shadowing_alloy>).addMatchItem(<mekanism_extras:alloy_phantom>).register();
+ConversionItem.create(<additions:imitate_alloy>).addMatchItem(<mekanism_extras:alloy_radiance>).register();
+ConversionItem.create(<additions:final_control_circuit>).addMatchItem(<mekanism_extras:final_control_circuit>).register();
+ConversionItem.create(<additions:arcane_control_circuit>).addMatchItem(<mekanism_extras:arcane_control_circuit>).register();
+ConversionItem.create(<additions:dreamic_control_circuit>).addMatchItem(<mekanism_extras:absolute_control_circuit>).register();
+ConversionItem.create(<additions:finest_control_circuit>).addMatchItem(<mekanism_extras:supreme_control_circuit>).register();
+ConversionItem.create(<additions:immortal_control_circuit>).addMatchItem(<mekanism_extras:cosmic_control_circuit>).register();
+ConversionItem.create(<additions:novachrome_control_circuit>).addMatchItem(<mekanism_extras:infinite_control_circuit>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();

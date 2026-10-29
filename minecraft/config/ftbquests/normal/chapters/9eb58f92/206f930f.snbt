@@ -1,0 +1,27 @@
+{
+	title: "§b工厂化",
+	x: -6.5d,
+	y: 0.0d,
+	description: "制作一个基础工厂安装器",
+	text: [
+		"对着普通机器右键使用，可以将其升级为初级工厂"
+	],
+	tasks: [{
+		uid: "2c15db83",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a1d20aac",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "a5cba9e3",
+		type: "random",
+		table: 1
+	}]
+}

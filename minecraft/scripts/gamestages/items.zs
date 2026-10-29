@@ -2742,6 +2742,7 @@ GameStagesUtil.stageSkilledWizard.addModId(["naturesaura", "auraddons"]);
 GameStagesUtil.stageMasterWizard.addModId(["thaumicenergistics"]);
 GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2", "ae2wut", "ae_chisel", "ae2exttable", "extendedae", "threng", "cellterminal", "cells", "ae2_utilix"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
+GameStagesUtil.stageMasterEngineer.addModId(["mekanism_extras"]);
 GameStagesUtil.stageWyvern.addModId(["extendedcrafting"]);
 GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft", "industrialforegoing", "teslacorelib", "trinity"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);

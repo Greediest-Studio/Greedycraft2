@@ -99,6 +99,7 @@ import scripts.util.oredict as OredictUtil;
 <ore:coal>.remove(<abyssalcraft:charcoal>);
 <ore:charcoal>.remove(<minecraft:coal:1>);
 <ore:itemCharcoal>.remove(<minecraft:coal:1>);
+<ore:dirtyDustNaquadah>.remove(<mekanism_extras:dirty_dust_naquadah>);
 
 <ore:ingotCthulhurite>.add(<gct_additions:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
@@ -1260,7 +1261,9 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:ingotEinsteinium252All> : [<contenttweaker:einsteinium52>],
     <ore:oreSulfur> : [<soot:sulfur_ore>],
     <ore:soulOriginal> : [<additions:original_spirit>],
-    <ore:dustFierymetal> : [<moretcon:dustfiery>]
+    <ore:dustFierymetal> : [<moretcon:dustfiery>],
+    <ore:itemCompressedOsmium> : [<mekanism_extras:enriched_osmium>],
+    <ore:itemCompressedLead> : [<mekanism_extras:enriched_lead>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

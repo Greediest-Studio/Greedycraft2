@@ -1,0 +1,21 @@
+{
+	x: -6.5d,
+	y: 12.0d,
+	tasks: [{
+		uid: "fb6de94c",
+		type: "item",
+		items: [{
+			item: "mekanism_extras:absolute_tier_installer"
+		}]
+	}],
+	rewards: [{
+		uid: "58607b35",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "f1c503b4",
+		type: "random",
+		table: 3
+	}]
+}
