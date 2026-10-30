@@ -34,9 +34,9 @@ import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.MachineUpgradeBuilder;
 import mods.modularmachinery.MachineUpgradeHelper;
 
-MachineModifier.setMaxThreads("elysia_etcher", 8);
-MachineModifier.setInternalParallelism("elysia_etcher", 4);
-MachineModifier.setMaxParallelism("elysia_etcher", 65536);
+MachineModifier.setMaxThreads("elysia_enricher", 8);
+MachineModifier.setInternalParallelism("elysia_enricher", 4);
+MachineModifier.setMaxParallelism("elysia_enricher", 65536);
 
 MMEvents.onControllerGUIRender("elysia_enricher", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
