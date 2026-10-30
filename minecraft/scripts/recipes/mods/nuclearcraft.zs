@@ -248,6 +248,10 @@ Melter.addRecipe(<gct_additions:ice_alloy_ingot>, <liquid:ice_alloy> * 144);
 Melter.addRecipe(<gct_additions:ice_alloy_dust>, <liquid:ice_alloy> * 144);
 Melter.addRecipe(<gct_additions:ice_alloy_block>, <liquid:ice_alloy> * 1296);
 Melter.addRecipe(<gct_additions:ice_alloy_nugget>, <liquid:ice_alloy> * 16);
+Melter.addRecipe(<gct_additions:everite_ingot>, <liquid:everite> * 144);
+Melter.addRecipe(<gct_additions:everite_dust>, <liquid:everite> * 144);
+Melter.addRecipe(<gct_additions:everite_block>, <liquid:everite> * 1296);
+Melter.addRecipe(<gct_additions:everite_nugget>, <liquid:everite> * 16);
 Melter.addRecipe(<draconicevolution:draconic_ingot>, <liquid:awakened_draconium> * 144);
 Melter.addRecipe(<gct_additions:awakened_draconium_dust>, <liquid:awakened_draconium> * 144);
 Melter.addRecipe(<draconicevolution:draconic_block>, <liquid:awakened_draconium> * 1296);
@@ -602,6 +606,7 @@ IngotFormer.addRecipe(<liquid:cadmium_chalcogenide> * 144, <additions:cadmium_ch
 IngotFormer.addRecipe(<liquid:boundless_alloy> * 144, <additions:boundless_alloy_ingot>);
 IngotFormer.addRecipe(<liquid:liquidpenguinite> * 144, <moretcon:ingotpenguinite>);
 IngotFormer.addRecipe(<liquid:liquidtrichromadentium> * 144, <moretcon:ingottrichromadentium>);
+IngotFormer.addRecipe(<liquid:everite> * 144, <gct_additions:everite_ingot>);
 
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 
