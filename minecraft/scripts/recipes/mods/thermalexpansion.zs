@@ -48,6 +48,8 @@ Pulverizer.addRecipe(<additions:dragonbone_dust> * 18, <iceandfire:dragon_skull:
 Pulverizer.addRecipe(<enderio:item_material:20> * 12, <tiths:broken_bedrock>, 102400);
 Pulverizer.addRecipe(<additions:ancient_sand>, <thaumcraft:stone_ancient>, 4000);
 Pulverizer.addRecipe(<evilcraft:dark_gem_crushed>, <evilcraft:dark_gem>, 600);
+Pulverizer.addRecipe(<journey:celestiumdust> * 2, <journey:celestiumore>, 4000);
+Pulverizer.addRecipe(<journey:celestiumdust>, <journey:celestiumingot>, 2000);
 
 InductionSmelter.addRecipe(<additions:glowing_signalum_ingot>, <additions:glowing_signalum_dust>, <minecraft:sand>, 4000);
 InductionSmelter.addRecipe(<minecraft:dye:15>, <additions:cytosinite_ingot>, <mekanism:otherdust>, 1000000, <additions:uracilite_ingot>, 2);
