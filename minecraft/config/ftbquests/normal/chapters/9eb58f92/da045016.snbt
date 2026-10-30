@@ -6,6 +6,9 @@
 	text: [
 		"对着高级工厂右键使用，可以将其升级为精英工厂"
 	],
+	dependencies: [
+		"8d3e858f"
+	],
 	tasks: [{
 		uid: "f62c035e",
 		type: "item",

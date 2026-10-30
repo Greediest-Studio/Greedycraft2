@@ -1,6 +1,14 @@
 {
+	title: "§b还不够！",
 	x: -6.5d,
 	y: 8.0d,
+	description: "制作一个究极工厂安装器",
+	text: [
+		"对着终极工厂右键使用，可以将其升级为究极工厂"
+	],
+	dependencies: [
+		"1f2d7a78"
+	],
 	tasks: [{
 		uid: "b29bf5bf",
 		type: "item",

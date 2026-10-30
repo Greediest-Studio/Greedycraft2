@@ -1,6 +1,14 @@
 {
+	title: "§b终焉之械",
 	x: -6.5d,
 	y: 12.0d,
+	description: "制作一个梦幻工厂安装器",
+	text: [
+		"对着奥法工厂右键使用，可以将其升级为梦幻工厂"
+	],
+	dependencies: [
+		"fcc0e745"
+	],
 	tasks: [{
 		uid: "fb6de94c",
 		type: "item",

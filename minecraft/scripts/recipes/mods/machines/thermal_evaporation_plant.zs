@@ -47,10 +47,10 @@ function applyThermalEvaporationScaling(event as FactoryRecipeStartEvent) {
     event.factoryRecipeThread.addModifier("thermal_evaporation_duration", RecipeModifierBuilder.create("modularmachinery:duration", "input", scaling[1] as float, 1, false).build());
 }
 
-RecipeBuilder.newBuilder("r1","thermal_evaporation_plant",1)
+RecipeBuilder.newBuilder("r1", "thermal_evaporation_plant", 100)
     .addEnergyPerTickInput(100000)
-    .addFluidInputs(<liquid:water> * 1000)
-    .addFluidOutput(<liquid:heavywater> * 100)
+    .addFluidInputs(<liquid:water> * 20000)
+    .addFluidOutput(<liquid:heavywater> * 2000)
     .addSmartInterfaceDataInput("配方选择", 0.0f)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         applyThermalEvaporationScaling(event);
@@ -60,10 +60,10 @@ RecipeBuilder.newBuilder("r1","thermal_evaporation_plant",1)
     .addRecipeTooltip("§eX范围为1至100，X=20时两项系数均为1。")
     .build();
 
-RecipeBuilder.newBuilder("r1a","thermal_evaporation_plant",1)
+RecipeBuilder.newBuilder("r1a", "thermal_evaporation_plant", 100)
     .addEnergyPerTickInput(100000)
-    .addFluidInputs(<liquid:water> * 1000)
-    .addFluidOutput(<liquid:brine> * 100)
+    .addFluidInputs(<liquid:water> * 20000)
+    .addFluidOutput(<liquid:brine> * 2000)
     .addSmartInterfaceDataInput("配方选择", 1.0f)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         applyThermalEvaporationScaling(event);
@@ -73,10 +73,10 @@ RecipeBuilder.newBuilder("r1a","thermal_evaporation_plant",1)
     .addRecipeTooltip("§eX范围为1至100，X=20时两项系数均为1。")
     .build();
 
-RecipeBuilder.newBuilder("r2","thermal_evaporation_plant",1)
-    .addEnergyPerTickInput(10000)
-    .addFluidInputs(<liquid:brine> * 1000)
-    .addFluidOutput(<liquid:liquidlithium> * 100)
+RecipeBuilder.newBuilder("r2", "thermal_evaporation_plant", 100)
+    .addEnergyPerTickInput(100000)
+    .addFluidInputs(<liquid:brine> * 20000)
+    .addFluidOutput(<liquid:liquidlithium> * 2000)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         applyThermalEvaporationScaling(event);
     })
@@ -85,10 +85,22 @@ RecipeBuilder.newBuilder("r2","thermal_evaporation_plant",1)
     .addRecipeTooltip("§eX范围为1至100，X=20时两项系数均为1。")
     .build();
 
-RecipeBuilder.newBuilder("r3","thermal_evaporation_plant",1)
-    .addEnergyPerTickInput(10000)
-    .addFluidInputs(<liquid:liquidsodium> * 1000)
-    .addFluidOutput(<liquid:liquidsuperheatedsodium> * 1)
+RecipeBuilder.newBuilder("r3", "thermal_evaporation_plant", 100)
+    .addEnergyPerTickInput(100000)
+    .addFluidInputs(<liquid:liquidsodium> * 2000000)
+    .addFluidOutput(<liquid:liquidsuperheatedsodium> * 2000)
+    .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
+        applyThermalEvaporationScaling(event);
+    })
+    .addRecipeTooltip("§e重复层数X的能耗和时间随机器高度变化：")
+    .addRecipeTooltip("§d能耗系数=0.1+0.9×(X－1)/19；时间系数=1/能耗系数")
+    .addRecipeTooltip("§eX范围为1至100，X=20时两项系数均为1。")
+    .build();
+
+RecipeBuilder.newBuilder("r4", "thermal_evaporation_plant", 100)
+    .addEnergyPerTickInput(100000)
+    .addFluidInputs(<liquid:mekanism_extras.polonium_containing_solution> * 20000)
+    .addFluidOutput(<liquid:mekanism_extras.polonium_208> * 2000)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         applyThermalEvaporationScaling(event);
     })

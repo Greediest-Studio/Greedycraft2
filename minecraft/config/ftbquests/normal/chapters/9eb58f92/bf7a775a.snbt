@@ -1,6 +1,14 @@
 {
+	title: "§b不含魔法成分",
 	x: -6.5d,
 	y: 10.0d,
+	description: "制作一个奥法工厂安装器",
+	text: [
+		"对着究极工厂右键使用，可以将其升级为奥法工厂"
+	],
+	dependencies: [
+		"e729c90e"
+	],
 	tasks: [{
 		uid: "e63b9131",
 		type: "item",

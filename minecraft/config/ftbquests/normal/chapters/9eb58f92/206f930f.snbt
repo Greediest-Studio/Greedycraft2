@@ -6,6 +6,9 @@
 	text: [
 		"对着普通机器右键使用，可以将其升级为初级工厂"
 	],
+	dependencies: [
+		"ad9ae3ed"
+	],
 	tasks: [{
 		uid: "2c15db83",
 		type: "item",
