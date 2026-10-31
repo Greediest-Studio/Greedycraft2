@@ -1049,8 +1049,14 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:dustBnatuz> : [<gct_additions:bnatuz_dust>],
     <ore:dustBninz> : [<gct_additions:bninz_dust>],
     <ore:dustBthdz> : [<gct_additions:bthdz_dust>],
-    <ore:oreChromium> : [<gct_additions:end_chromium_ore>, <gct_additions:nether_chromium_ore>],
-    <ore:oreManganese> : [<gct_additions:end_manganese_ore>, <gct_additions:nether_manganese_ore>],
+    <ore:oreChromium> : [
+        <gct_additions:end_chromium_ore>,
+        <gct_additions:nether_chromium_ore>
+    ],
+    <ore:oreManganese> : [
+        <gct_additions:end_manganese_ore>,
+        <gct_additions:nether_manganese_ore>
+    ],
     <ore:ingotElementine> : [<gct_additions:elementine_ingot>],
     <ore:ingotGreed> : [<gct_additions:greed_ingot>],
     <ore:blockAmbrosium> : [<aether_legacy:ambrosium_block>],
