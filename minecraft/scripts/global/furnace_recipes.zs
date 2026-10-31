@@ -29,6 +29,7 @@ global furnaceRecipes as IItemStack[IIngredient] = {
     <ore:ingotBrickSeared> : <tcomplement:materials:1>,
     <ore:blockSeared> : <tcomplement:scorched_block>,
     <ore:oreChromium> : <additions:chromium_ingot>,
+    <ore:oreManganese> : <additions:manganese_ingot>,
     <ore:oreAqualite> : <additions:aqualite_ingot>,
     <taiga:tiberium_ore> : <taiga:tiberium_ingot>,
     <taiga:aurorium_ore> : <taiga:aurorium_ingot>,

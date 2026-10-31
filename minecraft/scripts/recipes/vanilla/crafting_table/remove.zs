@@ -357,7 +357,6 @@ val removedRecipes as IIngredient[] = [
     <enderio:item_material:66>,
     <mca:rose_gold_dust>,
     <mca:rose_gold_ingot>,
-    <jaopca:block.cthulhurite>,
     <chisel:blockcobalt>,
     <journey:bleedstonedust>,
     <journey:smithstonedust>,
