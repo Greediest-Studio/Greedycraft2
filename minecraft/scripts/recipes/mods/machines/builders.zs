@@ -1176,6 +1176,14 @@ addBuilderRecipe(<modularmachinery:elysia_enricher_factory_controller>, [
     <forestry:still> * 32
 ], 1, 3200);
 
+addBuilderRecipe(<modularmachinery:elysia_impregnator_factory_controller>, [
+    <gct_additions:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <thermalexpansion:machine:8> * 32,
+    <thermalfoundation:upgrade:35> * 32,
+    <nuclearcraft:infuser> * 32
+], 1, 3200);
+
 addBuilderRecipe(<modularmachinery:factory_4x_factory_controller>, [
     <gct_additions:blue_print_forge> * 32,
     <ore:ingotModularium> * 64,
