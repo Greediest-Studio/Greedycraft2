@@ -66,7 +66,6 @@ addPolymerRecipe([<liquid:dfdps> * 666, <liquid:sodium_hydroquinone_solution> * 
 addPolymerRecipe([<liquid:dfdps> * 666, <liquid:potassium_hydroquinone_solution> * 666], [<liquid:polyethersulfone> * 144, <liquid:potassium_fluoride_solution> * 1332], 0);
 addPolymerRecipe([<liquid:dimethyldifluorosilane> * 1000, <liquid:sodium> * 288], [<liquid:polydimethylsilylene> * 144, <liquid:sodium_fluoride_solution> * 1332], 0);
 addPolymerRecipe([<liquid:dimethyldifluorosilane> * 1000, <liquid:potassium> * 288], [<liquid:polydimethylsilylene> * 144, <liquid:potassium_fluoride_solution> * 1332], 0);
-addPolymerRecipe([<liquid:zirconia> * 288, <liquid:polyphenylene_sulfide> * 288], [<liquid:zirfon> * 144], 0);
 addPolymerRecipe([<liquid:difluorobenzene> * 1000, <liquid:sodium_sulfide> * 144], [<liquid:polyphenylene_sulfide> * 144, <liquid:sodium_fluoride_solution> * 1332], 0);
 addPolymerRecipe([<liquid:difluorobenzene> * 1000, <liquid:potassium_sulfide> * 144], [<liquid:polyphenylene_sulfide> * 144, <liquid:potassium_fluoride_solution> * 1332], 0);
 addPolymerRecipe([<liquid:c4_i4_difluorodiphenylmethanone> * 1000, <liquid:hydroquinone_solution> * 1000], [<liquid:polyetheretherketone> * 144, <liquid:hydrofluoric_acid> * 2000], 0);

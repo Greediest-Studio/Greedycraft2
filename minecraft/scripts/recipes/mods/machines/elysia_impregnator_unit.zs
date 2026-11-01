@@ -48,3 +48,21 @@ RecipeAdapterBuilder.create("elysia_impregnator", "gctcore:nuclearcraft_fluid_in
     .addRecipeTooltip("§d渗透配方支持模块化电容升级，详情请查询“模块化电容”")
     .setMaxThreads(1)
     .build();
+
+RecipeBuilder.newBuilder("sic_compose", "elysia_impregnator", 400)
+    .addRecipeTooltip("§d渗透配方支持模块化电容升级，详情请查询“模块化电容”")
+    .addItemInput(<ore:fiberSiliconCarbide> * 2)
+    .addFluidInput(<liquid:polymethylsilylene_methylene> * 144)
+    .addEnergyPerTickInput(2400000)
+    .addItemOutput(<nuclearcraft:alloy:14>)
+    .setMaxThreads(1)
+    .build();
+
+RecipeBuilder.newBuilder("zirfon", "elysia_impregnator", 400)
+    .addRecipeTooltip("§d渗透配方支持模块化电容升级，详情请查询“模块化电容”")
+    .addItemInput(<ore:sinteredZirconia> * 2)
+    .addFluidInput(<liquid:polyphenylene_sulfide> * 144)
+    .addEnergyPerTickInput(2400000)
+    .addItemOutput(<nuclearcraft:part:19>)
+    .setMaxThreads(1)
+    .build();
