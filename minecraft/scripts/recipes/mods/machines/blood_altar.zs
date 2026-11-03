@@ -1,6 +1,7 @@
 /*
- * This script is created for the GreedyCraft Tweaks by mc_Edwin.
- * 被孤梦梦梦梦完全重做！！！
+ * This script is created for the GreedyCraft Tweaks by 孤梦梦梦梦 & mc_Edwin.
+ * A shooting star falls through the sea ~
+ * Floating down into my dream ~
  */
 
 #priority 50
@@ -39,6 +40,8 @@ import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.RecipeFinishEvent;
 import mods.modularmachinery.RecipeTickEvent;
 
+import mods.mmce_complement.RedstoneInterface;
+
 import mods.gctweaker.IBigInteger;
 import mods.gctweaker.IBigDecimal;
 
@@ -46,11 +49,12 @@ MachineModifier.setMaxThreads("blood_altar", 1);
 MachineModifier.setInternalParallelism("blood_altar", 2147483647);
 MachineModifier.setMaxParallelism("blood_altar", 2147483647);
 
+RedstoneInterface.newRedstone("modularmachinery:blood_altar", "已存储LE所占比例").build();
+
 MachineModifier.addControllerMode("blood_altar",
     ControllerMode.create("模式", 0)
         .addMode(0, "由外界输入")
         .addMode(1, "向外界输出")
-        .addMode(2, "转移到玩家网络")
         .setControllerButtonVisible(true)
         .setControllerButtonTooltip(
             "§e按下按钮切换运行模式",
@@ -224,9 +228,20 @@ MMEvents.onStructureUpdate("blood_altar", function(event as MachineStructureUpda
 });
 
 MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
+    val levelSpeedMutiplierMap as int[int] = {
+        1 : 1,
+        2 : 1,
+        3 : 2,
+        4 : 4,
+        5 : 20,
+        6 : 80,
+        7 : 400,
+        8 : 2000,
+        9 : 10000
+    };
     val world = event.controller.world;
     val altar = world.getBlock(event.controller.pos.down(4));
-    var extractNum = IBigInteger.create((IBigDecimal.create("1.2").pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>)) * IBigDecimal.create("20")).toStringScale0());
+    var extractNum = IBigInteger.create(levelSpeedMutiplierMap[event.controller.getAltarLevel()] as string) * IBigInteger.create((IBigDecimal.create("1.2").pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>)) * IBigDecimal.create("20")).toStringScale0());
     var acceleration as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int;
     var checkTime as int = (20 - acceleration) > 1 ? (20 - acceleration) : 1;
 
@@ -267,6 +282,11 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
             }
         }
     }
+    //输出已储存LE所占比例红石信号
+    val capacity = IBigDecimal.create(event.controller.getAltarCapacity());
+    val storedLP = IBigDecimal.create(getStoredAltarLP(event.controller).toString()) * IBigDecimal.create("150000");
+    val signal = (storedLP / capacity).toString() as int / 10000 as int;
+    event.controller.setRedstone("已存储LE所占比例", min(signal, 15) as int);
 });
 
 MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRenderEvent) {
@@ -305,7 +325,7 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
         "§a已储存LE：§e" ~ addCommas(getStoredAltarLP(event.controller).toString()),
         "§a祭坛模式：§e" ~ modeName[event.controller.getAltarMode()] as string,
         "§a工作效率：§e" ~ (IBigInteger.create(event.controller.getAltarSpeed()as string) * IBigInteger.create(levelSpeedMutiplierMap[event.controller.getAltarLevel()] as string)).toString() ~ "mB每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
-        "§a转位效率：§e" ~ (IBigDecimal.create("1.2").pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>)) * IBigDecimal.create("20")).toStringScale0() ~ "mB每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
+        "§a转位效率：§e" ~ (IBigInteger.create(levelSpeedMutiplierMap[event.controller.getAltarLevel()]) * IBigInteger.create((IBigDecimal.create("1.2").pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>)) * IBigDecimal.create("20")).toStringScale0())).toString() ~ "mB每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
         "§d增容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string ~ "     §d速度符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>) as string ~ "     §d超容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as string,
         "§d转位符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as string ~ "     §d促进符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as string ~ "     §d效率符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:2>) as string,
         "§d线程符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as string ~ "     §d节流符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_economy>) as string ~ "     §d净化符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as string,
@@ -426,11 +446,11 @@ RecipeBuilder.newBuilder("purify", "blood_altar", 1)
         val output = event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as long;
         val maxLP = IBigInteger.create(event.controller.getAltarCapacity());
         val ctrlLP = getStoredAltarLP(event.controller);
-        if (event.controller.getBlocksInPattern(<additions:blood_rune_purify>) < 1) {
-            event.setFailed("缺少净化符文");
-        }
         if ((ctrlLP + IBigInteger.create((parallelism * output) as string)).min(maxLP) == maxLP) {
             event.setFailed("祭坛容量已满");
+        }
+        if (event.controller.getBlocksInPattern(<additions:blood_rune_purify>) < 1) {
+            event.setFailed("缺少净化符文");
         }
     })
     .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {

@@ -1682,6 +1682,16 @@ RecipeUtil.addShaped("formidibomb", <witherstormmod:formidibomb>, [
     [<ore:metalChaotic>, <witherstormmod:super_tnt>, <ore:metalChaotic>],
     [<ore:blockSupremium>, <ore:coreEpic>, <ore:blockSupremium>]
 ]);
+RecipeUtil.addShaped("redstone_signal_output_hatch", <mmce_complement:redstone_signal_output_hatch>, [
+    [null, <minecraft:comparator>, null],
+    [<jaopca:gear.redstone_alloy>, <modularmachinery:blockcasing>, <jaopca:gear.redstone_alloy>],
+    [null, <minecraft:repeater>, null]
+]);
+RecipeUtil.addShaped("redstone_signal_input_hatch", <mmce_complement:redstone_signal_input_hatch>, [
+    [null, <minecraft:repeater>, null],
+    [<jaopca:gear.redstone_alloy>, <modularmachinery:blockcasing>, <jaopca:gear.redstone_alloy>],
+    [null, <minecraft:comparator>, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
