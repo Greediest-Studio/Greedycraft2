@@ -1117,6 +1117,12 @@ alias = "mods/HungerTweaker-1.12.2-1.3.0.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/ice-and-fire-rotn-edition.pw.toml"
+hash = "fc50ad017a0a66ecc7d9a653c747c660c618909a70c29f8450f261364542aef0"
+alias = "mods/IceAndFireRotN-1.9.1-1.3.3.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/ifpatcher.pw.toml"
 hash = "447d77a8b39e2b8c0a99f908e62fb30def536b6ce7fd125771fe712d311ecb19"
 alias = "mods/IFPatcher-2.4.0.jar"
