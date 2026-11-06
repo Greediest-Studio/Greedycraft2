@@ -434,7 +434,7 @@ function addAltarRecipe(input as IIngredient, output as IItemStack, costLP as st
             }
         })
         .addRecipeTooltip("§e需求血之祭坛等级：" ~ (level as string))
-        .addRecipeTooltip("§e需求生命源质：" ~ costLP ~ "点")
+        .addRecipeTooltip("§e需求生命源质：" ~ addCommas(costLP) ~ "点")
         .addRecipeTooltip("§c配方加工时间以祭坛实际速度为准，配方显示时间仅为占位符！")
         .setThreadName("血之合成模块")
         .setJEICategory("recipe", "§aLV1 - 血之祭坛 - 血之灌注")
