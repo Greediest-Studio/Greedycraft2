@@ -841,7 +841,7 @@ plasmafusionTrait.onHit = function(trait, tool, attacker, target, damage, isCrit
     if (attacker instanceof IPlayer) {
         val player as IPlayer = attacker;
         if (Math.random() < 0.1) {
-            mods.contenttweaker.Commands.call("give @p gct_tcon:tinyplasmariumdust 1 0", player, player.world, false, true);
+            mods.contenttweaker.Commands.call("give @p gct_additions:tinyplasmariumdust 1 0", player, player.world, false, true);
         }
     }   
 };
@@ -1193,7 +1193,7 @@ alkalinityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait
 alkalinityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.alkalinityTrait.desc");
 alkalinityTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
     if (Math.random() < 0.2) {
-        target.addPotionEffect(<potion:gct_tcon:alkalinity>.makePotionEffect(200, 0, false, false));
+        target.addPotionEffect(<potion:contenttweaker:alkalinity>.makePotionEffect(200, 0, false, false));
     }
 };
 alkalinityTrait.register();
@@ -1204,7 +1204,7 @@ acidityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ac
 acidityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.acidityTrait.desc");
 acidityTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
     if (Math.random() < 0.2) {
-        target.addPotionEffect(<potion:gct_tcon:acidity>.makePotionEffect(200, 0, false, false));
+        target.addPotionEffect(<potion:contenttweaker:acidity>.makePotionEffect(200, 0, false, false));
     }
 };
 acidityTrait.register();
@@ -1255,18 +1255,18 @@ spsTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait
 spsTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         val player as IPlayer = attacker;
-        if (player.isPotionActive(<potion:gct_tcon:superposition>)) {
-            if (player.getActivePotionEffect(<potion:gct_tcon:superposition>).amplifier <= 3) {
-                var level = player.getActivePotionEffect(<potion:gct_tcon:superposition>).amplifier;
-                player.addPotionEffect(<potion:gct_tcon:superposition>.makePotionEffect(40, level + 1, false, false));
+        if (player.isPotionActive(<potion:contenttweaker:superposition>)) {
+            if (player.getActivePotionEffect(<potion:contenttweaker:superposition>).amplifier <= 3) {
+                var level = player.getActivePotionEffect(<potion:contenttweaker:superposition>).amplifier;
+                player.addPotionEffect(<potion:contenttweaker:superposition>.makePotionEffect(40, level + 1, false, false));
                 return newDamage * (0.7f + 0.2f * level);
-            } else if (player.getActivePotionEffect(<potion:gct_tcon:superposition>).amplifier >= 4) {
-                player.addPotionEffect(<potion:gct_tcon:superposition>.makePotionEffect(40, 4, false, false));
+            } else if (player.getActivePotionEffect(<potion:contenttweaker:superposition>).amplifier >= 4) {
+                player.addPotionEffect(<potion:contenttweaker:superposition>.makePotionEffect(40, 4, false, false));
                 return newDamage * 1.5f;
             }
             return newDamage;
         } else {
-            player.addPotionEffect(<potion:gct_tcon:superposition>.makePotionEffect(40, 0, false, false));
+            player.addPotionEffect(<potion:contenttweaker:superposition>.makePotionEffect(40, 0, false, false));
             return newDamage * 0.5f;
         }
         return newDamage;
@@ -1283,12 +1283,12 @@ strong_shockTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSel
     if (owner instanceof IEntityLivingBase) {
         val player as IPlayer = owner;
         if (isSelected) {
-            if (!(player.isPotionActive(<potion:gct_tcon:shock>))) {
+            if (!(player.isPotionActive(<potion:contenttweaker:shock>))) {
                 if (Math.random() < 0.003) {
-                    player.addPotionEffect(<potion:gct_tcon:shock>.makePotionEffect(200, 0, false, false));
+                    player.addPotionEffect(<potion:contenttweaker:shock>.makePotionEffect(200, 0, false, false));
                 }
             } else {
-                player.addPotionEffect(<potion:gct_tcon:shock>.makePotionEffect(200, 0, false, false));
+                player.addPotionEffect(<potion:contenttweaker:shock>.makePotionEffect(200, 0, false, false));
             }
         }
     }
@@ -1296,8 +1296,8 @@ strong_shockTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSel
 strong_shockTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         val player as IPlayer = attacker;
-        if (player.isPotionActive(<potion:gct_tcon:shock>)) {
-            player.removePotionEffect(<potion:gct_tcon:shock>);
+        if (player.isPotionActive(<potion:contenttweaker:shock>)) {
+            player.removePotionEffect(<potion:contenttweaker:shock>);
             return newDamage * 2.75f;
         }
         return newDamage;
@@ -1306,8 +1306,8 @@ strong_shockTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 strong_shockTrait.onBlockHarvestDrops = function(trait, tool, event) {
     val player as IPlayer = event.player;
-    if (player.isPotionActive(<potion:gct_tcon:shock>)) {
-        player.removePotionEffect(<potion:gct_tcon:shock>);
+    if (player.isPotionActive(<potion:contenttweaker:shock>)) {
+        player.removePotionEffect(<potion:contenttweaker:shock>);
         player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(100, 4, false, false));
     }
 };
@@ -1713,9 +1713,9 @@ cooperationTrait.onUpdate = function(thisTrait, tool, world, entity, itemSlot, i
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
         if (isSelected) {
-            player.addPotionEffect(<potion:gct_tcon:cooperation_1>.makePotionEffect(20, 0, false, false));
+            player.addPotionEffect(<potion:contenttweaker:cooperation_1>.makePotionEffect(20, 0, false, false));
         }
-        if (player.isPotionActive(<potion:gct_tcon:cooperation_1>) && player.isPotionActive(<potion:gct_tcon:cooperation_2>)) {
+        if (player.isPotionActive(<potion:contenttweaker:cooperation_1>) && player.isPotionActive(<potion:contenttweaker:cooperation_2>)) {
             player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(20, 4, false, false));
         }
     }
@@ -1978,30 +1978,30 @@ fihTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait
 fihTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (!(player.isPotionActive(<potion:gct_tcon:angry_accumulation>))) {
-            player.addPotionEffect(<potion:gct_tcon:angry_accumulation>.makePotionEffect(60, 0, false, false));
-            if (player.isPotionActive(<potion:gct_tcon:angry>)) {
-                return newDamage * (1.0f + 0.03f * (player.getActivePotionEffect(<potion:gct_tcon:angry>).amplifier + 1));
+        if (!(player.isPotionActive(<potion:contenttweaker:angry_accumulation>))) {
+            player.addPotionEffect(<potion:contenttweaker:angry_accumulation>.makePotionEffect(60, 0, false, false));
+            if (player.isPotionActive(<potion:contenttweaker:angry>)) {
+                return newDamage * (1.0f + 0.03f * (player.getActivePotionEffect(<potion:contenttweaker:angry>).amplifier + 1));
             } else {
                 return newDamage;
             }
-        } else if (player.getActivePotionEffect(<potion:gct_tcon:angry_accumulation>).amplifier < 7) {
-            player.addPotionEffect(<potion:gct_tcon:angry_accumulation>.makePotionEffect(60, player.getActivePotionEffect(<potion:gct_tcon:angry_accumulation>).amplifier + 1, false, false));
-            if (player.isPotionActive(<potion:gct_tcon:angry>)) {
-                return newDamage * (1.0f + 0.03f * (player.getActivePotionEffect(<potion:gct_tcon:angry>).amplifier + 1));
+        } else if (player.getActivePotionEffect(<potion:contenttweaker:angry_accumulation>).amplifier < 7) {
+            player.addPotionEffect(<potion:contenttweaker:angry_accumulation>.makePotionEffect(60, player.getActivePotionEffect(<potion:contenttweaker:angry_accumulation>).amplifier + 1, false, false));
+            if (player.isPotionActive(<potion:contenttweaker:angry>)) {
+                return newDamage * (1.0f + 0.03f * (player.getActivePotionEffect(<potion:contenttweaker:angry>).amplifier + 1));
             } else {
                 return newDamage;
             }
         } else {
-            player.removePotionEffect(<potion:gct_tcon:angry_accumulation>);
-            if (!(player.isPotionActive(<potion:gct_tcon:angry>))) {
-                player.addPotionEffect(<potion:gct_tcon:angry>.makePotionEffect(200, 0, false, false));
+            player.removePotionEffect(<potion:contenttweaker:angry_accumulation>);
+            if (!(player.isPotionActive(<potion:contenttweaker:angry>))) {
+                player.addPotionEffect(<potion:contenttweaker:angry>.makePotionEffect(200, 0, false, false));
                 return newDamage * 1.03f;
-            } else if (player.getActivePotionEffect(<potion:gct_tcon:angry>).amplifier < 7) {
-                player.addPotionEffect(<potion:gct_tcon:angry>.makePotionEffect(200, player.getActivePotionEffect(<potion:gct_tcon:angry>).amplifier + 1, false, false));
-                return newDamage * (1.0f + 0.03f * (player.getActivePotionEffect(<potion:gct_tcon:angry>).amplifier + 1));
+            } else if (player.getActivePotionEffect(<potion:contenttweaker:angry>).amplifier < 7) {
+                player.addPotionEffect(<potion:contenttweaker:angry>.makePotionEffect(200, player.getActivePotionEffect(<potion:contenttweaker:angry>).amplifier + 1, false, false));
+                return newDamage * (1.0f + 0.03f * (player.getActivePotionEffect(<potion:contenttweaker:angry>).amplifier + 1));
             } else {
-                player.addPotionEffect(<potion:gct_tcon:angry>.makePotionEffect(200, 7, false, false));
+                player.addPotionEffect(<potion:contenttweaker:angry>.makePotionEffect(200, 7, false, false));
                 return newDamage * 1.24f;
             }
         }
@@ -2555,10 +2555,10 @@ transitionTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelec
     if (owner instanceof IPlayer) {
         var player as IPlayer = owner;
         if (isSelected) {
-            if (!(player.isPotionActive(<potion:gct_tcon:excited_state>))) {
-                player.addPotionEffect(<potion:gct_tcon:ground_state>.makePotionEffect(1, 0, false, false));
+            if (!(player.isPotionActive(<potion:contenttweaker:excited_state>))) {
+                player.addPotionEffect(<potion:contenttweaker:ground_state>.makePotionEffect(1, 0, false, false));
             } else {
-                player.addPotionEffect(<potion:gct_tcon:excited_state>.makePotionEffect(1, 0, false, false));
+                player.addPotionEffect(<potion:contenttweaker:excited_state>.makePotionEffect(1, 0, false, false));
             }
         }
     }
@@ -2566,18 +2566,18 @@ transitionTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelec
 transitionTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (player.isPotionActive(<potion:gct_tcon:excited_state>)) {
+        if (player.isPotionActive(<potion:contenttweaker:excited_state>)) {
             if (Math.random() < 0.0625f) {
-                player.removePotionEffect(<potion:gct_tcon:excited_state>);
-                player.addPotionEffect(<potion:gct_tcon:ground_state>.makePotionEffect(1, 0, false, false));
+                player.removePotionEffect(<potion:contenttweaker:excited_state>);
+                player.addPotionEffect(<potion:contenttweaker:ground_state>.makePotionEffect(1, 0, false, false));
                 return newDamage * 1.4f;
             } else {
                 return newDamage * 1.4f;
             }
         } else {
             if (Math.random() < 0.142857f) {
-                player.removePotionEffect(<potion:gct_tcon:ground_state>);
-                player.addPotionEffect(<potion:gct_tcon:excited_state>.makePotionEffect(1, 0, false, false));
+                player.removePotionEffect(<potion:contenttweaker:ground_state>);
+                player.addPotionEffect(<potion:contenttweaker:excited_state>.makePotionEffect(1, 0, false, false));
                 return newDamage * 0.85f;
             } else {
                 return newDamage * 0.85f;
@@ -2596,10 +2596,10 @@ transition2Trait.onUpdate = function(trait, tool, world, owner, itemSlot, isSele
     if (owner instanceof IPlayer) {
         var player as IPlayer = owner;
         if (isSelected) {
-            if (!(player.isPotionActive(<potion:gct_tcon:excited_state>))) {
-                player.addPotionEffect(<potion:gct_tcon:ground_state>.makePotionEffect(1, 0, false, false));
+            if (!(player.isPotionActive(<potion:contenttweaker:excited_state>))) {
+                player.addPotionEffect(<potion:contenttweaker:ground_state>.makePotionEffect(1, 0, false, false));
             } else {
-                player.addPotionEffect(<potion:gct_tcon:excited_state>.makePotionEffect(1, 0, false, false));
+                player.addPotionEffect(<potion:contenttweaker:excited_state>.makePotionEffect(1, 0, false, false));
             }
         }
     }
@@ -2607,18 +2607,18 @@ transition2Trait.onUpdate = function(trait, tool, world, owner, itemSlot, isSele
 transition2Trait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (player.isPotionActive(<potion:gct_tcon:excited_state>)) {
+        if (player.isPotionActive(<potion:contenttweaker:excited_state>)) {
             if (Math.random() < 0.0375f) {
-                player.removePotionEffect(<potion:gct_tcon:excited_state>);
-                player.addPotionEffect(<potion:gct_tcon:ground_state>.makePotionEffect(1, 0, false, false));
+                player.removePotionEffect(<potion:contenttweaker:excited_state>);
+                player.addPotionEffect(<potion:contenttweaker:ground_state>.makePotionEffect(1, 0, false, false));
                 return newDamage * 1.4f;
             } else {
                 return newDamage * 1.4f;
             }
         } else {
             if (Math.random() < 0.285714f) {
-                player.removePotionEffect(<potion:gct_tcon:ground_state>);
-                player.addPotionEffect(<potion:gct_tcon:excited_state>.makePotionEffect(1, 0, false, false));
+                player.removePotionEffect(<potion:contenttweaker:ground_state>);
+                player.addPotionEffect(<potion:contenttweaker:excited_state>.makePotionEffect(1, 0, false, false));
                 return newDamage * 0.85f;
             } else {
                 return newDamage * 0.85f;

@@ -1343,12 +1343,12 @@ cooperationTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tra
 cooperationTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.cooperationTrait.desc");
 cooperationTrait.onAbility = function(trait, level, world, player) {
     if (!isNull(player)) {
-        player.addPotionEffect(<potion:gct_tcon:cooperation_2>.makePotionEffect(20, 0, false, false));
+        player.addPotionEffect(<potion:contenttweaker:cooperation_2>.makePotionEffect(20, 0, false, false));
     }
 };
 cooperationTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (player.isPotionActive(<potion:gct_tcon:cooperation_1>) && player.isPotionActive(<potion:gct_tcon:cooperation_2>)) {
+        if (player.isPotionActive(<potion:contenttweaker:cooperation_1>) && player.isPotionActive(<potion:contenttweaker:cooperation_2>)) {
             return newDamage * 0.65f;
         }
         return newDamage;
@@ -1878,21 +1878,21 @@ soul_callingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tr
 soul_callingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.soul_callingTrait.desc");
 soul_callingTrait.onAbility = function(trait, level, world, player) {
     if (!isNull(player)) {
-        if (!player.isPotionActive(<potion:gct_tcon:spirit_possession>)) {
+        if (!player.isPotionActive(<potion:contenttweaker:spirit_possession>)) {
             if (Math.random() < 0.01) {
                 if (Math.random() < 0.05) {
-                    player.addPotionEffect(<potion:gct_tcon:spirit_possession>.makePotionEffect(1, 0, true, false));
+                    player.addPotionEffect(<potion:contenttweaker:spirit_possession>.makePotionEffect(1, 0, true, false));
                 }
             }
         } else {
-            player.addPotionEffect(<potion:gct_tcon:spirit_possession>.makePotionEffect(1, 0, true, false));
+            player.addPotionEffect(<potion:contenttweaker:spirit_possession>.makePotionEffect(1, 0, true, false));
         }
     }
 };
 soul_callingTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (player.isPotionActive(<potion:gct_tcon:spirit_possession>)) {
-            player.removePotionEffect((<potion:gct_tcon:spirit_possession>));
+        if (player.isPotionActive(<potion:contenttweaker:spirit_possession>)) {
+            player.removePotionEffect((<potion:contenttweaker:spirit_possession>));
             return newDamage * 0.0f;
         }
     }

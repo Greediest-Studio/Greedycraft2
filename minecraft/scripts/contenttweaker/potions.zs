@@ -22,6 +22,46 @@ import mods.randomtweaker.cote.IPotion;
 
 import mods.zenutils.I18n;
 
+// 从 Gct_tcon 迁移的匠魂状态效果。
+function createTconPotion(name as string, color as int, visible as bool, beneficial as bool) as IPotion {
+    val potion as IPotion = VanillaFactory.createPotion(name, color);
+    potion.instant = false;
+    potion.badEffectIn = false;
+    potion.beneficial = beneficial;
+    potion.shouldRender = visible;
+    potion.shouldRenderHUD = visible;
+    return potion;
+}
+
+val acidity as IPotion = createTconPotion("acidity", 0xFF3366, true, false);
+acidity.performEffect = function(living, amplifier) {
+    if (living.world.remote) {
+        return;
+    }
+    val data = living.native.getEntityData();
+    val ticks as double = data.getDouble("h_oh") + 1.0;
+    data.setDouble("h_oh", ticks);
+    if (ticks % 20.0 == 0.0) {
+        living.attackEntityFrom(<damageSource:GENERIC>, living.maxHealth * 0.02f);
+    }
+};
+acidity.register();
+
+createTconPotion("alkalinity", 0x00CCFF, true, false).register();
+createTconPotion("anger", 0xCC0066, false, false).register();
+createTconPotion("anger_accumulation", 0xCC0066, false, false).register();
+createTconPotion("angry", 0xCC0066, false, false).register();
+createTconPotion("angry_accumulation", 0xCC0066, false, false).register();
+createTconPotion("contract", 0xFFCC00, false, true).register();
+createTconPotion("cooperation_1", 0xFFFFFF, false, false).register();
+createTconPotion("cooperation_2", 0xFFFFFF, false, false).register();
+createTconPotion("excited_state", 0xFFFFFF, false, true).register();
+createTconPotion("ground_state", 0xFFFFFF, false, true).register();
+createTconPotion("shock", 0xFFFFFF, false, true).register();
+createTconPotion("spirit_possession", 0x999999, true, true).register();
+createTconPotion("superposition", 0xFFFFFF, false, true).register();
+createTconPotion("trapped", 0x006600, false, false).register();
+
 var pure as IPotion = VanillaFactory.createPotion("pure", 0xFFFFFF);
 pure.shouldRender = false;
 pure.shouldRenderHUD = false;
