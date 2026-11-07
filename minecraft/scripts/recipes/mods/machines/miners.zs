@@ -82,13 +82,11 @@ function exChance(ctrl as IMachineController) as float {
 //结构更新
 MMEvents.onStructureUpdate("basic_miner", function(event as MachineStructureUpdateEvent) {
     val ctrl as IMachineController = event.controller;
-    val bx = getParallelism(ctrl) as int;
-    ctrl.customData = {bx: bx,ex: exChance(ctrl)};
+    ctrl.customData = {ex: exChance(ctrl)};
 });
 
 MMEvents.onStructureUpdate("advanced_miner", function(event as MachineStructureUpdateEvent) {
     val ctrl as IMachineController = event.controller;
-    val bx = getParallelism(ctrl) as int;
     var list = isNull(ctrl.customData.dims) ? [] as int [] : ctrl.customData.dims as int [];
 
     if (!(list has ctrl.world.dimension)) {
@@ -134,17 +132,16 @@ MMEvents.onStructureUpdate("advanced_miner", function(event as MachineStructureU
         }
     }
 
-    ctrl.customData = {bx: bx,dims: list,ex: exChance(ctrl)};
+    ctrl.customData = {dims: list,ex: exChance(ctrl)};
 });
 
 MMEvents.onStructureUpdate("dimensional_miner", function(event as MachineStructureUpdateEvent) {
     val ctrl as IMachineController = event.controller;
-    val bx = getParallelism(ctrl) as int;
     val sk = ctrl.hasMachineUpgrade("miner_upg_multidim") ? 1 : 0;
     if (isNull(ctrl.customData.dims)) {
-        ctrl.customData = {bx: bx,dims:[],sk: sk};
+        ctrl.customData = {dims:[],sk: sk};
     } else {
-        ctrl.customData = {bx: bx,dims: ctrl.customData.dims,sk: sk,ex: exChance(ctrl)};
+        ctrl.customData = {dims: ctrl.customData.dims,sk: sk,ex: exChance(ctrl)};
     }
 });
 
@@ -164,10 +161,12 @@ MMEvents.onControllerGUIRender("simple_miner", function(event as ControllerGUIRe
 });
 
 MMEvents.onControllerGUIRender("basic_miner", function(event as ControllerGUIRenderEvent) {
+    val thread = event.controller.recipeThreadList[0];
+    val bx = isNull(thread.activeRecipe) ? "未运行" : thread.activeRecipe.parallelism as string;
     var info as string[] = [
         "§a///基础采掘机控制面板///",
         "§a机器名称：§eLV1 - 基础采掘机",
-        "§a并行数：" ~ (isNull(event.controller.customData.bx) ? 1 : event.controller.customData.bx),
+        "§a当前采掘并行数：" ~ bx,
         "§a采掘维度：" ~ oreOutput.getdimName(event.controller.world.dimension)
     ];
     event.extraInfo = info;
@@ -175,10 +174,12 @@ MMEvents.onControllerGUIRender("basic_miner", function(event as ControllerGUIRen
 
 MMEvents.onControllerGUIRender("advanced_miner", function(event as ControllerGUIRenderEvent) {
     var dim = "§a采掘维度：";
+    val thread = event.controller.recipeThreadList[0];
+    val bx = isNull(thread.activeRecipe) ? "未运行" : thread.activeRecipe.parallelism as string;
     var info as string[] = [
         "§a///精密过滤采掘机控制面板///",
         "§a机器名称：§eLV3 - 精密过滤采掘机",
-        "§a并行数：" ~ (isNull(event.controller.customData.bx) ? 1 : event.controller.customData.bx)
+        "§a当前采掘并行数：" ~ bx
     ];
 
     if (isNull(event.controller.customData.dims)) {
@@ -196,10 +197,12 @@ MMEvents.onControllerGUIRender("advanced_miner", function(event as ControllerGUI
 
 MMEvents.onControllerGUIRender("dimensional_miner", function(event as ControllerGUIRenderEvent) {
     var dim = "§a采掘维度：";
+    val thread = event.controller.recipeThreadList[0];
+    val bx = isNull(thread.activeRecipe) ? "未运行" : thread.activeRecipe.parallelism as string;
     var info as string[] = [
         "§a///时空相位采掘机控制面板///",
         "§a机器名称：§eLV5 - 时空相位采掘机",
-        "§a并行数：" ~ (isNull(event.controller.customData.bx) ? 1 : event.controller.customData.bx)
+        "§a当前采掘并行数：" ~ bx
     ];
     var sk =  (isNull(event.controller.customData.sk) || event.controller.customData.sk == 0) ? "§c未安装时空升级" : "§a已安装时空升级";
     if (isNull(event.controller.customData.dims)) {
@@ -254,8 +257,7 @@ RecipeBuilder.newBuilder("simple_miner_main","simple_miner",200)
 RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         val ctrl = event.controller;
-        val data = ctrl.customData;
-        val bx = isNull(data.bx) ? 1 : data.bx;
+        val bx = event.activeRecipe.parallelism;
         val thread = event.factoryRecipeThread;
         thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",bx,1,false).build());
     })
@@ -265,8 +267,9 @@ RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
     .setIgnoreOutputCheck(true)//别删
     .addDynamicOutput(function(ctrl as IMachineController) {
         val dim = ctrl.world.dimension;
+        val thread = ctrl.recipeThreadList[0];
+        val bx = thread.activeRecipe.parallelism;
         val data = ctrl.customData;
-        val bx = isNull(data.bx) ? 1 : data.bx;
         val ex = isNull(data.ex) ? 1.0f : data.ex as float;
         var output = [] as IItemStack[];
 
@@ -282,7 +285,6 @@ RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
         return output;
     }).setIgnoreOutputCheck(true)
     .setThreadName("基础采掘模块")
-    .setParallelized(false)
     .setLoadJEI(false)
     .build();
 
@@ -290,7 +292,7 @@ RecipeBuilder.newBuilder("advanced_miner_main","advanced_miner",200)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         val ctrl = event.controller;
         val data = ctrl.customData;
-        val bx = isNull(data.bx) ? 1 : data.bx;
+        val bx = event.activeRecipe.parallelism;
         val thread = event.factoryRecipeThread;
         val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
         thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",(bx * max(1,dimList.length)),1,false).build());
@@ -302,7 +304,8 @@ RecipeBuilder.newBuilder("advanced_miner_main","advanced_miner",200)
     .addDynamicOutput(function(ctrl as IMachineController) {
         val data = ctrl.customData;
         val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
-        val bx = isNull(data.bx) ? 1 : data.bx;
+        val thread = ctrl.recipeThreadList[0];
+        val bx = thread.activeRecipe.parallelism;
         val ex = isNull(data.ex) ? 1.0f : data.ex as float;
         var output = [] as IItemStack[];
 
@@ -322,7 +325,6 @@ RecipeBuilder.newBuilder("advanced_miner_main","advanced_miner",200)
         return output;
     }).setIgnoreOutputCheck(true)
     .setThreadName("精密过滤采掘模块")
-    .setParallelized(false)
     .setLoadJEI(false)
     .build();
 
@@ -330,7 +332,7 @@ RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         val ctrl = event.controller;
         val data = ctrl.customData;
-        val bx = isNull(data.bx) ? 1 : data.bx;
+        val bx = event.activeRecipe.parallelism;
         val thread = event.factoryRecipeThread;
         thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",bx,1,false).build());
     })
@@ -341,7 +343,8 @@ RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
     .addDynamicOutput(function(ctrl as IMachineController) {
         val data = ctrl.customData;
         val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
-        val bx = isNull(data.bx) ? 1 : data.bx;
+        val thread = ctrl.recipeThreadList[0];
+        val bx = thread.activeRecipe.parallelism;
         val ex = isNull(data.ex) ? 1.0f : data.ex as float;
         var output = [] as IItemStack[];
 
@@ -363,7 +366,6 @@ RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
         return output;
     }).setIgnoreOutputCheck(true)
     .setThreadName("时空采掘模块")
-    .setParallelized(false)
     .setLoadJEI(false)
     .build();
 
