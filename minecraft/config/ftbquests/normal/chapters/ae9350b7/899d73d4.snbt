@@ -1,31 +1,34 @@
 {
-	title: "§b一节更比六节强",
+	title: "§b探险必备两件套",
 	icon: {
-		id: "mmce_advanced_builder_tool:advanced_builder_tool",
-		tag: {
-			mmce_abt_dynamic_length: 1
-		}
+		id: "naturescompass:naturescompass",
+		tag: {}
 	},
 	tags: [
 		"challenge"
 	],
 	x: 12.0d,
 	y: 1.5d,
-	description: "制作MMCE搭建工具",
+	description: "制作生物群系指南针和结构指南针",
 	text: [
-		""
+		"结构指南针支持部分模组的结构查找"
 	],
 	tasks: [{
-		uid: "1a4406af",
+		uid: "e2c27046",
 		type: "item",
 		items: [{
-			id: "mmce_advanced_builder_tool:advanced_builder_tool",
-			tag: {
-				mmce_abt_dynamic_length: 1
-			}
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}]
+	},
+	{
+		uid: "8dd86a1b",
+		type: "item",
+		items: [{
+			item: "structurecompasslegacy:structure_compass"
 		}],
-		ignore_nbt: 1b,
-		only_from_crafting: 0b
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "c18294d9",
