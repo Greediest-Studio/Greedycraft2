@@ -70,6 +70,7 @@ function addGasFuel(gas as ILiquidStack, energyPerTick as int, burnTime as int) 
         .addFluidInput(gas * 1000)
         .addEnergyPerTickOutput(energyPerTick)
         .setJEICategory("gas", "§aLV1 - 燃气发电机 - 空气燃烧")
+        .setMultipleParallelism(4)
         .build();
     var oxidizeRecipe = RecipeBuilder.newBuilder("gas_generation_" + gas.definition.name + "_ox", regName, burnTime, 0);
     oxidizeRecipe.addFluidInput(gas * 1000);
@@ -84,6 +85,7 @@ function addGasFuel(gas as ILiquidStack, energyPerTick as int, burnTime as int) 
     oxidizeRecipe.addRecipeTooltip("§a需要模块：助燃模块");
     oxidizeRecipe.addRecipeTooltip("§c注意！助燃剂不可叠加使用！");
     oxidizeRecipe.setJEICategory("gas_cat", "§aLV1 - 燃气发电机 - 助燃燃烧");
+    oxidizeRecipe.setMultipleParallelism(4);
     oxidizeRecipe.build();
 }
 
@@ -103,6 +105,7 @@ function addGasFuelAsGas(gas as IGasStack, energyPerTick as int, burnTime as int
         .addGasInput(gas * 1000)
         .addEnergyPerTickOutput(energyPerTick)
         .setJEICategory("gas", "§aLV1 - 燃气发电机 - 空气燃烧")
+        .setMultipleParallelism(4)
         .build();
     var oxidizeRecipe = RecipeBuilder.newBuilder("gas_generation_" + gas.definition.NAME + "_ox_gas", regName, burnTime, 0);
     oxidizeRecipe.addGasInput(gas * 1000);
@@ -117,44 +120,45 @@ function addGasFuelAsGas(gas as IGasStack, energyPerTick as int, burnTime as int
     oxidizeRecipe.addRecipeTooltip("§a需要模块：助燃模块");
     oxidizeRecipe.addRecipeTooltip("§c注意！助燃剂不可叠加使用！");
     oxidizeRecipe.setJEICategory("gas_cat", "§aLV1 - 燃气发电机 - 助燃燃烧");
+    oxidizeRecipe.setMultipleParallelism(4);
     oxidizeRecipe.build();
 }
 
-addGasFuel(<liquid:liquidhydrogen>, 20480, 2);
-addGasFuel(<liquid:liquidethene>, 32000, 100);
-addGasFuel(<liquid:methane>, 50000, 40);
-addGasFuel(<liquid:ethyne>, 120000, 20);
-addGasFuel(<liquid:crude_oil>, 2000, 500);
-addGasFuel(<liquid:refined_oil>, 6000, 300);
-addGasFuel(<liquid:refined_fuel>, 16000, 200);
-addGasFuel(<liquid:organic_fluid>, 80, 1200);
-addGasFuel(<liquid:canolaoil>, 5000, 400);
-addGasFuel(<liquid:refinedcanolaoil>, 12000, 300);
-addGasFuel(<liquid:seed_oil>, 4000, 500);
-addGasFuel(<liquid:hootch>, 10000, 100);
-addGasFuel(<liquid:crystaloil>, 16000, 500);
-addGasFuel(<liquid:empoweredoil>, 32000, 500);
-addGasFuel(<liquid:creosote>, 1000, 500);
-addGasFuel(<liquid:tree_oil>, 4000, 500);
-addGasFuel(<liquid:coal>, 10000, 200);
-addGasFuel(<liquid:rocket_fuel>, 30000, 25);
-addGasFuel(<liquid:fire_water>, 10000, 150);
-addGasFuel(<liquid:refined_biofuel>, 8000, 300);
-addGasFuel(<liquid:bio.ethanol>, 40000, 90);
-addGasFuel(<liquid:ethanol>, 40000, 100);
-addGasFuel(<liquid:methanol>, 40000, 100);
-addGasFuel(<liquid:formaldehyde>, 10000, 100);
-addGasFuel(<liquid:benzene>, 60000, 100);
-addGasFuel(<liquid:toluene>, 60000, 100);
-addGasFuel(<liquid:paraxylene>, 60000, 100);
-addGasFuel(<liquid:1_2_4_trimethylbenzene>, 60000, 100);
-addGasFuel(<liquid:durene>, 60000, 100);
-addGasFuel(<liquid:nitrobenzene>, 90000, 80);
-addGasFuel(<liquid:mixed_hydrocarbon>, 10000, 50);
-addGasFuel(<liquid:carbon_monoxide>, 10240, 2);
-addGasFuel(<liquid:smoldering_tar>, 4000, 500);
+addGasFuel(<liquid:liquidhydrogen>, 81920, 2);
+addGasFuel(<liquid:liquidethene>, 128000, 50);
+addGasFuel(<liquid:methane>, 200000, 20);
+addGasFuel(<liquid:ethyne>, 480000, 10);
+addGasFuel(<liquid:crude_oil>, 8000, 250);
+addGasFuel(<liquid:refined_oil>, 24000, 150);
+addGasFuel(<liquid:refined_fuel>, 64000, 100);
+addGasFuel(<liquid:organic_fluid>, 320, 600);
+addGasFuel(<liquid:canolaoil>, 20000, 200);
+addGasFuel(<liquid:refinedcanolaoil>, 48000, 150);
+addGasFuel(<liquid:seed_oil>, 16000, 250);
+addGasFuel(<liquid:hootch>, 40000, 50);
+addGasFuel(<liquid:crystaloil>, 64000, 250);
+addGasFuel(<liquid:empoweredoil>, 128000, 250);
+addGasFuel(<liquid:creosote>, 4000, 250);
+addGasFuel(<liquid:tree_oil>, 16000, 250);
+addGasFuel(<liquid:coal>, 40000, 100);
+addGasFuel(<liquid:rocket_fuel>, 120000, 25);
+addGasFuel(<liquid:fire_water>, 40000, 75);
+addGasFuel(<liquid:refined_biofuel>, 32000, 150);
+addGasFuel(<liquid:bio.ethanol>, 160000, 45);
+addGasFuel(<liquid:ethanol>, 160000, 50);
+addGasFuel(<liquid:methanol>, 160000, 50);
+addGasFuel(<liquid:formaldehyde>, 40000, 50);
+addGasFuel(<liquid:benzene>, 240000, 50);
+addGasFuel(<liquid:toluene>, 240000, 50);
+addGasFuel(<liquid:paraxylene>, 240000, 50);
+addGasFuel(<liquid:1_2_4_trimethylbenzene>, 240000, 50);
+addGasFuel(<liquid:durene>, 240000, 50);
+addGasFuel(<liquid:nitrobenzene>, 360000, 40);
+addGasFuel(<liquid:mixed_hydrocarbon>, 40000, 25);
+addGasFuel(<liquid:carbon_monoxide>, 40960, 2);
+addGasFuel(<liquid:smoldering_tar>, 16000, 250);
 
-addGasFuelAsGas(<gas:hydrogen>, 20480, 2);
-addGasFuelAsGas(<gas:ethene>, 32000, 100);
-addGasFuelAsGas(<gas:ethyne>, 120000, 10);
-addGasFuelAsGas(<gas:carbonoxide>, 10240, 2);
+addGasFuelAsGas(<gas:hydrogen>, 81920, 2);
+addGasFuelAsGas(<gas:ethene>, 128000, 50);
+addGasFuelAsGas(<gas:ethyne>, 480000, 5);
+addGasFuelAsGas(<gas:carbonoxide>, 40960, 2);
