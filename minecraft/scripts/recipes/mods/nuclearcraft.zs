@@ -895,6 +895,8 @@ Assembler.addRecipe(<mmce_complement:input_assembly_hatch:1>, <modularmachinery:
 Assembler.addRecipe(<mmce_complement:input_assembly_hatch:2>, <modularmachinery:blocksmartinterface>, <ore:circuitFinal>, null, <mmce_complement:data_input_assembly_hatch:2>);
 Assembler.addRecipe(<mmce_complement:input_assembly_hatch:3>, <modularmachinery:blocksmartinterface>, <ore:circuitFinal>, null, <mmce_complement:data_input_assembly_hatch:3>);
 Assembler.addRecipe(<mmce_complement:input_assembly_hatch:4>, <modularmachinery:blocksmartinterface>, <ore:circuitFinal>, null, <mmce_complement:data_input_assembly_hatch:4>);
+Assembler.addRecipe(<modularmachinery:blockmepatternprovider>, <modularmachinery:blocksmartinterface>, <ore:circuitArcane> * 2, null, <mmce_complement:me_data_pattern_provider>);
+Assembler.addRecipe(<mmce_complement:me_pattern_provider_ii>, <modularmachinery:blocksmartinterface>, <ore:circuitArcane> * 8, null, <mmce_complement:me_data_pattern_provider_ii>);
 
 Pressurizer.addRecipe(<ore:compressed1xCobblestone> * 3, <compactmachines3:wallbreakable> * 32, 0.25d, 0.25d);
 

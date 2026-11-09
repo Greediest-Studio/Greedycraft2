@@ -478,3 +478,15 @@ FusionCrafting.add(<mmce_complement:output_assembly_hatch>, <modularmachinery:bl
     <ore:ingotGenite>,
     <ore:ingotGenite>
 ]);
+FusionCrafting.add(<mmce_complement:me_input_assembly>, <modularmachinery:blockcasing>, 1, 40960000, [
+    <ore:ingotAeonsteel>,
+    <ore:ingotAeonsteel>,
+    <additions:logic_processor_2>,
+    <additions:logic_processor_2>,
+    <additions:calculation_processor_2>,
+    <additions:calculation_processor_2>,
+    <additions:engineering_processor_2>,
+    <additions:engineering_processor_2>,
+    <ore:circuitUltimate>,
+    <ore:circuitUltimate>
+]);

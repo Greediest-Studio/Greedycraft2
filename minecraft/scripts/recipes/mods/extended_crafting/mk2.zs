@@ -565,3 +565,12 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:thread_hatch:3
 	[<ore:ingotModularium>, <ore:controllerLevel4>, <ore:ingotFinallium>, <ore:controllerLevel4>, <ore:ingotModularium>], 
 	[<ore:blockModularium>, <ore:ingotModularium>, <ore:compressed1xModularium>, <ore:ingotModularium>, <ore:blockModularium>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:me_pattern_provider_ii>, [
+	[<ore:ingotEcoBasicAlloy>, <ore:ingotEcoBasicAlloy>, <ore:compressed1xModularium>, <ore:ingotEcoBasicAlloy>, <ore:ingotEcoBasicAlloy>], 
+	[<ore:ingotEcoBasicAlloy>, <ore:plateEcoEnhancedAlloy>, <ore:circuitFinal>, <ore:plateEcoEnhancedAlloy>, <ore:ingotEcoBasicAlloy>], 
+	[<ore:compressed1xModularium>, <ore:circuitFinal>, <modularmachinery:blockmepatternprovider>, <ore:circuitFinal>, <ore:compressed1xModularium>], 
+	[<ore:ingotEcoBasicAlloy>, <ore:plateEcoEnhancedAlloy>, <ore:circuitFinal>, <ore:plateEcoEnhancedAlloy>, <ore:ingotEcoBasicAlloy>], 
+	[<ore:ingotEcoBasicAlloy>, <ore:ingotEcoBasicAlloy>, <ore:compressed1xModularium>, <ore:ingotEcoBasicAlloy>, <ore:ingotEcoBasicAlloy>]
+]);
+

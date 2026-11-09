@@ -1692,6 +1692,11 @@ RecipeUtil.addShaped("redstone_signal_input_hatch", <mmce_complement:redstone_si
     [<jaopca:gear.redstone_alloy>, <modularmachinery:blockcasing>, <jaopca:gear.redstone_alloy>],
     [null, <minecraft:comparator>, null]
 ]);
+RecipeUtil.addShaped("me_connection_share_hatch", <mmce_complement:me_connection_share_hatch>, [
+    [<ore:blockModularium>, <ore:gearEndestSteel>, <ore:blockModularium>],
+    [<ore:gearEndestSteel>, <ymadditions:network_hub>, <ore:gearEndestSteel>],
+    [<ore:blockModularium>, <ore:gearEndestSteel>, <ore:blockModularium>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
