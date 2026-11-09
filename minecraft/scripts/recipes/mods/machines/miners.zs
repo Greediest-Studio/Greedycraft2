@@ -255,12 +255,6 @@ RecipeBuilder.newBuilder("simple_miner_main","simple_miner",200)
     .build();
 
 RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
-    .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
-        val ctrl = event.controller;
-        val bx = event.activeRecipe.parallelism;
-        val thread = event.factoryRecipeThread;
-        thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",bx,1,false).build());
-    })
     .addEnergyPerTickInput(200)
     .addItemOutput(<minecraft:grass>)
     .addItemModifier(function(ctrl as IMachineController, item as IItemStack) as IItemStack {return null;})
@@ -292,10 +286,9 @@ RecipeBuilder.newBuilder("advanced_miner_main","advanced_miner",200)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         val ctrl = event.controller;
         val data = ctrl.customData;
-        val bx = event.activeRecipe.parallelism;
         val thread = event.factoryRecipeThread;
         val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
-        thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",(bx * max(1,dimList.length)),1,false).build());
+        thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",max(1,dimList.length),1,false).build());
     })
     .addEnergyPerTickInput(200)
     .addItemOutput(<minecraft:grass>)
@@ -312,7 +305,7 @@ RecipeBuilder.newBuilder("advanced_miner_main","advanced_miner",200)
         if (dimList.length != 0) {
             for dim in dimList {
                 for u in upgradeList {
-                    val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,ex,false) as IItemStack[];
+                    val list = oreOutput.getOreOutputList(dim,u,bx,ex,false) as IItemStack[];
                     if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                         for i in list {
                             output += i;
@@ -332,9 +325,9 @@ RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         val ctrl = event.controller;
         val data = ctrl.customData;
-        val bx = event.activeRecipe.parallelism;
         val thread = event.factoryRecipeThread;
-        thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",bx,1,false).build());
+        val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
+        thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",max(1,dimList.length),1,false).build());
     })
     .addEnergyPerTickInput(200)
     .addItemOutput(<minecraft:grass>)
@@ -352,7 +345,7 @@ RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
             for dim in dimList {
                 if (ctrl.hasMachineUpgrade("miner_upg_multidim") || dim == ctrl.world.dimension) {
                     for u in upgradeList {
-                        val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,ex,false) as IItemStack[];
+                        val list = oreOutput.getOreOutputList(dim,u,bx,ex,false) as IItemStack[];
                         if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                             for i in list {
                                 output += i;
