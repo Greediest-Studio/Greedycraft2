@@ -29,11 +29,23 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.IngredientArrayPrimer;
 import mods.modularmachinery.IngredientArrayBuilder;
 import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.ControllerMode;
 import mods.ctutils.utils.Math;
 
 MachineModifier.setMaxParallelism("abyss_ceremony_executant", 65536);
 MachineModifier.setInternalParallelism("abyss_ceremony_executant", 1);
 MachineModifier.setMaxThreads("abyss_ceremony_executant", 8);
+
+MachineModifier.addControllerMode("abyss_ceremony_executant",
+    ControllerMode.create("模式", 0)
+        .addMode(0, "使用位能输入仓")
+        .addMode(1, "使用液体位能")
+        .setControllerButtonVisible(true)
+        .setControllerButtonTooltip(
+            "§e切换配方模式",
+            "§a当前模式：§f%s"
+        )
+);
 
 $expand RecipePrimer$addSacrificeInput() {
     this.addIngredientArrayInput(IngredientArrayBuilder.newBuilder()
@@ -47,37 +59,47 @@ $expand RecipePrimer$addSacrificeInput() {
 }
 
 function addRitualRecipe(output as IItemStack, inputs as IIngredient[], potEnergy as int, dim as int, sacrifice as bool) {
-    var builder = RecipeBuilder.newBuilder(output.definition.id ~ (output.metadata as string), "abyss_ceremony_executant", 200);
-    var builderAsPE = RecipeBuilder.newBuilder(output.definition.id ~ (output.metadata as string) ~ "_pe", "abyss_ceremony_executant", 200);
-    var pe as int = Math.floor(0.0144d * potEnergy) as int;
-    builder.addFluidInput(<liquid:pe> * pe);
-    builderAsPE.addPotentialEnergyInput(potEnergy);
-    for input in inputs {
-        builder.addItemInput(input);
-        builderAsPE.addItemInput(input);
+    val recipe = RecipeBuilder.newBuilder(output.definition.id ~ (output.metadata as string), "abyss_ceremony_executant", 200);
+    val fluidRecipe = RecipeBuilder.newBuilder(output.definition.id ~ (output.metadata as string) ~ "_fluid", "abyss_ceremony_executant", 200);
+    val pe as int = Math.floor(0.0144d * potEnergy) as int;
+
+    for item in inputs {
+        recipe.addItemInput(item);
+        fluidRecipe.addItemInput(item);
     }
-    builder.addItemOutput(output);
-    builderAsPE.addItemOutput(output);
-    builder.addEnergyPerTickInput(4096);
-    builderAsPE.addEnergyPerTickInput(4096);
     if (dim != -1) {
-        builder.addDimensionInput(dim);
-        builderAsPE.addDimensionInput(dim);
+        recipe.addDimensionInput(dim);
+        fluidRecipe.addDimensionInput(dim);
     }
     if (sacrifice) {
-        builder.addSacrificeInput();
-        builderAsPE.addSacrificeInput();
+        recipe.addSacrificeInput();
+        fluidRecipe.addSacrificeInput();
     }
-    builder.setMaxThreads(1);
-    builderAsPE.setMaxThreads(1);
-    builder.setJEICategory("pe_liquid", "§dLV3 - 深渊仪式执行者 - 使用液态PE");
-    builderAsPE.setJEICategory("pe_energy", "§dLV3 - 深渊仪式执行者 - 使用虚拟PE");
-    builder.build();
-    builderAsPE.build();
+
+    recipe.addPotentialEnergyInput(potEnergy)
+        .addItemOutput(output)
+        .addEnergyPerTickInput(4096)
+        .setJEICategory("pe_energy", "§dLV3 - 深渊仪式执行者 - 使用位能输入仓")
+        .setMaxThreads(1)
+        .addRecipeTooltip("§e需求模式：使用位能输入仓")
+        .addModeSelect("模式", 0)
+        .build();
+    fluidRecipe.addFluidInput(<liquid:pe> * pe)
+        .addItemOutput(output)
+        .addEnergyPerTickInput(4096)
+        .setJEICategory("pe_liquid", "§dLV3 - 深渊仪式执行者 - 使用液体位能")
+        .setMaxThreads(1)
+        .addRecipeTooltip("§e需求模式：使用液体位能")
+        .addModeSelect("模式", 1)
+        .build();
 }
 
 MMEvents.onControllerGUIRender("abyss_ceremony_executant", function(event as ControllerGUIRenderEvent) {
-    var info as string[] = ["§a///深渊仪式执行者控制面板///", "§a机器名称：§eLV3 - 深渊仪式执行者"];
+    var info as string[] = [
+        "§a///深渊仪式执行者控制面板///",
+        "§a机器名称：§eLV3 - 深渊仪式执行者"
+    ];
+    info += "§a当前模式：§f" ~ (event.controller.getControllerMode("模式") == 0 ? "使用位能输入仓" : "使用液体位能");
     event.extraInfo = info;
 });
 
