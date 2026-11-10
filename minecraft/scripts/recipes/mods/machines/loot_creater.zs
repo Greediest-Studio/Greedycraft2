@@ -379,9 +379,9 @@ createLootRecipe("cosmilite_loot", [
 
 //凋灵风暴
 createLootRecipe("cosmilite_loot", [
+    <minecraft:command_block> * 1,
     <minecraft:soul_sand> * 3,
-    <minecraft:skull:1> * 3,
-    <minecraft:command_block> * 1
+    <minecraft:skull:1> * 3
 ], [
     <gct_additions:stormy_shard> * 6,
     <witherstormmod:withered_nether_star> * 1,
