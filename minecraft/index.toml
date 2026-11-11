@@ -1477,6 +1477,12 @@ alias = "mods/modtweaker-5.0.010.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/modular-machinery-community-edition-addons.pw.toml"
+hash = "c4c6fdf444b1dec26e4a03e51b57522c8fb9d0988e3e58f49a56e1fe512c2517"
+alias = "mods/ModularMachinery-Addons-2.0.5.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/modular-routers.pw.toml"
 hash = "c3976f461454cae2e8e3d586ac0fb7381133bba950a2233c6da1e8768832164c"
 alias = "mods/modular-routers-1.12.2-3.3.0-33.jar"
