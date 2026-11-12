@@ -679,7 +679,7 @@ executionerTrait.color = Color.fromHex("e53935").getIntColor();
 executionerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.executionerTrait.name");
 executionerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.executionerTrait.desc");
 executionerTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
-    if (isNull(target) || !(target instanceof IEntityLivingBase) || !(attacker instanceof IPlayer) || damage < 0.1) {
+    if (isNull(target) || !(target instanceof IEntityLivingBase) || !(attacker instanceof IPlayer) || damage < 0.1 || (target.definition.id == "witherstormmod:command_block")) {
         return;
     }
     val player as IPlayer = attacker;
