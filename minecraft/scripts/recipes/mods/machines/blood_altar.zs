@@ -254,52 +254,75 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
         9 : 10000
     };
     val world = ctrl.world;
-    val altar = world.getBlock(ctrl.pos.down(4));
-    var extractNum = IBigInteger.create(levelSpeedMutiplierMap[ctrl.getAltarLevel()] as string) * IBigInteger.create((IBigDecimal.create("1.2").pow(rune[5]) * IBigDecimal.create("20")).toStringScale0());
-    var checkTime as int = (20 - rune[9]) > 1 ? (20 - rune[9]) : 1;
+    if (world.isRemote()) {
+        return;
+    }
+    val worldTime = world.getWorldTime();
 
     //初始化并修正祭坛 LE
-    if (!world.isRemote()) {
-        if (isNull(data.LP) && world.getWorldTime() % 20 == 0) {
+    if (isNull(data.LP)) {
+        if (worldTime % 20 == 0) {
             setStoredAltarLP(ctrl, IBigInteger.zero());
-        } else {
-            val rawLP = IBigInteger.create(ctrl.getAltarLP());
-            val storedLP = rawLP.max(IBigInteger.zero());
-            if (rawLP != storedLP) {
-                setStoredAltarLP(ctrl, storedLP);
+        }
+    } else if (ctrl.getAltarLP().startsWith("-")) {
+        setStoredAltarLP(ctrl, IBigInteger.zero());
+    }
+
+    val checkTime as int = (20 - rune[9]) > 1 ? (20 - rune[9]) : 1;
+    if (worldTime % checkTime == 0) {
+        val altarMode as int = ctrl.getAltarMode();
+        if (altarMode == 0 || altarMode == 1) {
+            val altarPos = ctrl.pos.down(4);
+            val altar = world.getBlock(altarPos);
+            if (!isNull(altar) && !isNull(altar.data) && !isNull(altar.data.bloodAltar)) {
+                val zeroLP = IBigInteger.zero();
+                val controllerLP = getStoredAltarLP(ctrl);
+                if (altarMode == 0) {
+                    val controllerAvailableSpace = (IBigInteger.create(ctrl.getAltarCapacity()) - controllerLP).max(zeroLP);
+                    if (controllerAvailableSpace != zeroLP) {
+                        val currentAltarAmount = IBigInteger.create(altar.data.bloodAltar.Amount as string).max(zeroLP);
+                        val transferBlood = currentAltarAmount.min(controllerAvailableSpace);
+                        if (transferBlood != zeroLP) {
+                            world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : (currentAltarAmount.toString() as int - transferBlood.toString() as int)}}), altarPos);
+                            setStoredAltarLP(ctrl, controllerLP + transferBlood);
+                        }
+                    }
+                } else {
+                    val altarCurrentAmount as int = altar.data.bloodAltar.Amount as int;
+                    val altarCapacity as int = altar.data.bloodAltar.capacity as int;
+                    val altarAvailableSpace as int = altarCapacity - altarCurrentAmount;
+                    if (altarAvailableSpace > 0 && controllerLP != zeroLP) {
+                        val extractNum = IBigInteger.create(levelSpeedMutiplierMap[ctrl.getAltarLevel()] as string) * IBigInteger.create((IBigDecimal.create("1.2").pow(rune[5]) * IBigDecimal.create("20")).toStringScale0());
+                        val transferAmount = controllerLP.min(IBigInteger.create(altarAvailableSpace)).min(extractNum);
+                        if (transferAmount != zeroLP) {
+                            world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : altarCurrentAmount + transferAmount.toString() as int}}), altarPos);
+                            setStoredAltarLP(ctrl, controllerLP - transferAmount);
+                        }
+                    }
+                }
             }
         }
     }
-    //外界输入模式
-    if (!world.isRemote() && world.getWorldTime() % checkTime == 0 && ctrl.getAltarMode() == 0) {
-        if (!isNull(altar) && !isNull(altar.data) && !isNull(altar.data.bloodAltar)) {
-            val currentAltarAmount = IBigInteger.create(altar.data.bloodAltar.Amount as string);
-            val controllerLP = getStoredAltarLP(ctrl);
-            val controllerAvailableSpace = (IBigInteger.create(ctrl.getAltarCapacity()) - controllerLP).max(IBigInteger.zero());
-            val transferBlood = currentAltarAmount.min(controllerAvailableSpace);
-            world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : (currentAltarAmount.toString() as int - transferBlood.toString() as int)}}), ctrl.pos.down(4));
-            setStoredAltarLP(ctrl, controllerLP + transferBlood);
+
+    // 每秒计算一次红石强度，仅在数值变化时同步缓存。
+    val cachedSignal as IData = ctrl.customData.storedLPSignal;
+    var signal as int = isNull(cachedSignal) ? 0 : cachedSignal.asInt();
+    if (isNull(cachedSignal) || worldTime % 20 == 0) {
+        val capacityStr = ctrl.getAltarCapacity();
+        var nextSignal as int = 0;
+        if (capacityStr != "0") {
+            val capacity = IBigDecimal.create(capacityStr);
+            val storedLP = IBigDecimal.create(getStoredAltarLP(ctrl).toString()) * IBigDecimal.create("150000");
+            val rawSignal = (storedLP / capacity).toString() as int / 10000 as int;
+            nextSignal = min(rawSignal, 15) as int;
         }
-    }
-    //向血之祭坛输出模式
-    if (!world.isRemote() && world.getWorldTime() % checkTime == 0 && ctrl.getAltarMode() == 1) {
-        if (!isNull(altar) && !isNull(altar.data) && !isNull(altar.data.bloodAltar)) {
-            val controllerLP = getStoredAltarLP(ctrl);
-            var altarCurrentAmount as int = altar.data.bloodAltar.Amount as int;
-            var altarCapacity as int = altar.data.bloodAltar.capacity as int;
-            var altarAvailableSpace as int = altarCapacity - altarCurrentAmount;
-            if (altarAvailableSpace > 0) {
-                val transferAmount = controllerLP.min(IBigInteger.create(altarAvailableSpace)).min(extractNum);
-                world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : altarCurrentAmount + transferAmount.toString() as int}}), ctrl.pos.down(4));
-                setStoredAltarLP(ctrl, controllerLP - transferAmount);
-            }
+        if (isNull(cachedSignal) || signal != nextSignal) {
+            ctrl.customData = ctrl.customData.update({storedLPSignal : nextSignal});
         }
+        signal = nextSignal;
     }
-    //输出已储存LE所占比例红石信号
-    val capacity = IBigDecimal.create(ctrl.getAltarCapacity());
-    val storedLP = IBigDecimal.create(getStoredAltarLP(ctrl).toString()) * IBigDecimal.create("150000");
-    val signal = (storedLP / capacity).toString() as int / 10000 as int;
-    ctrl.setRedstone("已存储LE所占比例", min(signal, 15) as int);
+    // 红石接口每 tick 清空待输出值，因此必须逐 tick 提交缓存值。
+    ctrl.setRedstone("已存储LE所占比例", signal);
 });
 
 MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRenderEvent) {

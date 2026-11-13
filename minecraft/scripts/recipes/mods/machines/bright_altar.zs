@@ -367,47 +367,80 @@ MMEvents.onControllerGUIRender("bright_altar", function(event as ControllerGUIRe
 });
 
 MMEvents.onMachinePreTick("bright_altar", function(event as MachineTickEvent) {
-    var x as int = event.controller.pos.x;
-    var y as int = event.controller.pos.y;
-    var z as int = event.controller.pos.z;
-    val d as IData = event.controller.customData;
-    if (!event.controller.world.isRemote() && event.controller.world.getWorldTime() % 100 == 0) {
-        if (event.controller.world.getPlayers().length != 0) {
-            event.controller.customData = d.update({playParticle: 1 as byte});
-        } else {
-            event.controller.customData = d.update({playParticle: 0 as byte});
+    val ctrl = event.controller;
+    val world = ctrl.world;
+    if (world.isRemote()) {
+        return;
+    }
+
+    val worldTime = world.getWorldTime();
+    val needPlayUpdate as bool = worldTime % 100 == 0;
+    val needParticle as bool = world.time % 100 == 0;
+    val needCrystalScan as bool = worldTime % 20 == 0;
+    if (!needPlayUpdate && !needParticle && !needCrystalScan) {
+        return;
+    }
+
+    var d as IData = ctrl.customData;
+    if (needPlayUpdate) {
+        val hasPlayers as byte = (world.getPlayers().length != 0) ? (1 as byte) : (0 as byte);
+        if (isNull(d.playParticle) || d.playParticle != hasPlayers) {
+            d = d.update({playParticle: hasPlayers});
+            ctrl.customData = d;
         }
     }
-    if (!event.controller.world.isRemote() && !isNull(d.playParticle) && d.playParticle == 1 as byte) {
-        if (event.controller.world.time % 100 == 0) {
-            server.commandManager.executeCommandSilent(server, "particleex tickpolarparameter endRod " ~ x as string ~ " " ~ y as string ~ " " ~ z as string ~ " 0 0.8 1 1 240 0 0 0 -10 10 s1,s2,dis=t*100,t*PI/200,t%2+10 0.1 10 20 vy=0.05");
+    if (needParticle && !isNull(d.playParticle) && d.playParticle == 1 as byte) {
+        val pos = ctrl.pos;
+        server.commandManager.executeCommandSilent(server, "particleex tickpolarparameter endRod " ~ pos.x as string ~ " " ~ pos.y as string ~ " " ~ pos.z as string ~ " 0 0.8 1 1 240 0 0 0 -10 10 s1,s2,dis=t*100,t*PI/200,t%2+10 0.1 10 20 vy=0.05");
+    }
+    if (!needCrystalScan) {
+        return;
+    }
+
+    val front = ctrl.facing;
+    val right = front.rotateY();
+    var crystalData as IData[] = [] as IData[];
+    for offset in brightAltarCrystalOffsets {
+        val side as int = offset[0];
+        val forward as int = -offset[1];
+        val crystalPos as IBlockPos = ctrl.pos.getOffset(front, forward).getOffset(right, side).down(4);
+        crystalData = crystalData.add(readBrightAltarCrystal(world, crystalPos));
+    }
+
+    val oldCrystals as IData[] = isNull(d.crystalData) ? ([] as IData[]) : (d.crystalData.asList() as IData[]);
+    var crystalsChanged as bool = oldCrystals.length != crystalData.length || isNull(d.yieldBonus) || isNull(d.speedBonus) || isNull(d.parallelBonus);
+    if (!crystalsChanged) {
+        for i in 0 .. crystalData.length {
+            if (crystalData[i] != oldCrystals[i]) {
+                crystalsChanged = true;
+                break;
+            }
         }
     }
-    if (!event.controller.world.isRemote() && event.controller.world.getWorldTime() % 20 == 0) {
-        val front = event.controller.facing;
-        val right = front.rotateY();
-        var crystalData as IData[] = [] as IData[];
-        for offset in brightAltarCrystalOffsets {
-            val side as int = offset[0];
-            val forward as int = -offset[1];
-            val crystalPos as IBlockPos = event.controller.pos.getOffset(front, forward).getOffset(right, side).down(4);
-            crystalData = crystalData.add(readBrightAltarCrystal(event.controller.world, crystalPos));
+
+    val nativeController as TileMultiblockMachineController = ctrl as TileMultiblockMachineController;
+    val machine as DynamicMachine = nativeController.getFoundMachine();
+    if (!crystalsChanged) {
+        val expectedParallelism as int = 12 + d.parallelBonus.asInt();
+        if (!isNull(machine) && machine.getInternalParallelism() != expectedParallelism) {
+            machine.setInternalParallelism(expectedParallelism);
         }
-        val bonuses as double[] = getBrightAltarBonuses(crystalData);
-        val eternalCrystalCount as int = getBrightAltarEternalCrystalCount(crystalData);
-        // 直接调整当前机器实例的内置并行数，而不是修改配方最大并行上限。
-        val nativeController as TileMultiblockMachineController = event.controller as TileMultiblockMachineController;
-        val machine as DynamicMachine = nativeController.getFoundMachine();
-        if (!isNull(machine)) {
-            machine.setInternalParallelism(12 + eternalCrystalCount * 2);
-        }
-        event.controller.customData = event.controller.customData.update({
-            crystalData: crystalData,
-            yieldBonus: bonuses[0],
-            speedBonus: bonuses[1],
-            parallelBonus: eternalCrystalCount * 2
-        });
+        return;
     }
+
+    val bonuses as double[] = getBrightAltarBonuses(crystalData);
+    val eternalCrystalCount as int = getBrightAltarEternalCrystalCount(crystalData);
+    val targetParallelism as int = 12 + eternalCrystalCount * 2;
+    // 直接调整当前机器实例的内置并行数，而不是修改配方最大并行上限。
+    if (!isNull(machine) && machine.getInternalParallelism() != targetParallelism) {
+        machine.setInternalParallelism(targetParallelism);
+    }
+    ctrl.customData = d.update({
+        crystalData: crystalData,
+        yieldBonus: bonuses[0],
+        speedBonus: bonuses[1],
+        parallelBonus: eternalCrystalCount * 2
+    });
 });
 
 RecipeBuilder.newBuilder("zodiacite", "bright_altar", 600)

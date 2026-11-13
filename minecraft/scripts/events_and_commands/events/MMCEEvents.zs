@@ -33,14 +33,25 @@ for item in <ore:controllerLevel6>.items {
     machines += item.definition.id.split("machinery:")[1].split("_factory_controller")[0];
 }
 
+val flopsOverclockModifier = RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.75f, 1, false).build();
+
 for machine in machines {
     MMEvents.onMachinePostTick(machine, function(event as MachineTickEvent) {
-        var controller as IMachineController = event.controller;
-        if (!isNull(controller.ownerPlayer)) {
-            var player as IPlayer = controller.ownerPlayer;
-            if (player.isPotionActive(<potion:contenttweaker:flops_overclock>)) {
-                controller.addModifier("flops_overclock", RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.75f, 1, false).build());
+        val controller as IMachineController = event.controller;
+        if (controller.world.isRemote() || controller.world.getWorldTime() % 20 != 0) {
+            return;
+        }
+        controller.removeModifier("flops_overclock");
+        val player as IPlayer = controller.ownerPlayer;
+        val hasPotion as bool = !isNull(player) && player.isPotionActive(<potion:contenttweaker:flops_overclock>);
+        if (hasPotion) {
+            if (!controller.hasModifier("flops_overclock")) {
+                controller.addPermanentModifier("flops_overclock", flopsOverclockModifier);
             }
+            return;
+        }
+        if (controller.hasModifier("flops_overclock")) {
+            controller.removePermanentModifier("flops_overclock");
         }
     });
 }
