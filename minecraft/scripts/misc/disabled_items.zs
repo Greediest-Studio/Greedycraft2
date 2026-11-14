@@ -943,7 +943,33 @@ var disabledItems as IIngredient[] = [
     <cells:part:5>,
     <plustic:centrifuge>,
     <plustic:centrifuge:1>,
-    <gct_additions:creepy_witherstorm_doll>
+    <gct_additions:creepy_witherstorm_doll>,
+    <mekanism:qio_drive_array>,
+    <mekanism:qio_dashboard>,
+    <mekanism:portable_qio_dashboard>,
+    <mekanism:qio_importer>,
+    <mekanism:qio_exporter>,
+    <mekanism:qio_redstone_adapter>,
+    <mekanism:qio_drive_base>,
+    <mekanism:qio_drive_hyper_dense>,
+    <mekanism:qio_drive_time_dilating>,
+    <mekanism:qio_drive_supermassive>,
+    <mekanism:qio_drive_base_item>,
+    <mekanism:qio_drive_hyper_dense_item>,
+    <mekanism:qio_drive_time_dilating_item>,
+    <mekanism:qio_drive_supermassive_item>,
+    <mekanism:qio_drive_base_fluid>,
+    <mekanism:qio_drive_hyper_dense_fluid>,
+    <mekanism:qio_drive_time_dilating_fluid>,
+    <mekanism:qio_drive_supermassive_fluid>,
+    <mekanism:qio_drive_base_gas>,
+    <mekanism:qio_drive_hyper_dense_gas>,
+    <mekanism:qio_drive_time_dilating_gas>,
+    <mekanism:qio_drive_supermassive_gas>,
+    <mekanism_extras:qio_drive_collapse>,
+    <mekanism_extras:qio_drive_singularity>,
+    <mekanism_extras:qio_drive_gamma>,
+    <mekanism_extras:qio_drive_black_hole>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
@@ -988,6 +1014,17 @@ for item in loadedMods["forestry"].items {
 for item in loadedMods["mekanism"].items {
     if (item.definition.id has "gastank") && (item.displayName has "创造") {
         JEI.hide(item);
+    }
+}
+
+if (loadedMods has "mekanismqioprocessing") {
+    for item in loadedMods["mekanismqioprocessing"].items {
+        ItemStages.removeItemStage(item);
+        ItemStages.addItemStage("disabled", item);
+        ItemStages.setUnfamiliarName(LangUtil.translate("greedycraft.stage.disabled_item.name"), item);
+        RecipeUtil.remove(item);
+        JEI.removeAndHide(item);
+        item.addTooltip(game.localize("greedycraft.stage.disabled_item.tooltip"));
     }
 }
 
