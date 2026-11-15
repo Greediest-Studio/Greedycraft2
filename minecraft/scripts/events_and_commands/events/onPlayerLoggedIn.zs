@@ -105,5 +105,4 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     var player as IPlayer = event.player;
     var world as IWorld = player.world;
 	Commands.call("solarflux reload", player, world, false, true);
-    server.commandManager.executeCommand(server, "/projecte reloadEMC");
 });
