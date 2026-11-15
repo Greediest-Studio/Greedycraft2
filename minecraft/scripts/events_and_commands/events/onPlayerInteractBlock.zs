@@ -48,6 +48,7 @@ import mods.zenutils.DataUpdateOperation.APPEND;
 import mods.zenutils.DataUpdateOperation.MERGE;
 import mods.zenutils.DataUpdateOperation.REMOVE;
 import mods.zenutils.DataUpdateOperation.BUMP;
+import mods.gctweaker.oreOutput;
 import native.java.math.BigInteger;
 
 import scripts.util.key as KeyHelper;
@@ -124,24 +125,42 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         if (!isNull(event.player.currentItem)) {
             var item as IItemStack = <additions:modular_dimensional_magnifier>;
             if (player.currentItem.definition.id == item.definition.id) {
-                if (!isNull(player.currentItem.tag.dim) && !isNull(controller.customData.dims)) {
-                    var dim as int = player.currentItem.tag.dim as int;
+                if (!isNull(player.currentItem.tag.dim) && !isNull(controller.customData.dims) && (isNull(player.currentItem.tag.mode) || player.currentItem.tag.mode == 0)) {
+                    var d = player.currentItem.tag.dim as int[];
                     var dimList as int[] = controller.customData.dims as int[];
-                    if (!(dimList has dim)) {
-                        controller.customData = {dims : dimList.add(dim) as int[]};
-                        player.sendChat("§a已将维度数据绑定到时空相位采掘机！");
-                    } else {
-                        var newDimList as int[] = [];
-                        for dimension in dimList {
-                            if (dimension != dim) {
-                                newDimList += dimension;
+                    for dim in d {
+                        if (!(dimList has dim)) {
+                            controller.customData = {dims : dimList.add(dim) as int[]};
+                            player.sendChat("§a已将维度数据绑定到时空相位采掘机！");
+                        } else {
+                            var newDimList as int[] = [];
+                            for dimension in dimList {
+                                if (dimension != dim) {
+                                    newDimList += dimension;
+                                }
                             }
+                            controller.customData = {dims : newDimList as int[]};
+                            player.sendChat("§a维度数据已解绑！");
                         }
-                        controller.customData = {dims : newDimList as int[]};
-                        player.sendChat("§a维度数据已解绑！");
                     }
-                    event.cancel();
                 }
+                if (!isNull(player.currentItem.tag.dim) && !isNull(controller.customData.dims) && !isNull(player.currentItem.tag.mode) && player.currentItem.tag.mode == 1) {
+                    var d = player.currentItem.tag.dim as int[];
+                    var dimList as int[] = controller.customData.dims as int[];
+                    if (d.length == 0) {
+                        var list  = "§9" as string;
+                        for dim in dimList {
+                            list += oreOutput.getdimName(dim);
+                            list += " ";
+                        }
+                        player.currentItem.mutable().updateTag({dim: dimList,display: {Lore: [list], Name: "§1维度放大镜(复制成功)"}});
+                        player.sendChat("§a复制成功！");
+                    } else {
+                        controller.customData = {dims : d};
+                        player.sendChat("§a粘贴成功！");
+                    }
+                }
+                event.cancel();
             }
         }
     }

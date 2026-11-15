@@ -34,6 +34,7 @@ import crafttweaker.world.IWorld;
 
 import mods.contenttweaker.World;
 import mods.ctutils.utils.Math;
+import mods.gctweaker.oreOutput;
 
 import mods.zenutils.ICatenationBuilder;
 
@@ -69,12 +70,28 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     //Store the dimension ID in the item tag
     if (isNull(event.item)) return;
     if (event.item.definition.id == "additions:modular_dimensional_magnifier" && event.hand == "MAIN_HAND") {
-        if (!player.isSneaking) {
-            event.item.mutable().updateTag({dim : event.world.dimension as int, display: {Lore: ["§a当前已绑定维度：§9" ~ event.world.getDimensionType() ~ "§a(ID:§9" ~ event.world.dimension ~ "§a)"], Name: "§1维度放大镜(已绑定至" ~ event.world.getDimensionType() ~ ")"}});
-            event.player.sendChat("§a已将当前维度ID存储在放大镜中！");
+        if (!event.player.isSneaking) {
+            if (isNull(event.item.tag) || isNull(event.item.tag.mode) || event.item.tag.mode == 0) {
+                if (isNull(event.item.tag.dim) || event.item.tag.dim != [event.world.dimension]) {
+                    event.item.mutable().updateTag({mode: 0,dim : [event.world.dimension], display: {Lore: ["§a已绑定维度：§9" ~ oreOutput.getdimName(event.world.dimension) ~ "§a(ID:§9" ~ event.world.dimension ~ "§a)"], Name: "§1维度放大镜(已绑定至" ~ oreOutput.getdimName(event.world.dimension) ~ ")"}});
+                    event.player.sendChat("§a已将当前维度ID存储在放大镜中！");
+                } else 
+                if (event.item.tag.dim != [] as int[] && event.item.tag.dim == [event.world.dimension]) {
+                    event.item.mutable().updateTag({mode: 0, dim: [], display: {Lore: [], Name: "§1维度放大镜(绑定模式)"}});
+                    event.player.sendChat("§a绑定数据已清除！");
+                }
+            } else if (event.item.tag.mode == 1) {
+                event.item.mutable().updateTag({mode: 1, dim: [], display: {Lore: [], Name: "§1维度放大镜(复制粘贴模式)"}});
+                event.player.sendChat("§a复制数据已清除！");
+            }
         } else {
-            event.item.mutable().updateTag({display: {Lore: [], Name: "§1维度放大镜(未绑定)"}});
-            event.player.sendChat("§a绑定数据已清除！");
+            if (isNull(event.item.tag) || isNull(event.item.tag.mode) || event.item.tag.mode == 1) {
+                event.item.mutable().updateTag({mode: 0, dim: [], display: {Name: "§1维度放大镜(绑定模式)"}});
+                player.sendChat("§c已切换至绑定模式，右键绑定/解绑维度");
+            } else {
+                event.item.mutable().updateTag({mode: 1, dim: [], display: {Name: "§1维度放大镜(复制粘贴模式)"}});
+                player.sendChat("§c已切换至复制粘贴模式，右键时空相位采掘机复制/粘贴配置");
+            }
         }
     }
 
