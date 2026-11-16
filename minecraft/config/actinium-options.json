@@ -9,12 +9,17 @@
     "use_quad_normals_for_shading_v2": true,
     "chunk_fade_in_duration": 0,
     "legacy_biome_blend_radius": 0,
+    "gui_block_supersampling": "OFF",
     "use_biome_color_noise": true,
     "biome_color_noise_grass_intensity": 0.08,
     "biome_color_noise_foliage_intensity": 0.08,
     "biome_color_noise_water_intensity": 0.08
   },
   "advanced": {
+    "render_backend_sdl_gpu": false,
+    "render_backend_driver": "",
+    "sdl_gpu_frames_in_flight": 2,
+    "sdl_gpu_presenter_thread": true,
     "enable_memory_tracing": false,
     "use_advanced_staging_buffers": true,
     "disable_incompatible_mod_warnings": false,
@@ -32,7 +37,7 @@
     "chunk_builder_threads": 0,
     "trim_chunk_build_scratch": true,
     "always_defer_chunk_updates_v2": true,
-    "animate_only_visible_textures": true,
+    "animate_only_visible_textures": false,
     "use_entity_culling": true,
     "use_fog_occlusion": true,
     "use_block_face_culling": true,
@@ -44,8 +49,10 @@
     "use_no_error_g_l_context": true,
     "loading_screen_framerate_limit": 60,
     "use_fast_block_renderer": true,
+    "deferred_block_ids": [],
     "async_occlusion_mode": "ONLY_SHADOW",
-    "use_raster_occlusion_culling": true
+    "use_raster_occlusion_culling": true,
+    "gpu_culling_mode": "CPU_ONLY"
   },
   "notifications": {
     "force_disable_donation_prompts": false,
@@ -63,9 +70,20 @@
     "enable_actinium_gpu_perf_debug": false,
     "enable_frame_gl_error_check": false,
     "enable_post_render_gl_error_check": false,
+    "disable_error_checks": false,
     "enable_redirector_debug": false,
     "enable_redirector_log_spam": false,
     "enable_redirector_class_dump": false
   },
-  "window": {}
+  "window": {},
+  "reducer": {
+    "enabled": false,
+    "unfocused_fps_limit": 10,
+    "idle_fps_limit": 30,
+    "idle_timeout_minutes": 5,
+    "limit_menu_frame_rate": true,
+    "unfocused_volume": 100,
+    "idle_volume": 100,
+    "minimized_volume": 100
+  }
 }
