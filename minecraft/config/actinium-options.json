@@ -1,0 +1,71 @@
+{
+  "enable_debug_tab": false,
+  "quality": {
+    "weather_quality": "DEFAULT",
+    "leaves_quality": "DEFAULT",
+    "enable_vignette": true,
+    "circular_fog": false,
+    "dynamic_fov": false,
+    "use_quad_normals_for_shading_v2": true,
+    "chunk_fade_in_duration": 0,
+    "legacy_biome_blend_radius": 0,
+    "use_biome_color_noise": true,
+    "biome_color_noise_grass_intensity": 0.08,
+    "biome_color_noise_foliage_intensity": 0.08,
+    "biome_color_noise_water_intensity": 0.08
+  },
+  "advanced": {
+    "enable_memory_tracing": false,
+    "use_advanced_staging_buffers": true,
+    "disable_incompatible_mod_warnings": false,
+    "allow_direct_memory_access": true,
+    "enable_deferred_batching": true,
+    "use_model_renderer_batching": true,
+    "use_model_renderer_display_lists": true,
+    "use_fast_lit_item_rendering": true,
+    "use_fast_lit_item_display_lists": true,
+    "cpu_render_ahead_limit": 0,
+    "multi_draw_mode": "DIRECT",
+    "streaming_upload_strategy": "MAP_BUFFER_RANGE"
+  },
+  "performance": {
+    "chunk_builder_threads": 0,
+    "trim_chunk_build_scratch": true,
+    "always_defer_chunk_updates_v2": true,
+    "animate_only_visible_textures": true,
+    "use_entity_culling": true,
+    "use_fog_occlusion": true,
+    "use_block_face_culling": true,
+    "use_compact_vertex_format": true,
+    "use_translucent_face_sorting_v2": true,
+    "use_render_pass_optimization": true,
+    "use_render_pass_consolidation": true,
+    "use_faster_clouds": true,
+    "use_no_error_g_l_context": true,
+    "loading_screen_framerate_limit": 60,
+    "use_fast_block_renderer": true,
+    "async_occlusion_mode": "ONLY_SHADOW",
+    "use_raster_occlusion_culling": true
+  },
+  "notifications": {
+    "force_disable_donation_prompts": false,
+    "has_cleared_donation_button": false,
+    "has_seen_donation_prompt": false
+  },
+  "debug": {
+    "enable_production_diagnostics": true,
+    "ignore_framebuffer_errors": false,
+    "enable_actinium_gl_debug": false,
+    "enable_lwjgl_debug": false,
+    "enable_pbr_debug": false,
+    "enable_cloud_control_debug": false,
+    "enable_actinium_perf_debug": false,
+    "enable_actinium_gpu_perf_debug": false,
+    "enable_frame_gl_error_check": false,
+    "enable_post_render_gl_error_check": false,
+    "enable_redirector_debug": false,
+    "enable_redirector_log_spam": false,
+    "enable_redirector_class_dump": false
+  },
+  "window": {}
+}

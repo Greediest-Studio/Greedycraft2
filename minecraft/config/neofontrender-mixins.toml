@@ -1,0 +1,37 @@
+# Boot-time Mixin switches; restart required.
+# true = allow, false = disable. Compatibility checks still apply.
+# Defaults are added for mixins checked by participating plugins.
+# Fully qualified class names take precedence over simple names.
+[mixins]
+	# neofontrender.mixin.MixinMinecraft
+	MixinMinecraft = true
+	# neofontrender.mixin.MixinGuiScreen
+	MixinGuiScreen = true
+	# neofontrender.mixin.MixinKeyBindingControllerInput
+	MixinKeyBindingControllerInput = true
+	# neofontrender.mixin.MixinFontRenderer
+	MixinFontRenderer = true
+	# neofontrender.mixin.MixinTextureManager
+	MixinTextureManager = true
+	# neofontrender.mixin.MixinGuiOverlayDebug
+	MixinGuiOverlayDebug = true
+	# neofontrender.mixin.MixinTileEntityRendererDispatcher
+	MixinTileEntityRendererDispatcher = true
+	# neofontrender.mixin.MixinTileEntitySignRenderer
+	MixinTileEntitySignRenderer = true
+	# neofontrender.mixin.MixinGuiTextField
+	MixinGuiTextField = true
+	# neofontrender.mixin.MixinGuiEditSign
+	MixinGuiEditSign = true
+	# neofontrender.mixin.MixinForgeGuiUtils
+	MixinForgeGuiUtils = true
+	# neofontrender.mixin.MixinModularTextRenderer
+	MixinModularTextRenderer = true
+	# neofontrender.mixin.MixinModularTextField
+	MixinModularTextField = true
+	# neofontrender.mixin.MixinModularRichTooltip
+	MixinModularRichTooltip = true
+	# neofontrender.mixin.MixinGuiEnchantment
+	MixinGuiEnchantment = true
+	# neofontrender.mixin.MixinGuiUtilRenderComponents
+	MixinGuiUtilRenderComponents = true

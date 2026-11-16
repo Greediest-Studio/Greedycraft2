@@ -1,0 +1,257 @@
+#启用/禁用整个字体替换管线。
+enabled = true
+fixImeInput = true
+
+[brilliant]
+	enabled = true
+
+#调试日志选项。
+[debug]
+	#将 IME 输入修复详情记录到游戏日志中（用于诊断表情符号输入问题）。
+	imeInput = false
+	#为 F3/命令收集高频字体渲染器命中/未命中/淘汰计数器、分段计数器和耗时光栅像素统计信息。正常游戏时请禁用。
+	renderStats = false
+
+#文字阴影渲染选项。
+[shadow]
+	#现代阴影的 ARGB 颜色，存储为有符号 32 位整数。
+	color = -16777216
+	#现代阴影模糊半径（像素）。
+	blurRadius = 0.4
+	colorOverrides = ""
+	#阴影偏移距离（像素）。
+	length = 1.0
+	#跳过阴影的 Unicode 码点/范围，用逗号分隔，例如 1F300-1FAFF,2600-27BF。
+	maskCodepoints = ""
+	colorMode = "colored"
+	#现代阴影水平偏移量（像素）。
+	offsetX = 0.3
+	#阴影模式：all（全部）、mask（跳过彩色字形）、emoji（跳过 Unicode 表情符号）或 none（无阴影）。
+	mode = "emoji"
+	coloredFunction = "srgb"
+	#现代阴影垂直偏移量（像素）。
+	offsetY = 0.3
+	#将彩色柔和阴影烘焙到现代后端纹理中，实现单次前景提交。
+	modern = true
+	#使用每个格式化文本段的前景 RGB 作为阴影颜色，而非使用配置的/加深的阴影颜色。
+	colored = false
+	#彩色阴影 RGB 重映射规则，例如 rgb:FFFFFF=000000;slot:e=6A5200。规则保留文本透明度，仅影响阴影。
+	coloredRemapRules = "rgb:FFFFFF=000000"
+	#阴影不透明度乘数（0.0-1.0）。
+	opacity = 1.0
+	coloredRatio = 0.25
+	#在 mask 模式下跳过阴影的字体族列表，用逗号分隔。
+	maskFonts = ""
+
+#OpenGL 纹理渲染选项。
+[rendering]
+	#当 advancedStringMode=false 时，将安全文本段拆分为可复用的渲染缓存令牌。复杂排版文本仍使用完整路径渲染。
+	segmentCache = true
+	#自适应光栅缩放桶步长。
+	adaptiveRasterStep = 0.5
+	#使用一个小型固定管线兼容着色器来补偿抗锯齿字形的细边缘。如果着色器编译失败则自动回退。
+	shaderTextPipeline = false
+	#使用专用文本绘制管线，强制直通 alpha 混合并在渲染后恢复之前的 GL 状态。彩色表情符号请保持关闭；它可能会改变表情符号颜色。
+	enhancedTextPipeline = false
+	#一个可复用分段中保留的最大码点数，超过此值将强制创建新的令牌边界。
+	segmentCacheMaxRunCodePoints = 24
+	#自适应光栅缩放桶最大值。
+	adaptiveRasterMax = 14.0
+	#当 Minecraft 禁用位图字体渲染的 GL_BLEND 时，强制为抗锯齿替换文本开启混合。
+	forceBlendForText = true
+	#文本渲染引擎：vanilla（原版）、sfr 或 cosmic。
+	engine = "cosmic"
+	sdfEdgeSoftness = 1.0
+	#excludeHighMagnification 使用的放大倍率阈值。
+	limitMagnification = 3.0
+	sdfDistanceRange = 4
+	#启用 adaptiveRasterScale 时，正交 GUI 文本的 Mipmap LOD 偏移量。
+	overlayMipmapLodBias = -0.5
+	#当有效字体分辨率低于或等于此值时，上传 2 倍最近邻纹理以减少模糊。
+	blurReduction = 10.0
+	vanillaFormattingCompatibility = true
+	#从示例字形光栅化中自动检测亮度补偿。设为 true 时，rendering.brightness 将被忽略。
+	brightnessAuto = true
+	#通过排版文本后端渲染完整格式化字符串，使连字、字距调整、表情符号 ZWJ 和双向文本可以跨越整个文本。禁用则使用逐格式段渲染。
+	advancedStringMode = true
+	#根据当前帧缓冲文本缩放使用 1.5x-14x 自适应光栅缩放，并对 1:1/整数像素输出使用最近邻过滤以避免过度降采样模糊。
+	adaptiveRasterScale = true
+	#一个格式化段产生的最大可复用分段数。
+	segmentCacheMaxSegments = 96
+	#启用 adaptiveRasterScale 时，当文本放大倍率远超字体纹理分辨率时使用最近邻过滤。
+	excludeHighMagnification = true
+	#使用 GL_LINEAR 纹理过滤代替 GL_NEAREST。
+	interpolation = true
+	#尝试可复用令牌分段前的最小格式化段长度。
+	segmentCacheMinRunLength = 8
+	#增强着色器管线使用的文本边缘补偿强度。0 禁用额外的 alpha 增强；3 接近 SmoothFont 风格的默认值。
+	brightness = 0.0
+	#为字体纹理启用 Mipmap（可能对小尺寸有帮助）。
+	mipmap = false
+	sdf = false
+	#四舍五入测量帧缓冲文本缩放时的百分比容差。
+	scaleRoundingTolerance = 0.5
+	#启用 adaptiveRasterScale 时，为透视/世界文本启用各向异性过滤。
+	anisotropicFiltering = true
+	#自适应光栅缩放桶最小值。
+	adaptiveRasterMin = 1.5
+	#启用 adaptiveRasterScale 时，当光栅/屏幕缩放比接近整数时使用最近邻过滤。
+	excludeIntegerScale = true
+	#启用 adaptiveRasterScale 时，透视/世界文本的 Mipmap LOD 偏移量。
+	mipmapLodBias = -0.3
+	#允许阴影文本使用平滑过滤的最小有效字体分辨率。
+	smoothShadowThreshold = 24.0
+
+#输入行为调整。
+[input]
+	#在文本框中删除整个 Unicode 码点，而不是仅删除表情符号代理对的一半。
+	fixUnicodeTextDeletion = true
+	#允许在原版告示牌编辑器中使用 Ctrl+V 粘贴。此项仅可通过配置文件设置。
+	allowSignPaste = true
+
+#性能调优选项。
+[performance]
+	monospaceCharacterCacheMaxEntries = 16384
+	#当缓存的多点射线全部被不透明完整方块阻挡时，跳过完整的告示牌 TESR 渲染。
+	signBlockOcclusionCulling = true
+	#距离小于此值（以方块为单位）的告示牌不会被遮挡剔除，以避免近摄像机时突然出现。
+	signOcclusionMinDistance = 8.0
+	#内存中保留的最大 Cosmic 文本测量缓存数量。
+	measureCacheMaxEntries = 4096
+	#未使用的 Cosmic 文本纹理在被淘汰前的存活时间（秒）。设为 0 禁用 TTL 清理。
+	textCacheTtlSeconds = 300.0
+	#在启用替换渲染之前，预烘焙常用的 Basic Latin 和 Latin-1 字形。
+	prewarmBasicLatin = true
+	#LRU 缓存中保留的最大已渲染 Cosmic 文本纹理数量。
+	textCacheMaxEntries = 2048
+	#当告示牌模型边界位于摄像机视锥体之外时，跳过完整的告示牌渲染器。
+	signTextFrustumCulling = true
+	#当摄像机保持在半个方块范围内时，告示牌遮挡结果的有效持续时间。
+	signOcclusionCacheMillis = 250
+	asyncFontRendering = false
+	monospaceCharacterCache = false
+	#TTL 清理运行时保留的最小已渲染 Cosmic 文本纹理数量。
+	textCacheMinEntries = 256
+	#每帧刷新方块遮挡的最大告示牌数量；其余告示牌使用安全的缓存结果或保持可见。
+	signOcclusionChecksPerFrame = 48
+	#使用当前绑定的告示牌纹理，将远处的告示牌板/杆替换为平面纹理几何体。
+	signModelLod = true
+	#低多边形告示牌模型开始生效的距离（以方块为单位）。
+	signModelLodDistance = 24.0
+	#在后台线程上初始化字体光栅化。
+	asyncInit = true
+	#对告示牌文本使用基于投影尺寸的 LOD 和屏幕剔除。告示牌模型仍会渲染。
+	signTextLodCulling = true
+	#当告示牌文本行的投影高度低于此物理帧缓冲像素数时，不提交渲染。
+	signTextMinPixelHeight = 4.0
+
+#兼容性与文本行为修复。
+[fix]
+	#允许 CJK 换行机会，同时强制执行基本的行首和行尾标点规则。
+	cjkLineBreak = true
+
+[ui]
+	showMainMenuBranding = true
+
+#实验性功能。
+[laboratory]
+	brilliantAnyPosition = false
+	#匹配 RGB Chat Vintage：当 #RGB 标记开始新的颜色段时，清除粗体/斜体等样式。
+	hexChatResetStyles = true
+	#在原版和 ModularUI 文本输入框中启用逐字段撤销/重做历史记录（Ctrl+Z、Ctrl+Y、Ctrl+Shift+Z）。
+	textUndoRedo = false
+	#实验性 #RRGGBB 聊天渲染，适用于 Cosmic 文本后端。
+	hexChat = false
+
+	[laboratory.textAnimator]
+		typewriterSpeed = 5
+		typewriterMode = "by_char"
+		effects = "all"
+		pulseMaximum = 1.0
+		enabled = true
+		anyPosition = true
+		pulseMinimum = 0.6
+
+#仅针对附魔台中三行魔法名称的范围渲染。
+[enchantment]
+	#仅用于非原版附魔台魔法名称的可编辑有序字体列表。
+	fonts = ["neofontrender:fonts/sric_minecraft_words.ttf"]
+	#附魔台魔法名称的渲染后端：vanilla（原版）、auto（自动）、awt 或 cosmic。
+	backend = "awt"
+
+#第三方模组兼容性选项。
+[compat]
+
+	[compat.custommainmenu]
+		novaBranding = true
+
+	[compat.tinkersantique]
+		#将 Tinkers' Construct / TinkersAntique 的自定义 PUA 颜色标记（\uE700-\uE7FF）视为不可见的颜色切换字符，而非渲染为字形。
+		enabled = true
+
+		[compat.thaumcraft.tooltip]
+			enabled = true
+
+	[compat.fancymenu]
+		novaBranding = true
+
+	[compat.modernsplash]
+		#允许加载界面字体覆盖在安装 ModernSplash 时对其进行修补。需要 splash.enabled 为 true 并重启游戏。
+		enabled = false
+
+	[compat.colorPalette]
+		#旧版文本调色板：auto（自动）、vanilla（原版）、runtime（运行时）、custom（自定义）或 API 注册的提供者 ID。Runtime 读取被其他模组修改后的最终 FontRenderer.colorCode。
+		provider = "auto"
+		#自定义调色板，为 16 或 32 个逗号分隔的 RRGGBB 值。16 个条目推导出 Minecraft 风格的阴影颜色；32 个条目显式设置它们。
+		custom = "000000,0000AA,00AA00,00AAAA,AA0000,AA00AA,FFAA00,AAAAAA,555555,5555FF,55FF55,55FFFF,FF5555,FF55FF,FFFF55,FFFFFF,000000,00002A,002A00,002A2A,2A0000,2A002A,3F2A00,2A2A2A,151515,15153F,153F15,153F3F,3F1515,3F153F,3F3F15,3F3F3F"
+
+#Forge 加载界面字体替换选项。
+[splash]
+	#使用配置的 TTF 字体替换 Forge 加载界面的位图字体。需要重启游戏。
+	enabled = false
+
+#字体选择与光栅化设置。
+[font]
+	#当字形缺失时，在 font.name 之后查询的备用字体名称或 TTF 文件路径。
+	fallbacks = ["Serif", "Monospaced"]
+	#AWT 文本抗锯齿模式：off（关闭）、on（开启）、gasp、lcd_hrgb、lcd_hbgr、lcd_vrgb、lcd_vbgr。
+	antialiasMode = "on"
+	#在手动偏移之前，将每种字体的 AWT 基线对齐到 Minecraft 参考基线。
+	autoBaseline = true
+	#启用分数字体度量以实现更精确的定位。
+	fractionalMetrics = true
+	#自动基线对齐后，在 Minecraft 像素中的额外字形垂直偏移。正值使字形下移。
+	baselineShift = 0.0
+	#常规文本的可变字体 wght 轴值。0=自动，否则为 1-1000。
+	variableWeight = 0
+	#可选的主字体 TTF/OTF/TTC 来源。游戏文件夹中的字体使用便携路径 neofontrender/fonts/...。
+	path = "fontfiles\\font.ttf"
+	#始终将内置字体（如 Noto Color Emoji）追加到备用字体族中。
+	builtinFallbacks = true
+	#autoBaseline 使用的 Minecraft 空间基线。原版 8px UI 文本的基线约为 7.0。
+	referenceBaseline = 7.0
+	#字体大小（像素）。默认值为 8.5。
+	size = 7.5
+	#在字形光栅化时启用 AWT 抗锯齿。
+	antialias = true
+	#主字体族/显示名称。此字段不存储文件路径。
+	name = "Noto Sans SC"
+	#光栅化过采样因子。光栅分辨率 = size × oversample；size 为 8.0 时 oversample 为 8.0 即为 64px 字形光栅。
+	oversample = 8.0
+	#字体样式：0=常规、1=粗体、2=斜体、3=粗斜体。
+	style = 0
+	#为兼容的 AWT 光栅化路径启用 LCD 子像素抗锯齿。在不支持的显示布局上可能会出现彩色边缘。
+	lcdSubpixel = false
+
+	#可选的 Cosmic 字体面覆盖。空值使用字体族和可变字重自动匹配。
+	[font.cosmic]
+		#Cosmic 粗体面覆盖：系统字体名称、本地字体路径或资源位置。
+		bold = ""
+		#对于非常规覆盖，选择配置的字体而不额外请求粗体或斜体样式。空覆盖仍使用自动字体族样式匹配。
+		variantOverridesOnlySwitchFont = false
+		#Cosmic 粗斜体面覆盖：系统字体名称、本地字体路径或资源位置。
+		boldItalic = ""
+		#Cosmic 斜体面覆盖：系统字体名称、本地字体路径或资源位置。
+		italic = ""
+		#Cosmic 常规面覆盖：系统字体名称、本地字体路径或资源位置。
+		regular = ""
