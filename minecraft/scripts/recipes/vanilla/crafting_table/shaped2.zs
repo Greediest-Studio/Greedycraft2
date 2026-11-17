@@ -183,19 +183,19 @@ RecipeUtil.addShaped("blockwillprovideroutput", <modularmachinery:blockwillprovi
     [<ore:ingotModularium>, <bloodmagic:item_demon_crystal:3>, <ore:ingotModularium>],
     [<ore:plateSentientMetal>, <ore:ingotModularium>, <ore:plateSentientMetal>]
 ]);
-RecipeUtil.addShaped("ecoc_16m_gas", <ecoaeextension:estorage_cell_gas_16m>.withTag({}), [
+RecipeUtil.addShaped("ecoc_16m_gas", <ecoaeextension:estorage_cell_gas_16m>, [
     [<additions:durasteel_ingot>,<thermalfoundation:material:1>,<additions:durasteel_ingot>],
     [<mekeng:gas_core_64k>,<crazyae:material:11>,<mekeng:gas_core_64k>],
     [<additions:durasteel_ingot>,<mekeng:gas_core_64k>,<additions:durasteel_ingot>]
 ]);
-RecipeUtil.addShaped("ecoc_64m_gas", <ecoaeextension:estorage_cell_gas_64m>.withTag({}), [
+RecipeUtil.addShaped("ecoc_64m_gas", <ecoaeextension:estorage_cell_gas_64m>, [
     [null,<additions:aeonsteel_ingot>,null],
-    [<additions:aeonsteel_ingot>,<ecoaeextension:estorage_cell_gas_16m>.withTag({}),<additions:aeonsteel_ingot>],
+    [<additions:aeonsteel_ingot>,<ecoaeextension:estorage_cell_gas_16m>,<additions:aeonsteel_ingot>],
     [null,<additions:aeonsteel_ingot>,null]
 ]);
-RecipeUtil.addShaped("ecoc_256m_gas", <ecoaeextension:estorage_cell_gas_256m>.withTag({}), [
+RecipeUtil.addShaped("ecoc_256m_gas", <ecoaeextension:estorage_cell_gas_256m>, [
     [null,<additions:chromasteel_ingot>,null],
-    [<additions:chromasteel_ingot>,<ecoaeextension:estorage_cell_gas_64m>.withTag({}),<additions:chromasteel_ingot>],
+    [<additions:chromasteel_ingot>,<ecoaeextension:estorage_cell_gas_64m>,<additions:chromasteel_ingot>],
     [null,<additions:chromasteel_ingot>,null]
 ]);
 RecipeUtil.addShaped("aspcet_gugu_output", <whimcraft:blockmeaspectoutputbus>, [
