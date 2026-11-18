@@ -96,7 +96,8 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <betterendforge:thallasium_block>,
     <betterendforge:thallasium_nugget>,
     <betterendforge:thallasium_ore>,
-    <ore:dustThallasium>
+    <ore:dustThallasium>,
+    <gctcore:diamond_dungeon_key>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -2662,7 +2663,11 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <additions:muspelheim_rune>,
     <additions:nidavellir_rune>,
     <additions:helheim_rune>,
-    <additions:ginnunga_rune>
+    <additions:ginnunga_rune>,
+    <ore:gemHighfield>,
+    <ore:blockHighfield>,
+    <ore:dustHighfield>,
+    <ore:nuggetHighfield>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([
