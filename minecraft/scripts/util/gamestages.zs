@@ -135,29 +135,6 @@ function ignoreFromModStage(ingredient as IIngredient) as void {
     }
 }
 
-function isExplicitlyStaged(ingredient as IIngredient) as bool {
-    if (isNull(ingredient)) {
-        return false;
-    }
-    if (ZenStager.isStaged("ingredient", ingredient)) {
-        return true;
-    }
-    for item in ingredient.items {
-        if (isNull(item)) {
-            continue;
-        }
-        if (ZenStager.isStaged("ingredient", item)) {
-            return true;
-        }
-        for ore in item.ores {
-            if (ZenStager.isStaged("ingredient", ore)) {
-                return true;
-            }
-        }
-    }
-    return false;
-}
-
 function restageItem(stage as string, item as IIngredient) as void {
     if (isNull(stage) || isNull(item)) {
         return;
@@ -213,22 +190,16 @@ function buildAllStages() as void {
     }
     ZenStager.buildAll();
     for item in pendingRemovals {
-        if (isExplicitlyStaged(item)) {
-            ItemStages.removeItemStage(item);
-        }
+        ItemStages.removeItemStage(item);
     }
     for stage, items in pendingRestages {
         for item in items {
-            if (isExplicitlyStaged(item)) {
-                ItemStages.removeItemStage(item);
-            }
+            ItemStages.removeItemStage(item);
             ItemStages.addItemStage(stage, item);
         }
     }
     for item in pendingDisabledItems {
-        if (isExplicitlyStaged(item)) {
-            ItemStages.removeItemStage(item);
-        }
+        ItemStages.removeItemStage(item);
         ItemStages.addItemStage("disabled", item);
         ItemStages.setUnfamiliarName(disabledUnfamiliarName, item);
     }
