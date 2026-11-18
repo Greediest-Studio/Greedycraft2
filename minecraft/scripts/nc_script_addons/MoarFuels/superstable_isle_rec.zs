@@ -116,19 +116,15 @@ var fluidProd= [[<fluid:curium_245>*32,<fluid:curium_246>*48,<fluid:californium_
 var moltenTimes = [8.333333333, 49.30555556, 40.27777778] as double[];
 
 //oreDic
-var oreDictList = ["ingotMIX258All","ingotMIX298All","ingotMIX294All","ingotDepletedMIX258All","ingotDepletedMIX298All","ingotDepletedMIX294All"] as string[];
-for entry in oreDictList {
-	oreDict.entry;
-}
 var realOreDictList = [<ore:ingotMIX258All>,<ore:ingotMIX298All>,<ore:ingotMIX294All>,<ore:ingotDepletedMIX258All>,<ore:ingotDepletedMIX298All>,<ore:ingotDepletedMIX294All>] as IOreDictEntry[];
 
 
 for i,array in allFuels{
+	realOreDictList[i].addItems(array);
 	for j,item in array{
 		//crafting
 		recipes.addShapeless(FuelNames[i][j],item * 9,[fis[i][j], fer[i][j], fer[i][j], fer[i][j], fer[i][j], fer[i][j], fer[i][j], fer[i][j], fer[i][j]]);
 		mods.nuclearcraft.Radiation.setRadiationLevel(item, decayRad[i]);
-		realOreDictList[i].add(item);
 	}
 	//non-crafting recipes
 	mods.nuclearcraft.AlloyFurnace.addRecipe(array[0], graphite, array[1]);
@@ -175,23 +171,16 @@ for i,array in dFuels{
 	mods.nuclearcraft.FuelReprocessor.addRecipe(array[2].amount(9), dIso[i][2][0], dIso[i][2][1], fisProd1, null, dIso[i][2][2], dIso[i][2][3], fisProd2, null);
 	//zirc
 	mods.nuclearcraft.FuelReprocessor.addRecipe(array[3].amount(9), dIso[i][3][0], dIso[i][3][1], fisProd1, <nuclearcraft:dust:10>, dIso[i][3][2], dIso[i][3][3], fisProd2, null);
+	realOreDictList[i+3].addItems(dFuels2[i]);
 	for j,item in array{
 		mods.nuclearcraft.Radiation.setRadiationLevel(item, ddecayRad[i]);
-		realOreDictList[i+3].add(dFuels2[i][j]);
 	}
 }
 
 /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- PBU & LUF Time -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
-oreDict.ingotPBU;
 <ore:ingotPBU>.add(<contenttweaker:pbu>);
-oreDict.ingotPBUAll;
-
-oreDict.ingotUranium232;
 <ore:ingotUranium232>.add(<contenttweaker:uranium_232>);
-
-oreDict.ingotLUF;
 <ore:ingotLUF>.add(<contenttweaker:luf>);
-oreDict.ingotLUFAll;
 
 
 //<ore:dustProtactinium231>.add(<contenttweaker:pa_pellet_slow>);
@@ -235,9 +224,9 @@ function theMediumCheeseWithFries(pellet as IItemStack[], triso as IItemStack, d
 	//solidProd is 4 actinides, 2 fission products as items
 	//reprocQ determines whether reprocessing is done
 
+	oreNames[0].addItems(pellet);
 	for i,item in pellet{
 		mods.nuclearcraft.Radiation.setRadiationLevel(item, fuelDoubles[1]);
-		oreNames[0].add(item);
 	}
 
 	//non-crafting recipes
@@ -272,9 +261,9 @@ function theMediumCheeseWithFries(pellet as IItemStack[], triso as IItemStack, d
 
 
 	//decayed fuel stuff
+	oreNames[1].addItems(dpellet2);
 	for i,item in dpellet{
 		mods.nuclearcraft.Radiation.setRadiationLevel(item, fuelDoubles[3]);
-		oreNames[1].add(dpellet2[i]);
 	}
 	if(reprocQ){
 		var num = 9-integs[0] as int;
@@ -375,23 +364,18 @@ val fisProdChance = [[30,20],[90,60],[25,25]] as int[][];
 mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPBU>, <ore:ingotTBU>*8, null, null, paFuels[0][0]*9);
 mods.nuclearcraft.Assembler.addRecipe(<ore:ingotPBU>*2, paFuels[0][0]*6, null, null, paFuels[1][0]*8);
 
-oreDict.ingotUBU;
 <ore:ingotUBU>.add(<contenttweaker:ubu_fuel>);
 mods.nuclearcraft.FissionIrradiator.removeRecipeWithInput(<ore:ingotUranium234>);
 mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:ingotUranium234>, <ore:ingotUBU>, 106667, 0.0, 0.0, 4.07E-06);
 mods.nuclearcraft.FissionIrradiator.addRecipe(<ore:ingotUBU>, <ore:ingotUranium235>, 1813333, 0.0, 0.0, 1.42E-09);
 
-oreDictList = ["ingotLAM231All","ingotEAM231All","ingotUBUAll","ingotDepletedLAM231All","ingotDepletedEAM231All","ingotDepletedUBUAll"] as string[];
-for entry in oreDictList {
-	oreDict.entry;
-}
 realOreDictList = [<ore:ingotLAM231All>,<ore:ingotEAM231All>,<ore:ingotUBUAll>,<ore:ingotDepletedLAM231All>,<ore:ingotDepletedEAM231All>,<ore:ingotDepletedUBUAll>] as IOreDictEntry[];
 
 //non-base recipes
 for i, array in paFuels{
+	realOreDictList[i].addItems(array);
 	for item in array{
 		mods.nuclearcraft.Radiation.setRadiationLevel(item, decayRad[i+3]);
-		realOreDictList[i].add(item);
 	}
 	mods.nuclearcraft.AlloyFurnace.addRecipe(array[0], graphite, array[1]);
 	mods.nuclearcraft.Infuser.addRecipe(array[0], <fluid:oxygen>*1000, array[2]);
@@ -459,9 +443,9 @@ mods.nuclearcraft.FuelReprocessor.addRecipe(dpaFuels[2][2] * 9, <nuclearcraft:ur
 mods.nuclearcraft.FuelReprocessor.addRecipe(dpaFuels[2][3] * 9, <nuclearcraft:uranium:9> * 2, <ore:ingotNeptunium236ZA>, fisProd1, <nuclearcraft:dust:10>, <nuclearcraft:neptunium:9> * 2, <nuclearcraft:uranium:14>*3, fisProd2, null);
 
 for i,array in dpaFuels{
+	realOreDictList[i+3].addItems(dpaFuels2[i]);
 	for j,item in array{
 		mods.nuclearcraft.Radiation.setRadiationLevel(item, ddecayRad[i+3]);
-		realOreDictList[i+3].add(dpaFuels2[i][j]);
 	}
 }
 
@@ -475,10 +459,6 @@ val qdecays = [<contenttweaker:einsteinium54>,<contenttweaker:einsteinium54carbi
 decayRad = [1.26E-04,7.09,1.0e-6,1.0e-9] as double[];
 
 
-oreDictList = ["ingotThorium229All","ingotMendelevium258All","ingotFlerovium298All","ingotDarmstadtium294All"] as string[];
-for entry in oreDictList {
-	oreDict.entry;
-}
 realOreDictList = [<ore:ingotThorium229All>,<ore:ingotMendelevium258All>,<ore:ingotFlerovium298All>,<ore:ingotDarmstadtium294All>] as IOreDictEntry[];
 
 
@@ -497,9 +477,9 @@ for i,array in qIsoNames{
 	mods.nuclearcraft.Separator.addRecipe(array[1], array[0], <nuclearcraft:dust:8>);
 	mods.nuclearcraft.Separator.addRecipe(array[4], array[0], <nuclearcraft:dust:10>);
 	//adding decays
+	realOreDictList[i].addItems(qIsoNames2[i]);
 	for j,item in array{
 		mods.nuclearcraft.Radiation.setRadiationLevel(item, decayRad[i]);
-		realOreDictList[i].add(qIsoNames2[i][j]);
 		if (i==1){
 			mods.nuclearcraft.DecayHastener.addRecipe(item, qdecays[j],1.0,1.0,decayRad[i]);
 		}

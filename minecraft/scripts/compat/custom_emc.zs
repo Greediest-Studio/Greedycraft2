@@ -240,4 +240,6 @@ for ingredient, value in emcMapping {
     EMCManager.setIngredientEMC(ingredient, value);
 }
 
-EMCManager.mapEMC();
+// ProjectE maps EMC automatically on server startup after all CraftTweaker recipes are registered.
+// Avoid forcing a redundant full-graph calculation here during client startup (#priority 25000).
+// EMCManager.mapEMC();

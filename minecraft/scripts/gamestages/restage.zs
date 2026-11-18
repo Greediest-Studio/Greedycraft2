@@ -158,7 +158,6 @@ GameStagesUtil.restageItems("fusion_matrix", [
     <draconicevolution:draconic_core>,
     <ore:ingotDraconium>,
     <ore:oreDraconium>,
-    <ore:dustDraconium>,
     <ore:blockDraconium>,
     <ore:ingotDraconiumAwakened>,
     <ore:blockDraconiumAwakened>,
@@ -195,7 +194,6 @@ GameStagesUtil.restageItems("hardmode", [
     <da:gem_end_stone_wall>,
     <da:gem_chisled_end_stone>
 ]);
-GameStagesUtil.restageItem("fusion_matrix", <cyclicmagic:ender_lightning>);
 GameStagesUtil.restageItems("graduated", [
     <cyclicmagic:battery_infinite>,
     <projecte:item.pe_harvest_god>,

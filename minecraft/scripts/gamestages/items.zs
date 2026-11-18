@@ -2733,25 +2733,28 @@ GameStagesUtil.stageLegendWizard.addIngredients([
     <ore:dustHafnium>
 ], false);
 
-GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);
-GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
-GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "aeble", "theaurorian", "lost_aether"]);
-GameStagesUtil.stageNoobWizard.addModId(["astralsorcery"]);
-GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus", "evilcraft", "thaumicrestoration"]);
-GameStagesUtil.stageSkilledWizard.addModId(["naturesaura", "auraddons"]);
-GameStagesUtil.stageMasterWizard.addModId(["thaumicenergistics"]);
-GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2", "ae2wut", "ae_chisel", "ae2exttable", "extendedae", "threng", "cellterminal", "cells", "ae2_utilix"]);
-GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
-GameStagesUtil.stageMasterEngineer.addModId(["mekanism_extras"]);
-GameStagesUtil.stageWyvern.addModId(["extendedcrafting"]);
-GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft", "industrialforegoing", "teslacorelib", "trinity"]);
-GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
-GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "eco_expand", "flux_applied", "botania_applie"]);
-GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
-GameStagesUtil.stageDeepDream.addModId(["erebus", "atum"]);
-GameStagesUtil.stageLegendWizard.addModId(["embers", "soot"]);
-GameStagesUtil.stageFinal.addModId(["da"]);
-GameStagesUtil.stageWakeUp.addModId(["gaiapro"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageSkilledEngineer, ["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageHardmode, ["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageNether, ["aether_legacy", "cyclicmagic", "aeble", "theaurorian", "lost_aether"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageNoobWizard, ["astralsorcery"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageNoviceWizard, ["bloodmagic", "bloodarsenal", "animus", "evilcraft", "thaumicrestoration"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageSkilledWizard, ["naturesaura", "auraddons"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageMasterWizard, ["thaumicenergistics"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageNoobEngineer, ["thermaldynamics", "thermalexpansion", "appliedenergistics2", "ae2wut", "ae_chisel", "ae2exttable", "extendedae", "threng", "cellterminal", "cells", "ae2_utilix"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageNoviceEngineer, ["enderio"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageMasterEngineer, ["mekanism_extras"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageWyvern, ["extendedcrafting"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageEpicEngineer, ["nuclearcraft", "industrialforegoing", "teslacorelib", "trinity"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageBetweenlandTraveller, ["thebetweenlands"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageWitherSlayer, ["crazyae", "nae2", "ecoaeextension", "eco_expand", "flux_applied", "botania_applie"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageEnderCharm, ["elementalend"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageDeepDream, ["erebus", "atum"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageLegendWizard, ["embers", "soot"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageFinal, ["da"]);
+GameStagesUtil.registerModIds(GameStagesUtil.stageWakeUp, ["gaiapro"]);
+
+GameStagesUtil.addModIgnore("appliedenergistics2", <appliedenergistics2:facade:*>);
+GameStagesUtil.addModIgnore("enderio", <enderio:item_broken_spawner:*>);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");
 
@@ -2791,7 +2794,7 @@ val nuclearItems as string[] = [
 for item in loadedMods["contenttweaker"].items {
     for keyWord in nuclearItems {
         if (item.definition.id has keyWord) {
-            GameStagesUtil.stageEpicEngineer.addIngredients([item], true);
+            GameStagesUtil.stageEpicEngineer.addIngredient(item, true);
             break;
         }
     }

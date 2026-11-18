@@ -16,6 +16,8 @@ import mods.jei.JEI;
 
 import scripts.util.recipes as RecipeUtil;
 import scripts.util.lang as LangUtil;
+import scripts.util.gamestages as GameStagesUtil;
+import crafttweaker.recipes.ICraftingRecipe;
 
 var disabledItems as IIngredient[] = [
     <actuallyadditions:item_drill:3>,
@@ -72,7 +74,7 @@ var disabledItems as IIngredient[] = [
     <cyclicmagic:sprinkler>,
     <cyclicmagic:bundled_pipe>,
     <enderio:block_powered_spawner>,
-    <enderio:item_broken_spawner>,
+    <enderio:item_broken_spawner:*>,
     <bloodmagic:bound_pickaxe>,
     <bloodmagic:bound_axe>,
     <bloodarsenal:bound_sickle>,
@@ -80,13 +82,8 @@ var disabledItems as IIngredient[] = [
     <bloodmagic:bound_sword>,
     <bloodmagic:living_armour_helmet>,
     <bloodmagic:living_armour_chest>,
-    <bloodmagic:living_armour_chest>,
     <bloodmagic:living_armour_leggings>,
     <bloodmagic:living_armour_boots>,
-    <bloodmagic:bound_sword>,
-    <bloodmagic:bound_pickaxe>,
-    <bloodmagic:bound_axe>,
-    <bloodmagic:bound_shovel>,
     <bloodarsenal:stasis_pickaxe>,
     <animus:kama_bound>,
     <cyclicmagic:tool_push>,
@@ -972,29 +969,65 @@ var disabledItems as IIngredient[] = [
     <mekanism_extras:qio_drive_black_hole>
 ] as IIngredient[];
 
-val disabledRecipeRegex as string[] = [
-    "^mysticalagriculture:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(sickle)|(fishing_rod)|(scythe))$",
-    "^twilightforest:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$",
-    "^tofucraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(leggins)|(chestplate)|(helmet))$",
-    "^defiledlands:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$",
-    "^abyssalcraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$",
-    "^netherex:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$",
-    "^candymod:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))_(.*)$",
-    "^aether_legacy:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$",
-    "^betternether:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$",
-    "^tcomplement:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$",
-    "^bloodarsenal:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$",
-    "^botania:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick)|(chest))$",
-    "^extrabotany:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick)|(chest))$",
-    "^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$",
-    "^thermalfoundation:tool.fishing_rod_(.*)$",
-    "^actuallyadditions:recipes24[3456789]$",
-    "^actuallyadditions:recipes2[56789].$",
-    "^actuallyadditions:recipes3[012].$",
-    "^actuallyadditions:recipes33[01234567]$",
-    "^redstonearsenal:((tool)|(armor))(.*)$",
-    "^redstonerepository:((tool)|(armor))(.*)$"
-];
+val disabledRecipeRegexByMod as string[][string] = {
+    "mysticalagriculture": [
+        "^mysticalagriculture:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(sickle)|(fishing_rod)|(scythe))$"
+    ],
+    "twilightforest": [
+        "^twilightforest:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$"
+    ],
+    "tofucraft": [
+        "^tofucraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(leggins)|(chestplate)|(helmet))$"
+    ],
+    "defiledlands": [
+        "^defiledlands:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$"
+    ],
+    "abyssalcraft": [
+        "^abyssalcraft:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$"
+    ],
+    "netherex": [
+        "^netherex:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(plate)|(legs)|(helm)|(pick))$"
+    ],
+    "candymod": [
+        "^candymod:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))_(.*)$"
+    ],
+    "aether_legacy": [
+        "^aether_legacy:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$"
+    ],
+    "betternether": [
+        "^betternether:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$"
+    ],
+    "tcomplement": [
+        "^tcomplement:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$"
+    ],
+    "bloodarsenal": [
+        "^bloodarsenal:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick))$"
+    ],
+    "botania": [
+        "^botania:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick)|(chest))$"
+    ],
+    "extrabotany": [
+        "^extrabotany:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick)|(chest))$"
+    ],
+    "enderio": [
+        "^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$"
+    ],
+    "thermalfoundation": [
+        "^thermalfoundation:tool.fishing_rod_(.*)$"
+    ],
+    "actuallyadditions": [
+        "^actuallyadditions:recipes24[3456789]$",
+        "^actuallyadditions:recipes2[56789].$",
+        "^actuallyadditions:recipes3[012].$",
+        "^actuallyadditions:recipes33[01234567]$"
+    ],
+    "redstonearsenal": [
+        "^redstonearsenal:((tool)|(armor))(.*)$"
+    ],
+    "redstonerepository": [
+        "^redstonerepository:((tool)|(armor))(.*)$"
+    ]
+};
 
 val outputBlacklist as IItemStack[] = [
     <twilightforest:giant_pickaxe>,
@@ -1005,6 +1038,10 @@ val outputBlacklist as IItemStack[] = [
     <witherstormmod:withered_nether_star>
 ];
 
+val disabledItemName as string = LangUtil.translate("greedycraft.stage.disabled_item.name");
+val disabledItemTooltip as string = game.localize("greedycraft.stage.disabled_item.tooltip");
+val uncraftableItemTooltip as string = game.localize("greedycraft.stage.uncraftable_item.tooltip");
+
 for item in loadedMods["forestry"].items {
     if (item.definition.id has "crated") {
         disabledItems += item;
@@ -1012,63 +1049,62 @@ for item in loadedMods["forestry"].items {
 }
 
 for item in loadedMods["mekanism"].items {
-    if (item.definition.id has "gastank") && (item.displayName has "创造") {
+    if ((item.definition.id has "gastank") && (item.displayName has "创造")) {
         JEI.hide(item);
     }
 }
 
 if (loadedMods has "mekanismqioprocessing") {
     for item in loadedMods["mekanismqioprocessing"].items {
-        ItemStages.removeItemStage(item);
         ItemStages.addItemStage("disabled", item);
-        ItemStages.setUnfamiliarName(LangUtil.translate("greedycraft.stage.disabled_item.name"), item);
-        RecipeUtil.remove(item);
+        ItemStages.setUnfamiliarName(disabledItemName, item);
         JEI.removeAndHide(item);
-        item.addTooltip(game.localize("greedycraft.stage.disabled_item.tooltip"));
+        item.addTooltip(disabledItemTooltip);
     }
 }
 
 for ingredient in disabledItems {
-    ItemStages.removeItemStage(ingredient);
-    ItemStages.addItemStage("disabled", ingredient);
-    ItemStages.setUnfamiliarName(LangUtil.translate("greedycraft.stage.disabled_item.name"), ingredient);
+    GameStagesUtil.disableItemStage(ingredient, disabledItemName);
     for item in ingredient.items {
-        RecipeUtil.remove(item);
         JEI.removeAndHide(item);
-        item.addTooltip(game.localize("greedycraft.stage.disabled_item.tooltip"));
+        item.addTooltip(disabledItemTooltip);
     }
 }
 
-val HideItem as IIngredient[] = [
+val hideItems as IIngredient[] = [
     <appliedenergistics2:facade>,
     <thebetweenlands:bl_bucket>.withTag({Fluid: {}})
 ];
 
-for i in HideItem {
-    JEI.removeAndHide(i);
+for item in hideItems {
+    JEI.removeAndHide(item);
 }
 
-
 for recipe in recipes.all {
-    for regex in disabledRecipeRegex {
-        if (recipe.fullResourceDomain.matches(regex)) {
-            var isBlacklisted as bool = false;
-            for item in outputBlacklist {
-                if (!isNull(item) && recipe.output.definition.id == item.definition.id && recipe.output.metadata == item.metadata) {
-                    isBlacklisted = true;
-                    break;
-                }
-            }
-            if (!isBlacklisted) {
-                RecipeUtil.remove(recipe.output);
-                JEI.removeAndHide(recipe.output);
-                recipe.output.addTooltip(game.localize("greedycraft.stage.uncraftable_item.tooltip"));
-                // Disabled this to fix the problem of zombies holding question marks
-                // ItemStages.removeItemStage(recipe.output);
-                // ItemStages.addItemStage("disabled", recipe.output);
-                // ItemStages.setUnfamiliarName(game.localize("greedycraft.stage.disabled_item.name"), ingredient);
+    if (isNull(recipe) || isNull(recipe.output)) {
+        continue;
+    }
+    val modRegexes as string[] = disabledRecipeRegexByMod[recipe.resourceDomain];
+    if (isNull(modRegexes)) {
+        continue;
+    }
+    for regex in modRegexes {
+        if (!recipe.fullResourceDomain.matches(regex)) {
+            continue;
+        }
+        var isBlacklisted as bool = false;
+        for blackItem in outputBlacklist {
+            if (!isNull(blackItem)
+                && recipe.output.definition.id == blackItem.definition.id
+                && recipe.output.metadata == blackItem.metadata) {
+                isBlacklisted = true;
                 break;
             }
+        }
+        if (!isBlacklisted) {
+            JEI.removeAndHide(recipe.output);
+            recipe.output.addTooltip(uncraftableItemTooltip);
+            break;
         }
     }
 }

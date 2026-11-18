@@ -74,21 +74,162 @@ static stageShieldBlueprint as Stage = ZenStager.initStage("shield_blueprint");
 static stageWarped as Stage = ZenStager.initStage("warped");
 
 static zenStageMap as Stage[string] = ZenStager.getStageMap();
+static modStageMap as Stage[string] = {};
+static modIgnoreMap as IIngredient[][string] = {};
+static pendingRemovals as IIngredient[] = [] as IIngredient[];
+static pendingRestages as IIngredient[][string] = {};
+static pendingDisabledItems as IIngredient[] = [] as IIngredient[];
+static disabledUnfamiliarName as string = "";
 
-function restageItem(stage as string, item as IIngredient) {
-    ItemStages.removeItemStage(item);
-    ItemStages.addItemStage(stage, item);
-}
-
-function restageItems(stage as string, items as IIngredient[]) {
-    for item in items {
-        ItemStages.removeItemStage(item);
-        ItemStages.addItemStage(stage, item);
+function registerModIds(stage as Stage, modIds as string[]) as void {
+    if (isNull(stage) || isNull(modIds)) {
+        return;
+    }
+    for modId in modIds {
+        modStageMap[modId] = stage;
     }
 }
 
-function removeItemStages(items as IIngredient[]) {
+function addModIgnore(modId as string, ingredient as IIngredient) as void {
+    if (isNull(modId) || isNull(ingredient) || isNull(modStageMap[modId])) {
+        return;
+    }
+    var ignores as IIngredient[] = modIgnoreMap[modId];
+    if (isNull(ignores)) {
+        modIgnoreMap[modId] = [ingredient] as IIngredient[];
+    } else {
+        ignores += ingredient;
+        modIgnoreMap[modId] = ignores;
+    }
+}
+
+function ignoreFromModStage(ingredient as IIngredient) as void {
+    if (isNull(ingredient)) {
+        return;
+    }
+    var firstOwner as string = null;
+    var multiOwner as bool = false;
+    for item in ingredient.items {
+        if (isNull(item)) {
+            continue;
+        }
+        val owner as string = item.definition.owner;
+        if (isNull(firstOwner)) {
+            firstOwner = owner;
+        } else if (firstOwner != owner) {
+            multiOwner = true;
+            break;
+        }
+    }
+    if (isNull(firstOwner)) {
+        return;
+    }
+    if (!multiOwner) {
+        addModIgnore(firstOwner, ingredient);
+        return;
+    }
+    for item in ingredient.items {
+        if (!isNull(item)) {
+            addModIgnore(item.definition.owner, item);
+        }
+    }
+}
+
+function isExplicitlyStaged(ingredient as IIngredient) as bool {
+    if (isNull(ingredient)) {
+        return false;
+    }
+    if (ZenStager.isStaged("ingredient", ingredient)) {
+        return true;
+    }
+    for item in ingredient.items {
+        if (isNull(item)) {
+            continue;
+        }
+        if (ZenStager.isStaged("ingredient", item)) {
+            return true;
+        }
+        for ore in item.ores {
+            if (ZenStager.isStaged("ingredient", ore)) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+function restageItem(stage as string, item as IIngredient) as void {
+    if (isNull(stage) || isNull(item)) {
+        return;
+    }
+    ignoreFromModStage(item);
+    var stageItems as IIngredient[] = pendingRestages[stage];
+    if (isNull(stageItems)) {
+        pendingRestages[stage] = [item] as IIngredient[];
+    } else {
+        stageItems += item;
+        pendingRestages[stage] = stageItems;
+    }
+}
+
+function restageItems(stage as string, items as IIngredient[]) as void {
+    if (isNull(stage) || isNull(items)) {
+        return;
+    }
     for item in items {
-        ItemStages.removeItemStage(item);
+        restageItem(stage, item);
+    }
+}
+
+function removeItemStages(items as IIngredient[]) as void {
+    if (isNull(items)) {
+        return;
+    }
+    for item in items {
+        if (!isNull(item)) {
+            ignoreFromModStage(item);
+            pendingRemovals += item;
+        }
+    }
+}
+
+function disableItemStage(item as IIngredient, unfamiliarName as string) as void {
+    if (isNull(item)) {
+        return;
+    }
+    disabledUnfamiliarName = unfamiliarName;
+    ignoreFromModStage(item);
+    pendingDisabledItems += item;
+}
+
+function buildAllStages() as void {
+    for modId, stage in modStageMap {
+        val ignores as IIngredient[] = modIgnoreMap[modId];
+        if (isNull(ignores) || ignores.length == 0) {
+            stage.addModId(modId, false, [] as IIngredient[]);
+        } else {
+            stage.addModId(modId, false, ignores);
+        }
+    }
+    ZenStager.buildAll();
+    for item in pendingRemovals {
+        if (isExplicitlyStaged(item)) {
+            ItemStages.removeItemStage(item);
+        }
+    }
+    for stage, items in pendingRestages {
+        for item in items {
+            if (isExplicitlyStaged(item)) {
+                ItemStages.removeItemStage(item);
+            }
+            ItemStages.addItemStage(stage, item);
+        }
+    }
+    for item in pendingDisabledItems {
+        if (isExplicitlyStaged(item)) {
+            ItemStages.removeItemStage(item);
+        }
+        ItemStages.addItemStage("disabled", item);
+        ItemStages.setUnfamiliarName(disabledUnfamiliarName, item);
     }
 }

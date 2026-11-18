@@ -67,37 +67,34 @@ function superMelt(item as IItemStack, array as ILiquidStack[], prod as ILiquidS
 
 
 
+static hasStrangeNaming as bool = oreDict has "QuantumTraverseHowCanYouPossiblyNotBeDoneYetWithTheStrangeNamingSystem";
+static hasSteamCrabs as bool = oreDict has "QuantumTraverseWhyCanISteamMyCrabs";
+
 //does the crafting recipes, sets radiation, & adds the oreDict (does not declare)
 function craftTime(fis as IIngredient[], fer as IIngredient[], pellet as IItemStack[], oreName as IOreDictEntry, enrich as int, radiation as double){
+	oreName.addItems(pellet);
 	for i,item in pellet{
 		mods.nuclearcraft.Radiation.setRadiationLevel(item, radiation);
-		oreName.add(item);
 		if(enrich == 2){
 			recipes.addShapeless(item * 9,[fis[i], fis[i], fer[i], fer[i], fer[i], fer[i], fer[i], fer[i], fer[i]]);
-		}
-		if(enrich == 4){
+		} else if(enrich == 4){
 			recipes.addShapeless(item * 9,[fis[i], fis[i], fis[i], fis[i], fer[i], fer[i], fer[i], fer[i], fer[i]]);
-		}
-		if(enrich == 5){
+		} else if(enrich == 5){
 			recipes.addShapeless(item * 9,[fis[i], fis[i], fis[i], fis[i], fis[i], fer[i], fer[i], fer[i], fer[i]]);
-		}
-		if(enrich == 6){
+		} else if(enrich == 6){
 			recipes.addShapeless(item * 9,[fis[i], fis[i], fis[i], fis[i], fis[i], fis[i], fer[i], fer[i], fer[i]]);
-		}
-		if(enrich == 7){
+		} else if(enrich == 7){
 			recipes.addShapeless(item * 9,[fis[i], fis[i], fis[i], fis[i], fis[i], fis[i], fis[i], fer[i], fer[i]]);
-		}
-		if(enrich == 8){
+		} else if(enrich == 8){
 			recipes.addShapeless(item * 9,[fis[i], fis[i], fis[i], fis[i], fis[i], fis[i], fis[i], fis[i], fer[i]]);
-		}
-		if(enrich == 9){
+		} else if(enrich == 9){
 			recipes.addShapeless(item * 9,[fis[i], fis[i], fis[i], fis[i], fis[i], fis[i], fis[i], fis[i], fis[i]]);
 		}
 	}
 }
 
 var secretStuff = [null] as ILiquidStack[];
-if(oreDict has "QuantumTraverseHowCanYouPossiblyNotBeDoneYetWithTheStrangeNamingSystem"){
+if(hasStrangeNaming){
 	secretStuff = [<fluid:nuf6>,<fluid:leuf6>,<fluid:meuf6>,<fluid:heuf6>,<fluid:vheuf6>,<fluid:xeuf6>,<fluid:seuf6>,<fluid:ueuf6>,<fluid:wguf6>,<fluid:ipuf6>] as ILiquidStack[];
 }
 
@@ -127,7 +124,7 @@ function theBigCheese(fis as IIngredient[], fert as IIngredient[], pellet as IIt
 	var num = 9-integs[0] as int;
 	var num2 = integs[0] as int;
 	if(integs[0]!=9){
-		if (!(oreDict has "QuantumTraverseHowCanYouPossiblyNotBeDoneYetWithTheStrangeNamingSystem") || fuelInts[0][0]!=4800) {
+		if (!hasStrangeNaming || fuelInts[0][0]!=4800) {
 			mods.nuclearcraft.Separator.addRecipe(pellet[0]*9, fert[0]*num, fis[0]*num2);
 		}
 	}else{
@@ -138,7 +135,7 @@ function theBigCheese(fis as IIngredient[], fert as IIngredient[], pellet as IIt
 	mods.nuclearcraft.Assembler.addRecipe(pellet[1]*9, <ore:dustGraphite>, <nuclearcraft:part:15>, <nuclearcraft:alloy:13>, triso*9);
 	mods.nuclearcraft.Radiation.setRadiationLevel(triso, fuelDoubles[1]);
 	oreNames[0].add(triso);
-	if (oreDict has "QuantumTraverseWhyCanISteamMyCrabs") {
+	if (hasSteamCrabs) {
 		mods.nuclearcraft.SolidFission.addRecipe(triso, dpellet[0], fuelInts[3][0], fuelInts[3][1], fuelDoubles[0], fuelInts[3][2], 0, fuelDoubles[5], selfPriming, fuelDoubles[2]);
 	}else{
 		mods.nuclearcraft.PebbleFission.addRecipe(triso, dpellet[0], fuelInts[3][0], fuelInts[3][1], fuelDoubles[0], fuelInts[3][2], 10, fuelDoubles[5], selfPriming, fuelDoubles[2]);
@@ -156,9 +153,9 @@ function theBigCheese(fis as IIngredient[], fert as IIngredient[], pellet as IIt
 
 
 	//decayed fuel stuff
+	oreNames[1].addItems(dpellet2);
 	for i,item in dpellet{
 		mods.nuclearcraft.Radiation.setRadiationLevel(item, fuelDoubles[3]);
-		oreNames[1].add(dpellet2[i]);
 	}
 	val fisProd1 = mods.nuclearcraft.ChanceItemIngredient.create(solidProd[0][4] * num2, integs[1]);
 	val fisProd2 = mods.nuclearcraft.ChanceItemIngredient.create(solidProd[0][5] * num2, integs[2]);
@@ -263,24 +260,10 @@ val baseEff = [1.075,0.975,1.075,1.175,1.225,1.325,1.425,1.475,1.525,1.625,1.725
 
 val array = [[[<fluid:meu_233>,<fluid:meu_233_fluoride>,<fluid:meu_233_fluoride_flibe>,<fluid:depleted_meu_233_fluoride_flibe>,<fluid:depleted_meu_233_fluoride>,<fluid:depleted_meu_233>],[<fluid:vheu_233>,<fluid:vheu_233_fluoride>,<fluid:vheu_233_fluoride_flibe>,<fluid:depleted_vheu_233_fluoride_flibe>,<fluid:depleted_vheu_233_fluoride>,<fluid:depleted_vheu_233>],[<fluid:xeu_233>,<fluid:xeu_233_fluoride>,<fluid:xeu_233_fluoride_flibe>,<fluid:depleted_xeu_233_fluoride_flibe>,<fluid:depleted_xeu_233_fluoride>,<fluid:depleted_xeu_233>],[<fluid:seu_233>,<fluid:seu_233_fluoride>,<fluid:seu_233_fluoride_flibe>,<fluid:depleted_seu_233_fluoride_flibe>,<fluid:depleted_seu_233_fluoride>,<fluid:depleted_seu_233>],[<fluid:ueu_233>,<fluid:ueu_233_fluoride>,<fluid:ueu_233_fluoride_flibe>,<fluid:depleted_ueu_233_fluoride_flibe>,<fluid:depleted_ueu_233_fluoride>,<fluid:depleted_ueu_233>],[<fluid:wgu_233>,<fluid:wgu_233_fluoride>,<fluid:wgu_233_fluoride_flibe>,<fluid:depleted_wgu_233_fluoride_flibe>,<fluid:depleted_wgu_233_fluoride>,<fluid:depleted_wgu_233>],[<fluid:ipu_233>,<fluid:ipu_233_fluoride>,<fluid:ipu_233_fluoride_flibe>,<fluid:depleted_ipu_233_fluoride_flibe>,<fluid:depleted_ipu_233_fluoride>,<fluid:depleted_ipu_233>]],[[<fluid:meu_235>,<fluid:meu_235_fluoride>,<fluid:meu_235_fluoride_flibe>,<fluid:depleted_meu_235_fluoride_flibe>,<fluid:depleted_meu_235_fluoride>,<fluid:depleted_meu_235>],[<fluid:vheu_235>,<fluid:vheu_235_fluoride>,<fluid:vheu_235_fluoride_flibe>,<fluid:depleted_vheu_235_fluoride_flibe>,<fluid:depleted_vheu_235_fluoride>,<fluid:depleted_vheu_235>],[<fluid:xeu_235>,<fluid:xeu_235_fluoride>,<fluid:xeu_235_fluoride_flibe>,<fluid:depleted_xeu_235_fluoride_flibe>,<fluid:depleted_xeu_235_fluoride>,<fluid:depleted_xeu_235>],[<fluid:seu_235>,<fluid:seu_235_fluoride>,<fluid:seu_235_fluoride_flibe>,<fluid:depleted_seu_235_fluoride_flibe>,<fluid:depleted_seu_235_fluoride>,<fluid:depleted_seu_235>],[<fluid:ueu_235>,<fluid:ueu_235_fluoride>,<fluid:ueu_235_fluoride_flibe>,<fluid:depleted_ueu_235_fluoride_flibe>,<fluid:depleted_ueu_235_fluoride>,<fluid:depleted_ueu_235>],[<fluid:wgu_235>,<fluid:wgu_235_fluoride>,<fluid:wgu_235_fluoride_flibe>,<fluid:depleted_wgu_235_fluoride_flibe>,<fluid:depleted_wgu_235_fluoride>,<fluid:depleted_wgu_235>],[<fluid:ipu_235>,<fluid:ipu_235_fluoride>,<fluid:ipu_235_fluoride_flibe>,<fluid:depleted_ipu_235_fluoride_flibe>,<fluid:depleted_ipu_235_fluoride>,<fluid:depleted_ipu_235>]],[[<fluid:men_236>,<fluid:men_236_fluoride>,<fluid:men_236_fluoride_flibe>,<fluid:depleted_men_236_fluoride_flibe>,<fluid:depleted_men_236_fluoride>,<fluid:depleted_men_236>],[<fluid:vhen_236>,<fluid:vhen_236_fluoride>,<fluid:vhen_236_fluoride_flibe>,<fluid:depleted_vhen_236_fluoride_flibe>,<fluid:depleted_vhen_236_fluoride>,<fluid:depleted_vhen_236>],[<fluid:xen_236>,<fluid:xen_236_fluoride>,<fluid:xen_236_fluoride_flibe>,<fluid:depleted_xen_236_fluoride_flibe>,<fluid:depleted_xen_236_fluoride>,<fluid:depleted_xen_236>],[<fluid:sen_236>,<fluid:sen_236_fluoride>,<fluid:sen_236_fluoride_flibe>,<fluid:depleted_sen_236_fluoride_flibe>,<fluid:depleted_sen_236_fluoride>,<fluid:depleted_sen_236>],[<fluid:uen_236>,<fluid:uen_236_fluoride>,<fluid:uen_236_fluoride_flibe>,<fluid:depleted_uen_236_fluoride_flibe>,<fluid:depleted_uen_236_fluoride>,<fluid:depleted_uen_236>],[<fluid:wgn_236>,<fluid:wgn_236_fluoride>,<fluid:wgn_236_fluoride_flibe>,<fluid:depleted_wgn_236_fluoride_flibe>,<fluid:depleted_wgn_236_fluoride>,<fluid:depleted_wgn_236>],[<fluid:ipn_236>,<fluid:ipn_236_fluoride>,<fluid:ipn_236_fluoride_flibe>,<fluid:depleted_ipn_236_fluoride_flibe>,<fluid:depleted_ipn_236_fluoride>,<fluid:depleted_ipn_236>]],[[<fluid:mep_239>,<fluid:mep_239_fluoride>,<fluid:mep_239_fluoride_flibe>,<fluid:depleted_mep_239_fluoride_flibe>,<fluid:depleted_mep_239_fluoride>,<fluid:depleted_mep_239>],[<fluid:vhep_239>,<fluid:vhep_239_fluoride>,<fluid:vhep_239_fluoride_flibe>,<fluid:depleted_vhep_239_fluoride_flibe>,<fluid:depleted_vhep_239_fluoride>,<fluid:depleted_vhep_239>],[<fluid:xep_239>,<fluid:xep_239_fluoride>,<fluid:xep_239_fluoride_flibe>,<fluid:depleted_xep_239_fluoride_flibe>,<fluid:depleted_xep_239_fluoride>,<fluid:depleted_xep_239>],[<fluid:sep_239>,<fluid:sep_239_fluoride>,<fluid:sep_239_fluoride_flibe>,<fluid:depleted_sep_239_fluoride_flibe>,<fluid:depleted_sep_239_fluoride>,<fluid:depleted_sep_239>],[<fluid:uep_239>,<fluid:uep_239_fluoride>,<fluid:uep_239_fluoride_flibe>,<fluid:depleted_uep_239_fluoride_flibe>,<fluid:depleted_uep_239_fluoride>,<fluid:depleted_uep_239>],[<fluid:wgp_239>,<fluid:wgp_239_fluoride>,<fluid:wgp_239_fluoride_flibe>,<fluid:depleted_wgp_239_fluoride_flibe>,<fluid:depleted_wgp_239_fluoride>,<fluid:depleted_wgp_239>],[<fluid:ipp_239>,<fluid:ipp_239_fluoride>,<fluid:ipp_239_fluoride_flibe>,<fluid:depleted_ipp_239_fluoride_flibe>,<fluid:depleted_ipp_239_fluoride>,<fluid:depleted_ipp_239>]],[[<fluid:mep_241>,<fluid:mep_241_fluoride>,<fluid:mep_241_fluoride_flibe>,<fluid:depleted_mep_241_fluoride_flibe>,<fluid:depleted_mep_241_fluoride>,<fluid:depleted_mep_241>],[<fluid:vhep_241>,<fluid:vhep_241_fluoride>,<fluid:vhep_241_fluoride_flibe>,<fluid:depleted_vhep_241_fluoride_flibe>,<fluid:depleted_vhep_241_fluoride>,<fluid:depleted_vhep_241>],[<fluid:xep_241>,<fluid:xep_241_fluoride>,<fluid:xep_241_fluoride_flibe>,<fluid:depleted_xep_241_fluoride_flibe>,<fluid:depleted_xep_241_fluoride>,<fluid:depleted_xep_241>],[<fluid:sep_241>,<fluid:sep_241_fluoride>,<fluid:sep_241_fluoride_flibe>,<fluid:depleted_sep_241_fluoride_flibe>,<fluid:depleted_sep_241_fluoride>,<fluid:depleted_sep_241>],[<fluid:uep_241>,<fluid:uep_241_fluoride>,<fluid:uep_241_fluoride_flibe>,<fluid:depleted_uep_241_fluoride_flibe>,<fluid:depleted_uep_241_fluoride>,<fluid:depleted_uep_241>],[<fluid:wgp_241>,<fluid:wgp_241_fluoride>,<fluid:wgp_241_fluoride_flibe>,<fluid:depleted_wgp_241_fluoride_flibe>,<fluid:depleted_wgp_241_fluoride>,<fluid:depleted_wgp_241>],[<fluid:ipp_241>,<fluid:ipp_241_fluoride>,<fluid:ipp_241_fluoride_flibe>,<fluid:depleted_ipp_241_fluoride_flibe>,<fluid:depleted_ipp_241_fluoride>,<fluid:depleted_ipp_241>]],[[<fluid:mea_242>,<fluid:mea_242_fluoride>,<fluid:mea_242_fluoride_flibe>,<fluid:depleted_mea_242_fluoride_flibe>,<fluid:depleted_mea_242_fluoride>,<fluid:depleted_mea_242>],[<fluid:vhea_242>,<fluid:vhea_242_fluoride>,<fluid:vhea_242_fluoride_flibe>,<fluid:depleted_vhea_242_fluoride_flibe>,<fluid:depleted_vhea_242_fluoride>,<fluid:depleted_vhea_242>],[<fluid:xea_242>,<fluid:xea_242_fluoride>,<fluid:xea_242_fluoride_flibe>,<fluid:depleted_xea_242_fluoride_flibe>,<fluid:depleted_xea_242_fluoride>,<fluid:depleted_xea_242>],[<fluid:sea_242>,<fluid:sea_242_fluoride>,<fluid:sea_242_fluoride_flibe>,<fluid:depleted_sea_242_fluoride_flibe>,<fluid:depleted_sea_242_fluoride>,<fluid:depleted_sea_242>],[<fluid:uea_242>,<fluid:uea_242_fluoride>,<fluid:uea_242_fluoride_flibe>,<fluid:depleted_uea_242_fluoride_flibe>,<fluid:depleted_uea_242_fluoride>,<fluid:depleted_uea_242>],[<fluid:wga_242>,<fluid:wga_242_fluoride>,<fluid:wga_242_fluoride_flibe>,<fluid:depleted_wga_242_fluoride_flibe>,<fluid:depleted_wga_242_fluoride>,<fluid:depleted_wga_242>],[<fluid:ipa_242>,<fluid:ipa_242_fluoride>,<fluid:ipa_242_fluoride_flibe>,<fluid:depleted_ipa_242_fluoride_flibe>,<fluid:depleted_ipa_242_fluoride>,<fluid:depleted_ipa_242>]],[[<fluid:mecm_243>,<fluid:mecm_243_fluoride>,<fluid:mecm_243_fluoride_flibe>,<fluid:depleted_mecm_243_fluoride_flibe>,<fluid:depleted_mecm_243_fluoride>,<fluid:depleted_mecm_243>],[<fluid:vhecm_243>,<fluid:vhecm_243_fluoride>,<fluid:vhecm_243_fluoride_flibe>,<fluid:depleted_vhecm_243_fluoride_flibe>,<fluid:depleted_vhecm_243_fluoride>,<fluid:depleted_vhecm_243>],[<fluid:xecm_243>,<fluid:xecm_243_fluoride>,<fluid:xecm_243_fluoride_flibe>,<fluid:depleted_xecm_243_fluoride_flibe>,<fluid:depleted_xecm_243_fluoride>,<fluid:depleted_xecm_243>],[<fluid:secm_243>,<fluid:secm_243_fluoride>,<fluid:secm_243_fluoride_flibe>,<fluid:depleted_secm_243_fluoride_flibe>,<fluid:depleted_secm_243_fluoride>,<fluid:depleted_secm_243>],[<fluid:uecm_243>,<fluid:uecm_243_fluoride>,<fluid:uecm_243_fluoride_flibe>,<fluid:depleted_uecm_243_fluoride_flibe>,<fluid:depleted_uecm_243_fluoride>,<fluid:depleted_uecm_243>],[<fluid:wgcm_243>,<fluid:wgcm_243_fluoride>,<fluid:wgcm_243_fluoride_flibe>,<fluid:depleted_wgcm_243_fluoride_flibe>,<fluid:depleted_wgcm_243_fluoride>,<fluid:depleted_wgcm_243>],[<fluid:ipcm_243>,<fluid:ipcm_243_fluoride>,<fluid:ipcm_243_fluoride_flibe>,<fluid:depleted_ipcm_243_fluoride_flibe>,<fluid:depleted_ipcm_243_fluoride>,<fluid:depleted_ipcm_243>]],[[<fluid:mecm_245>,<fluid:mecm_245_fluoride>,<fluid:mecm_245_fluoride_flibe>,<fluid:depleted_mecm_245_fluoride_flibe>,<fluid:depleted_mecm_245_fluoride>,<fluid:depleted_mecm_245>],[<fluid:vhecm_245>,<fluid:vhecm_245_fluoride>,<fluid:vhecm_245_fluoride_flibe>,<fluid:depleted_vhecm_245_fluoride_flibe>,<fluid:depleted_vhecm_245_fluoride>,<fluid:depleted_vhecm_245>],[<fluid:xecm_245>,<fluid:xecm_245_fluoride>,<fluid:xecm_245_fluoride_flibe>,<fluid:depleted_xecm_245_fluoride_flibe>,<fluid:depleted_xecm_245_fluoride>,<fluid:depleted_xecm_245>],[<fluid:secm_245>,<fluid:secm_245_fluoride>,<fluid:secm_245_fluoride_flibe>,<fluid:depleted_secm_245_fluoride_flibe>,<fluid:depleted_secm_245_fluoride>,<fluid:depleted_secm_245>],[<fluid:uecm_245>,<fluid:uecm_245_fluoride>,<fluid:uecm_245_fluoride_flibe>,<fluid:depleted_uecm_245_fluoride_flibe>,<fluid:depleted_uecm_245_fluoride>,<fluid:depleted_uecm_245>],[<fluid:wgcm_245>,<fluid:wgcm_245_fluoride>,<fluid:wgcm_245_fluoride_flibe>,<fluid:depleted_wgcm_245_fluoride_flibe>,<fluid:depleted_wgcm_245_fluoride>,<fluid:depleted_wgcm_245>],[<fluid:ipcm_245>,<fluid:ipcm_245_fluoride>,<fluid:ipcm_245_fluoride_flibe>,<fluid:depleted_ipcm_245_fluoride_flibe>,<fluid:depleted_ipcm_245_fluoride>,<fluid:depleted_ipcm_245>]],[[<fluid:mecm_247>,<fluid:mecm_247_fluoride>,<fluid:mecm_247_fluoride_flibe>,<fluid:depleted_mecm_247_fluoride_flibe>,<fluid:depleted_mecm_247_fluoride>,<fluid:depleted_mecm_247>],[<fluid:vhecm_247>,<fluid:vhecm_247_fluoride>,<fluid:vhecm_247_fluoride_flibe>,<fluid:depleted_vhecm_247_fluoride_flibe>,<fluid:depleted_vhecm_247_fluoride>,<fluid:depleted_vhecm_247>],[<fluid:xecm_247>,<fluid:xecm_247_fluoride>,<fluid:xecm_247_fluoride_flibe>,<fluid:depleted_xecm_247_fluoride_flibe>,<fluid:depleted_xecm_247_fluoride>,<fluid:depleted_xecm_247>],[<fluid:secm_247>,<fluid:secm_247_fluoride>,<fluid:secm_247_fluoride_flibe>,<fluid:depleted_secm_247_fluoride_flibe>,<fluid:depleted_secm_247_fluoride>,<fluid:depleted_secm_247>],[<fluid:uecm_247>,<fluid:uecm_247_fluoride>,<fluid:uecm_247_fluoride_flibe>,<fluid:depleted_uecm_247_fluoride_flibe>,<fluid:depleted_uecm_247_fluoride>,<fluid:depleted_uecm_247>],[<fluid:wgcm_247>,<fluid:wgcm_247_fluoride>,<fluid:wgcm_247_fluoride_flibe>,<fluid:depleted_wgcm_247_fluoride_flibe>,<fluid:depleted_wgcm_247_fluoride>,<fluid:depleted_wgcm_247>],[<fluid:ipcm_247>,<fluid:ipcm_247_fluoride>,<fluid:ipcm_247_fluoride_flibe>,<fluid:depleted_ipcm_247_fluoride_flibe>,<fluid:depleted_ipcm_247_fluoride>,<fluid:depleted_ipcm_247>]],[[<fluid:meb_248>,<fluid:meb_248_fluoride>,<fluid:meb_248_fluoride_flibe>,<fluid:depleted_meb_248_fluoride_flibe>,<fluid:depleted_meb_248_fluoride>,<fluid:depleted_meb_248>],[<fluid:vheb_248>,<fluid:vheb_248_fluoride>,<fluid:vheb_248_fluoride_flibe>,<fluid:depleted_vheb_248_fluoride_flibe>,<fluid:depleted_vheb_248_fluoride>,<fluid:depleted_vheb_248>],[<fluid:xeb_248>,<fluid:xeb_248_fluoride>,<fluid:xeb_248_fluoride_flibe>,<fluid:depleted_xeb_248_fluoride_flibe>,<fluid:depleted_xeb_248_fluoride>,<fluid:depleted_xeb_248>],[<fluid:seb_248>,<fluid:seb_248_fluoride>,<fluid:seb_248_fluoride_flibe>,<fluid:depleted_seb_248_fluoride_flibe>,<fluid:depleted_seb_248_fluoride>,<fluid:depleted_seb_248>],[<fluid:ueb_248>,<fluid:ueb_248_fluoride>,<fluid:ueb_248_fluoride_flibe>,<fluid:depleted_ueb_248_fluoride_flibe>,<fluid:depleted_ueb_248_fluoride>,<fluid:depleted_ueb_248>],[<fluid:wgb_248>,<fluid:wgb_248_fluoride>,<fluid:wgb_248_fluoride_flibe>,<fluid:depleted_wgb_248_fluoride_flibe>,<fluid:depleted_wgb_248_fluoride>,<fluid:depleted_wgb_248>],[<fluid:ipb_248>,<fluid:ipb_248_fluoride>,<fluid:ipb_248_fluoride_flibe>,<fluid:depleted_ipb_248_fluoride_flibe>,<fluid:depleted_ipb_248_fluoride>,<fluid:depleted_ipb_248>]],[[<fluid:mecf_249>,<fluid:mecf_249_fluoride>,<fluid:mecf_249_fluoride_flibe>,<fluid:depleted_mecf_249_fluoride_flibe>,<fluid:depleted_mecf_249_fluoride>,<fluid:depleted_mecf_249>],[<fluid:vhecf_249>,<fluid:vhecf_249_fluoride>,<fluid:vhecf_249_fluoride_flibe>,<fluid:depleted_vhecf_249_fluoride_flibe>,<fluid:depleted_vhecf_249_fluoride>,<fluid:depleted_vhecf_249>],[<fluid:xecf_249>,<fluid:xecf_249_fluoride>,<fluid:xecf_249_fluoride_flibe>,<fluid:depleted_xecf_249_fluoride_flibe>,<fluid:depleted_xecf_249_fluoride>,<fluid:depleted_xecf_249>],[<fluid:secf_249>,<fluid:secf_249_fluoride>,<fluid:secf_249_fluoride_flibe>,<fluid:depleted_secf_249_fluoride_flibe>,<fluid:depleted_secf_249_fluoride>,<fluid:depleted_secf_249>],[<fluid:uecf_249>,<fluid:uecf_249_fluoride>,<fluid:uecf_249_fluoride_flibe>,<fluid:depleted_uecf_249_fluoride_flibe>,<fluid:depleted_uecf_249_fluoride>,<fluid:depleted_uecf_249>],[<fluid:wgcf_249>,<fluid:wgcf_249_fluoride>,<fluid:wgcf_249_fluoride_flibe>,<fluid:depleted_wgcf_249_fluoride_flibe>,<fluid:depleted_wgcf_249_fluoride>,<fluid:depleted_wgcf_249>],[<fluid:ipcf_249>,<fluid:ipcf_249_fluoride>,<fluid:ipcf_249_fluoride_flibe>,<fluid:depleted_ipcf_249_fluoride_flibe>,<fluid:depleted_ipcf_249_fluoride>,<fluid:depleted_ipcf_249>]],[[<fluid:mecf_251>,<fluid:mecf_251_fluoride>,<fluid:mecf_251_fluoride_flibe>,<fluid:depleted_mecf_251_fluoride_flibe>,<fluid:depleted_mecf_251_fluoride>,<fluid:depleted_mecf_251>],[<fluid:vhecf_251>,<fluid:vhecf_251_fluoride>,<fluid:vhecf_251_fluoride_flibe>,<fluid:depleted_vhecf_251_fluoride_flibe>,<fluid:depleted_vhecf_251_fluoride>,<fluid:depleted_vhecf_251>],[<fluid:xecf_251>,<fluid:xecf_251_fluoride>,<fluid:xecf_251_fluoride_flibe>,<fluid:depleted_xecf_251_fluoride_flibe>,<fluid:depleted_xecf_251_fluoride>,<fluid:depleted_xecf_251>],[<fluid:secf_251>,<fluid:secf_251_fluoride>,<fluid:secf_251_fluoride_flibe>,<fluid:depleted_secf_251_fluoride_flibe>,<fluid:depleted_secf_251_fluoride>,<fluid:depleted_secf_251>],[<fluid:uecf_251>,<fluid:uecf_251_fluoride>,<fluid:uecf_251_fluoride_flibe>,<fluid:depleted_uecf_251_fluoride_flibe>,<fluid:depleted_uecf_251_fluoride>,<fluid:depleted_uecf_251>],[<fluid:wgcf_251>,<fluid:wgcf_251_fluoride>,<fluid:wgcf_251_fluoride_flibe>,<fluid:depleted_wgcf_251_fluoride_flibe>,<fluid:depleted_wgcf_251_fluoride>,<fluid:depleted_wgcf_251>],[<fluid:ipcf_251>,<fluid:ipcf_251_fluoride>,<fluid:ipcf_251_fluoride_flibe>,<fluid:depleted_ipcf_251_fluoride_flibe>,<fluid:depleted_ipcf_251_fluoride>,<fluid:depleted_ipcf_251>]],[[<fluid:mecf_253>,<fluid:mecf_253_fluoride>,<fluid:mecf_253_fluoride_flibe>,<fluid:depleted_mecf_253_fluoride_flibe>,<fluid:depleted_mecf_253_fluoride>,<fluid:depleted_mecf_253>],[<fluid:vhecf_253>,<fluid:vhecf_253_fluoride>,<fluid:vhecf_253_fluoride_flibe>,<fluid:depleted_vhecf_253_fluoride_flibe>,<fluid:depleted_vhecf_253_fluoride>,<fluid:depleted_vhecf_253>],[<fluid:xecf_253>,<fluid:xecf_253_fluoride>,<fluid:xecf_253_fluoride_flibe>,<fluid:depleted_xecf_253_fluoride_flibe>,<fluid:depleted_xecf_253_fluoride>,<fluid:depleted_xecf_253>],[<fluid:secf_253>,<fluid:secf_253_fluoride>,<fluid:secf_253_fluoride_flibe>,<fluid:depleted_secf_253_fluoride_flibe>,<fluid:depleted_secf_253_fluoride>,<fluid:depleted_secf_253>],[<fluid:uecf_253>,<fluid:uecf_253_fluoride>,<fluid:uecf_253_fluoride_flibe>,<fluid:depleted_uecf_253_fluoride_flibe>,<fluid:depleted_uecf_253_fluoride>,<fluid:depleted_uecf_253>],[<fluid:wgcf_253>,<fluid:wgcf_253_fluoride>,<fluid:wgcf_253_fluoride_flibe>,<fluid:depleted_wgcf_253_fluoride_flibe>,<fluid:depleted_wgcf_253_fluoride>,<fluid:depleted_wgcf_253>],[<fluid:ipcf_253>,<fluid:ipcf_253_fluoride>,<fluid:ipcf_253_fluoride_flibe>,<fluid:depleted_ipcf_253_fluoride_flibe>,<fluid:depleted_ipcf_253_fluoride>,<fluid:depleted_ipcf_253>]],[[<fluid:mee_254>,<fluid:mee_254_fluoride>,<fluid:mee_254_fluoride_flibe>,<fluid:depleted_mee_254_fluoride_flibe>,<fluid:depleted_mee_254_fluoride>,<fluid:depleted_mee_254>],[<fluid:vhee_254>,<fluid:vhee_254_fluoride>,<fluid:vhee_254_fluoride_flibe>,<fluid:depleted_vhee_254_fluoride_flibe>,<fluid:depleted_vhee_254_fluoride>,<fluid:depleted_vhee_254>],[<fluid:xee_254>,<fluid:xee_254_fluoride>,<fluid:xee_254_fluoride_flibe>,<fluid:depleted_xee_254_fluoride_flibe>,<fluid:depleted_xee_254_fluoride>,<fluid:depleted_xee_254>],[<fluid:see_254>,<fluid:see_254_fluoride>,<fluid:see_254_fluoride_flibe>,<fluid:depleted_see_254_fluoride_flibe>,<fluid:depleted_see_254_fluoride>,<fluid:depleted_see_254>],[<fluid:uee_254>,<fluid:uee_254_fluoride>,<fluid:uee_254_fluoride_flibe>,<fluid:depleted_uee_254_fluoride_flibe>,<fluid:depleted_uee_254_fluoride>,<fluid:depleted_uee_254>],[<fluid:wge_254>,<fluid:wge_254_fluoride>,<fluid:wge_254_fluoride_flibe>,<fluid:depleted_wge_254_fluoride_flibe>,<fluid:depleted_wge_254_fluoride>,<fluid:depleted_wge_254>],[<fluid:ipe_254>,<fluid:ipe_254_fluoride>,<fluid:ipe_254_fluoride_flibe>,<fluid:depleted_ipe_254_fluoride_flibe>,<fluid:depleted_ipe_254_fluoride>,<fluid:depleted_ipe_254>]]] as ILiquidStack[][][];
 
-var enrich= ["ME","VHE","XE","SE","UE","WG","IP"] as string[];
-var isos= ["U233","U235","N236","P239","P241","A242","Cm243","Cm245","Cm247","B248","Cf249","Cf251","Cf253","E254"] as string[];
-
-//val oreDictStuff = [[<ore:ingotMEU233All>,<ore:ingotDepletedMEU233All>],[<ore:ingotVHEU233All>,<ore:ingotDepletedVHEU233All>],[<ore:ingotXEU233All>,<ore:ingotDepletedXEU233All>],[<ore:ingotSEU233All>,<ore:ingotDepletedSEU233All>],[<ore:ingotUEU233All>,<ore:ingotDepletedUEU233All>],[<ore:ingotWGU233All>,<ore:ingotDepletedWGU233All>],[<ore:ingotIPU233All>,<ore:ingotDepletedIPU233All>]] as IOreDictEntry[][];
-
 val oreDictStuff = [[[<ore:ingotMEU233All>,<ore:ingotDepletedMEU233All>],[<ore:ingotVHEU233All>,<ore:ingotDepletedVHEU233All>],[<ore:ingotXEU233All>,<ore:ingotDepletedXEU233All>],[<ore:ingotSEU233All>,<ore:ingotDepletedSEU233All>],[<ore:ingotUEU233All>,<ore:ingotDepletedUEU233All>],[<ore:ingotWGU233All>,<ore:ingotDepletedWGU233All>],[<ore:ingotIPU233All>,<ore:ingotDepletedIPU233All>]],[[<ore:ingotMEU235All>,<ore:ingotDepletedMEU235All>],[<ore:ingotVHEU235All>,<ore:ingotDepletedVHEU235All>],[<ore:ingotXEU235All>,<ore:ingotDepletedXEU235All>],[<ore:ingotSEU235All>,<ore:ingotDepletedSEU235All>],[<ore:ingotUEU235All>,<ore:ingotDepletedUEU235All>],[<ore:ingotWGU235All>,<ore:ingotDepletedWGU235All>],[<ore:ingotIPU235All>,<ore:ingotDepletedIPU235All>]],[[<ore:ingotMEN236All>,<ore:ingotDepletedMEN236All>],[<ore:ingotVHEN236All>,<ore:ingotDepletedVHEN236All>],[<ore:ingotXEN236All>,<ore:ingotDepletedXEN236All>],[<ore:ingotSEN236All>,<ore:ingotDepletedSEN236All>],[<ore:ingotUEN236All>,<ore:ingotDepletedUEN236All>],[<ore:ingotWGN236All>,<ore:ingotDepletedWGN236All>],[<ore:ingotIPN236All>,<ore:ingotDepletedIPN236All>]],[[<ore:ingotMEP239All>,<ore:ingotDepletedMEP239All>],[<ore:ingotVHEP239All>,<ore:ingotDepletedVHEP239All>],[<ore:ingotXEP239All>,<ore:ingotDepletedXEP239All>],[<ore:ingotSEP239All>,<ore:ingotDepletedSEP239All>],[<ore:ingotUEP239All>,<ore:ingotDepletedUEP239All>],[<ore:ingotWGP239All>,<ore:ingotDepletedWGP239All>],[<ore:ingotIPP239All>,<ore:ingotDepletedIPP239All>]],[[<ore:ingotMEP241All>,<ore:ingotDepletedMEP241All>],[<ore:ingotVHEP241All>,<ore:ingotDepletedVHEP241All>],[<ore:ingotXEP241All>,<ore:ingotDepletedXEP241All>],[<ore:ingotSEP241All>,<ore:ingotDepletedSEP241All>],[<ore:ingotUEP241All>,<ore:ingotDepletedUEP241All>],[<ore:ingotWGP241All>,<ore:ingotDepletedWGP241All>],[<ore:ingotIPP241All>,<ore:ingotDepletedIPP241All>]],[[<ore:ingotMEA242All>,<ore:ingotDepletedMEA242All>],[<ore:ingotVHEA242All>,<ore:ingotDepletedVHEA242All>],[<ore:ingotXEA242All>,<ore:ingotDepletedXEA242All>],[<ore:ingotSEA242All>,<ore:ingotDepletedSEA242All>],[<ore:ingotUEA242All>,<ore:ingotDepletedUEA242All>],[<ore:ingotWGA242All>,<ore:ingotDepletedWGA242All>],[<ore:ingotIPA242All>,<ore:ingotDepletedIPA242All>]],[[<ore:ingotMECm243All>,<ore:ingotDepletedMECm243All>],[<ore:ingotVHECm243All>,<ore:ingotDepletedVHECm243All>],[<ore:ingotXECm243All>,<ore:ingotDepletedXECm243All>],[<ore:ingotSECm243All>,<ore:ingotDepletedSECm243All>],[<ore:ingotUECm243All>,<ore:ingotDepletedUECm243All>],[<ore:ingotWGCm243All>,<ore:ingotDepletedWGCm243All>],[<ore:ingotIPCm243All>,<ore:ingotDepletedIPCm243All>]],[[<ore:ingotMECm245All>,<ore:ingotDepletedMECm245All>],[<ore:ingotVHECm245All>,<ore:ingotDepletedVHECm245All>],[<ore:ingotXECm245All>,<ore:ingotDepletedXECm245All>],[<ore:ingotSECm245All>,<ore:ingotDepletedSECm245All>],[<ore:ingotUECm245All>,<ore:ingotDepletedUECm245All>],[<ore:ingotWGCm245All>,<ore:ingotDepletedWGCm245All>],[<ore:ingotIPCm245All>,<ore:ingotDepletedIPCm245All>]],[[<ore:ingotMECm247All>,<ore:ingotDepletedMECm247All>],[<ore:ingotVHECm247All>,<ore:ingotDepletedVHECm247All>],[<ore:ingotXECm247All>,<ore:ingotDepletedXECm247All>],[<ore:ingotSECm247All>,<ore:ingotDepletedSECm247All>],[<ore:ingotUECm247All>,<ore:ingotDepletedUECm247All>],[<ore:ingotWGCm247All>,<ore:ingotDepletedWGCm247All>],[<ore:ingotIPCm247All>,<ore:ingotDepletedIPCm247All>]],[[<ore:ingotMEB248All>,<ore:ingotDepletedMEB248All>],[<ore:ingotVHEB248All>,<ore:ingotDepletedVHEB248All>],[<ore:ingotXEB248All>,<ore:ingotDepletedXEB248All>],[<ore:ingotSEB248All>,<ore:ingotDepletedSEB248All>],[<ore:ingotUEB248All>,<ore:ingotDepletedUEB248All>],[<ore:ingotWGB248All>,<ore:ingotDepletedWGB248All>],[<ore:ingotIPB248All>,<ore:ingotDepletedIPB248All>]],[[<ore:ingotMECf249All>,<ore:ingotDepletedMECf249All>],[<ore:ingotVHECf249All>,<ore:ingotDepletedVHECf249All>],[<ore:ingotXECf249All>,<ore:ingotDepletedXECf249All>],[<ore:ingotSECf249All>,<ore:ingotDepletedSECf249All>],[<ore:ingotUECf249All>,<ore:ingotDepletedUECf249All>],[<ore:ingotWGCf249All>,<ore:ingotDepletedWGCf249All>],[<ore:ingotIPCf249All>,<ore:ingotDepletedIPCf249All>]],[[<ore:ingotMECf251All>,<ore:ingotDepletedMECf251All>],[<ore:ingotVHECf251All>,<ore:ingotDepletedVHECf251All>],[<ore:ingotXECf251All>,<ore:ingotDepletedXECf251All>],[<ore:ingotSECf251All>,<ore:ingotDepletedSECf251All>],[<ore:ingotUECf251All>,<ore:ingotDepletedUECf251All>],[<ore:ingotWGCf251All>,<ore:ingotDepletedWGCf251All>],[<ore:ingotIPCf251All>,<ore:ingotDepletedIPCf251All>]],[[<ore:ingotMECf253All>,<ore:ingotDepletedMECf253All>],[<ore:ingotVHECf253All>,<ore:ingotDepletedVHECf253All>],[<ore:ingotXECf253All>,<ore:ingotDepletedXECf253All>],[<ore:ingotSECf253All>,<ore:ingotDepletedSECf253All>],[<ore:ingotUECf253All>,<ore:ingotDepletedUECf253All>],[<ore:ingotWGCf253All>,<ore:ingotDepletedWGCf253All>],[<ore:ingotIPCf253All>,<ore:ingotDepletedIPCf253All>]],[[<ore:ingotMEE254All>,<ore:ingotDepletedMEE254All>],[<ore:ingotVHEE254All>,<ore:ingotDepletedVHEE254All>],[<ore:ingotXEE254All>,<ore:ingotDepletedXEE254All>],[<ore:ingotSEE254All>,<ore:ingotDepletedSEE254All>],[<ore:ingotUEE254All>,<ore:ingotDepletedUEE254All>],[<ore:ingotWGE254All>,<ore:ingotDepletedWGE254All>],[<ore:ingotIPE254All>,<ore:ingotDepletedIPE254All>]]] as IOreDictEntry[][][];
 
-for enr in enrich{
-	for iso in isos{
-		var entry = "ingot"~enr~iso~"All";
-		oreDict.entry;
-		entry = "ingotDepleted"~enr~iso~"All";
-		oreDict.entry;
-	}
-}
-
-enrich= ["me","vhe","xe","se","ue","wg","ip"] as string[];
-isos= ["u_233","u_235","n_236","p_239","p_241","a_242","cm_243","cm_245","cm_247","b_248","cf_249","cf_251","cf_253","e_254"] as string[];
+var enrich= ["me","vhe","xe","se","ue","wg","ip"] as string[];
+var isos= ["u_233","u_235","n_236","p_239","p_241","a_242","cm_243","cm_245","cm_247","b_248","cf_249","cf_251","cf_253","e_254"] as string[];
 
 val fisFertFinder = {
 	"u_233" : ["u233","u238"],
@@ -653,55 +636,134 @@ val repIsoCountFinder = {
 val posEnr = [2,4,5,6,7,8,9] as int[];
 val posEnr2 = [2.0,4.0,5.0,6.0,7.0,8.0,9.0] as double[];
 
-for j,isotopic in isos{
-	for i,enri in posEnr{
-		var fissProdChancer = [25,25] as int[];
-		var fissProdDouble = [0.25,0.25] as double[];
-		if(j>=7){
-			fissProdChancer = [30,20] as int[];
-			fissProdDouble = [0.30,0.20] as double[];
-		}
+for j, isotopic in isos {
+    val fisFertPair as string[] = fisFertFinder[isotopic];
+    val fisKey as string = fisFertPair[0];
+    val fertKey as string = fisFertPair[1];
+    val fis as IIngredient[] = isoFinder[fisKey];
+    val fert as IIngredient[] = isoFinder[fertKey];
+    val fisRad as double = radFinder[fisKey];
+    val fertRad as double = radFinder[fertKey];
+    val liqLife as double = (fuelLives[j][1] as double) / 144.0;
 
-		//fis/fert/pellet is [normal,carbide,oxide,nitride,za]
-		val fis = isoFinder[fisFertFinder[isos[j]][0]];
-		val fert = isoFinder[fisFertFinder[isos[j]][1]];
-		val rad = (posEnr2[i]*radFinder[fisFertFinder[isos[j]][0]]+(9.0-posEnr2[i])*radFinder[fisFertFinder[isos[j]][1]])/9.0;
+    var fissProdChancer as int[] = [25, 25];
+    var fissProdDouble as double[] = [0.25, 0.25];
+    if (j >= 7) {
+        fissProdChancer = [30, 20];
+        fissProdDouble = [0.30, 0.20];
+    }
 
-		// reprocessing time
-		val affectedReprocessing = repIsoCountFinder[enrich[i]~isos[j]][4] as int;
-		var multipliers = [repIsoCountFinder[enrich[i]~isos[j]][0],repIsoCountFinder[enrich[i]~isos[j]][1],repIsoCountFinder[enrich[i]~isos[j]][2],repIsoCountFinder[enrich[i]~isos[j]][3]] as double[];
-		if(affectedReprocessing!=4){
-			multipliers[affectedReprocessing] = multipliers[affectedReprocessing]/2.0;
-		}
-		val drad = (multipliers[0]*radFinder[repIsoFinder[enrich[i]~isos[j]][0]]+multipliers[1]*radFinder[repIsoFinder[enrich[i]~isos[j]][1]]+multipliers[2]*radFinder[repIsoFinder[enrich[i]~isos[j]][2]]+multipliers[3]*radFinder[repIsoFinder[enrich[i]~isos[j]][3]]+fissProdDouble[0]*posEnr2[i]*radFinder[repIsoFinder[enrich[i]~isos[j]][4]]+fissProdDouble[1]*posEnr2[i]*radFinder[repIsoFinder[enrich[i]~isos[j]][5]])/9.0;
-		val burnrad = (rad+drad)/64.0;
+    for i, enri in posEnr {
+        val key as string = enrich[i] ~ isotopic;
+        val repCounts as int[] = repIsoCountFinder[key];
+        val repIsos as string[] = repIsoFinder[key];
 
-		//prods is 4 actinides, 2 fission products as liquids
-		var intMultipliers = [16*repIsoCountFinder[enrich[i]~isos[j]][0],16*repIsoCountFinder[enrich[i]~isos[j]][1],16*repIsoCountFinder[enrich[i]~isos[j]][2],16*repIsoCountFinder[enrich[i]~isos[j]][3]] as int[];
-		if(affectedReprocessing!=4){
-			intMultipliers[affectedReprocessing] = intMultipliers[affectedReprocessing]/2;
-		}
-		val prods = [liquidFinder[repIsoFinder[enrich[i]~isos[j]][0]]*intMultipliers[0],liquidFinder[repIsoFinder[enrich[i]~isos[j]][1]]*intMultipliers[1],liquidFinder[repIsoFinder[enrich[i]~isos[j]][2]]*intMultipliers[2],liquidFinder[repIsoFinder[enrich[i]~isos[j]][3]]*intMultipliers[3],liquidFinder[repIsoFinder[enrich[i]~isos[j]][4]],liquidFinder[repIsoFinder[enrich[i]~isos[j]][5]]] as ILiquidStack[];
-		//solidProd is 4 actinides, 2 fission products as items
-		intMultipliers = [repIsoCountFinder[enrich[i]~isos[j]][0],repIsoCountFinder[enrich[i]~isos[j]][1],repIsoCountFinder[enrich[i]~isos[j]][2],repIsoCountFinder[enrich[i]~isos[j]][3]] as int[];
-		val sprod = [[isoFinder[repIsoFinder[enrich[i]~isos[j]][0]][1]*intMultipliers[0],isoFinder[repIsoFinder[enrich[i]~isos[j]][1]][1]*intMultipliers[1],isoFinder[repIsoFinder[enrich[i]~isos[j]][2]][1]*intMultipliers[2],isoFinder[repIsoFinder[enrich[i]~isos[j]][3]][1]*intMultipliers[3],isoFinder[repIsoFinder[enrich[i]~isos[j]][4]][1],isoFinder[repIsoFinder[enrich[i]~isos[j]][5]][1]], [isoFinder[repIsoFinder[enrich[i]~isos[j]][0]][2]*intMultipliers[0],isoFinder[repIsoFinder[enrich[i]~isos[j]][1]][2]*intMultipliers[1],isoFinder[repIsoFinder[enrich[i]~isos[j]][2]][2]*intMultipliers[2],isoFinder[repIsoFinder[enrich[i]~isos[j]][3]][2]*intMultipliers[3],isoFinder[repIsoFinder[enrich[i]~isos[j]][4]][2],isoFinder[repIsoFinder[enrich[i]~isos[j]][5]][2]], [isoFinder[repIsoFinder[enrich[i]~isos[j]][0]][3]*intMultipliers[0],isoFinder[repIsoFinder[enrich[i]~isos[j]][1]][3]*intMultipliers[1],isoFinder[repIsoFinder[enrich[i]~isos[j]][2]][3]*intMultipliers[2],isoFinder[repIsoFinder[enrich[i]~isos[j]][3]][3]*intMultipliers[3],isoFinder[repIsoFinder[enrich[i]~isos[j]][4]][3],isoFinder[repIsoFinder[enrich[i]~isos[j]][5]][3]], [isoFinder[repIsoFinder[enrich[i]~isos[j]][0]][4]*intMultipliers[0],isoFinder[repIsoFinder[enrich[i]~isos[j]][1]][4]*intMultipliers[1],isoFinder[repIsoFinder[enrich[i]~isos[j]][2]][4]*intMultipliers[2],isoFinder[repIsoFinder[enrich[i]~isos[j]][3]][4]*intMultipliers[3],isoFinder[repIsoFinder[enrich[i]~isos[j]][4]][4],isoFinder[repIsoFinder[enrich[i]~isos[j]][5]][4]]] as IIngredient[][];
+        val rad as double = (posEnr2[i] * fisRad + (9.0 - posEnr2[i]) * fertRad) / 9.0;
+        val affectedReprocessing as int = repCounts[4];
+        var multipliers as double[] = [
+            repCounts[0] as double,
+            repCounts[1] as double,
+            repCounts[2] as double,
+            repCounts[3] as double
+        ];
+        if (affectedReprocessing != 4) {
+            multipliers[affectedReprocessing] = multipliers[affectedReprocessing] / 2.0;
+        }
 
-		var liqLife = fuelLives[j][1] as double;
-		liqLife = liqLife/144.0;
-		var selfPrimed = false;
-		if(j>=10 && i!=6 && j<=11){
-			selfPrimed = true;
-		}
-		if(j==12){
-			selfPrimed = true;
-		}
-		if(j==13 && i<5){
-			selfPrimed = true;
-		}
-		//if(i==2||i==4||i==6){
-			theBigCheese(fis, fert, [itemUtils.getItem("contenttweaker:"~enrich[i]~isos[j]),itemUtils.getItem("contenttweaker:"~enrich[i]~isos[j]~'_c'),itemUtils.getItem("contenttweaker:"~enrich[i]~isos[j]~'_ox'),itemUtils.getItem("contenttweaker:"~enrich[i]~isos[j]~'_ni'),itemUtils.getItem("contenttweaker:"~enrich[i]~isos[j]~'_za')], itemUtils.getItem("contenttweaker:"~enrich[i]~isos[j]~'_tr'), [itemUtils.getItem("contenttweaker:d_"~enrich[i]~isos[j]~'_tr'),itemUtils.getItem("contenttweaker:d_"~enrich[i]~isos[j]~'_ox'),itemUtils.getItem("contenttweaker:d_"~enrich[i]~isos[j]~'_ni'),itemUtils.getItem("contenttweaker:d_"~enrich[i]~isos[j]~'_za')], [itemUtils.getItem("contenttweaker:d_"~enrich[i]~isos[j]~'_tr'),itemUtils.getItem("contenttweaker:d_"~enrich[i]~isos[j]~'_ox'),itemUtils.getItem("contenttweaker:d_"~enrich[i]~isos[j]~'_ni'),itemUtils.getItem("contenttweaker:d_"~enrich[i]~isos[j]~'_za')], [[fuelLives[j][0],fuelHeats[j][0]*posEnr[i],criticalities[j][i][0]], [fuelLives[j][1],fuelHeats[j][1]*posEnr[i],criticalities[j][i][1]], [fuelLives[j][2],fuelHeats[j][2]*posEnr[i],criticalities[j][i][2]], [fuelLives[j][3],fuelHeats[j][3]*posEnr[i],criticalities[j][i][3]]], [enri,fissProdChancer[0],fissProdChancer[1], affectedReprocessing], [baseEff[j]+0.025*posEnr2[i],rad,burnrad,drad,liqLife,fuelDecayFactor[j]], array[j][i], prods, sprod, selfPrimed, oreDictStuff[j][i], secretStuff);
-		//}
-	}
+        val iso0 as string = repIsos[0];
+        val iso1 as string = repIsos[1];
+        val iso2 as string = repIsos[2];
+        val iso3 as string = repIsos[3];
+        val iso4 as string = repIsos[4];
+        val iso5 as string = repIsos[5];
+
+        val drad as double = (
+            multipliers[0] * radFinder[iso0]
+            + multipliers[1] * radFinder[iso1]
+            + multipliers[2] * radFinder[iso2]
+            + multipliers[3] * radFinder[iso3]
+            + fissProdDouble[0] * posEnr2[i] * radFinder[iso4]
+            + fissProdDouble[1] * posEnr2[i] * radFinder[iso5]
+        ) / 9.0;
+        val burnrad as double = (rad + drad) / 64.0;
+
+        var intMultipliers as int[] = [
+            16 * repCounts[0],
+            16 * repCounts[1],
+            16 * repCounts[2],
+            16 * repCounts[3]
+        ];
+        if (affectedReprocessing != 4) {
+            intMultipliers[affectedReprocessing] = intMultipliers[affectedReprocessing] / 2;
+        }
+        val prods as ILiquidStack[] = [
+            liquidFinder[iso0] * intMultipliers[0],
+            liquidFinder[iso1] * intMultipliers[1],
+            liquidFinder[iso2] * intMultipliers[2],
+            liquidFinder[iso3] * intMultipliers[3],
+            liquidFinder[iso4],
+            liquidFinder[iso5]
+        ];
+
+        val itemMult0 as int = repCounts[0];
+        val itemMult1 as int = repCounts[1];
+        val itemMult2 as int = repCounts[2];
+        val itemMult3 as int = repCounts[3];
+        val isoItems0 as IIngredient[] = isoFinder[iso0];
+        val isoItems1 as IIngredient[] = isoFinder[iso1];
+        val isoItems2 as IIngredient[] = isoFinder[iso2];
+        val isoItems3 as IIngredient[] = isoFinder[iso3];
+        val isoItems4 as IIngredient[] = isoFinder[iso4];
+        val isoItems5 as IIngredient[] = isoFinder[iso5];
+
+        val sprod as IIngredient[][] = [
+            [isoItems0[1] * itemMult0, isoItems1[1] * itemMult1, isoItems2[1] * itemMult2, isoItems3[1] * itemMult3, isoItems4[1], isoItems5[1]],
+            [isoItems0[2] * itemMult0, isoItems1[2] * itemMult1, isoItems2[2] * itemMult2, isoItems3[2] * itemMult3, isoItems4[2], isoItems5[2]],
+            [isoItems0[3] * itemMult0, isoItems1[3] * itemMult1, isoItems2[3] * itemMult2, isoItems3[3] * itemMult3, isoItems4[3], isoItems5[3]],
+            [isoItems0[4] * itemMult0, isoItems1[4] * itemMult1, isoItems2[4] * itemMult2, isoItems3[4] * itemMult3, isoItems4[4], isoItems5[4]]
+        ];
+
+        val selfPrimed as bool = (j >= 10 && i != 6 && j <= 11) || (j == 12) || (j == 13 && i < 5);
+
+        val itemPrefix as string = "contenttweaker:" ~ key;
+        val depPrefix as string = "contenttweaker:d_" ~ key;
+        val pellets as IItemStack[] = [
+            itemUtils.getItem(itemPrefix),
+            itemUtils.getItem(itemPrefix ~ "_c"),
+            itemUtils.getItem(itemPrefix ~ "_ox"),
+            itemUtils.getItem(itemPrefix ~ "_ni"),
+            itemUtils.getItem(itemPrefix ~ "_za")
+        ];
+        val dPellets as IItemStack[] = [
+            itemUtils.getItem(depPrefix ~ "_tr"),
+            itemUtils.getItem(depPrefix ~ "_ox"),
+            itemUtils.getItem(depPrefix ~ "_ni"),
+            itemUtils.getItem(depPrefix ~ "_za")
+        ];
+
+        theBigCheese(
+            fis,
+            fert,
+            pellets,
+            itemUtils.getItem(itemPrefix ~ "_tr"),
+            [dPellets[0], dPellets[1], dPellets[2], dPellets[3]] as IIngredient[],
+            dPellets,
+            [
+                [fuelLives[j][0], fuelHeats[j][0] * enri, criticalities[j][i][0]],
+                [fuelLives[j][1], fuelHeats[j][1] * enri, criticalities[j][i][1]],
+                [fuelLives[j][2], fuelHeats[j][2] * enri, criticalities[j][i][2]],
+                [fuelLives[j][3], fuelHeats[j][3] * enri, criticalities[j][i][3]]
+            ],
+            [enri, fissProdChancer[0], fissProdChancer[1], affectedReprocessing],
+            [baseEff[j] + 0.025 * posEnr2[i], rad, burnrad, drad, liqLife, fuelDecayFactor[j]],
+            array[j][i],
+            prods,
+            sprod,
+            selfPrimed,
+            oreDictStuff[j][i],
+            secretStuff
+        );
+    }
 }
 
 //dpellet is [tr, ox, ni, za]

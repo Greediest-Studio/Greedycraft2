@@ -3,8 +3,8 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
-#priority 800
+#priority 45
 
-import mods.zenstages.ZenStager;
+import scripts.util.gamestages as GameStagesUtil;
 
-ZenStager.buildAll();
+GameStagesUtil.buildAllStages();
