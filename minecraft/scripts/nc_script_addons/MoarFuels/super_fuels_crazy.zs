@@ -642,8 +642,8 @@ for j, isotopic in isos {
     val fertKey as string = fisFertPair[1];
     val fis as IIngredient[] = isoFinder[fisKey];
     val fert as IIngredient[] = isoFinder[fertKey];
-    val fisRad as double = radFinder[fisKey];
-    val fertRad as double = radFinder[fertKey];
+    val fisRad = radFinder[fisKey];
+    val fertRad = radFinder[fertKey];
     val liqLife as double = (fuelLives[j][1] as double) / 144.0;
 
     var fissProdChancer as int[] = [25, 25];

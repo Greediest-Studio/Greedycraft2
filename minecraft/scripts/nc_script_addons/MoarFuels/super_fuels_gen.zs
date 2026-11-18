@@ -11,7 +11,6 @@ this code. Also, you may not sell this code.)
 
 #loader contenttweaker
 
-import crafttweaker.creativetabs.ICreativeTab;
 import mods.contenttweaker.CreativeTab;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
@@ -22,15 +21,13 @@ import mods.contenttweaker.Block;
 val zsTab as CreativeTab = VanillaFactory.createCreativeTab("moar_fuels", <item:nuclearcraft:fuel_californium:3>);
 zsTab.register();
 
-val moarTab as ICreativeTab = <creativetab:moar_fuels>;
-
-function registerMoarItem(name as string, tab as ICreativeTab) as void {
+function registerMoarItem(name as string, tab as CreativeTab) as void {
     var temp as Item = VanillaFactory.createItem(name);
     temp.creativeTab = tab;
     temp.register();
 }
 
-function registerMoarBlock(name as string, tab as ICreativeTab) as void {
+function registerMoarBlock(name as string, tab as CreativeTab) as void {
     var zsBlock as Block = VanillaFactory.createBlock(name, <blockmaterial:rock>);
     zsBlock.setBlockHardness(2.0);
     zsBlock.setBlockResistance(5.0);
@@ -70,11 +67,11 @@ val isoNames as string[][] = [
 ];
 for array in isoNames {
     for item in array {
-        registerMoarItem(item, moarTab);
+        registerMoarItem(item, zsTab);
     }
 }
 
-registerMoarItem("einsteinium52", moarTab);
+registerMoarItem("einsteinium52", zsTab);
 
 // fuels generation
 var fuelNames as string[] = [
@@ -88,7 +85,7 @@ var fuelNames as string[] = [
     "rcalifornium_fuel", "rcalifornium_fuel_carbide", "rcalifornium_fuel_triso", "rcalifornium_fuel_oxide", "rcalifornium_fuel_nitride", "rcalifornium_fuel_zirconium"
 ];
 for item in fuelNames {
-    registerMoarItem(item, moarTab);
+    registerMoarItem(item, zsTab);
 }
 
 fuelNames = [
@@ -103,18 +100,18 @@ fuelNames = [
     "curium_244", "curium_250"
 ];
 for item in fuelNames {
-    registerMoarItem(item, moarTab);
+    registerMoarItem(item, zsTab);
 }
 
 fuelNames = ["cbc", "cbcf"];
 val fuelEnds as string[] = ["_tr", "_ox", "_ni", "_za"];
 
 for iso in fuelNames {
-    registerMoarItem(iso, moarTab);
-    registerMoarItem(iso ~ "_c", moarTab);
+    registerMoarItem(iso, zsTab);
+    registerMoarItem(iso ~ "_c", zsTab);
     for ender in fuelEnds {
-        registerMoarItem(iso ~ ender, moarTab);
-        registerMoarItem("d_" ~ iso ~ ender, moarTab);
+        registerMoarItem(iso ~ ender, zsTab);
+        registerMoarItem("d_" ~ iso ~ ender, zsTab);
     }
 }
 
@@ -134,7 +131,7 @@ for i, name in liquidsNamed {
 // RTG & CANDU stuff
 val itemNames as string[] = ["gemgermanium", "si_ge", "uranium_oxide", "pre_candu", "candu", "thorium_oxide", "dcandu", "pre_aneel", "aneel", "daneel"];
 for item in itemNames {
-    registerMoarItem(item, moarTab);
+    registerMoarItem(item, zsTab);
 }
 
 var rtgNames as string[] = [
@@ -143,7 +140,7 @@ var rtgNames as string[] = [
     "rtg_am", "rtg_am_done", "rtg_cf", "rtg_cf_done"
 ];
 for item in rtgNames {
-    registerMoarBlock(item, moarTab);
+    registerMoarBlock(item, zsTab);
 }
 
 // Crazy High Enrichment Stuff
@@ -155,11 +152,11 @@ colorsNamed = ["008000", "008000", "009999", "AAAAAA", "AAAAAA", "382B0A", "8000
 for enr in enrich {
     for i, iso in isos {
         val baseId as string = enr ~ iso;
-        registerMoarItem(baseId, moarTab);
-        registerMoarItem(baseId ~ "_c", moarTab);
+        registerMoarItem(baseId, zsTab);
+        registerMoarItem(baseId ~ "_c", zsTab);
         for ender in fuelEnds {
-            registerMoarItem(baseId ~ ender, moarTab);
-            registerMoarItem("d_" ~ baseId ~ ender, moarTab);
+            registerMoarItem(baseId ~ ender, zsTab);
+            registerMoarItem("d_" ~ baseId ~ ender, zsTab);
         }
         registerMoltenFuelGroup(baseId, colorsNamed[i]);
     }
@@ -175,7 +172,7 @@ if (loadedMods has "qmd") {
     ];
     for array in isoNames2 {
         for item in array {
-            registerMoarItem(item, moarTab);
+            registerMoarItem(item, zsTab);
         }
     }
     fuelNames = [
@@ -187,7 +184,7 @@ if (loadedMods has "qmd") {
         "ubu_fuel", "ubu_fuel_carbide", "ubu_fuel_triso", "ubu_fuel_oxide", "ubu_fuel_nitride", "ubu_fuel_zirconium"
     ];
     for item in fuelNames {
-        registerMoarItem(item, moarTab);
+        registerMoarItem(item, zsTab);
     }
     fuelNames = [
         "dprotactinium_fuel_triso", "dprotactinium_fuel_oxide", "dprotactinium_fuel_nitride", "dprotactinium_fuel_zirconium",
@@ -199,22 +196,22 @@ if (loadedMods has "qmd") {
         "uranium_232"
     ];
     for item in fuelNames {
-        registerMoarItem(item, moarTab);
+        registerMoarItem(item, zsTab);
     }
 
     fuelNames = ["pbu", "luf"];
     for iso in fuelNames {
-        registerMoarItem(iso, moarTab);
-        registerMoarItem(iso ~ "_c", moarTab);
+        registerMoarItem(iso, zsTab);
+        registerMoarItem(iso ~ "_c", zsTab);
         for ender in fuelEnds {
-            registerMoarItem(iso ~ ender, moarTab);
-            registerMoarItem("d_" ~ iso ~ ender, moarTab);
+            registerMoarItem(iso ~ ender, zsTab);
+            registerMoarItem("d_" ~ iso ~ ender, zsTab);
         }
     }
 
-    registerMoarItem("mysterymix", moarTab);
-    registerMoarItem("actinium", moarTab);
-    registerMoarItem("purethorium229", moarTab);
+    registerMoarItem("mysterymix", zsTab);
+    registerMoarItem("actinium", zsTab);
+    registerMoarItem("purethorium229", zsTab);
 
     var qmdLiquidsNamed as string[] = ["uranium_234"];
     val qmdColorsNamed as string[] = ["008000", "ff8080", "00b33c", "8B4000", "BBA100", "E6E600", "353233", "423A3C"];
@@ -230,7 +227,7 @@ if (loadedMods has "qmd") {
 
     rtgNames = ["rtg_co", "rtg_co_done", "rtg_ac", "rtg_ac_done"];
     for item in rtgNames {
-        registerMoarBlock(item, moarTab);
+        registerMoarBlock(item, zsTab);
     }
 }
 
@@ -244,7 +241,7 @@ if (loadedMods has "trinity") {
         "dpbp_fuel_triso", "dpbp_fuel_oxide", "dpbp_fuel_nitride", "dpbp_fuel_zirconium"
     ];
     for item in triNames {
-        registerMoarItem(item, moarTab);
+        registerMoarItem(item, zsTab);
     }
     val triLiquidsNamed as string[] = ["pbp"];
     val triColorsNamed as string[] = ["cccccc"];
