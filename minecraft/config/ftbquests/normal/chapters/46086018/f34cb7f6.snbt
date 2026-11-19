@@ -1,12 +1,13 @@
 {
 	title: "§b黄金地牢",
-	x: 14.0d,
-	y: -12.0d,
+	x: 11.0d,
+	y: -9.5d,
 	description: "击杀烈阳巨灵，获得烈阳神晶",
 	text: [
 		""
 	],
 	dependencies: [
+		"879b4bb7",
 		"fe753cdf"
 	],
 	tasks: [{

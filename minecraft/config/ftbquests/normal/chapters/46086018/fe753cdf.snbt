@@ -1,13 +1,10 @@
 {
 	title: "§b话痨的烈焰巨灵",
-	x: 11.0d,
-	y: -11.0d,
+	x: 15.0d,
+	y: -8.0d,
 	description: "制作极寒圣物",
 	text: [
 		"使用极寒圣物右击，即可将烈阳巨灵的血量设置为10"
-	],
-	dependencies: [
-		"879b4bb7"
 	],
 	tasks: [{
 		uid: "ee432af4",

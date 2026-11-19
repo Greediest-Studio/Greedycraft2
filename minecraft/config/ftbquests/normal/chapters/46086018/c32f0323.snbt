@@ -1,0 +1,39 @@
+{
+	title: "§b钻石地牢",
+	x: 11.0d,
+	y: -12.5d,
+	description: "击杀云巨人祭司，获得高域晶石",
+	text: [
+		"§b云巨人祭司§r被封印在天境最神秘的浮岛结构——高云陵寝中",
+		"靠近中央的石棺即可自动召唤云巨人祭司",
+		"此BOSS每受击4次会尝试激活地牢中的一个云巨人水晶",
+		"在水晶未被击碎前，其免疫一切伤害并持续恢复生命",
+		"§c前期击杀云巨人祭司是不必要的，你可以等到后期再来挑战它"
+	],
+	dependencies: [
+		"879b4bb7"
+	],
+	tasks: [{
+		uid: "852bf5a9",
+		type: "item",
+		items: [{
+			item: "gctcore:highfield_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "0081b5cf",
+		type: "item",
+		item: "gctcore:highfield_gem",
+		count: 12
+	},
+	{
+		uid: "81a42358",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5d89e28f",
+		type: "xp",
+		xp: 8000
+	}]
+}

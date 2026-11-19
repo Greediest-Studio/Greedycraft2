@@ -1,0 +1,43 @@
+{
+	title: "§b铂金地牢",
+	x: 11.0d,
+	y: -11.0d,
+	description: "击杀帝王云鲸",
+	text: [
+		"右击飓风祭坛顶端的颂歌石即可开启BOSS战！",
+		"击杀其可以获得1枚§b天境之眼§r",
+		"在高难度（>6000）下击杀还可掉落额外奖励"
+	],
+	dependencies: [
+		"879b4bb7"
+	],
+	tasks: [{
+		uid: "30fef628",
+		type: "kill",
+		icon: "elementalend:aether_eye",
+		entity: "lost_aether:king_aerwhale",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "dbc31e82",
+		type: "item",
+		item: "additions:aeroite_ingot",
+		count: 16
+	},
+	{
+		uid: "1c4a122f",
+		type: "item",
+		item: "additions:asgardium_ingot",
+		count: 4
+	},
+	{
+		uid: "b98edd77",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e5151d30",
+		type: "xp",
+		xp: 1500
+	}]
+}

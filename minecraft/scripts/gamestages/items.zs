@@ -2667,7 +2667,8 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:gemHighfield>,
     <ore:blockHighfield>,
     <ore:dustHighfield>,
-    <ore:nuggetHighfield>
+    <ore:nuggetHighfield>,
+    <additions:king_whale_pearl>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([

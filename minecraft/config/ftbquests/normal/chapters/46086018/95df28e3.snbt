@@ -1,0 +1,35 @@
+{
+	title: "§b云鲸回响",
+	x: 15.0d,
+	y: -11.0d,
+	description: "在6000难度以上击杀帝王云鲸，获得帝王鲸珠",
+	text: [
+		"帝王鲸珠可以用来制作开启§c约顿海姆传送门§r的钥匙"
+	],
+	dependencies: [
+		"a0821e46"
+	],
+	tasks: [{
+		uid: "08a8a175",
+		type: "item",
+		items: [{
+			item: "additions:king_whale_pearl"
+		}]
+	}],
+	rewards: [{
+		uid: "17bfb9f3",
+		type: "item",
+		item: "gct_additions:gravity_debris",
+		count: 4
+	},
+	{
+		uid: "b3171a9a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "9669b5b8",
+		type: "xp",
+		xp: 7200
+	}]
+}
