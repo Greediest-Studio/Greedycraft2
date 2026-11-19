@@ -197,7 +197,7 @@ function addInscriberRecipe(output as IItemStack, input as IIngredient, level as
 }
 
 addInscriberRecipe(<appliedenergistics2:material:20>, <ore:itemSilicon>, 1);
-addInscriberRecipe(<appliedenergistics2:material:16>, <ore:crystalPureFluix>, 1);
+addInscriberRecipe(<appliedenergistics2:material:16>, <ore:crystalPureCertusQuartz>, 1);
 addInscriberRecipe(<appliedenergistics2:material:17>, <ore:gemDiamond>, 1);
 addInscriberRecipe(<appliedenergistics2:material:18>, <ore:ingotGold>, 1);
 addInscriberRecipe(<additions:germanium_plate>, <ore:ingotGermanium>, 2);
