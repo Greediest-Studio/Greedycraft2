@@ -19,7 +19,9 @@
 		items: [{
 			id: "naturescompass:naturescompass",
 			tag: {}
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "8dd86a1b",
