@@ -85,5 +85,15 @@
 		items: [{
 			item: "harvestcraft:whitemushroomitem"
 		}]
+	}],
+	rewards: [{
+		uid: "470c3aea",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b150c439",
+		type: "xp",
+		xp: 1000
 	}]
 }

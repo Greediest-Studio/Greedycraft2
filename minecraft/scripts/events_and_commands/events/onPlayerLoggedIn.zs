@@ -96,6 +96,8 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
 
     server.commandManager.executeCommand(server, "/gamerule doDayLightCycle true");
 
+    server.commandManager.executeCommand(server, "/gamerule doMobSpawning true");
+
     if (player.hasGameStageSilent("descendant_of_the_sun") && !player.hasGameStageSilent("quardstate")) {
         player.addGameStage("quardstate");
     }
