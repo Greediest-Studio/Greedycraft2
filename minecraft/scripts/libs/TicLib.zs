@@ -48,6 +48,7 @@ static allticitem as IItemStack[] = [
     <tt2:nunchaku>,
     <tt2:doppelhander>,
     <tt2:maraca>,
+    <tt2:spear>,
     <tt2:scout_helmet>,
     <tt2:scout_chestplate>,
     <tt2:scout_leggings>,
@@ -92,7 +93,8 @@ $expand IItemStack$isTicTool() as bool {
     <tt2:heavy_shield>,
     <tt2:nunchaku>,
     <tt2:doppelhander>,
-    <tt2:maraca>
+    <tt2:maraca>,
+    <tt2:spear>
 ];
 
     for i in tictool{

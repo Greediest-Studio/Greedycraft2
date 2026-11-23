@@ -342,7 +342,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <tt2:heavy_shield>,
         <tt2:nunchaku>,
         <tt2:doppelhander>,
-        <tt2:maraca>
+        <tt2:maraca>,
+        <tt2:spear>
     ],
     <ore:armorTiC> : [
         <conarm:helmet>,

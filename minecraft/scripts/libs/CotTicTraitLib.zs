@@ -55,6 +55,7 @@ static allticitem as IItemStack[] = [
     <item:tt2:nunchaku>,
     <item:tt2:doppelhander>,
     <item:tt2:maraca>,
+    <item:tt2:spear>,
     <item:tt2:scout_helmet>,
     <item:tt2:scout_chestplate>,
     <item:tt2:scout_leggings>,
