@@ -217,12 +217,6 @@ alias = "mods/Atlas-Lib-1.12.2-1.1.11.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/atomicstrykers-battle-towers.pw.toml"
-hash = "ac3d32443e279d33984e9ba3826a0442adc1710342affd5363cc21ac8d00c55c"
-alias = "mods/BattleTowers-1.12.2.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/auraddons.pw.toml"
 hash = "7007a9fb8d916d04a56c2c46ba869eda2f183b03886d4464300dbe246fcf0a75"
 alias = "mods/Auraddons-1.7.2-NAr14.jar"
@@ -298,6 +292,12 @@ metafile = true
 file = "mods/.index/bed-bugs.pw.toml"
 hash = "b0e35d9de871ea97724be92251a7a5336089a5743a3639e2d25d2d08be84a00d"
 alias = "mods/BedBugs-1.12-1.0.1.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/better-battle-towers.pw.toml"
+hash = "822a2a5a1e0a3fa855cd4e71dd5847dde325282292113c164697d21534f817d0"
+alias = "mods/battletowersfix-1.0.4.jar"
 metafile = true
 
 [[files]]
@@ -463,12 +463,6 @@ alias = "mods/brokenwings-3.0.0.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/btfixes.pw.toml"
-hash = "f88f2006b615c220327ec9fbc2ee46578efb1c726a3a895c5313fc32f9c295e5"
-alias = "mods/BTFixes-1.12.2-1.2.2.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/candy-world.pw.toml"
 hash = "b1471441b2b4fbbc52cbf10362d3c0753bcaaa833b55e308ec6be84cf8d13840"
 alias = "mods/candyworld-1.1.5.jar"
@@ -478,6 +472,24 @@ metafile = true
 file = "mods/.index/capability-adapter.pw.toml"
 hash = "3419f05f0d368f6399f605838ddc7c999d66091b5803b5e1ed4c3be963edab10"
 alias = "mods/capabilityadapter-1.1.3.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/celeritas-dynamic-lights.pw.toml"
+hash = "587941b538769b0cbb20422a15a1b628d816fb596c3e1a3f40771515897f9297"
+alias = "mods/celeritasdynamiclights-1.2.11.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/celeritas-extra.pw.toml"
+hash = "e3c63fcbddc2013a57d7bd2e5753a4e3f239157d51d441675914ce71f8734da9"
+alias = "mods/celeritasextra-0.9.3.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/celeritasleafculling.pw.toml"
+hash = "2e58bda8a6861b4c9544634cdf22e72c5faf48ea09e8681bef761a4fead05fd3"
+alias = "mods/celeritasleafculling-1.0.1.jar"
 metafile = true
 
 [[files]]
@@ -628,12 +640,6 @@ metafile = true
 file = "mods/.index/crafttweaker.pw.toml"
 hash = "1ecbff321c2152556747c41192bf88d57ffd20302f2e1f3064bf73d24d8d1d62"
 alias = "mods/CraftTweaker2-1.12-4.1.20.715.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/crazyae-nyonification.pw.toml"
-hash = "de070e8367ae26a28fe3c0411eb2fd5ee91ba2420602d33aaf499e3c2578dabd"
-alias = "mods/crazyae_nyonification-1.0.2.jar"
 metafile = true
 
 [[files]]
@@ -829,12 +835,6 @@ alias = "mods/EnderTweaker-1.12.2-1.2.3.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/entity-culling.pw.toml"
-hash = "4e43d623ae734706a6226299d034c4d72929a286fed475af76513c82642e191a"
-alias = "mods/EntityCulling-1.12.2-6.5.0.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/environmental-creepers.pw.toml"
 hash = "49bdb6d1743d439f1a959173e65f206347f80ff3cd0f13c9012e388a4688aa4b"
 alias = "mods/environmentalcreepers-1.12.2-1.6.0.jar"
@@ -842,8 +842,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/eventtweaker.pw.toml"
-hash = "033d5770734224f7eabe36082789b11dde4add2d781bc70bdaac700bf86c5088"
-alias = "mods/eventtweaker-1.8.jar"
+hash = "2c77b5f287751ff2882576525d31934fd735de33d6eb523f63551152478c7008"
+alias = "mods/eventtweaker-1.9.jar"
 metafile = true
 
 [[files]]
@@ -907,12 +907,6 @@ alias = "mods/findme-1.12.2-1.1.0-8.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/fineopti.pw.toml"
-hash = "2b155304972aa89d534c3aa4331b77f979bad22203b5795726acf89c91a72986"
-alias = "mods/OptiFine_1.12.2_HD_U_G5 (1).jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/fluid-interaction-tweaker.pw.toml"
 hash = "4107750fb4369555a696a9770a04e8174ff01abe254b8954a6514886fb3b19ef"
 alias = "mods/fluidintetweaker-1.5.4.jar"
@@ -958,12 +952,6 @@ metafile = true
 file = "mods/.index/forgelin-continuous.pw.toml"
 hash = "1a0947387522650d501d537f3aac48b1e14d7ce48bd872de8824c2c66721f15c"
 alias = "mods/Forgelin-Continuous-2.4.10.0.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/fps-reducer.pw.toml"
-hash = "3f31f64800555b4bb759be3afae5ffe9911892abc5c831c33662201fd249d5ef"
-alias = "mods/FpsReducer-mc1.12.2-1.20.jar"
 metafile = true
 
 [[files]]
@@ -1088,8 +1076,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/had-enough-items.pw.toml"
-hash = "be7ed8bbf07cdfad6ea2c8a47fe4d77af95e2775e91c0bd456520f7bfd953a5a"
-alias = "mods/HadEnoughItems_1.12.2-4.34.3.jar"
+hash = "7bc7c5f63b85d9de98b95f40f817e514139a5aa8eb5f7c0205945745985015ea"
+alias = "mods/HadEnoughItems_1.12.2-4.38.1.jar"
 metafile = true
 
 [[files]]
@@ -1102,12 +1090,6 @@ metafile = true
 file = "mods/.index/headcrumbs.pw.toml"
 hash = "2dd09b7baa13215bb1a444f13c8d5abf2c88475aa798293fc33fc927eb6122d4"
 alias = "mods/Headcrumbs-1.12.2-2.0.5.17.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/hesperus.pw.toml"
-hash = "a9ae1e035b861a68605052c618ad98c6979662f008951d4327b4966d023a40b9"
-alias = "mods/phosphor-1.12.2-0.2.9.3-SNAPSHOT.jar"
 metafile = true
 
 [[files]]
@@ -1442,8 +1424,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/mmce-advancedbuildertool.pw.toml"
-hash = "c9a1c6168ca048587452577b60647c805844c27d2629298d13b3f19e292adab1"
-alias = "mods/mmce_advanced_builder_tool-1.0.2.jar"
+hash = "0fb3dcd8e685903484d638f05d74d39acb3402082cdefe6a5199fcbe76ad2800"
+alias = "mods/mmce_advanced_builder_tool-1.0.3.jar"
 metafile = true
 
 [[files]]
@@ -1498,12 +1480,6 @@ metafile = true
 file = "mods/.index/modularmachinery-terminal.pw.toml"
 hash = "771aef699e15905872939e938b735c19dc70deab3a85d5240a06debb11e89779"
 alias = "mods/modularmachinery_terminal-1.0.4.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/modularui.pw.toml"
-hash = "ce2be9918905fba331309fed6a2712229202a9d9b7e0c516391eab5e89ca8784"
-alias = "mods/modularui-3.1.6.jar"
 metafile = true
 
 [[files]]
@@ -1885,6 +1861,12 @@ alias = "mods/ProportionalDestructionParticles-1.12.2-1.2.4.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/pulsar-lighting-engine.pw.toml"
+hash = "f5f75eb8e940cdd25384d4c33cec283b7d11e0d2c43435960021f5c0654a2c47"
+alias = "mods/pulsar-0.6.2.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/pyramid-plunder.pw.toml"
 hash = "7d0f4b23693e23695103a54aeef701015194c8bffefe16ad99ef391a30fa028c"
 alias = "mods/PyramidPlunder-1.12.2-1.4.jar"
@@ -1993,12 +1975,6 @@ alias = "mods/RoughlyEnoughIDs-2.3.1.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/renderlib.pw.toml"
-hash = "b2da75163bd8673b728461c78c759e76e41293b267eb36780230e69bface44f8"
-alias = "mods/RenderLib-1.12.2-1.4.5.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/reskillable-fork.pw.toml"
 hash = "9c047bcec3beb1b12a172514c993be09a07bcc48b764d39027a4852868c61a38"
 alias = "mods/Reskillable-1.12.2-1.13.1.jar"
@@ -2014,6 +1990,12 @@ metafile = true
 file = "mods/.index/retro-sophisticated-backpacks.pw.toml"
 hash = "8524f930a95745556efbbf362e280550c3a0d39bcd994c216e05fed53e9e3960"
 alias = "mods/Retro-Sophisticated-Backpacks-1.1.4.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/revo-font.pw.toml"
+hash = "90a9c54f9c941af59b33bd9630d269916a8e94f9f948945a8d692a34864faecc"
+alias = "mods/neofontrender-0.7.4-core.jar"
 metafile = true
 
 [[files]]
@@ -2107,12 +2089,6 @@ alias = "mods/SimpleSmelteryAccelerator-1.0.1.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/smooth-font.pw.toml"
-hash = "6a8d949a749e2f9c6d02387b779a40123e19c0c0283f211acc4e2c77f7694d14"
-alias = "mods/SmoothFont-mc1.12.2-2.1.4.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/snad.pw.toml"
 hash = "2b9e0ed235d53263ae9f6cbcf4c9da007e99ec92e1b559bde4650b73127cd051"
 alias = "mods/Snad-1.12.1-1.7.09.16a.jar"
@@ -2180,8 +2156,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/terminal-interaction-integration.pw.toml"
-hash = "4af5ecc5ff8c26a0a72a77a8f1e5d2427d3578a4168a6263f5858cc4c9da2150"
-alias = "mods/terminal_interaction_integration-1.2.4.jar"
+hash = "c9d27e2eb6fa1bc7c529f527aaf5c93795f172aefa47dd9bc5da7c800008be95"
+alias = "mods/terminal_interaction_integration-1.2.5.jar"
 metafile = true
 
 [[files]]
@@ -2416,6 +2392,12 @@ metafile = true
 file = "mods/.index/together-forever-unofficial.pw.toml"
 hash = "a7fa507adfe3c34dcd49d748b1f29ffdf93569b363515b189d91d7969d132b3b"
 alias = "mods/TogetherForeverUnofficial-1.12.2-1.0.13.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/too-many-tinker.pw.toml"
+hash = "4d86a51f05b6a0e75e044dac90a46e39c4c227eeac9eae187d5a6ab0e477e822"
+alias = "mods/Too Many Tinkers-1.1.0-alpha.7.jar"
 metafile = true
 
 [[files]]
@@ -2656,5 +2638,5 @@ hash = "38c19720f2b7a3c3d8409e3cc8e20b820c4c4667c3462b344f710dd267a282c5"
 
 [[files]]
 file = "shaderpacks/ComplementaryShaders_v4.7.2.zip"
-hash = "0ad56af6f08afe233ffe352baf9df3f337fccc57c077867e3198078ef0902363"
+hash = "6c84c8894a16544ef40e1c3a6d586bccb0adb9cc59e425f1ed4f1c8137f732e4"
 
