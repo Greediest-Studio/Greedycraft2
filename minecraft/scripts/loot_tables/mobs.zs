@@ -96,6 +96,8 @@ LootTweaker.getTable("gct_additions:entities/bligtz").addPool("bligtz", 1, 1, 0,
 LootTweaker.getTable("gct_additions:entities/bninz").addPool("bninz", 1, 1, 0, 0).addItemEntry(<gct_additions:bninz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
 LootTweaker.getTable("gct_additions:entities/bthdz").addPool("bthdz", 1, 1, 0, 0).addItemEntry(<gct_additions:bthdz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
 LootTweaker.getTable("gct_additions:entities/bnatuz").addPool("bnatuz", 1, 1, 0, 0).addItemEntry(<gct_additions:bnatuz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
+LootTweaker.getTable("gct_additions:entities/weather_eyevil").addPool("weather_eyevil", 1, 1, 0, 0).addItemEntry(<additions:snowingium_ingot>, 1, 1, [Functions.setCount(6, 25)], []);
+LootTweaker.getTable("gct_additions:entities/zethur").addPool("zethur", 1, 1, 0, 0).addItemEntry(<additions:aetherium_ingot>, 1, 1, [Functions.setCount(6, 25)], []);
 
 LootTweaker.getTable("divinerpg:entities/vanilla/rainbour").removePool("divinerpg:rainbour");
 LootTweaker.getTable("divinerpg:entities/boss/eternal_archer").removePool("divinerpg:eternal_archer");
