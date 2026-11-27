@@ -6,6 +6,8 @@
 
 #priority 3000
 
+import crafttweaker.item.IWeightedIngredient;
+
 import mods.thermalexpansion.Transposer;
 import mods.thermalexpansion.Compactor;
 import mods.thermalexpansion.InductionSmelter;
@@ -71,6 +73,8 @@ Transposer.addFillRecipe(<additions:glowing_crystal>, <astralsorcery:itemcraftin
 Transposer.addFillRecipe(<elementalend:arid_eye>, <minecraft:ender_eye>, <liquid:sand> * 5000, 20000);
 Transposer.addFillRecipe(<industrialforegoing:pink_slime_ingot>, <additions:stainless_steel_ingot>, <liquid:if.pink_slime> * 2000, 4000);
 Transposer.addFillRecipe(<additions:between_essence>, <mysticalagriculture:fertilized_essence>, <liquid:betweensludge> * 500, 25600);
+
+Transposer.addExtractRecipe(<liquid:tarantula_poison> * 250, <additions:tarantula_poison_bottle>, 400, <minecraft:glass_bottle> as IWeightedIngredient);
 
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:1>, 200000);
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:2>, 400000);

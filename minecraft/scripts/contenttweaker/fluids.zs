@@ -2829,8 +2829,6 @@ molten_sponge.stillLocation = "base:fluids/molten";
 molten_sponge.flowingLocation = "base:fluids/molten_flowing";
 molten_sponge.register();
 
-
-
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
 liquid_air.material = <blockmaterial:water>;
@@ -4775,6 +4773,18 @@ concentrated_plant_essence_precursor.color = Color.fromHex("1b5e20").getIntColor
 concentrated_plant_essence_precursor.stillLocation = "base:fluids/liquid";
 concentrated_plant_essence_precursor.flowingLocation = "base:fluids/liquid_flow";
 concentrated_plant_essence_precursor.register();
+
+val tarantula_poison = mods.contenttweaker.VanillaFactory.createFluid("tarantula_poison", Color.fromHex("035003").getIntColor());
+tarantula_poison.material = <blockmaterial:water>;
+tarantula_poison.viscosity = 400;
+tarantula_poison.density = 1100;
+tarantula_poison.colorize = true;
+tarantula_poison.temperature = 300;
+tarantula_poison.luminosity = 0;
+tarantula_poison.color = Color.fromHex("035003").getIntColor();
+tarantula_poison.stillLocation = "base:fluids/liquid";
+tarantula_poison.flowingLocation = "base:fluids/liquid_flow";
+tarantula_poison.register();
 
 val nitrobenzene = mods.contenttweaker.VanillaFactory.createFluid("nitrobenzene", Color.fromHex("7b2cbf").getIntColor());
 nitrobenzene.material = <blockmaterial:water>;

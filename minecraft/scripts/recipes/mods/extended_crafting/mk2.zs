@@ -486,6 +486,14 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gctcore:nilfheim_portal_core>,
 	[<botaniverse:morewood>, <botaniverse:morewood:4>, <ore:ingotOriginalSteel>, <botaniverse:morewood:4>, <botaniverse:morewood>]
 ]);
 
+mods.extendedcrafting.TableCrafting.addShaped(0, <gctcore:jotunheim_portal_core>, [
+	[<gctcore:gct_mana_wood>, <gctcore:gct_mana_wood:3>, <ore:ingotOriginalSteel>, <gctcore:gct_mana_wood:3>, <gctcore:gct_mana_wood>], 
+	[<gctcore:gct_mana_wood>, <ore:ingotOriginalSteel>, <ore:blockTerraAlloy>, <ore:ingotOriginalSteel>, <gctcore:gct_mana_wood>], 
+	[<gctcore:gct_mana_wood>, <gctcore:gct_mana_wood:3>, <ore:ingotBotanicalAwakened>, <gctcore:gct_mana_wood:3>, <gctcore:gct_mana_wood>], 
+	[<gctcore:gct_mana_wood>, <ore:ingotOriginalSteel>, <ore:blockTerraAlloy>, <ore:ingotOriginalSteel>, <gctcore:gct_mana_wood>], 
+	[<gctcore:gct_mana_wood>, <gctcore:gct_mana_wood:3>, <ore:ingotOriginalSteel>, <gctcore:gct_mana_wood:3>, <gctcore:gct_mana_wood>]
+]);
+
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockmepatternprovider>, [
 	[<ore:ingotModularium>, <ore:ingotModularium>, <ore:blockModularium>, <ore:ingotModularium>, <ore:ingotModularium>], 
 	[<ore:ingotModularium>, <ore:plateBlueAlloy>, <appliedenergistics2:controller>, <ore:plateBlueAlloy>, <ore:ingotModularium>], 

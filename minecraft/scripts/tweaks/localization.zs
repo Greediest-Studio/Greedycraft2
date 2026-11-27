@@ -576,6 +576,7 @@ val localizationMap as string[string][string] = {
         "fluid.concentrated_plant_essence": "浓缩植物精华",
         "fluid.diluted_plant_essence": "稀释植物精华",
         "fluid.concentrated_plant_essence_precursor": "浓缩植物精华前体",
+        "fluid.tarantula_poison": "狼育母毒素",
         //
         "fluid.liquidlegend": "荣耀浆液",
         //

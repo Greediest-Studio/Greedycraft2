@@ -1697,6 +1697,11 @@ RecipeUtil.addShaped("me_connection_share_hatch", <mmce_complement:me_connection
     [<ore:gearEndestSteel>, <ymadditions:network_hub>, <ore:gearEndestSteel>],
     [<ore:blockModularium>, <ore:gearEndestSteel>, <ore:blockModularium>]
 ]);
+RecipeUtil.addShaped("jotunheim_glowing_wood", <gctcore:gct_mana_wood:3>, [
+    [<gctcore:gct_mana_wood>, <ore:dustHighfield>, null],
+    [null, null, null],
+    [null, null, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

@@ -2653,6 +2653,8 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:frameOriginalSteel>,
     <gctcore:nilfheim_portal_core>,
     <gctcore:imaginative_snowball>,
+    <gctcore:jotunheim_portal_core>,
+    <gctcore:cloud_sacrificial_eye>,
     <thaumictinkerer:sky_pearl>,
     <additions:asgard_rune>,
     <additions:vanaheim_rune>,

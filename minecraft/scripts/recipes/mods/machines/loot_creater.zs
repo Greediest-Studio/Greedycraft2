@@ -477,11 +477,18 @@ createLootRecipe("finallium_loot", [
 
 //狼育母
 createLootRecipe("finallium_loot", [
+    <additions:tarantula_leg>
+], [
+    <additions:tarantula_leg> * 5
+], 35, 8.0E6 as long, 1);
+
+//狼育母（带毒素）
+createLootRecipe("finallium_loot", [
     <additions:tarantula_leg>,
-    <tconstruct:slime:3> * 16
+    <minecraft:glass_bottle> * 16
 ], [
     <additions:tarantula_leg> * 5,
-    <additions:evilblood_slime_block> * 16
+    <additions:tarantula_poison_bottle> * 16
 ], 35, 8.0E6 as long, 0);
 
 //血腥主教

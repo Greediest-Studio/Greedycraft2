@@ -839,6 +839,9 @@ Enricher.addRecipe(<additions:calcium_acetate>, <liquid:water> * 1000, <liquid:c
 Enricher.addRecipe(allSpecialFlowers, <liquid:diluted_plant_essence> * 100, <liquid:concentrated_plant_essence_precursor> * 100);
 
 Infuser.addRecipe(<botania:manaresource:5>, <liquid:concentrated_plant_essence> * 250, <gct_additions:botanical_soul>, 2.0d, 8.0d);
+Infuser.addRecipe(<ore:blockIronwood>, <liquid:tarantula_poison> * 250, <additions:petrified_ironwood_block>);
+Infuser.addRecipe(<tconstruct:slime:3>, <liquid:tarantula_poison> * 250, <additions:evilblood_slime_block>);
+Infuser.addRecipe(<ore:blockTerrasteel>, <liquid:tarantula_poison> * 250, <jaopca:block.terrasteel_poisonous>);
 
 Electrolyzer.addRecipe(<liquid:brine> * 1000, <liquid:sodium_hydroxide_solution> * 666, <liquid:hydrogen> * 500, <liquid:liquidchlorine> * 500, null, 1.0d, 1.0d, 0.0d);
 Electrolyzer.addRecipe(<liquid:sodium_chloride> * 333, <liquid:sodium> * 72, <liquid:liquidchlorine> * 250, null, null);
@@ -944,6 +947,7 @@ for plant in ErebusPlants {
 
 Extractor.addRecipe(<gct_additions:botanical_soul>, <botania:manaresource:5>, <liquid:concentrated_plant_essence> * 200, 10.0d, 8.0d);
 Extractor.addRecipe(<gct_additions:botanical_stone>, <gct_additions:alf_stone>, <liquid:concentrated_plant_essence> * 50, 1.5d, 4.0d);
+Extractor.addRecipe(<additions:tarantula_poison_bottle>, <minecraft:glass_bottle>, <liquid:tarantula_poison> * 250, 0.05d, 0.1d);
 
 DecayHastener.addRecipe(<ore:dustIridium192>, <mekanism:dust:2>, 0.12d, 1.0d, number(850.0d, u));
 DecayHastener.addRecipe(<ore:dustGold198>, <thaumcraft:quicksilver>, 0.059d, 1.0d, 20.5d);
