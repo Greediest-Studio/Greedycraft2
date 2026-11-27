@@ -1,0 +1,275 @@
+name: build (Server)
+
+on:
+  workflow_dispatch:
+    inputs:
+      create_release:
+        description: "Create a GitHub Release with the server package"
+        required: false
+        type: boolean
+        default: false
+      release_tag:
+        description: "Release tag (e.g. server-v2.8.5-test, auto-generated if empty)"
+        required: false
+        type: string
+        default: ""
+  push:
+    branches:
+      - main
+      - dev
+    paths:
+      - "minecraft/**"
+      - ".github/workflows/server_build.yml"
+
+jobs:
+  build-server:
+    runs-on: ubuntu-latest
+
+    permissions:
+      actions: write
+      contents: write
+
+    steps:
+      - name: 1. 检出仓库
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: 2. 设置 Java 25 与 Go 环境
+        uses: actions/setup-java@v5
+        with:
+          distribution: "temurin"
+          java-version: "25"
+
+      - name: 2.5 设置 Go 语言环境并安装 packwiz
+        uses: actions/setup-go@v6
+        with:
+          go-version: "1.23.3"
+          cache: false
+
+      - name: 2.6 安装 packwiz 并刷新索引哈希
+        working-directory: ./minecraft
+        run: |
+          go install github.com/packwiz/packwiz@dfd8b68a4796c763e25bad50265ea1f1233e24f1
+          packwiz refresh
+
+      - name: 3. 生成版本与产物名称
+        run: |
+          pack_version=$(grep -E '^version\s*=' minecraft/pack.toml | head -n 1 | sed -E 's/^version\s*=\s*"([^"]+)".*/\1/')
+          short_sha=$(git log -1 --format="%h" -- .)
+          branch_name="${GITHUB_REF_NAME}"
+          file_name="GreedyCraft2-${pack_version}-Server-${branch_name}-${short_sha}"
+          echo "PACK_VERSION=${pack_version}" >> $GITHUB_ENV
+          echo "SHORT_SHA=${short_sha}" >> $GITHUB_ENV
+          echo "FILE_NAME=${file_name}" >> $GITHUB_ENV
+
+      - name: 4. 安装 Cleanroom 服务端
+        run: |
+          mkdir -p server_build
+          cd server_build
+          curl -fsSL -o cleanroom-installer.jar \
+            "https://github.com/CleanroomMC/Cleanroom/releases/download/0.6.13-alpha/cleanroom-0.6.13-alpha-installer.jar"
+          java -jar cleanroom-installer.jar --installServer
+          rm -f cleanroom-installer.jar cleanroom-installer.jar.log
+
+      - name: 5. 使用 packwiz-installer 下载服务端模组
+        run: |
+          cd server_build
+          curl -fsSL -o packwiz-installer-bootstrap.jar \
+            "https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar"
+          java -jar packwiz-installer-bootstrap.jar -g -s server ../minecraft/pack.toml || true
+          rm -f packwiz-installer-bootstrap.jar packwiz-installer.jar packwiz.json
+
+          python3 - << 'PY'
+          import concurrent.futures, glob, os, tomllib, urllib.parse, urllib.request
+
+          os.makedirs("mods", exist_ok=True)
+          tasks = []
+          for path in sorted(glob.glob("../minecraft/mods/.index/*.pw.toml")):
+              with open(path, "rb") as f:
+                  data = tomllib.load(f)
+              if data.get("side") == "client":
+                  continue
+              filename = data["filename"]
+              dest = os.path.join("mods", filename)
+              if os.path.exists(dest):
+                  continue
+              url = data.get("download", {}).get("url")
+              if not url:
+                  cf = data.get("update", {}).get("curseforge")
+                  if cf:
+                      fid = str(cf["file-id"])
+                      url = f"https://mediafilez.forgecdn.net/files/{fid[:4]}/{int(fid[4:])}/{urllib.parse.quote(filename)}"
+              tasks.append((filename, dest, url))
+
+          def download_one(item):
+              filename, dest, url = item
+              if not url:
+                  return filename
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                  with urllib.request.urlopen(req, timeout=60) as resp, open(dest, "wb") as out:
+                      out.write(resp.read())
+                  return None
+              except Exception as e:
+                  print(f"Failed to download {filename} ({url}): {e}")
+                  return filename
+
+          with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
+              missing = [res for res in pool.map(download_one, tasks) if res]
+
+          if missing:
+              raise SystemExit(f"Missing server mods: {missing}")
+          print(f"All server-side index mods verified ({len(tasks)} downloaded via fallback).")
+          PY
+
+      - name: 6. 合并 submods 并移除纯客户端模组
+        run: |
+          mkdir -p server_build/mods
+          if [ -d minecraft/mods/submods ]; then
+            find minecraft/mods/submods -maxdepth 1 -type f -name "*.jar" -exec cp {} server_build/mods/ \;
+          fi
+
+          # 移除标记为 both 但实际仅限客户端的模组
+          client_globs=(
+            "Actinium-*.jar"
+            "betterDrawHoveringText-*.jar"
+            "Blur-*.jar"
+            "Brilliant*Text*Remixin*.jar"
+            "celeritasdynamiclights-*.jar"
+            "celeritasextra-*.jar"
+            "celeritasleafculling-*.jar"
+            "ChatFlow-*.jar"
+            "chat_heads-*.jar"
+            "classicbar-*.jar"
+            "CTM-*.jar"
+            "CustomLoadingScreen-*.jar"
+            "CustomSkinLoader_*.jar"
+            "DynamicSurroundings-*.jar"
+            "DynamicSurroundingsHuds-*.jar"
+            "fancymenu_*.jar"
+            "InertiaCancellation-*.jar"
+            "ingameinfoxml-*.jar"
+            "jei_area_fixer-*.jar"
+            "konkrete_*.jar"
+            "loadingscreens-*.jar"
+            "MineMenu-*.jar"
+            "mousetweaks-*.jar"
+            "neofontrender-*.jar"
+            "ReAuth-*.jar"
+            "ResourceLoader-*.jar"
+            "searchonmcmod-*.jar"
+            "ShoulderSurfing-*.jar"
+            "soundphysics-*.jar"
+            "torohud-*.jar"
+          )
+          for pattern in "${client_globs[@]}"; do
+            rm -f server_build/mods/${pattern}
+          done
+
+      - name: 7. 复制整合包配置与资源文件
+        run: |
+          for dir in addons bansoukou config fontfiles groovy oresources patchouli_books resources scripts structures; do
+            if [ -d "minecraft/${dir}" ]; then
+              cp -r "minecraft/${dir}" "server_build/${dir}"
+            fi
+          done
+          if [ -d "minecraft/local/ftbutilities" ]; then
+            mkdir -p server_build/local
+            cp -r minecraft/local/ftbutilities server_build/local/ftbutilities
+          fi
+          for f in PackWorkbench-1.0.2-all.jar SubModLoader-1.0.6.jar submodloader.properties; do
+            if [ -f "minecraft/${f}" ]; then
+              cp "minecraft/${f}" "server_build/${f}"
+            fi
+          done
+          # 确保服务端 ZenUtils 关闭 fastScriptLoading，避免 nc_script_addons 脚本被跳过
+          if [ -f server_build/config/ZenUtils.cfg ]; then
+            sed -i 's/B:fastScriptLoading=true/B:fastScriptLoading=false/' server_build/config/ZenUtils.cfg
+          fi
+
+      - name: 8. 生成服务端配置与启动脚本
+        run: |
+          cat > server_build/server.properties << 'EOF'
+          allow-flight=true
+          allow-nether=true
+          broadcast-console-to-ops=true
+          broadcast-rcon-to-ops=true
+          defaultworldgenerator-port=98f16d23-cbcb-11ea-ac7b-005056c00008
+          difficulty=2
+          enable-command-block=true
+          enable-query=false
+          enable-rcon=false
+          force-gamemode=false
+          gamemode=0
+          generate-structures=true
+          generator-settings=
+          hardcore=false
+          level-name=world
+          level-seed=
+          level-type=DEFAULT
+          max-build-height=256
+          max-players=20
+          max-tick-time=60000
+          max-world-size=29999984
+          motd=GreedyCraft 2 Server
+          network-compression-threshold=256
+          online-mode=true
+          op-permission-level=4
+          player-idle-timeout=0
+          prevent-proxy-connections=false
+          pvp=true
+          resource-pack=
+          resource-pack-sha1=
+          server-ip=
+          server-port=25565
+          snooper-enabled=true
+          spawn-animals=true
+          spawn-monsters=true
+          spawn-npcs=true
+          spawn-protection=16
+          view-distance=10
+          white-list=false
+          EOF
+
+          cat > server_build/eula.txt << 'EOF'
+          # By changing the setting below to TRUE you are indicating your agreement to Minecraft EULA (https://aka.ms/MinecraftEULA).
+          eula=false
+          EOF
+
+          jvm_args=$(awk '/^\/\/\/Java25\/\/\//{flag=1; next} /^\/\/\//{flag=0} flag && NF' JvmArgs.txt | tr '\n' ' ')
+
+          cat > server_build/start.bat << EOF
+          @echo off
+          title GreedyCraft 2 Server (Cleanroom 0.6.13-alpha)
+          java -Xms4G -Xmx8G ${jvm_args}-jar cleanroom-0.6.13-alpha.jar nogui
+          pause
+          EOF
+
+          cat > server_build/start.sh << EOF
+          #!/usr/bin/env bash
+          set -e
+          exec java -Xms4G -Xmx8G ${jvm_args}-jar cleanroom-0.6.13-alpha.jar nogui
+          EOF
+          chmod +x server_build/start.sh
+
+      - name: 9. 打包服务端压缩包
+        run: |
+          cd server_build
+          zip -r -q "../${FILE_NAME}.zip" .
+
+      - name: 10. 上传至 Artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: ${{ env.FILE_NAME }}
+          path: ${{ env.FILE_NAME }}.zip
+          retention-days: 7
+
+      - name: 11. 创建 GitHub Release (可选)
+        if: github.event_name == 'workflow_dispatch' && inputs.create_release == true
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.release_tag != '' && inputs.release_tag || format('server-v{0}-{1}', env.PACK_VERSION, env.SHORT_SHA) }}
+          name: GreedyCraft 2 Server ${{ env.PACK_VERSION }} (${{ env.SHORT_SHA }})
+          prerelease: true
+          files: ${{ env.FILE_NAME }}.zip
