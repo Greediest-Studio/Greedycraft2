@@ -1,7 +1,6 @@
 #priority 16384
 
 import mods.ooi.ConversionItem;
-import mods.ooi.ConversionFluid;
 import mods.ooi.BlackList;
 
 BlackList.addMatchItem("chisel");
@@ -115,33 +114,4 @@ ConversionItem.create(<additions:finest_control_circuit>).addMatchItem(<mekanism
 ConversionItem.create(<additions:immortal_control_circuit>).addMatchItem(<mekanism_extras:cosmic_control_circuit>).register();
 ConversionItem.create(<additions:novachrome_control_circuit>).addMatchItem(<mekanism_extras:infinite_control_circuit>).register();
 
-ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
-ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
-ConversionFluid.create(<liquid:fluxed_electrum>).addMatchFluid(<liquid:electrum_flux>).register();
-ConversionFluid.create(<liquid:primal_metal>).addMatchFluid(<liquid:primordial>).register();
-ConversionFluid.create(<liquid:blackiron>).addMatchFluid(<liquid:black_iron>).register();
-ConversionFluid.create(<liquid:aluminum>).addMatchFluid(<liquid:aluminium>).register();
-ConversionFluid.create(<liquid:clay>).addMatchFluid(<liquid:brick>).register();
-ConversionFluid.create(<liquid:cthughate>).addMatchFluid(<liquid:cthugha>).register();
-ConversionFluid.create(<liquid:neutronium>).addMatchFluid(<liquid:cosmic_neutronium>).register();
-ConversionFluid.create(<liquid:caesium>).addMatchFluid(<liquid:cesium>).register();
-ConversionFluid.create(<liquid:husturite>).addMatchFluid(<liquid:hustur>).register();
-ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:sulphur>).register();
-ConversionFluid.create(<liquid:solarsteel>).addMatchFluid(<liquid:solsteel>).register();
-ConversionFluid.create(<liquid:liquidslimesteel>).addMatchFluid(<liquid:slimesteel>).register();
-ConversionFluid.create(<liquid:liquidgeodesium>).addMatchFluid(<liquid:geodesium>).register();
-ConversionFluid.create(<liquid:liquidporksteel>).addMatchFluid(<liquid:porksteel>).register();
-ConversionFluid.create(<liquid:nitronite_fluid>).addMatchFluid(<liquid:nitronite>).register();
-ConversionFluid.create(<liquid:infinity_metal>).addMatchFluid(<liquid:infinity>).register();
-ConversionFluid.create(<liquid:xu_demonic_metal>).addMatchFluid(<liquid:demonic_metal>).register();
-ConversionFluid.create(<liquid:ethyne>).addMatchFluid(<liquid:ethylene>).register();
-ConversionFluid.create(<liquid:liquidsolarsteel>).addMatchFluid(<liquid:solarsteel>).register();
-ConversionFluid.create(<liquid:void_metal>).addMatchFluid(<liquid:void>).register();
-ConversionFluid.create(<liquid:molten_ichorium>).addMatchFluid(<liquid:ichorium>).register();
-ConversionFluid.create(<liquid:nitrogen_oxide>).addMatchFluid(<liquid:nitric_oxide>).register();
-ConversionFluid.create(<liquid:magma_fluid>).addMatchFluid(<liquid:magma_slime>).register();
-ConversionFluid.create(<liquid:h_s_l_a_steel>).addMatchFluid(<liquid:hsla>).register();
-ConversionFluid.create(<liquid:sic_sic_cmc>).addMatchFluid(<liquid:si_c_si_c_c_m_c>).register();
-ConversionFluid.create(<liquid:sic>).addMatchFluid(<liquid:sic_vapor>).register();
-ConversionFluid.create(<liquid:mana>).addMatchFluid(<liquid:fluidedmana>).register();
-ConversionFluid.create(<liquid:soul>).addMatchFluid(<liquid:liquifiedsouls>).register();
+// 流体请去config\ooi\ooi_fluid.json中写！！！ 你也不想再出现水变碳化硅吧！
