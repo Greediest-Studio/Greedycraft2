@@ -13,6 +13,12 @@ alias = "mods/AbyssalCraft-1.12.2-1.11.3.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/actinium-1-12-2-optimization.pw.toml"
+hash = "165b26e3dc7a93a178f1214a948d624e490c8190f225e85cdc28ebed432783a3"
+alias = "mods/Actinium-beta-0.1.0.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/actually-additions.pw.toml"
 hash = "0ae3298ed15301549ef41c2ead9654b9c650ceafc3ac4e82a4cec9050fa158ad"
 alias = "mods/ActuallyAdditions-1.12.2-r152.jar"
@@ -472,12 +478,6 @@ metafile = true
 file = "mods/.index/capability-adapter.pw.toml"
 hash = "3419f05f0d368f6399f605838ddc7c999d66091b5803b5e1ed4c3be963edab10"
 alias = "mods/capabilityadapter-1.1.3.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/celeritas-dynamic-lights.pw.toml"
-hash = "587941b538769b0cbb20422a15a1b628d816fb596c3e1a3f40771515897f9297"
-alias = "mods/celeritasdynamiclights-1.2.11.jar"
 metafile = true
 
 [[files]]
@@ -1472,8 +1472,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modularmachinery-community-edition-complement.pw.toml"
-hash = "8af07332314b545d6258f7aa39563029f50c49a7b50fc10f13c167b7e9cd6351"
-alias = "mods/mmce_complement-1.6.3.jar"
+hash = "132beff37f5ad15d6f0a324672f5088623bcf3925485d6f5e4502439661da1c3"
+alias = "mods/mmce_complement-1.6.4.jar"
 metafile = true
 
 [[files]]
@@ -2390,8 +2390,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/together-forever-unofficial.pw.toml"
-hash = "a7fa507adfe3c34dcd49d748b1f29ffdf93569b363515b189d91d7969d132b3b"
-alias = "mods/TogetherForeverUnofficial-1.12.2-1.0.13.jar"
+hash = "279c8b69d2c41a3206951243553c9bd92ee525bf75e6bacd54fc87394880818b"
+alias = "mods/TogetherForeverUnofficial-1.12.2-1.0.14.jar"
 metafile = true
 
 [[files]]
@@ -2582,8 +2582,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/ymadditions.pw.toml"
-hash = "b3d89557d9e3133b1f6e307cd731b260383442610f06b1ded554cbabc1dced33"
-alias = "mods/YM-Additions-0.2.1.jar"
+hash = "587ac35123a667c880edd4cf8e891bb5b6e977040c419512c79cee2092d40bfd"
+alias = "mods/YM-Additions-0.2.2.jar"
 metafile = true
 
 [[files]]
