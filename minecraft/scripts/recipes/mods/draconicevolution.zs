@@ -490,3 +490,39 @@ FusionCrafting.add(<mmce_complement:me_input_assembly>, <modularmachinery:blockc
     <ore:circuitUltimate>,
     <ore:circuitUltimate>
 ]);
+FusionCrafting.add(<mmce_complement:me_output_assembly>, <modularmachinery:blockcasing>, 1, 40960000, [
+    <ore:ingotDurasteel>,
+    <ore:ingotDurasteel>,
+    <additions:logic_processor_2>,
+    <additions:logic_processor_2>,
+    <additions:calculation_processor_2>,
+    <additions:calculation_processor_2>,
+    <additions:engineering_processor_2>,
+    <additions:engineering_processor_2>,
+    <ore:circuitUltimate>,
+    <ore:circuitUltimate>
+]);
+FusionCrafting.add(<mmce_complement:me_inventory_input_assembly>, <modularmachinery:blockcasing>, 2, 3276800000, [
+    <ore:ingotChromasteel>,
+    <ore:ingotChromasteel>,
+    <additions:logic_processor_3>,
+    <additions:logic_processor_3>,
+    <additions:calculation_processor_3>,
+    <additions:calculation_processor_3>,
+    <additions:engineering_processor_3>,
+    <additions:engineering_processor_3>,
+    <ore:circuitFinal>,
+    <ore:circuitFinal>
+]);
+FusionCrafting.add(<mmce_complement:me_full_exposure_assembly>, <modularmachinery:blockcasing>, 2, 3276800000, [
+    <ore:ingotAeonsteel>,
+    <ore:ingotAeonsteel>,
+    <additions:logic_processor_3>,
+    <additions:logic_processor_3>,
+    <additions:calculation_processor_3>,
+    <additions:calculation_processor_3>,
+    <additions:engineering_processor_3>,
+    <additions:engineering_processor_3>,
+    <ore:circuitFinal>,
+    <ore:circuitFinal>
+]);

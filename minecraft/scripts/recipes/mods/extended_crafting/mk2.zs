@@ -502,6 +502,30 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockmepatter
 	[<ore:ingotModularium>, <ore:ingotModularium>, <ore:blockModularium>, <ore:ingotModularium>, <ore:ingotModularium>]
 ]);
 
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:me_item_inventory_input_bus>, [
+	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <ore:ingotModularium>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>], 
+	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <actuallyadditions:block_giant_chest_large>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <actuallyadditions:block_giant_chest_large>, <appliedenergistics2:part:220>, <actuallyadditions:block_giant_chest_large>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <actuallyadditions:block_giant_chest_large>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
+	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <modularmachinery:blockmeiteminputbus>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:me_fluid_inventory_input_bus>, [
+	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <ore:ingotModularium>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>], 
+	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <actuallyadditions:block_giant_chest_large>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <actuallyadditions:block_giant_chest_large>, <appliedenergistics2:part:221>, <actuallyadditions:block_giant_chest_large>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <actuallyadditions:block_giant_chest_large>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
+	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <modularmachinery:blockmefluidinputbus>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:me_gas_inventory_input_bus>, [
+	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <ore:ingotModularium>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>], 
+	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <actuallyadditions:block_giant_chest_large>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <actuallyadditions:block_giant_chest_large>, <mekeng:gas_storage_bus>, <actuallyadditions:block_giant_chest_large>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <actuallyadditions:block_giant_chest_large>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
+	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <modularmachinery:blockmefluidinputbus>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>]
+]);
+
 mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:me_ore_dict_input_bus>, [
 	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <ore:ingotModularium>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>], 
 	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <crazyae:part>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
