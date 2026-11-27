@@ -147,7 +147,9 @@ jobs:
             "CustomSkinLoader_*.jar"
             "DynamicSurroundings-*.jar"
             "DynamicSurroundingsHuds-*.jar"
+            "EntityCulling-*.jar"
             "fancymenu_*.jar"
+            "FpsReducer-*.jar"
             "InertiaCancellation-*.jar"
             "ingameinfoxml-*.jar"
             "jei_area_fixer-*.jar"
@@ -156,12 +158,15 @@ jobs:
             "MineMenu-*.jar"
             "mousetweaks-*.jar"
             "neofontrender-*.jar"
+            "NoTooltipId-*.jar"
             "ReAuth-*.jar"
             "ResourceLoader-*.jar"
             "searchonmcmod-*.jar"
             "ShoulderSurfing-*.jar"
             "soundphysics-*.jar"
+            "Tips-*.jar"
             "torohud-*.jar"
+            "TravelersTitles-*.jar"
           )
           for pattern in "${client_globs[@]}"; do
             rm -f server_build/mods/${pattern}
