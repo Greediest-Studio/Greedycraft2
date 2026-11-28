@@ -1,0 +1,29 @@
+{
+	title: "§b巨灵水晶",
+	x: 26.5d,
+	y: 1.0d,
+	description: "合成约顿海姆水晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"0ea91681"
+	],
+	tasks: [{
+		uid: "e47cdf48",
+		type: "item",
+		items: [{
+			item: "gctcore:gct_mana_pylon"
+		}]
+	}],
+	rewards: [{
+		uid: "e899659f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "d307a526",
+		type: "xp",
+		xp: 15000
+	}]
+}

@@ -1,11 +1,26 @@
 {
+	title: "§b浮云之匙",
 	x: 26.5d,
-	y: 3.0d,
+	y: 4.0d,
+	description: "合成云穹献祭之眼，激活约顿海姆传送门的钥匙",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "e25d54f6",
 		type: "item",
 		items: [{
 			item: "gctcore:cloud_sacrificial_eye"
 		}]
+	}],
+	rewards: [{
+		uid: "0f7f638c",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "d44844f5",
+		type: "xp",
+		xp: 10000
 	}]
 }

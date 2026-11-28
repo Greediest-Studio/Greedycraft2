@@ -1,7 +1,7 @@
 {
 	title: "§b蚀雾之地",
 	x: 28.0d,
-	y: -1.5d,
+	y: -2.5d,
 	description: "激活尼福尔海姆传送门，进入尼福尔海姆",
 	text: [
 		"尼福尔海姆传送门结构与§a精灵传送门§r极为相似（不含聚焦矩阵结构）",
@@ -30,5 +30,11 @@
 		uid: "31367645",
 		type: "xp",
 		xp: 28000
+	},
+	{
+		uid: "4258cb88",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 40
 	}]
 }

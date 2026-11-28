@@ -77,6 +77,7 @@ for capacitorlist in capacitors {
         .addCompatibleMachines("elysia_polymer")
         .addCompatibleMachines("elysia_etcher")
         .addCompatibleMachines("elysia_enricher")
+        .addCompatibleMachines("elysia_impregnator")
         .buildAndRegister();
 
     MachineUpgradeHelper.addFixedUpgrade(capacitorlist, capacitorlist.definition.id + capacitorlist.metadata as string + "_upg");

@@ -2670,7 +2670,8 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:blockHighfield>,
     <ore:dustHighfield>,
     <ore:nuggetHighfield>,
-    <additions:king_whale_pearl>
+    <additions:king_whale_pearl>,
+    <gctcore:giant_talisman:*>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([

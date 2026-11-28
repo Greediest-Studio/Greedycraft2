@@ -1,10 +1,41 @@
 {
+	title: "§b黄金门",
 	x: 28.0d,
-	y: 1.5d,
+	y: 2.5d,
+	description: "激活约顿海姆传送门，进入约顿海姆",
+	text: [
+		"约顿海姆传送门结构与§a精灵传送门§r极为相似（不含聚焦矩阵结构）",
+		"将§c活木§r换为§b约顿海姆之木§r，§c微光活木§r换为§b微光约顿海姆之木§r",
+		"且周围存在4个§b约顿海姆水晶§r和4个§b任意魔力池§r时，用§a云穹献祭之眼§r右键激活",
+		"开启传送门需要共计§e80.000,000（80池）§rMana",
+		"§c关于约顿海姆的机制请见上方的§b高云护体§c任务"
+	],
+	dependencies: [
+		"9cf3a263",
+		"c54bd723",
+		"2be2c383",
+		"16626966"
+	],
 	tasks: [{
 		uid: "3ea78c1f",
 		type: "dimension",
 		icon: "gctcore:jotunheim_grass",
 		dim: 44
+	}],
+	rewards: [{
+		uid: "54694cd0",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6d6ac80b",
+		type: "xp",
+		xp: 32000
+	},
+	{
+		uid: "b7089a79",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 100
 	}]
 }

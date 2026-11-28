@@ -612,3 +612,19 @@ Infusion.registerRecipe("botanical_soul", "", <gct_additions:botanical_soul> * 6
     <gctcore:alf_spark>,
     <gctcore:alf_spark>
 ]);
+
+Infusion.registerRecipe("giant_talisman", "", <gctcore:giant_talisman>, 40, [
+    <aspect:vapor> * 1000,
+    <aspect:alienis> * 1000,
+    <aspect:praecantatio> * 800,
+    <aspect:bestia> * 800,
+    <aspect:mythus> * 600,
+    <aspect:aer> * 600
+], <bountifulbaubles:trinketankhcharm>, [
+    <ore:blockHighfield>,
+    <ore:blockSteamium>,
+    <ore:blockHighfield>,
+    <ore:blockAeroite>,
+    <ore:blockHighfield>,
+    <ore:blockValkyrie>
+]);

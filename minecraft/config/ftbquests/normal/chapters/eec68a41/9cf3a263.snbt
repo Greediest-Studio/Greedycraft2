@@ -1,11 +1,29 @@
 {
+	title: "§b第四站：巨灵徘徊之地",
 	x: 26.5d,
-	y: 1.5d,
+	y: 2.5d,
+	description: "合成巨人之门核心",
+	text: [
+		""
+	],
+	dependencies: [
+		"0ea91681"
+	],
 	tasks: [{
 		uid: "7fc2bc0d",
 		type: "item",
 		items: [{
 			item: "gctcore:jotunheim_portal_core"
 		}]
+	}],
+	rewards: [{
+		uid: "b56c8ae8",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5a27214f",
+		type: "xp",
+		xp: 15000
 	}]
 }

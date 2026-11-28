@@ -1,0 +1,20 @@
+{
+	title: "§b为什么你比他们小？",
+	x: 29.5d,
+	y: 2.5d,
+	description: "在约顿海姆的独眼巨人洞窟中击杀独眼巨人首领",
+	text: [
+		"该洞窟可以在约顿海姆任意一层生成",
+		"严格来说，地面层生成概率可能会高一些"
+	],
+	dependencies: [
+		"ac85cac5"
+	],
+	tasks: [{
+		uid: "99476cbf",
+		type: "item",
+		items: [{
+			item: "cyclopstek:cyclops_eye"
+		}]
+	}]
+}
