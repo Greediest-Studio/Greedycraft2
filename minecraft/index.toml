@@ -14,8 +14,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/actinium-1-12-2-optimization.pw.toml"
-hash = "165b26e3dc7a93a178f1214a948d624e490c8190f225e85cdc28ebed432783a3"
-alias = "mods/Actinium-beta-0.1.0.jar"
+hash = "d703dc0c8ef951c7703e0f240f2f401677fa07077b9643ac587e0b7bbdd1e8b6"
+alias = "mods/Actinium-beta-0.1.1.jar"
 metafile = true
 
 [[files]]
@@ -404,8 +404,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/botania-applie.pw.toml"
-hash = "12d2b1b08db6c35dfb518dc379c21c626642f09f5bb07fdbd97501964169daf6"
-alias = "mods/botania_applie-1.2.3.jar"
+hash = "7d1841c1d39be167dfccf4809ba1f98d310a5d5d90a5be72b955e04b0c602cd7"
+alias = "mods/botania_applie-1.3.2.jar"
 metafile = true
 
 [[files]]
@@ -685,6 +685,12 @@ alias = "mods/CyclopsCore-1.12.2-1.6.7.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/cyclopstek.pw.toml"
+hash = "6b0b2fd1c73824943bc0e4b7fc385f14af99c8c1e10f0ea1a85ac5f58b4f6709"
+alias = "mods/cyclopstek-1.0.34.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/damagenumberlegacy.pw.toml"
 hash = "1c3594fd84a80876a7ebc1888f84e150492e1ee268a61b0bacdad1b32c115968"
 alias = "mods/DamageNumber-1.5.jar"
@@ -920,8 +926,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/flux-applied.pw.toml"
-hash = "cf52844d2affdb23e5739cf37ff46312060cfe4e7fb58cfe06a8bae8d51657d6"
-alias = "mods/flux_applied-1.2.4.jar"
+hash = "e7715a18b8b9f67e05c69549ff9e3f920a85993f9ccc00db578484b3f529122f"
+alias = "mods/flux_applied-1.2.5.jar"
 metafile = true
 
 [[files]]
@@ -1357,12 +1363,6 @@ alias = "mods/lostcities-1.12-3.0.0.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/lumenized.pw.toml"
-hash = "2e02cf82986a2e54d4180c958da590eb703c5402f4de6b099c0398fd6002e721"
-alias = "mods/Lumenized-1.0.4.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/lycanites-mobs.pw.toml"
 hash = "cd60f16a280a3387eb51793c119d0b8a7d926ed9d1769f7123e1a6c8abc2c582"
 alias = "mods/lycanitesmobs-1.12.2-2.0.8.10.jar"
@@ -1420,12 +1420,6 @@ metafile = true
 file = "mods/.index/minieffects-legacy-extended-life.pw.toml"
 hash = "fa549b8a3e686685d5a2140aa5430d50039d64b8813e82add400513dac8e8efe"
 alias = "mods/minieffects-2.3.2.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/mmce-advancedbuildertool.pw.toml"
-hash = "0fb3dcd8e685903484d638f05d74d39acb3402082cdefe6a5199fcbe76ad2800"
-alias = "mods/mmce_advanced_builder_tool-1.0.3.jar"
 metafile = true
 
 [[files]]
@@ -1993,12 +1987,6 @@ alias = "mods/Retro-Sophisticated-Backpacks-1.1.4.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/revo-font.pw.toml"
-hash = "90a9c54f9c941af59b33bd9630d269916a8e94f9f948945a8d692a34864faecc"
-alias = "mods/neofontrender-0.7.4-core.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/rftools-control.pw.toml"
 hash = "aaf9b70b0d1291f64177cd7aa4e6a27f397d180e0e70a6f286832a2523726af6"
 alias = "mods/rftoolsctrl-1.12-2.0.2.jar"
@@ -2396,8 +2384,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/too-many-tinker.pw.toml"
-hash = "4d86a51f05b6a0e75e044dac90a46e39c4c227eeac9eae187d5a6ab0e477e822"
-alias = "mods/Too Many Tinkers-1.1.0-alpha.7.jar"
+hash = "b92da3df2407cfe346470244c57194abafb14866a53a56c0ea6f530e78b2e55e"
+alias = "mods/Too Many Tinkers-1.1.0-alpha.8.jar"
 metafile = true
 
 [[files]]
@@ -2640,7 +2628,7 @@ hash = "176e6ed680897153c362e0501f9ca955080107ff5911f9921df32cf83d94b36f"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack.zip"
-hash = "38c19720f2b7a3c3d8409e3cc8e20b820c4c4667c3462b344f710dd267a282c5"
+hash = "7acf9f3dbbc5f64ec694ce6ca86800af420c2873f56076098a1f9c53dfd7a418"
 
 [[files]]
 file = "shaderpacks/ComplementaryShaders_v4.7.2.zip"
