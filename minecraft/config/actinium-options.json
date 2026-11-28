@@ -25,7 +25,7 @@
     "use_fast_lit_item_rendering": true,
     "use_fast_lit_item_display_lists": true,
     "cpu_render_ahead_limit": 0,
-    "multi_draw_mode": "DIRECT",
+    "multi_draw_mode": "INDIRECT",
     "streaming_upload_strategy": "MAP_BUFFER_RANGE"
   },
   "performance": {
