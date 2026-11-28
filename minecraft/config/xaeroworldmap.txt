@@ -4,7 +4,7 @@ allowInternetAccess:false
 differentiateByServerAddress:true
 caveMapsAllowed:true
 debug:false
-lighting:true
+lighting:false
 colours:0
 loadChunks:true
 updateChunks:true
@@ -42,11 +42,11 @@ legibleCaveMaps:false
 displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:0
-biomeBlending:true
+biomeBlending:false
 trackedPlayers:true
 multipleImagesExport:false
 nightExport:false
 highlightsExport:false
 exportScaleDownSquare:20
-mapWritingDistance:-1
+mapWritingDistance:5
 globalVersion:16

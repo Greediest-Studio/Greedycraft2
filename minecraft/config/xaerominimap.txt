@@ -31,7 +31,7 @@ waypointsIngameNameScale:0
 waypointsIngameCloseScale:1.0
 antiAliasing:false
 blockColours:0
-lighting:true
+lighting:false
 dotsStyle:0
 dotNameScale:1.0
 compassOverEverything:true
@@ -48,7 +48,7 @@ worldMap:true
 terrainDepth:true
 terrainSlopes:2
 mainEntityAs:0
-blockTransparency:true
+blockTransparency:false
 waypointOpacityIngame:80
 waypointOpacityMap:90
 hideWorldNames:1
