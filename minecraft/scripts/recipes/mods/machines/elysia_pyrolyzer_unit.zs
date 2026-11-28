@@ -188,3 +188,12 @@ RecipeBuilder.newBuilder("benzenediazonium_tetrafluoroborate", "elysia_pyrolyzer
     .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .setMaxThreads(1)
     .build();
+
+RecipeBuilder.newBuilder("chlorodifluoromethane_pyrolysis", "elysia_pyrolyzer", 100)
+    .addFluidInput(<liquid:chlorodifluoromethane> * 1000)
+    .addEnergyPerTickInput(1024)
+    .addFluidOutput(<liquid:liquidhydrogenchloride> * 1000)
+    .addFluidOutput(<liquid:tetrafluoroethene> * 500)
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
+    .build();

@@ -524,6 +524,8 @@ val localizationMap as string[string][string] = {
         "fluid.nitrous_acid_solution": "亚硝酸溶液",
         "fluid.boron_trifluoride": "三氟化硼",
         "fluid.fluoroboric_acid": "氟硼酸",
+        "fluid.dichlorofluoromethane": "一氟二氯甲烷",
+        "fluid.chlorodifluoromethane": "二氟一氯甲烷",
         "fluid.sodium_chloride": "熔融氯化钠",
         "fluid.sodium_fluoride": "熔融氟化钠",
         "fluid.potassium_chloride": "熔融氯化钾",

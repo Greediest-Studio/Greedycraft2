@@ -4851,3 +4851,27 @@ fluoroboric_acid.color = Color.fromHex("4361ee").getIntColor();
 fluoroboric_acid.stillLocation = "base:fluids/liquid";
 fluoroboric_acid.flowingLocation = "base:fluids/liquid_flow";
 fluoroboric_acid.register();
+
+val dichlorofluoromethane = mods.contenttweaker.VanillaFactory.createFluid("dichlorofluoromethane", Color.fromHex("c084fc").getIntColor());
+dichlorofluoromethane.material = <blockmaterial:water>;
+dichlorofluoromethane.viscosity = 3000;
+dichlorofluoromethane.density = -1000;
+dichlorofluoromethane.colorize = true;
+dichlorofluoromethane.temperature = 400;
+dichlorofluoromethane.luminosity = 10;
+dichlorofluoromethane.color = Color.fromHex("c084fc").getIntColor();
+dichlorofluoromethane.stillLocation = "base:fluids/liquid";
+dichlorofluoromethane.flowingLocation = "base:fluids/liquid_flow";
+dichlorofluoromethane.register();
+
+val chlorodifluoromethane = mods.contenttweaker.VanillaFactory.createFluid("chlorodifluoromethane", Color.fromHex("22d3ee").getIntColor());
+chlorodifluoromethane.material = <blockmaterial:water>;
+chlorodifluoromethane.viscosity = 3000;
+chlorodifluoromethane.density = -1000;
+chlorodifluoromethane.colorize = true;
+chlorodifluoromethane.temperature = 400;
+chlorodifluoromethane.luminosity = 10;
+chlorodifluoromethane.color = Color.fromHex("22d3ee").getIntColor();
+chlorodifluoromethane.stillLocation = "base:fluids/liquid";
+chlorodifluoromethane.flowingLocation = "base:fluids/liquid_flow";
+chlorodifluoromethane.register();

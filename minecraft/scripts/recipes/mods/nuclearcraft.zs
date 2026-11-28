@@ -644,6 +644,8 @@ ChemicalReactor.addRecipe(<liquid:methane> * 250, <liquid:liquidchlorine> * 250,
 ChemicalReactor.addRecipe(<liquid:chloromethane> * 250, <liquid:liquidchlorine> * 250, <liquid:dichloromethane> * 250, <liquid:liquidhydrogenchloride> * 250);
 ChemicalReactor.addRecipe(<liquid:dichloromethane> * 250, <liquid:liquidchlorine> * 250, <liquid:trichloromethane> * 250, <liquid:liquidhydrogenchloride> * 250);
 ChemicalReactor.addRecipe(<liquid:trichloromethane> * 250, <liquid:liquidchlorine> * 250, <liquid:carbon_tetrachloride> * 250, <liquid:liquidhydrogenchloride> * 250);
+ChemicalReactor.addRecipe(<liquid:trichloromethane> * 250, <liquid:hydrogen_fluoride> * 250, <liquid:dichlorofluoromethane> * 250, <liquid:liquidhydrogenchloride> * 250);
+ChemicalReactor.addRecipe(<liquid:dichlorofluoromethane> * 250, <liquid:hydrogen_fluoride> * 250, <liquid:chlorodifluoromethane> * 250, <liquid:liquidhydrogenchloride> * 250);
 ChemicalReactor.addRecipe(<liquid:rich_brine> * 1000, <liquid:liquidchlorine> * 500, <liquid:poor_brine> * 750, <liquid:halogen_brine> * 250);
 ChemicalReactor.addRecipe(<liquid:iodine_solution> * 1000, <liquid:carbon_tetrachloride> * 200, <liquid:water> * 1000, <liquid:iodine_carbon_tetrachloride_solution> * 200);
 ChemicalReactor.addRecipe(<liquid:halogen_brine> * 100, <liquid:sulfur_dioxide> * 100, <liquid:bromine_gas> * 800, <liquid:iodine_solution> * 100);
