@@ -7,6 +7,10 @@ fixImeInput = true
 
 #调试日志选项。
 [debug]
+	overlayEngine = "inherit"
+	cacheOverlayOpacity = 0.78
+	cacheOverlayFps = false
+	cacheOverlay = false
 	#将 IME 输入修复详情记录到游戏日志中（用于诊断表情符号输入问题）。
 	imeInput = false
 	#为 F3/命令收集高频字体渲染器命中/未命中/淘汰计数器、分段计数器和耗时光栅像素统计信息。正常游戏时请禁用。
@@ -72,12 +76,14 @@ fixImeInput = true
 	vanillaFormattingCompatibility = true
 	#从示例字形光栅化中自动检测亮度补偿。设为 true 时，rendering.brightness 将被忽略。
 	brightnessAuto = true
+	glyphBatching = "auto"
 	#通过排版文本后端渲染完整格式化字符串，使连字、字距调整、表情符号 ZWJ 和双向文本可以跨越整个文本。禁用则使用逐格式段渲染。
 	advancedStringMode = true
 	#根据当前帧缓冲文本缩放使用 1.5x-14x 自适应光栅缩放，并对 1:1/整数像素输出使用最近邻过滤以避免过度降采样模糊。
 	adaptiveRasterScale = true
 	#一个格式化段产生的最大可复用分段数。
 	segmentCacheMaxSegments = 96
+	glyphAtlas = false
 	#启用 adaptiveRasterScale 时，当文本放大倍率远超字体纹理分辨率时使用最近邻过滤。
 	excludeHighMagnification = true
 	#使用 GL_LINEAR 纹理过滤代替 GL_NEAREST。
@@ -114,6 +120,7 @@ fixImeInput = true
 	monospaceCharacterCacheMaxEntries = 16384
 	#当缓存的多点射线全部被不透明完整方块阻挡时，跳过完整的告示牌 TESR 渲染。
 	signBlockOcclusionCulling = true
+	asyncWorkerThreads = 1
 	#距离小于此值（以方块为单位）的告示牌不会被遮挡剔除，以避免近摄像机时突然出现。
 	signOcclusionMinDistance = 8.0
 	#内存中保留的最大 Cosmic 文本测量缓存数量。
@@ -134,8 +141,11 @@ fixImeInput = true
 	textCacheMinEntries = 256
 	#每帧刷新方块遮挡的最大告示牌数量；其余告示牌使用安全的缓存结果或保持可见。
 	signOcclusionChecksPerFrame = 48
+	adaptiveTextTemplateCache = false
 	#使用当前绑定的告示牌纹理，将远处的告示牌板/杆替换为平面纹理几何体。
 	signModelLod = true
+	asyncFallbackGlyphMaxEntries = 512
+	generationalTextCache = false
 	#低多边形告示牌模型开始生效的距离（以方块为单位）。
 	signModelLodDistance = 24.0
 	#在后台线程上初始化字体光栅化。
@@ -149,6 +159,7 @@ fixImeInput = true
 [fix]
 	#允许 CJK 换行机会，同时强制执行基本的行首和行尾标点规则。
 	cjkLineBreak = true
+	relaxedObfuscation = true
 
 [ui]
 	showMainMenuBranding = true
@@ -181,6 +192,7 @@ fixImeInput = true
 
 #第三方模组兼容性选项。
 [compat]
+	rasterBackend = "awt"
 
 	[compat.custommainmenu]
 		novaBranding = true
