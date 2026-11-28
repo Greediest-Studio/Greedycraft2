@@ -25,6 +25,7 @@ import mods.modularmachinery.RecipeCheckEvent;
 import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.Sync;
 import mods.ctutils.utils.Math;
 
 MachineModifier.setMaxParallelism("radiation_cleaner", 1);
@@ -40,24 +41,36 @@ MMEvents.onControllerGUIRender("radiation_cleaner", function(event as Controller
 });
 
 function cleanRadiationInChunkRadius(controller as IMachineController) as void {
-    if (controller.world.remote) {
+    if (isNull(controller) || isNull(controller.world) || controller.world.remote) {
         return;
     }
 
-    val world as World = controller.world.native as World;
-    val pos = controller.pos;
-    val offsets = [-1, 0, 1] as int[];
+    Sync.addSyncTask(function() {
+        val ctWorld = controller.world;
+        val pos = controller.pos;
+        if (isNull(ctWorld) || ctWorld.remote || isNull(pos)) {
+            return;
+        }
 
-    for xOffset in offsets {
-        for zOffset in offsets {
-            val chunkPos as BlockPos = BlockPos(pos.x + xOffset * 16, pos.y, pos.z + zOffset * 16);
-            val radiationSource as IRadiationSource = RadiationHelper.getRadiationSource(world.getChunk(chunkPos));
-            if (!isNull(radiationSource)) {
-                radiationSource.setRadiationLevel(0.0d);
-                radiationSource.setRadiationBuffer(0.0d);
+        val world as World = ctWorld.native as World;
+        val offsets = [-1, 0, 1] as int[];
+
+        for xOffset in offsets {
+            for zOffset in offsets {
+                val targetPos = pos.add(xOffset * 16, 0, zOffset * 16);
+                if (!ctWorld.isBlockLoaded(targetPos)) {
+                    continue;
+                }
+
+                val chunkPos as BlockPos = BlockPos(targetPos.x, targetPos.y, targetPos.z);
+                val radiationSource as IRadiationSource = RadiationHelper.getRadiationSource(world.getChunk(chunkPos));
+                if (!isNull(radiationSource)) {
+                    radiationSource.setRadiationLevel(0.0d);
+                    radiationSource.setRadiationBuffer(0.0d);
+                }
             }
         }
-    }
+    });
 }
 
 RecipeBuilder.newBuilder("clean_radiation", "radiation_cleaner", 1)
