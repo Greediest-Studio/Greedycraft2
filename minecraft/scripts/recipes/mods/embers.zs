@@ -83,3 +83,17 @@ Alchemy.add(<additions:nefrathite_ingot> * 2, [
     "salt": 16 .. 50,
     "dawnstone": 16 .. 50
 });
+
+Alchemy.add(<gctcore:cloud_sacrificial_eye>, [
+    <iceandfire:cyclops_eye>,
+    <ore:blockGravitite>,
+    <additions:king_whale_pearl>,
+    <ore:blockGravitite>,
+    <additions:king_whale_pearl>
+], {
+    "silver": 16 .. 50,
+    "iron": 16 .. 50,
+    "lead": 32 .. 60,
+    "copper": 32 .. 60,
+    "mercury": 64 .. 120
+});

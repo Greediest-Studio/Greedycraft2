@@ -257,6 +257,16 @@ GodAgglomeration.addRecipe(<botaniverse:morepylon>, [
     <ore:runeForth4B>,
     <ore:runeForth8B>
 ], 10000000, 0xe8d26c, 0xf3825f, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
+GodAgglomeration.addRecipe(<gctcore:gct_mana_pylon>, [
+    <botania:pylon:1>,
+    <ore:ingotOriginalSteel>,
+    <ore:ingotPruified>,
+    <ore:ingotStormyMetal>,
+    <ore:ingotTitanium>,
+    <ore:ingotCompressite>,
+    <ore:runeForth4B>,
+    <ore:runeForth5B>
+], 10000000, 0xe8d26c, 0xeda83c, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 
 for input in pureDaisyTransmutations {
     var output as IItemStack = pureDaisyTransmutations[input];
