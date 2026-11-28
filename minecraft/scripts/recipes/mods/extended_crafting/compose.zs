@@ -201,3 +201,46 @@ CombinationCrafting.addRecipe(<additions:eco_enhanced_alloy_ingot>, 5000000, 200
     <ore:ingotStellarAlloy>,
     <ore:ingotFlux>
 ]);
+
+CombinationCrafting.addRecipe(<additions:alkaid_crystal>, 98000000, 1024000, <biomesoplenty:terrestrial_artifact>, [
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <ore:ingotArimite>,
+    <ore:ingotArimite>,
+    <ore:ingotArimite>,
+    <ore:ingotArimite>,
+    <ore:ingotTerminite>,
+    <ore:ingotTerminite>,
+    <ore:ingotTerminite>,
+    <ore:ingotTerminite>,
+    <gctcore:jotunheim_crimson_crystal_stone>,
+    <gctcore:jotunheim_azure_crystal_stone>,
+    <gctcore:jotunheim_violet_crystal_stone>
+]);
+
+CombinationCrafting.addRecipe(<additions:alkaid_crystal> * 2, 98000000, 1024000, <biomesoplenty:terrestrial_artifact>, [
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <gctcore:giant_spirit_dust>,
+    <ore:ingotArimite>,
+    <ore:ingotArimite>,
+    <ore:ingotArimite>,
+    <ore:ingotArimite>,
+    <ore:ingotTerminite>,
+    <ore:ingotTerminite>,
+    <ore:ingotTerminite>,
+    <ore:ingotTerminite>,
+    <cyclopstek:cyclops_eye>,
+    <ore:dustAlkaid>
+]);

@@ -1,0 +1,29 @@
+{
+	title: "§b七星之末",
+	x: 28.0d,
+	y: 4.0d,
+	description: "合成摇光结晶",
+	text: [
+		"恭喜你，这是一个14级材料"
+	],
+	dependencies: [
+		"ac85cac5"
+	],
+	tasks: [{
+		uid: "ed7a699a",
+		type: "item",
+		items: [{
+			item: "additions:alkaid_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "c34d1bd7",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "a1d79861",
+		type: "xp",
+		xp: 35000
+	}]
+}

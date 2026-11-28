@@ -2512,7 +2512,12 @@ GameStagesUtil.stageFinal.addIngredients([
     <endexpansion:lamented>,
     <endexpansion:soul>,
     <mmce_complement:blockcasing:1>,
-    <additions:dragonbone_dust>
+    <additions:dragonbone_dust>,
+    <betterendforge:terminite_ingot>,
+    <betterendforge:terminite_block>,
+    <betterendforge:terminite_nugget>,
+    <ore:dustTerminite>,
+    <ore:plateTerminite>
 ], false);
 
 GameStagesUtil.stageDeepDream.addIngredients([
@@ -2671,7 +2676,14 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:dustHighfield>,
     <ore:nuggetHighfield>,
     <additions:king_whale_pearl>,
-    <gctcore:giant_talisman:*>
+    <gctcore:giant_talisman:*>,
+    <cyclopstek:cyclops_eye>,
+    <cyclopstek:beacon_eye>,
+    <gctcore:giant_spirit_dust>,
+    <ore:gemAlkaid>,
+    <ore:blockAlkaid>,
+    <ore:nuggetAlkaid>,
+    <ore:dustAlkaid>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([
